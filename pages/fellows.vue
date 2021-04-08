@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const fellows = await $content('/fellows').fetch()
+    const fellows = await $content('fellows').fetch()
     return {
       fellows,
     }

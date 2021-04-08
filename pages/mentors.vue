@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const mentors = await $content('/mentors').fetch()
+    const mentors = await $content('mentors').fetch()
     return {
       mentors,
     }

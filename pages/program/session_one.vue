@@ -34,7 +34,7 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const events = await $content('/program/schedule/opening').fetch()
+    const events = await $content('program/schedule/opening').fetch()
     console.log('events: ', events)
     return {
       events: events.sort(function (a, b) {

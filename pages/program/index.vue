@@ -34,7 +34,7 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const events = await $content('/program').fetch()
+    const events = await $content('program').fetch()
     return {
       events,
     }

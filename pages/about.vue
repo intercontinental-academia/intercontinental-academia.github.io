@@ -110,8 +110,8 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const concept = await $content('/pages/about/concept').fetch()
-    const previous = await $content('/pages/about/previous').fetch()
+    const concept = await $content('pages/about/concept').fetch()
+    const previous = await $content('pages/about/previous').fetch()
     return {
       concept,
       previous,
