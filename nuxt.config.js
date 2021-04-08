@@ -4,7 +4,7 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
   router: {
-    base: '/Intercontinental-Academia/',
+    base: '/Intercontinental-Academia',
   },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
