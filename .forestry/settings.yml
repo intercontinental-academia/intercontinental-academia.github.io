@@ -5,6 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/program
+  label: Program
+  create: all
+  match: "**/*"
+- type: directory
   path: content/pages
   label: Pages
   create: all
