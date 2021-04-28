@@ -2,6 +2,11 @@
 label: Session
 hide_body: true
 fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
 - name: location
   type: text
   config:
