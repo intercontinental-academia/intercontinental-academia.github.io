@@ -44,3 +44,10 @@ fields:
   config: {}
   template: session
   label: Session 5
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+  description: URL of the while Edition website. Use the session link for sessions
+    websites
