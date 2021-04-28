@@ -26,16 +26,19 @@ sessions:
       actors in society, it also fosters research on the topics it studies and helps
       to revive interest for research in social long-term prospec
     time: 1pm-3pm.
+  image: "/static/start.jpeg"
 - location: Paris
   date: October 2021
   link: ''
-  name: ''
+  name: Session 1
   meetings: []
+  image: "/static/paris.jpeg"
 - date: June 2022
   location: Belo Horizonte
   link: ''
   name: ''
   meetings: []
+  image: ''
 
 ---
 This 4th edition of ICA will explore fundamental interdisciplinary questions at the intersection of cognitive science, neuroscience, and artificial intelligence. Decisive advances have been made during the past decades in the analysis of brain activity and its behavioral counterparts, as well as in the information processing sciences. Complementarities between neuroscience/ cognitive science and artificial intelligence provide grounds for exploring synergies and raising ethical questions between these disciplines that hold tremendous challenges and opportunities for societal progress.
