@@ -5,13 +5,13 @@ fields:
 - name: location
   type: text
   config:
-    required: true
+    required: false
   label: Location
   description: e.g. Nagoya
 - name: date
   type: text
   config:
-    required: true
+    required: false
   label: Date
   description: e.g. March 19-28, 2018
 - name: link
