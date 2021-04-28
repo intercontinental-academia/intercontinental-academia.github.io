@@ -22,3 +22,5 @@ fields:
   config:
     required: false
   label: Title and institution
+pages:
+- content/testimonials/professor-of-philosophy-at-university-of-birmingham.md
