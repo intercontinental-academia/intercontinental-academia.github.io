@@ -24,3 +24,17 @@ fields:
       format: markdown
   label: link
   description: Link to the ICA related edition website (facultative)
+- name: meetings
+  type: field_group_list
+  fields:
+  - name: meeting
+    type: include
+    config: {}
+    template: meeting
+    label: Meeting
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Meetings
+  description: The different meetings for a given session
