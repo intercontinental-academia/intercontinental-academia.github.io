@@ -5,22 +5,19 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/testimonials
-  label: Testimonials
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/program
-  label: Program
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/pages
+  path: content/Pages_content
   label: Pages
   create: all
   match: "**/*"
 - type: directory
-  path: content/mentors
+  path: content/Programs
+  label: Programs
+  create: all
+  match: "**/*"
+  templates:
+  - session
+- type: directory
+  path: content/Mentors
   label: Mentors
   create: all
   match: "**/*"
@@ -33,6 +30,39 @@ sections:
   match: "**/*"
   templates:
   - people
+- type: directory
+  path: content/Steering Committee
+  label: Steering Committee
+  create: all
+  match: "**/*"
+  templates:
+  - people
+- type: directory
+  path: content/Chairs
+  label: Chairs
+  create: all
+  match: "**/*"
+  templates:
+  - people
+- type: directory
+  path: content/Institutions
+  label: Institutions
+  create: all
+  match: "**/*"
+  templates:
+  - institution
+- type: directory
+  path: content/testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/Partners and Sponsors
+  label: Partners and Sponsors
+  create: all
+  match: "**/*"
+  templates:
+  - institution
 upload_dir: static
 public_path: "/static"
 front_matter_path: ''
