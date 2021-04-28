@@ -17,3 +17,5 @@ fields:
   config:
     required: true
   label: Website Url
+pages:
+- content/pages/about/Institutions/ubias.md
