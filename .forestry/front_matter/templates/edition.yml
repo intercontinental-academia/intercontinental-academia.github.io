@@ -19,31 +19,6 @@ fields:
     required: true
   label: Title
   description: e.g. "ON HUMAN DIGNITY"
-- name: session_1
-  type: include
-  config: {}
-  template: session
-  label: Session 1
-- name: session_2
-  type: include
-  config: {}
-  template: session
-  label: Session 2
-- name: session_3
-  type: include
-  config: {}
-  template: session
-  label: Session 3
-- name: session_4
-  type: include
-  config: {}
-  template: session
-  label: Session 4
-- name: session_5
-  type: include
-  config: {}
-  template: session
-  label: Session 5
 - name: website
   type: text
   config:
@@ -51,5 +26,18 @@ fields:
   label: Website
   description: URL of the while Edition website. Use the session link for sessions
     websites
+- name: sessions
+  type: field_group_list
+  fields:
+  - name: session
+    type: include
+    config: {}
+    template: session
+    label: Session
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sessions
 pages:
 - content/pages/about/past editions/time.md
