@@ -15,6 +15,9 @@ sessions:
 - location: Paris
   date: October 2021
   link: ''
+- date: June 2022
+  location: Belo Horizonte
+  link: ''
 
 ---
 This 4th edition of ICA will explore fundamental interdisciplinary questions at the intersection of cognitive science, neuroscience, and artificial intelligence. Decisive advances have been made during the past decades in the analysis of brain activity and its behavioral counterparts, as well as in the information processing sciences. Complementarities between neuroscience/ cognitive science and artificial intelligence provide grounds for exploring synergies and raising ethical questions between these disciplines that hold tremendous challenges and opportunities for societal progress.
