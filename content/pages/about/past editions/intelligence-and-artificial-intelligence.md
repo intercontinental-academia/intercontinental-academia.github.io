@@ -20,6 +20,11 @@ sessions:
     - "/static/rules_fr.pdf"
     youtube_video_id: 8Pa9x9fZBtY
     apply_link: ''
+    description: sed to all social actors, movements, organizations, politicians and
+      decision-makers, provided them with the best expertise on social change. While
+      the Panel primarily works for the dissemination of knowledge to all relevant
+      actors in society, it also fosters research on the topics it studies and helps
+      to revive interest for research in social long-term prospec
 - location: Paris
   date: October 2021
   link: ''
