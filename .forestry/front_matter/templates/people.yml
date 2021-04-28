@@ -11,3 +11,10 @@ fields:
 - type: file
   name: image
   label: image
+- name: references
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: References
