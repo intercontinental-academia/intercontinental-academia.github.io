@@ -18,3 +18,5 @@ fields:
     min: 
     max: 
   label: Presentation
+pages:
+- content/mentors/aghion.md
