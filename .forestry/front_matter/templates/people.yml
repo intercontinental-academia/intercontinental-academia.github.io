@@ -11,12 +11,14 @@ fields:
 - type: file
   name: image
   label: image
-- name: references
-  type: list
+- name: presentation
+  type: textarea
+  default: ''
   config:
-    use_select: false
-    min: 
-    max: 
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Presentation
 pages:
 - content/mentors/aghion.md
