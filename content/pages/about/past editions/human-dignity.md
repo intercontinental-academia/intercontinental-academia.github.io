@@ -14,3 +14,4 @@ sessions:
   link: ''
 
 ---
+The second edition of ICA was a collaboration between the Israel Institute for Advanced Studies of the Hebrew University Jerusalem (IIAS), and the Zentrum für interdisziplinäre Forschung (ZiF) of Bielefeld University. ICA2 aimed to promote an unprecedented interdisciplinary dialogue on human dignity and to initiate further cooperation between participants with diverse scientific and cultural backgrounds. Discussing crucial ethical, practical, and historical debates of interdisciplinary nature and societal importance, this edition of ICA resulted in lasting cooperation between the parties involved. It culminated in a third colloquium hosted by the Johannesburg Institute for Advanced Study (JIAS) at the University of Johannesburg, South Africa, in 2019.
