@@ -19,13 +19,28 @@ fields:
     required: true
   label: Title
   description: e.g. "ON HUMAN DIGNITY"
-- name: sessions
-  type: field_group
+- name: session_1
+  type: include
   config: {}
-  fields:
-  - name: session
-    type: include
-    config: {}
-    template: session
-    label: Session
-  label: Sessions
+  template: session
+  label: Session 1
+- name: session_2
+  type: include
+  config: {}
+  template: session
+  label: Session 2
+- name: session_3
+  type: include
+  config: {}
+  template: session
+  label: Session 3
+- name: session_4
+  type: include
+  config: {}
+  template: session
+  label: Session 4
+- name: session_5
+  type: include
+  config: {}
+  template: session
+  label: Session 5
