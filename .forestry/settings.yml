@@ -31,7 +31,7 @@ sections:
   templates:
   - people
 - type: directory
-  path: content/Steering Committee
+  path: content/Steering_Committee
   label: Steering Committee
   create: all
   match: "**/*"
@@ -57,7 +57,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/Partners and Sponsors
+  path: content/Partners_and_Sponsors
   label: Partners and Sponsors
   create: all
   match: "**/*"
