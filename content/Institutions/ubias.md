@@ -1,6 +1,6 @@
 ---
 name: UBIAS
-logo: "/static/ubias-logo.gif"
+logo: "/ubias-logo.gif"
 url: http://www.ubias.net/
 logo_background_color: ''
 

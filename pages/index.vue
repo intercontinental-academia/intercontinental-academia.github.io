@@ -38,12 +38,56 @@
         >From Paris to Belo Horizonte</v-col
       >
     </v-row>
+    <v-carousel cycle>
+      <v-carousel-item v-for="item in testimonials" :key="item.slug">
+        <v-sheet light height="100%" tile class="px-16">
+          <v-row class="fill-height" align="center" justify="center">
+            <v-col cols="4" align="center" justify="center">
+              <v-avatar size="80%">
+                <img
+                  v-if="item.picture.length"
+                  :src="item.picture"
+                  :alt="item.first_name + ' ' + item.last_name"
+                />
+                <div v-else>
+                  {{ item.first_name[0] + ' ' + item.last_name[0] }}
+                </div>
+              </v-avatar>
+            </v-col>
+            <v-col cols="8">
+              <span>
+                <v-icon>mdi-format-quote-open</v-icon>
+                <span
+                  ><nuxt-content :document="item" class="d-inline-block"
+                /></span>
+                <v-icon>mdi-format-quote-close</v-icon>
+                <b>{{
+                  item.first_name +
+                  ' ' +
+                  item.last_name +
+                  ' ' +
+                  item.title +
+                  ' - ICA' +
+                  item.millesime
+                }}</b>
+              </span>
+            </v-col>
+          </v-row>
+        </v-sheet>
+      </v-carousel-item>
+    </v-carousel>
   </div>
 </template>
 
 <script>
 export default {
-  components: {},
+  async asyncData({ app, $content }) {
+    const testimonials = await $content('testimonials').fetch()
+    console.log('testimonials: ', testimonials)
+    return {
+      testimonials,
+    }
+  },
   data: () => ({
     model: 0,
     colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
@@ -51,6 +95,10 @@ export default {
 }
 </script>
 <style lang="scss">
+.nuxt-content p {
+  display: inline-block;
+}
+
 .count,
 .theme,
 .by {

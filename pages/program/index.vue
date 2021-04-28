@@ -2,11 +2,11 @@
   <div class="my-9">
     <TitleBlock title="PROGRAM"></TitleBlock>
     <v-card
-      v-for="(item, index) in events"
+      v-for="(item, index) in programs.sessions"
       :key="index"
       class="my-12"
       nuxt
-      :to="'/program/' + item.slug"
+      :to="'/program/' + slugify(item.name)"
     >
       <v-img
         class="white--text d-flex align-end"
@@ -23,7 +23,7 @@
           </v-col>
           <v-col cols="auto" class="align-end">
             <v-card-title class="align-end program-item"
-              >[{{ item.place }}]</v-card-title
+              >[{{ item.location }}]</v-card-title
             >
           </v-col>
         </v-row>
@@ -34,12 +34,29 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const events = await $content('program').fetch()
+    const programs = await $content('Programs')
+      .sortBy('_', 'desc')
+      .limit(1)
+      .fetch()
+    console.log('programs: ', programs)
     return {
-      events,
+      programs: programs[0],
     }
   },
   mounted() {},
+  methods: {
+    slugify(str) {
+      return str
+        .toString()
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^\w-]+/g, '')
+        .replace(/--+/g, '-')
+        .replace(/^-+/, '')
+        .replace(/-+$/, '')
+    },
+  },
 }
 </script>
 <style lang="scss">

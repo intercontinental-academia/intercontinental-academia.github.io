@@ -1,7 +1,7 @@
 ---
-first_name: 'Alastair '
+first_name: Alastair
 last_name: Wilson
-picture: "/static/wilson.jpg"
+picture: "/wilson.jpg"
 title: Professor of Philosophy at University of Birmingham
 millesime: '3'
 
