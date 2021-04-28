@@ -1,4 +1,26 @@
 ---
 label: Session
 hide_body: true
-fields: []
+fields:
+- name: location
+  type: text
+  config:
+    required: true
+  label: Location
+  description: e.g. Nagoya
+- name: date
+  type: text
+  config:
+    required: true
+  label: Date
+  description: e.g. March 19-28, 2018
+- name: link
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: link
+  description: Link to the ICA related edition website (facultative)
