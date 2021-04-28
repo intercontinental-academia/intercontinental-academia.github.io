@@ -1,4 +1,42 @@
 ---
 label: Meeting
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: apply_link
+  type: text
+  config:
+    required: false
+  label: Apply link
+  description: Filling out this value will mark the meeting as public
+- name: attachements
+  type: image_gallery
+  config: {}
+  label: Attachements
+  description: Files to attach to the meeting
+- name: youtube_video_id
+  type: text
+  config:
+    required: false
+  label: Youtube video ID
+  description: Only the ID of the youtube video. It can be found in the video URL.
+    For instance, the id for the following youtube URLs is "<a href="https://www.youtube.com/watch?v=8Pa9x9fZBtY"
+    title="https://www.youtube.com/watch?v=8Pa9x9fZBtY" target="_blank">8Pa9x9fZBtY</a>":<br><br><a
+    href="https://www.youtube.com/watch?v=8Pa9x9fZBtY" title="https://www.youtube.com/watch?v=8Pa9x9fZBtY"
+    target="_blank">https://www.youtube.com/watch?v=8Pa9x9fZBtY</a><br><a href="https://youtu.be/8Pa9x9fZBtY"
+    title="https://youtu.be/8Pa9x9fZBtY" target="_blank">https://youtu.be/8Pa9x9fZBtY</a><br><a
+    href="https://www.youtube.com/embed/8Pa9x9fZBtY" title="https://www.youtube.com/embed/8Pa9x9fZBtY"
+    target="_blank">https://www.youtube.com/embed/8Pa9x9fZBtY</a>
