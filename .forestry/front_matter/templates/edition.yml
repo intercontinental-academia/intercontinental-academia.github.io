@@ -20,7 +20,12 @@ fields:
   label: Title
   description: e.g. "ON HUMAN DIGNITY"
 - name: sessions
-  type: include
+  type: field_group
   config: {}
-  template: session
+  fields:
+  - name: session
+    type: include
+    config: {}
+    template: session
+    label: Session
   label: Sessions
