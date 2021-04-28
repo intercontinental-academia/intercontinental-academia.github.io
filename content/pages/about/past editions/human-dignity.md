@@ -8,6 +8,9 @@ logo_colors:
   '4': "#178F8F"
   outer_color: "#087288"
   1_-_inner_circle_color: "#0B4B8B"
-sessions: []
+sessions:
+- date: March 6 - 18, 2016
+  location: Jerusalem
+  link: ''
 
 ---
