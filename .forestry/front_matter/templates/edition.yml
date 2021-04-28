@@ -19,3 +19,8 @@ fields:
     required: true
   label: Title
   description: e.g. "ON HUMAN DIGNITY"
+- name: sessions
+  type: include
+  config: {}
+  template: session
+  label: Sessions
