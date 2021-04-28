@@ -2,20 +2,32 @@
 label: Meeting
 hide_body: false
 fields:
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
 - name: title
   type: text
   config:
     required: false
   label: Title
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
+  description: e.g. June 13th
+- name: time
+  type: text
+  config:
+    required: false
+  label: Time
+  description: e.g. "1pm-3pm."
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
 - name: apply_link
   type: text
   config:
@@ -40,12 +52,3 @@ fields:
     title="https://youtu.be/8Pa9x9fZBtY" target="_blank">https://youtu.be/8Pa9x9fZBtY</a><br><a
     href="https://www.youtube.com/embed/8Pa9x9fZBtY" title="https://www.youtube.com/embed/8Pa9x9fZBtY"
     target="_blank">https://www.youtube.com/embed/8Pa9x9fZBtY</a>
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Description

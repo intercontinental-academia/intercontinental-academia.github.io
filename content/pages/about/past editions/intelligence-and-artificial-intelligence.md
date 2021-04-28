@@ -14,7 +14,7 @@ sessions:
   link: ''
   name: Opening session
   meetings:
-  - date: '2021-06-13T09:00:08Z'
+  - date: June 13th
     title: Introduction
     attachements:
     - "/static/rules_fr.pdf"
@@ -25,6 +25,7 @@ sessions:
       the Panel primarily works for the dissemination of knowledge to all relevant
       actors in society, it also fosters research on the topics it studies and helps
       to revive interest for research in social long-term prospec
+    time: 1pm-3pm.
 - location: Paris
   date: October 2021
   link: ''
