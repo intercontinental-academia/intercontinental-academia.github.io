@@ -22,5 +22,22 @@ fields:
   config:
     required: false
   label: Title and institution
+- name: millesime
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Vintage
+  description: To what ICA did this person participate? ICA-3?
 pages:
 - content/testimonials/professor-of-philosophy-at-university-of-birmingham.md
