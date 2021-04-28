@@ -76,4 +76,5 @@ fields:
     labelField: 
   label: Sessions
 pages:
+- content/pages/about/past editions/human-dignity.md
 - content/pages/about/past editions/time.md
