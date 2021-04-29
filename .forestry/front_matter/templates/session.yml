@@ -15,6 +15,17 @@ fields:
       path: 
   label: Related program
   description: Which edition of ICA this session belongs to
+- name: start_date_and_time
+  type: datetime
+  label: Start date and time
+  description: Used to sort meetings within a program, not displayed. Use the Date,
+    Time and document fields to provide these.
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - name: name
   type: text
   config:
