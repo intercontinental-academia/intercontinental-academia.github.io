@@ -93,11 +93,11 @@
       absolute
       app
       color="#5c3190"
-      class="justify-center flex-column white--text pt-12 pb-4"
+      class="justify-center flex-column white--text pt-8 pb-8"
     >
-      <div class=""><span>Contact</span> - <span>Credits</span></div>
+      <div class="d-flex"><Contact /><Credits /> <PrivacyPolicy /></div>
       <br />
-      <span
+      <span class="mt-3"
         >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
         Study</span
       >
@@ -106,6 +106,13 @@
 </template>
 <script>
 export default {
+  async asyncData({ app, $content }) {
+    const credits = await $content('Pages_content/credits').fetch()
+    console.log('credits: ', credits)
+    return {
+      credits,
+    }
+  },
   data() {
     return {
       window,

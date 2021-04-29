@@ -38,7 +38,7 @@
         >From Paris to Belo Horizonte</v-col
       >
     </v-row>
-    <v-carousel cycle>
+    <v-carousel cycle hide-delimiter-background hide-delimiters>
       <v-carousel-item v-for="item in testimonials" :key="item.slug">
         <v-sheet light height="100%" tile class="px-16">
           <v-row class="fill-height" align="center" justify="center">
@@ -54,23 +54,19 @@
                 </div>
               </v-avatar>
             </v-col>
-            <v-col cols="8">
-              <span>
-                <v-icon>mdi-format-quote-open</v-icon>
-                <span
-                  ><nuxt-content :document="item" class="d-inline-block"
-                /></span>
-                <v-icon>mdi-format-quote-close</v-icon>
-                <b>{{
-                  item.first_name +
-                  ' ' +
-                  item.last_name +
-                  ' ' +
-                  item.title +
-                  ' - ICA' +
-                  item.millesime
-                }}</b>
-              </span>
+            <v-col cols="8" class="">
+              <v-icon class="align-start">mdi-format-quote-open</v-icon>
+              <nuxt-content :document="item" class="d-inline-block" />
+              <v-icon class="align-end">mdi-format-quote-close</v-icon>
+              <b>{{
+                item.first_name +
+                ' ' +
+                item.last_name +
+                ' ' +
+                item.title +
+                ' - ICA' +
+                item.millesime
+              }}</b>
             </v-col>
           </v-row>
         </v-sheet>
