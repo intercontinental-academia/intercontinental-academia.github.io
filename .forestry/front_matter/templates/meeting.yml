@@ -32,15 +32,6 @@ fields:
     required: false
   label: Time
   description: e.g. "1pm-3pm."
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Description
 - name: apply_link
   type: text
   config:
