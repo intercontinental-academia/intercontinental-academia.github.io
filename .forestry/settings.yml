@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Schedule
 - type: directory
   path: content/Programs
   label: Programs
@@ -19,10 +21,14 @@ sections:
   templates:
   - session
 - type: directory
-  path: content/Pages_content
-  label: Pages
+  path: content/Meetings
+  label: Meetings
   create: all
   match: "**/*"
+  templates:
+  - meeting
+- type: heading
+  label: People
 - type: directory
   path: content/Mentors
   label: Mentors
@@ -51,6 +57,13 @@ sections:
   match: "**/*"
   templates:
   - people
+- type: heading
+  label: Other
+- type: directory
+  path: content/Pages_content
+  label: Pages
+  create: all
+  match: "**/*"
 - type: directory
   path: content/Institutions
   label: Institutions
