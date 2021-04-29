@@ -2,7 +2,7 @@
 label: Session
 hide_body: true
 fields:
-- name: related_program
+- name: related-program
   type: select
   default: []
   config:
