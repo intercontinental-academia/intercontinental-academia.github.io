@@ -2,7 +2,7 @@
 label: Meeting
 hide_body: false
 fields:
-- name: related_session
+- name: related-session
   type: select
   default: []
   config:
