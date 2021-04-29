@@ -24,6 +24,13 @@ fields:
   config:
     required: false
   label: Website URL
+- name: primary_color
+  type: color
+  label: Primary color
+  config:
+    required: false
+    color_format: Hex
+  description: Color used all over the website if this program is the current program
 - name: logo_colors
   type: field_group
   config: {}
