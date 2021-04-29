@@ -20,3 +20,18 @@ fields:
     schema:
       format: markdown
   label: Presentation
+- name: linkedin
+  type: text
+  config:
+    required: false
+  label: linkedin
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: twitter
+- name: wikipedia
+  type: text
+  config:
+    required: false
+  label: wikipedia
