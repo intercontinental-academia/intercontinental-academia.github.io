@@ -1,4 +1,26 @@
 ---
 label: Program
 hide_body: false
-fields: []
+fields:
+- name: _
+  type: number
+  label: "#"
+  description: The number of the ICA edition
+  default: 0
+  required: true
+  config:
+    min: 1
+    max: 
+    step: 
+    required: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+  description: e.g Time
+- name: url
+  type: text
+  config:
+    required: false
+  label: Website URL
