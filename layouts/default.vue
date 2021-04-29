@@ -22,11 +22,11 @@
               <logo
                 :size="80"
                 :colors="[
-                  '#ffdc00',
-                  '#fba421',
-                  '#c43688',
-                  '#793e79',
-                  '#5c3190',
+                  $store.state.logo[0],
+                  $store.state.logo[1],
+                  $store.state.logo[2],
+                  $store.state.logo[3],
+                  $store.state.logo[4],
                 ]"
                 class="d-block"
               />
@@ -35,7 +35,7 @@
               text
               to="/"
               class="ml-6 headline font-weight-bold pb-2"
-              style="text-decoration: none; color: #5c3190"
+              :style="'text-decoration: none; color: ' + $store.state.primary"
             >
               INTERCONTINENTAL ACADEMIA
             </nuxt-link>
@@ -92,26 +92,51 @@
     <v-footer
       absolute
       app
-      color="#5c3190"
+      :color="$store.state.primary"
       class="justify-center flex-column white--text pt-8 pb-8"
     >
       <div class="d-flex"><Contact /><Credits /> <PrivacyPolicy /></div>
       <br />
-      <span class="mt-3"
+      <span class="mt-3 d-flex align-items-center"
         >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
-        Study</span
+        Study&nbsp;
+        <v-tooltip top>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              v-on="on"
+              href="https://github.com/intercontinental-academia/intercontinental-academia.github.io"
+              target="_blank"
+              small
+            >
+              <v-icon small color="white">mdi-github</v-icon></v-btn
+            >
+          </template>
+          <span>This website is open source, under MIT licence</span>
+        </v-tooltip></span
       >
     </v-footer>
   </v-app>
 </template>
 <script>
 export default {
-  async asyncData({ app, $content }) {
-    const credits = await $content('Pages_content/credits').fetch()
-    console.log('credits: ', credits)
-    return {
-      credits,
-    }
+  async asyncData({ app, $content, store }) {
+    const programs = await $content('Programs')
+      .sortBy('_', 'desc')
+      .limit(1)
+      .fetch()
+    store.commit('setColors', {
+      primary: programs[0].primary_color,
+      colors: [
+        programs[0].logo_colors['1_inner_circle_color'],
+        programs[0].logo_colors['2'],
+        programs[0].logo_colors['3'],
+        programs[0].logo_colors['4'],
+        programs[0].logo_colors['5_outer_circle_color'],
+      ],
+    })
   },
   data() {
     return {

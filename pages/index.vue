@@ -2,19 +2,33 @@
   <div>
     <logo
       :size="240"
-      :colors="['#ffdc00', '#fba421', '#c43688', '#793e79', '#5c3190']"
+      :colors="[
+        $store.state.logo[0],
+        $store.state.logo[1],
+        $store.state.logo[2],
+        $store.state.logo[3],
+        $store.state.logo[4],
+      ]"
       style="position: absolute; top: -80px; z-index: 5"
     />
     <div
       class="text-h4 text-center text-uppercase mt-12"
-      style="color: #5c3190"
+      :style="'color: ' + $store.state.primary"
     >
       INTERCONTINENTAL ACADEMIA
     </div>
     <div class="d-flex justify-end align-end flex-column">
-      <div class="count text-h4">4th</div>
+      <div class="count text-h4" style="'background-color:#3a1d60'">
+        <!-- TODO, update BG color as secondary color -->
+        4th
+      </div>
 
-      <div class="theme text-h4">INTELLIGENCE AND ARTIFICIAL INTELLIGENCE</div>
+      <div
+        class="theme text-h4"
+        :style="'background-color:' + $store.state.primary"
+      >
+        INTELLIGENCE AND ARTIFICIAL INTELLIGENCE
+      </div>
 
       <div class="by text-h4">BY UBIAS</div>
     </div>
@@ -105,12 +119,10 @@ export default {
 }
 .theme {
   color: white !important;
-  background-color: #5c3190;
   padding: 1.5rem 80px 1.5rem 2rem;
 }
 .count {
   color: white !important;
-  background-color: #3a1d60;
   padding: 1rem;
   margin-bottom: -20px;
   z-index: 2;

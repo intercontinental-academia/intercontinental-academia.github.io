@@ -65,7 +65,7 @@
               size="125"
               tile
               rounded
-              :color="item.image.length ? 'transparent' : '#5c3190'"
+              :color="item.image.length ? 'transparent' : $store.state.primary"
             >
               <v-img
                 v-if="item.image"
@@ -101,7 +101,7 @@
               size="125"
               tile
               rounded
-              :color="item.image.length ? 'transparent' : '#5c3190'"
+              :color="item.image.length ? 'transparent' : $store.state.primary"
             >
               <v-img
                 v-if="item.image"
@@ -137,7 +137,7 @@
               size="125"
               tile
               rounded
-              :color="item.logo.length ? 'transparent' : '#5c3190'"
+              :color="item.logo.length ? 'transparent' : $store.state.primary"
             >
               <v-img
                 v-if="item.logo"

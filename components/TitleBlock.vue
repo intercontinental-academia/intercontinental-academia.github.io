@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-space-between">
-    <div class="d-flex section-title justify-space-between">
-      <v-tooltip v-if="isSession" bottom>
+    <div class="d-flex section-title justify-space-between" v-if="isSession">
+      <v-tooltip bottom>
         <template #activator="{ on, attrs }">
           <v-btn text icon x-large :to="previous" nuxt v-bind="attrs" v-on="on">
             <v-icon color="white" x-large>mdi-chevron-left</v-icon></v-btn
@@ -9,7 +9,9 @@
         </template>
         <span>{{ returnTooltip }}</span>
       </v-tooltip>
-
+      <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
+    </div>
+    <div class="section-title" v-else>
       <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
     </div>
     <div v-if="isSession && next.length" class="d-flex align-center">
@@ -18,7 +20,7 @@
         class="text-h4 py-8 my-0"
         x-large
         :to="next"
-        color="#5C3190"
+        :color="$store.state.primary"
         nuxt
         >{{ nextName }} <v-icon x-large>mdi-chevron-right</v-icon></v-btn
       >
@@ -79,6 +81,7 @@ div.section-title {
   border-radius: 0 !important;
   align-items: center;
   width: 50%;
+  text-align: right;
   content {
     text-transform: uppercase;
   }

@@ -101,7 +101,13 @@ export default {
     },
     colors: {
       type: Array,
-      default: () => ['#ffdc00', '#fba421', '#c43688', '#793e79', '#5c3190'],
+      default: () => [
+        this.$store.state.logo[0],
+        this.$store.state.logo[1],
+        this.$store.state.logo[2],
+        this.$store.state.logo[3],
+        this.$store.state.logo[4],
+      ],
     },
   },
   data() {

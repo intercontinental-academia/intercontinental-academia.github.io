@@ -11,18 +11,51 @@
     <v-card v-for="(item, index) in meetings" :key="index" class="my-12 mx-3">
       <v-row class="justify-space-between pb-9">
         <v-col cols="auto" class="justify-start align-start">
-          <div class="headline program-item">{{ item.date }}</div>
+          <div
+            class="headline program-item"
+            :style="
+              'background-color:' +
+              (!!item.is_a_side_event ? 'black' : $store.state.primary)
+            "
+          >
+            {{ item.date }}
+          </div>
         </v-col>
         <v-col cols="auto" class="align-end">
-          <v-card-title class="align-end program-item"
-            >[{{ session.location }}]</v-card-title
-          >
+          <v-card-title
+            class="align-end program-item"
+            :style="
+              'background-color:' +
+              (!!item.is_a_side_event ? 'black' : $store.state.primary)
+            "
+            >[{{ session.location }}]
+          </v-card-title>
         </v-col>
 
         <v-col cols="12" class="px-12">
           <v-card-text>
-            <b> {{ item.time + ' ' + item.title }}</b>
+            <div class="text-h5 mb-6 font-weight-black">
+              {{ item.time + ' ' + item.title }}
+            </div>
+            <YoutubeEmbedded
+              v-if="item.youtube_video_id"
+              :yt="item.youtube_video_id"
+              class="mb-6"
+            ></YoutubeEmbedded>
             <nuxt-content :document="item" />
+            <div class="d-flex">
+              <template v-for="file in item.attachements">
+                <v-btn :key="file" :href="file" target="_blank">
+                  <v-icon left> mdi-file-pdf </v-icon>
+                  {{ file.substring(1) }}
+                </v-btn>
+              </template>
+            </div>
+            <div class="d-flex justify-end" v-if="item.apply_link">
+              <v-btn :href="item.apply_link" target="_blank" dark>
+                Subscribe!
+              </v-btn>
+            </div>
           </v-card-text>
         </v-col>
       </v-row>
@@ -80,7 +113,6 @@ export default {
 <style lang="scss">
 .program-item {
   color: white !important;
-  background-color: #5c3190;
   display: inline;
   padding: 0.5rem;
   -webkit-box-decoration-break: clone;

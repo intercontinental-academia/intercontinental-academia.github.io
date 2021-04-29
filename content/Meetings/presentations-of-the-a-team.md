@@ -4,7 +4,7 @@ start_date_and_time: 2021-06-13T14:01:56Z
 title: Presentations of the A team
 date: June 13th
 time: 3pm-6pm.
-apply_link: ''
+apply_link: 'https://www.youtube.com/watch?v=7FVC11hQNWE'
 attachements: []
 youtube_video_id: UwVPc70lh7g
 is_a_side_event: true

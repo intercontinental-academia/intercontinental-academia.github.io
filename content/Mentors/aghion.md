@@ -3,6 +3,7 @@ firstname: Philippe
 lastname: Aghion
 image: "/aghion.jpg"
 references: []
+title: "Expert economist"
 presentation: 'Philippe Aghion is an expert in the economics of growth and in contract
   theory. His Schumpeterian Growth paradigm, which he developed together with Peter
   Howitt, has been used to analyze the design of growth policies and the role of the

@@ -15,14 +15,23 @@
       >
         <v-row class="justify-space-between pb-9">
           <v-col cols="auto" class="justify-start align-start">
-            <v-card-title class="text-h3 text-uppercase program-item">{{
-              item.name
-            }}</v-card-title>
+            <v-card-title
+              class="text-h3 text-uppercase program-item"
+              :style="'background-color:' + $store.state.primary"
+              >{{ item.name }}</v-card-title
+            >
             <br />
-            <div class="headline program-item">{{ item.date }}</div>
+            <div
+              class="headline program-item"
+              :style="'background-color:' + $store.state.primary"
+            >
+              {{ item.date }}
+            </div>
           </v-col>
           <v-col cols="auto" class="align-end">
-            <v-card-title class="align-end program-item"
+            <v-card-title
+              class="align-end program-item"
+              :style="'background-color:' + $store.state.primary"
               >[{{ item.location }}]</v-card-title
             >
           </v-col>
@@ -60,7 +69,6 @@ export default {
 <style lang="scss">
 .program-item {
   color: white !important;
-  background-color: #5c3190;
   display: inline;
   padding: 0.5rem;
   -webkit-box-decoration-break: clone;

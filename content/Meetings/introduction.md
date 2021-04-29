@@ -6,7 +6,6 @@ time: 1pm-3pm.
 description: ''
 apply_link: ''
 attachements: []
-youtube_video_id: _MVonyVSQoM
 start_date_and_time: 2021-06-13T11:50:21Z
 is_a_side_event: false
 side_event_name: ''
