@@ -32,6 +32,17 @@ fields:
     required: false
   label: Time
   description: e.g. "1pm-3pm."
+- name: start_date_and_time
+  type: datetime
+  label: Start date and time
+  description: Used to sort meetings within a session, not displayed. Use the Date,
+    Time and document fields to provide these.
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - name: apply_link
   type: text
   config:
@@ -56,5 +67,16 @@ fields:
     title="https://youtu.be/8Pa9x9fZBtY" target="_blank">https://youtu.be/8Pa9x9fZBtY</a><br><a
     href="https://www.youtube.com/embed/8Pa9x9fZBtY" title="https://www.youtube.com/embed/8Pa9x9fZBtY"
     target="_blank">https://www.youtube.com/embed/8Pa9x9fZBtY</a>
+- name: is_a_side_event
+  type: boolean
+  label: Is a side event
+- name: side_event_name
+  type: text
+  config:
+    required: true
+  label: Side event name
+  showOnly:
+    field: is_a_side_event
+    value: true
 pages:
 - content/Meetings/introduction.md
