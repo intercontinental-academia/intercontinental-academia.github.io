@@ -5,19 +5,19 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/Sessions
-  label: Sessions
-  create: all
-  match: "**/*"
-  templates:
-  - session
-- type: directory
   path: content/Programs
   label: Programs
   create: all
   match: "**/*"
   templates:
   - program
+- type: directory
+  path: content/Sessions
+  label: Sessions
+  create: all
+  match: "**/*"
+  templates:
+  - session
 - type: directory
   path: content/Pages_content
   label: Pages
