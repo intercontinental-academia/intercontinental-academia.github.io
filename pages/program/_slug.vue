@@ -1,32 +1,28 @@
 <template>
   <div class="my-9">
     <TitleBlock
-      :title="event.name.toUpperCase()"
+      :title="session.name.toUpperCase()"
       is-session
       :next="next"
       :previous="previous"
       :next-name="nextName"
       :previous-name="previousName"
     ></TitleBlock>
-    <v-card
-      v-for="(item, index) in event.meetings"
-      :key="index"
-      class="my-12 mx-3"
-    >
+    <v-card v-for="(item, index) in meetings" :key="index" class="my-12 mx-3">
       <v-row class="justify-space-between pb-9">
         <v-col cols="auto" class="justify-start align-start">
           <div class="headline program-item">{{ item.date }}</div>
         </v-col>
         <v-col cols="auto" class="align-end">
           <v-card-title class="align-end program-item"
-            >[{{ event.location }}]</v-card-title
+            >[{{ session.location }}]</v-card-title
           >
         </v-col>
 
         <v-col cols="12" class="px-12">
           <v-card-text>
             <b> {{ item.time + ' ' + item.title }}</b>
-            <p>{{ item.description }}</p>
+            <nuxt-content :document="item" />
           </v-card-text>
         </v-col>
       </v-row>
@@ -34,38 +30,44 @@
   </div>
 </template>
 <script>
-import { slugify } from '~/assets/utils'
 export default {
   async asyncData({ app, $content, params }) {
+    console.log('params: ', params)
     const program = await $content('Programs')
       .sortBy('_', 'desc')
       .limit(1)
       .fetch()
 
-    const event = program[0].sessions.find(
-      (item) => slugify(item.name) === params.slug
-    )
-    const index = program[0].sessions.findIndex(
-      (item) => slugify(item.name) === params.slug
-    )
+    const sessions = await $content('Sessions')
+      .where({
+        'related-program': 'content' + program[0].path + '.md',
+      })
+      .sortBy('start_date_and_time', 'asc')
+      .fetch()
+
+    const session = sessions.find((item) => item.slug === params.slug)
+    const index = sessions.findIndex((item) => item.slug === params.slug)
+    console.log('index: ', index)
+
+    console.log('session: ', session)
+
+    const meetings = await $content('Meetings')
+      .where({
+        'related-session': 'content' + session.path + '.md',
+      })
+      .sortBy('start_date_and_time', 'asc')
+      .fetch()
     const next =
-      index < program[0].sessions.length - 1
-        ? '/program/' + slugify(program[0].sessions[index + 1].name)
-        : ''
-
-    const nextName =
-      index < program[0].sessions.length - 1
-        ? program[0].sessions[index + 1].name
-        : ''
-    const previousName = index === 0 ? '' : program[0].sessions[index - 1].name
-
+      index < sessions.length - 1 ? '/program/' + sessions[index + 1].slug : ''
+    const nextName = index < sessions.length - 1 ? sessions[index + 1].name : ''
+    const previousName = index === 0 ? '' : sessions[index - 1].name
     const previous =
-      index === 0
-        ? '/program/'
-        : '/program/' + slugify(program[0].sessions[index - 1].name)
+      index === 0 ? '/program/' : '/program/' + sessions[index - 1].slug
 
     return {
-      event,
+      session,
+      sessions,
+      meetings,
       next,
       previous,
       nextName,

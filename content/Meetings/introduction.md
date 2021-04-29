@@ -1,5 +1,5 @@
 ---
-related_session: content/Sessions/opening-session.md
+related-session: content/Sessions/opening-session.md
 title: Introduction
 date: June 13th
 time: 1pm-3pm.

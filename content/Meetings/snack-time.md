@@ -1,5 +1,5 @@
 ---
-related_session: content/Sessions/opening-session.md
+related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-13T16:04:08Z
 title: Snack Time
 date: June 13th
