@@ -49,3 +49,4 @@ fields:
   description: Which edition of ICA this session belongs to
 pages:
 - content/Sessions/opening-session.md
+- content/Sessions/session-1.md
