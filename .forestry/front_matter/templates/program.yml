@@ -19,8 +19,44 @@ fields:
     required: true
   label: title
   description: e.g Time
-- name: url
+- name: website
   type: text
   config:
     required: false
   label: Website URL
+- name: logo_colors
+  type: field_group
+  config: {}
+  fields:
+  - name: 1_inner_circle_color
+    type: color
+    label: 1 Inner circle color
+    config:
+      required: false
+      color_format: Hex
+  - name: '2'
+    type: color
+    label: '2'
+    config:
+      required: false
+      color_format: Hex
+  - name: '3'
+    type: color
+    label: '3'
+    config:
+      required: false
+      color_format: Hex
+  - name: '4'
+    type: color
+    label: '4'
+    config:
+      required: false
+      color_format: Hex
+  - name: 5_outer_circle_color
+    type: color
+    config:
+      required: false
+      color_format: Hex
+    label: 5 Outer circle color
+  label: Logo colors
+  description: Colors used to generate the ICA logo
