@@ -18,8 +18,8 @@ fields:
 - name: start_date_and_time
   type: datetime
   label: Start date and time
-  description: Used to sort meetings within a program, not displayed. Use the Date,
-    Time and document fields to provide these.
+  description: Used to sort meetings within a program, not displayed. Use the Date
+    field to provide it.
   config:
     required: true
     date_format: 
