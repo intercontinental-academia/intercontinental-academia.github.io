@@ -34,3 +34,16 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: related_program
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: programs
+      file: 
+      path: 
+  label: Related program
+  description: Which edition of ICA this session belongs to
