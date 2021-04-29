@@ -2,6 +2,19 @@
 label: Meeting
 hide_body: false
 fields:
+- name: related_session
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: sessions
+      file: 
+      path: 
+  label: Related Session
+  description: Which session this meeting is related to?
 - name: title
   type: text
   config:
