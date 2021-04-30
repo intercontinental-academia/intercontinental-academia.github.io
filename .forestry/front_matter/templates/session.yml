@@ -59,6 +59,7 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- content/Sessions/ica3-session1.md
 - content/Sessions/opening-session.md
 - content/Sessions/session-1.md
 - content/Sessions/session-2.md
