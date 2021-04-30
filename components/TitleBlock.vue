@@ -89,6 +89,7 @@ div.section-title {
   align-items: center;
   width: 50%;
   text-align: right;
+  text-transform: uppercase;
   content {
     text-transform: uppercase;
   }
