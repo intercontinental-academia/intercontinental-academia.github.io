@@ -36,4 +36,5 @@ fields:
     required: false
   label: wikipedia
 pages:
+- content/Steering_Committee/decarvalho.md
 - content/Steering_Committee/montenegro.md
