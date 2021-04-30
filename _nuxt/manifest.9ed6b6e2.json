@@ -1,7 +1,7 @@
 {
   "name": "ica",
   "short_name": "ica",
-  "description": "## Build Setup",
+  "description": "## TL;DR",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.820129.png",
