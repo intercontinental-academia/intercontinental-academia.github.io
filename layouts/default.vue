@@ -39,7 +39,7 @@
                   $store.state.logo[3],
                   $store.state.logo[4],
                 ]"
-                class="d-block"
+                class="d-block ml-3"
               />
             </v-btn>
             <nuxt-link
@@ -65,6 +65,7 @@
             right
             optional
             height="80px"
+            slider-size="3"
           >
             <v-tab nuxt to="/about" class="headline">About</v-tab>
             <v-tab nuxt to="/mentors" class="headline">Mentors</v-tab>
@@ -117,8 +118,16 @@
       <div class="d-flex"><Contact /><PrivacyPolicy /><Credits /></div>
       <br />
       <span class="mt-3 d-flex align-items-center text-uppercase"
-        >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
-        Study&nbsp;
+        ><v-btn
+          color="white"
+          text
+          v-bind="attrs"
+          v-on="on"
+          href="https://www.paris-iea.fr/en/"
+          target="_blank"
+          >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
+          Study</v-btn
+        >
         <v-tooltip top>
           <template v-slot:activator="{ on, attrs }">
             <v-btn

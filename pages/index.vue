@@ -20,7 +20,7 @@
       >
         <div class="pb-3 mr-4">INTERCONTINENTAL ACADEMIA</div>
         <div
-          class="count text-h4 py-8"
+          class="count text-h4 pa-8"
           :style="
             'background-color:' +
             LightenDarkenColor($vuetify.theme.themes.light.primary, -30)
@@ -52,7 +52,7 @@
         </v-sheet>
       </v-carousel-item>
     </v-carousel>
-    <TitleBlock :title="concept.title"></TitleBlock>
+    <TitleBlock :title="concept.title" class="mt-6"></TitleBlock>
 
     <div class="px-12">
       <div class="text-h4 font-weight-black text-uppercase my-6">
