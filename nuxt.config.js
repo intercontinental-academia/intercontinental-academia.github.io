@@ -67,7 +67,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ['Antonio:400,700'], // Loads Lato font with weights 400 and 700
+      families: ['Petrona:500,700'], // Loads Lato font with weights 400 and 700
     },
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content

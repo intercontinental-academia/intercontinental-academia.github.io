@@ -74,7 +74,7 @@
               class="d-block"
             />
             <div class="flex-column align-self-center ml-6" justify="bottom">
-              <div class="overline font-weight-black">
+              <div class="text-h5 font-weight-black">
                 ICA {{ item._ }} - {{ item.title.toUpperCase() }}
               </div>
               <div

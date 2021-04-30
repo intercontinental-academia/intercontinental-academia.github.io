@@ -11,13 +11,7 @@
       "
     >
       <v-row no-gutters justify="center">
-        <v-col
-          cols="12"
-          lg="8"
-          xl="6"
-          class="d-flex align-end"
-          :class="$vuetify.breakpoint.mdAndUp ? 'align-end' : 'align-center'"
-        >
+        <v-col cols="12" lg="8" xl="6" class="d-flex align-end align-center">
           <template
             v-if="
               !(
@@ -51,8 +45,7 @@
             <nuxt-link
               text
               to="/"
-              class="ml-2 headline"
-              :class="{ 'pb-2': $vuetify.breakpoint.mdAndUp }"
+              class="ml-2 headline font-weight-bold"
               :style="
                 'text-decoration: none; color: ' +
                 $vuetify.theme.themes.light.primary
@@ -67,7 +60,12 @@
             v-if="$vuetify.breakpoint.smAndDown"
             @click.stop="drawer = !drawer"
           />
-          <v-tabs v-if="$vuetify.breakpoint.mdAndUp" right optional>
+          <v-tabs
+            v-if="$vuetify.breakpoint.mdAndUp"
+            right
+            optional
+            height="80px"
+          >
             <v-tab nuxt to="/about" class="headline">About</v-tab>
             <v-tab nuxt to="/mentors" class="headline">Mentors</v-tab>
             <v-tab nuxt to="/fellows" class="headline">Fellows</v-tab>
