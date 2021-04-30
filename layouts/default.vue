@@ -98,7 +98,7 @@
       :color="$vuetify.theme.themes.light.primary"
       class="justify-center flex-column white--text pt-8 pb-8"
     >
-      <div class="d-flex"><Contact /><Credits /> <PrivacyPolicy /></div>
+      <div class="d-flex"><Contact /><PrivacyPolicy /><Credits /></div>
       <br />
       <span class="mt-3 d-flex align-items-center"
         >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
