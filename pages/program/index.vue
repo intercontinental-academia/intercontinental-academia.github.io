@@ -17,13 +17,13 @@
           <v-col cols="auto" class="justify-start align-start">
             <v-card-title
               class="text-h3 text-uppercase program-item"
-              :style="'background-color:' + $store.state.primary"
+              :style="'background-color:' + $vuetify.theme.themes.light.primary"
               >{{ item.name }}</v-card-title
             >
             <br />
             <div
               class="headline program-item"
-              :style="'background-color:' + $store.state.primary"
+              :style="'background-color:' + $vuetify.theme.themes.light.primary"
             >
               {{ item.date }}
             </div>
@@ -31,7 +31,7 @@
           <v-col cols="auto" class="align-end">
             <v-card-title
               class="align-end program-item"
-              :style="'background-color:' + $store.state.primary"
+              :style="'background-color:' + $vuetify.theme.themes.light.primary"
               >[{{ item.location }}]</v-card-title
             >
           </v-col>

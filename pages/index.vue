@@ -13,19 +13,25 @@
     />
     <div
       class="text-h4 text-center text-uppercase mt-12"
-      :style="'color: ' + $store.state.primary"
+      :style="'color: ' + $vuetify.theme.themes.light.primary"
     >
       INTERCONTINENTAL ACADEMIA
     </div>
     <div class="d-flex justify-end align-end flex-column">
-      <div class="count text-h4" style="'background-color:#3a1d60'">
+      <div
+        class="count text-h4"
+        :style="
+          'background-color:' +
+          LightenDarkenColor($vuetify.theme.themes.light.primary, -30)
+        "
+      >
+        <div style="filter: brightness(100%); color: white">4th</div>
         <!-- TODO, update BG color as secondary color -->
-        4th
       </div>
 
       <div
         class="theme text-h4"
-        :style="'background-color:' + $store.state.primary"
+        :style="'background-color:' + $vuetify.theme.themes.light.primary"
       >
         INTELLIGENCE AND ARTIFICIAL INTELLIGENCE
       </div>
@@ -102,6 +108,38 @@ export default {
     model: 0,
     colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
   }),
+  methods: {
+    LightenDarkenColor(col, amt) {
+      let usePound = false
+
+      if (col[0] === '#') {
+        col = col.slice(1)
+        usePound = true
+      }
+
+      const num = parseInt(col, 16)
+
+      let r = (num >> 16) + amt
+
+      if (r > 255) r = 255
+      else if (r < 0) r = 0
+
+      let b = ((num >> 8) & 0x00ff) + amt
+
+      if (b > 255) b = 255
+      else if (b < 0) b = 0
+
+      let g = (num & 0x0000ff) + amt
+
+      if (g > 255) g = 255
+      else if (g < 0) g = 0
+
+      return (
+        (usePound ? '#' : '') +
+        String('000000' + (g | (b << 8) | (r << 16)).toString(16)).slice(-6)
+      )
+    },
+  },
 }
 </script>
 <style lang="scss">

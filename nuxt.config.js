@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-
+let primary = ''
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -7,6 +7,14 @@ export default {
   target: 'static',
   generate: {
     fallback: true,
+    async ready() {
+      const { $content } = require('@nuxt/content')
+      const programs = await $content('Programs')
+        .sortBy('_', 'desc')
+        .limit(1)
+        .fetch()
+      primary = programs[0].primary_color
+    },
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -70,7 +78,7 @@ export default {
       dark: false,
       themes: {
         dark: {
-          primary: '#592991',
+          primary,
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -79,7 +87,7 @@ export default {
           success: colors.green.accent3,
         },
         light: {
-          primary: '#592991',
+          primary,
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,

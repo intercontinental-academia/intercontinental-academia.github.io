@@ -15,7 +15,9 @@
             class="headline program-item"
             :style="
               'background-color:' +
-              (!!item.is_a_side_event ? 'black' : $store.state.primary)
+              (!!item.is_a_side_event
+                ? 'black'
+                : $vuetify.theme.themes.light.primary)
             "
           >
             {{ item.date }}
@@ -26,7 +28,9 @@
             class="align-end program-item"
             :style="
               'background-color:' +
-              (!!item.is_a_side_event ? 'black' : $store.state.primary)
+              (!!item.is_a_side_event
+                ? 'black'
+                : $vuetify.theme.themes.light.primary)
             "
             >[{{ session.location }}]
           </v-card-title>

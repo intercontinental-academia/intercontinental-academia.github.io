@@ -65,7 +65,11 @@
               size="125"
               tile
               rounded
-              :color="item.image.length ? 'transparent' : $store.state.primary"
+              :color="
+                item.image.length
+                  ? 'transparent'
+                  : $vuetify.theme.themes.light.primary
+              "
             >
               <v-img
                 v-if="item.image"
@@ -101,7 +105,11 @@
               size="125"
               tile
               rounded
-              :color="item.image.length ? 'transparent' : $store.state.primary"
+              :color="
+                item.image.length
+                  ? 'transparent'
+                  : $vuetify.theme.themes.light.primary
+              "
             >
               <v-img
                 v-if="item.image"
@@ -137,7 +145,11 @@
               size="125"
               tile
               rounded
-              :color="item.logo.length ? 'transparent' : $store.state.primary"
+              :color="
+                item.logo.length
+                  ? 'transparent'
+                  : $vuetify.theme.themes.light.primary
+              "
             >
               <v-img
                 v-if="item.logo"

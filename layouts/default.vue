@@ -35,7 +35,10 @@
               text
               to="/"
               class="ml-6 headline font-weight-bold pb-2"
-              :style="'text-decoration: none; color: ' + $store.state.primary"
+              :style="
+                'text-decoration: none; color: ' +
+                $vuetify.theme.themes.light.primary
+              "
             >
               INTERCONTINENTAL ACADEMIA
             </nuxt-link>
@@ -92,7 +95,7 @@
     <v-footer
       absolute
       app
-      :color="$store.state.primary"
+      :color="$vuetify.theme.themes.light.primary"
       class="justify-center flex-column white--text pt-8 pb-8"
     >
       <div class="d-flex"><Contact /><Credits /> <PrivacyPolicy /></div>
@@ -122,22 +125,6 @@
 </template>
 <script>
 export default {
-  async asyncData({ app, $content, store }) {
-    const programs = await $content('Programs')
-      .sortBy('_', 'desc')
-      .limit(1)
-      .fetch()
-    store.commit('setColors', {
-      primary: programs[0].primary_color,
-      colors: [
-        programs[0].logo_colors['1_inner_circle_color'],
-        programs[0].logo_colors['2'],
-        programs[0].logo_colors['3'],
-        programs[0].logo_colors['4'],
-        programs[0].logo_colors['5_outer_circle_color'],
-      ],
-    })
-  },
   data() {
     return {
       window,
@@ -163,6 +150,29 @@ export default {
       // is located here: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
       this.visible = entries[0].isIntersecting
     },
+  },
+  async created() {
+    const programs = await this.$content('Programs')
+      .sortBy('_', 'desc')
+      .limit(1)
+      .fetch()
+    this.$store.commit('setColors', {
+      primary: programs[0].primary_color,
+      colors: [
+        programs[0].logo_colors['1_inner_circle_color'],
+        programs[0].logo_colors['2'],
+        programs[0].logo_colors['3'],
+        programs[0].logo_colors['4'],
+        programs[0].logo_colors['5_outer_circle_color'],
+      ],
+    })
+
+    this.$vuetify.theme.themes.light.primary = programs[0].primary_color
+    console.log('programs[0].primary_color: ', programs[0].primary_color)
+    console.log(
+      'this.$vuetify.theme.themes.light.primary: ',
+      this.$vuetify.theme.themes.light.primary
+    )
   },
 }
 </script>

@@ -1,6 +1,10 @@
 <template>
   <div class="d-flex justify-space-between">
-    <div class="d-flex section-title justify-space-between" v-if="isSession">
+    <div
+      class="d-flex section-title justify-space-between"
+      :style="'background-color: ' + $vuetify.theme.themes.light.primary"
+      v-if="isSession"
+    >
       <v-tooltip bottom>
         <template #activator="{ on, attrs }">
           <v-btn text icon x-large :to="previous" nuxt v-bind="attrs" v-on="on">
@@ -11,7 +15,11 @@
       </v-tooltip>
       <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
     </div>
-    <div class="section-title" v-else>
+    <div
+      class="section-title"
+      :style="'background-color:' + $vuetify.theme.themes.light.primary"
+      v-else
+    >
       <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
     </div>
     <div v-if="isSession && next.length" class="d-flex align-center">
@@ -20,7 +28,7 @@
         class="text-h4 py-8 my-0"
         x-large
         :to="next"
-        :color="$store.state.primary"
+        :color="$vuetify.theme.themes.light.primary"
         nuxt
         >{{ nextName }} <v-icon x-large>mdi-chevron-right</v-icon></v-btn
       >
@@ -76,7 +84,6 @@ export default {
 </script>
 <style lang="scss">
 div.section-title {
-  background-color: #592991 !important;
   color: #fff;
   border-radius: 0 !important;
   align-items: center;
