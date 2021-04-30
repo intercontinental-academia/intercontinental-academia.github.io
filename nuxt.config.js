@@ -53,6 +53,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-webfontloader',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -64,7 +65,11 @@ export default {
       lang: 'en',
     },
   },
-
+  webfontloader: {
+    google: {
+      families: ['Antonio:400,700'], // Loads Lato font with weights 400 and 700
+    },
+  },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
@@ -74,6 +79,10 @@ export default {
     options: {
       customProperties: true,
     },
+    defaultAssets: {
+      font: false,
+    },
+    treeShake: true,
     theme: {
       dark: false,
       themes: {

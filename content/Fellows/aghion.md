@@ -12,7 +12,7 @@ presentation: 'Philippe Aghion is an expert in the economics of growth and in co
   1.    He is a Professor at the College de France and at the London School of Economics,
   and a fellow of the Econometric Society and of the American Academy of Arts and
   Sciences.'
-
+title: Rocket Scientist
 ---
 
 Aghion, P., Cherif, R., & Hasanov, F. (2021). _Competition, Innovation, and Inclusive Growth_ (No. 2021/080). International Monetary Fund. [https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf](https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf "https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf")

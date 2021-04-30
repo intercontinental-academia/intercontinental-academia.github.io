@@ -10,23 +10,28 @@
         $store.state.logo[4],
       ]"
       style="position: absolute; top: -80px; z-index: 5"
+      v-if="$vuetify.breakpoint.mdAndUp"
     />
-    <div
-      class="text-h4 text-center text-uppercase mt-12"
-      :style="'color: ' + $vuetify.theme.themes.light.primary"
-    >
-      INTERCONTINENTAL ACADEMIA
-    </div>
-    <div class="d-flex justify-end align-end flex-column">
+
+    <div class="d-flex justify-end align-end flex-column mt-16">
       <div
-        class="count text-h4"
-        :style="
-          'background-color:' +
-          LightenDarkenColor($vuetify.theme.themes.light.primary, -30)
-        "
+        class="d-flex flex-row text-h4 text-uppercase justify-end align-end"
+        :style="'color: ' + $vuetify.theme.themes.light.primary"
       >
-        <div style="filter: brightness(100%); color: white">4th</div>
-        <!-- TODO, update BG color as secondary color -->
+        <div class="pb-3 mr-4">INTERCONTINENTAL ACADEMIA</div>
+        <div
+          class="count text-h4 py-8"
+          :style="
+            'background-color:' +
+            LightenDarkenColor($vuetify.theme.themes.light.primary, -30)
+          "
+        >
+          {{ current._
+          }}{{
+            [, 'st', 'nd', 'rd'][(current._ / 10) % 10 ^ 1 && current._ % 10] ||
+            'th'
+          }}
+        </div>
       </div>
 
       <div
@@ -47,20 +52,48 @@
         </v-sheet>
       </v-carousel-item>
     </v-carousel>
-    <v-row class="my-9">
-      <v-col cols="auto" class="text-h4" offset="2"
-        >10 Mentors for 15 fellows</v-col
-      >
-      <v-col cols="auto" class="text-h4" offset="4"
-        >One group, two institutions</v-col
-      >
-      <v-col cols="auto" class="text-h4" offset="6"
-        >From Paris to Belo Horizonte</v-col
-      >
+    <TitleBlock :title="concept.title"></TitleBlock>
+
+    <div class="px-12">
+      <div class="text-h4 font-weight-black text-uppercase my-6">
+        {{ concept.subtitle }}
+      </div>
+      <v-row>
+        <v-col cols="12">
+          <nuxt-content id="conceptText" :document="concept" />
+        </v-col>
+      </v-row>
+    </div>
+    <v-row class="px-12">
+      <v-col v-for="(item, index) in programs" :key="item.slug" cols="12">
+        <div v-if="index < programs.length - 1">
+          <div class="d-flex mb-6">
+            <logo
+              :size="100"
+              :colors="Object.values(item.logo_colors)"
+              class="d-block"
+            />
+            <div class="flex-column align-self-center ml-6" justify="bottom">
+              <div class="overline font-weight-black">
+                ICA {{ item._ }} - {{ item.title.toUpperCase() }}
+              </div>
+              <div
+                v-for="session in item.sessions"
+                :key="session.date"
+                class="font-italic"
+              >
+                {{ session.location }}: {{ session.date }}
+              </div>
+            </div>
+          </div>
+          <nuxt-content :document="item" />
+        </div>
+      </v-col>
     </v-row>
+    <TitleBlock class="mt-9" title="Testimonials"></TitleBlock>
     <v-carousel cycle hide-delimiter-background hide-delimiters>
       <v-carousel-item v-for="item in testimonials" :key="item.slug">
-        <v-sheet light height="100%" tile class="px-16">
+        <v-sheet light tile class="px-16">
           <v-row class="fill-height" align="center" justify="center">
             <v-col cols="4" align="center" justify="center">
               <v-avatar size="80%">
@@ -75,9 +108,10 @@
               </v-avatar>
             </v-col>
             <v-col cols="8" class="">
-              <v-icon class="align-start">mdi-format-quote-open</v-icon>
-              <nuxt-content :document="item" class="d-inline-block" />
-              <v-icon class="align-end">mdi-format-quote-close</v-icon>
+              <nuxt-content
+                :document="item"
+                class="d-inline-block testimonial"
+              />
               <b>{{
                 item.first_name +
                 ' ' +
@@ -98,9 +132,24 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
+    const concept = await $content('Pages_content/about/concept').fetch()
+    const programs = await $content('Programs').sortBy('_', 'asc').fetch()
+    const current = programs[programs.length - 1]
     const testimonials = await $content('testimonials').fetch()
-    console.log('testimonials: ', testimonials)
+    programs.forEach(async (item) => {
+      const target = 'content' + item.path + '.md'
+      item.sessions = await $content('Sessions')
+        .where({
+          'related-program': target,
+        })
+        .sortBy('start_date_and_time', 'asc')
+        .fetch()
+    })
+    console.log('programs: ', programs)
     return {
+      concept,
+      programs,
+      current,
       testimonials,
     }
   },
@@ -143,10 +192,18 @@ export default {
 }
 </script>
 <style lang="scss">
-.nuxt-content p {
-  display: inline-block;
+.testimonial.nuxt-content p::before {
+  content: '\F0757';
+  font: normal normal normal 24px/1 'Material Design Icons';
+  font-size: 24px;
+  color: grey;
 }
-
+.testimonial.nuxt-content p::after {
+  content: '\F027E';
+  font: normal normal normal 24px/1 'Material Design Icons';
+  font-size: 24px;
+  color: grey;
+}
 .count,
 .theme,
 .by {
@@ -158,11 +215,22 @@ export default {
 .theme {
   color: white !important;
   padding: 1.5rem 80px 1.5rem 2rem;
+  text-align: right;
 }
 .count {
   color: white !important;
   padding: 1rem;
   margin-bottom: -20px;
   z-index: 2;
+  span {
+    font-feature-settings: frac;
+    font-variant-numeric: ordinal;
+  }
+}
+@supports (font-variant-numeric: diagonal-fractions) {
+  .count span {
+    font-feature-settings: frac;
+    font-variant-numeric: ordinal;
+  }
 }
 </style>

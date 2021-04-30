@@ -16,7 +16,7 @@
         <v-row class="justify-space-between pb-9">
           <v-col cols="auto" class="justify-start align-start">
             <v-card-title
-              class="text-h3 text-uppercase program-item"
+              class="text-h4 text-uppercase program-item"
               :style="'background-color:' + $vuetify.theme.themes.light.primary"
               >{{ item.name }}</v-card-title
             >
@@ -30,7 +30,7 @@
           </v-col>
           <v-col cols="auto" class="align-end">
             <v-card-title
-              class="align-end program-item"
+              class="align-end program-item headline"
               :style="'background-color:' + $vuetify.theme.themes.light.primary"
               >[{{ item.location }}]</v-card-title
             >

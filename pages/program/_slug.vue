@@ -15,9 +15,7 @@
             class="headline program-item"
             :style="
               'background-color:' +
-              (!!item.is_a_side_event
-                ? 'black'
-                : $vuetify.theme.themes.light.primary)
+              (!!item.public ? '#fba421' : $vuetify.theme.themes.light.primary)
             "
           >
             {{ item.date }}
@@ -25,12 +23,10 @@
         </v-col>
         <v-col cols="auto" class="align-end">
           <v-card-title
-            class="align-end program-item"
+            class="align-end program-item headline"
             :style="
               'background-color:' +
-              (!!item.is_a_side_event
-                ? 'black'
-                : $vuetify.theme.themes.light.primary)
+              (!!item.public ? '#fba421' : $vuetify.theme.themes.light.primary)
             "
             >[{{ session.location }}]
           </v-card-title>
@@ -39,7 +35,8 @@
         <v-col cols="12" class="px-12">
           <v-card-text>
             <div class="text-h5 mb-6 font-weight-black">
-              {{ item.time + ' ' + item.title }}
+              <v-chip class="mr-2" label v-if="item.public"> PUBLIC </v-chip
+              >{{ item.time + ' ' + item.title }}
             </div>
             <YoutubeEmbedded
               v-if="item.youtube_video_id"
@@ -56,7 +53,12 @@
               </template>
             </div>
             <div class="d-flex justify-end" v-if="item.apply_link">
-              <v-btn :href="item.apply_link" target="_blank" dark>
+              <v-btn
+                :href="item.apply_link"
+                target="_blank"
+                color="#fba421"
+                class="white--text"
+              >
                 Subscribe!
               </v-btn>
             </div>

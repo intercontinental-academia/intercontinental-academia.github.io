@@ -7,7 +7,7 @@ time: 3pm-6pm.
 apply_link: 'https://www.youtube.com/watch?v=7FVC11hQNWE'
 attachements: []
 youtube_video_id: UwVPc70lh7g
-is_a_side_event: true
+public: true
 side_event_name: Let's go wild
 
 ---

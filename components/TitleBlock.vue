@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-space-between">
+  <div class="d-flex justify-space-between mb-12 mt-3">
     <div
       class="d-flex section-title justify-space-between"
       :style="'background-color: ' + $vuetify.theme.themes.light.primary"

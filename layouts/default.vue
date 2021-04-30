@@ -1,6 +1,15 @@
 <template>
   <v-app>
-    <v-app-bar clipped-left fixed app height="80" color="white" flat>
+    <v-app-bar
+      clipped-left
+      fixed
+      app
+      height="80"
+      color="white"
+      :flat="
+        !($route.name === 'index' && !visible && $vuetify.breakpoint.mdAndUp)
+      "
+    >
       <v-row no-gutters justify="center">
         <v-col
           cols="12"
@@ -9,12 +18,20 @@
           class="d-flex align-end"
           :class="$vuetify.breakpoint.mdAndUp ? 'align-end' : 'align-center'"
         >
-          <template v-if="!($route.name === 'index' && visible)">
+          <template
+            v-if="
+              !(
+                $route.name === 'index' &&
+                visible &&
+                $vuetify.breakpoint.mdAndUp
+              )
+            "
+          >
             <v-btn
               text
               height="80"
               width="80"
-              class="ml-3"
+              class=""
               nuxt
               to="/"
               color="white"
@@ -34,13 +51,14 @@
             <nuxt-link
               text
               to="/"
-              class="ml-6 headline font-weight-bold pb-2"
+              class="ml-2 headline"
+              :class="{ 'pb-2': $vuetify.breakpoint.mdAndUp }"
               :style="
                 'text-decoration: none; color: ' +
                 $vuetify.theme.themes.light.primary
               "
             >
-              INTERCONTINENTAL ACADEMIA
+              ICA
             </nuxt-link>
           </template>
 
@@ -50,10 +68,10 @@
             @click.stop="drawer = !drawer"
           />
           <v-tabs v-if="$vuetify.breakpoint.mdAndUp" right optional>
-            <v-tab nuxt to="/about" class="font-weight-bold">About</v-tab>
-            <v-tab nuxt to="/mentors" class="font-weight-bold">Mentors</v-tab>
-            <v-tab nuxt to="/fellows" class="font-weight-bold">Fellows</v-tab>
-            <v-tab nuxt to="/program" class="font-weight-bold">Program</v-tab>
+            <v-tab nuxt to="/about" class="headline">About</v-tab>
+            <v-tab nuxt to="/mentors" class="headline">Mentors</v-tab>
+            <v-tab nuxt to="/fellows" class="headline">Fellows</v-tab>
+            <v-tab nuxt to="/program" class="headline">Program</v-tab>
           </v-tabs>
         </v-col>
       </v-row>
@@ -100,7 +118,7 @@
     >
       <div class="d-flex"><Contact /><PrivacyPolicy /><Credits /></div>
       <br />
-      <span class="mt-3 d-flex align-items-center"
+      <span class="mt-3 d-flex align-items-center text-uppercase"
         >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
         Study&nbsp;
         <v-tooltip top>

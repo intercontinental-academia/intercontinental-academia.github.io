@@ -3,12 +3,13 @@
     <TitleBlock title="MENTORS"></TitleBlock>
     <v-row v-for="(item, index) in mentors" :key="index" class="mt-12 mx-6">
       <v-col
-        cols="4"
+        cols="3"
+        col-md-offset="1"
         justify="center"
         align="center"
         class="d-flex flex-column align-center"
       >
-        <v-avatar size="160">
+        <v-avatar size="160" class="mb-3">
           <img v-if="item.image" alt="Avatar" :src="item.image" />
           <v-icon
             v-else
@@ -48,11 +49,11 @@
         <div class="text-h5 font-weight-black">
           {{ item.firstname }} {{ item.lastname }}
         </div>
-        <div class="text-h5 mb-3">
+        <div class="text-h6 mb-3">
           {{ item.title }}
         </div>
         <p>{{ item.presentation }}</p>
-        <v-expansion-panels>
+        <v-expansion-panels class="mt-6">
           <v-expansion-panel>
             <v-expansion-panel-header> References </v-expansion-panel-header>
             <v-expansion-panel-content>
