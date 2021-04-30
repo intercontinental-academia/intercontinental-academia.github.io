@@ -67,9 +67,9 @@ fields:
     title="https://youtu.be/8Pa9x9fZBtY" target="_blank">https://youtu.be/8Pa9x9fZBtY</a><br><a
     href="https://www.youtube.com/embed/8Pa9x9fZBtY" title="https://www.youtube.com/embed/8Pa9x9fZBtY"
     target="_blank">https://www.youtube.com/embed/8Pa9x9fZBtY</a>
-- name: is_a_side_event
+- name: public
   type: boolean
-  label: Is a side event
+  label: Public
 - name: side_event_name
   type: text
   config:
