@@ -13,6 +13,7 @@ linkedin: ''
 twitter: ''
 wikipedia: https://de.wikipedia.org/wiki/Robert_Aumann
 title_and_institution: ''
+copyright: Sponge Bob, 2007
 
 ---
 Aumann, R. J. (2019). A synthesis of behavioural and mainstream economics. _Nature human behaviour_, _3_(7), 666-670. [https://www.nature.com/articles/s41562-019-0617-3](https://www.nature.com/articles/s41562-019-0617-3 "https://www.nature.com/articles/s41562-019-0617-3")
