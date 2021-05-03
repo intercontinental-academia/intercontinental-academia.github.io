@@ -15,8 +15,8 @@ presentation: 'Antonio Damasio is a neurologist and neuroscientist, expert in th
   Damasio is David Dornsife Chair, Professor of Neuroscience, Psychology, and Philosophy,
   as well as Director of the Brain and Creativity Institute at the University of Southern
   California, Los Angeles. '
-linkedin: ''
-twitter: https://www.antoniodamasio.com
+linkedin: https://t.co/YigylXcx3W?amp=1
+twitter: https://twitter.com/damasiousc
 wikipedia: https://de.wikipedia.org/wiki/António_Damásio
 
 ---
