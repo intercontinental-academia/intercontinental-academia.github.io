@@ -35,6 +35,11 @@ fields:
   config:
     required: false
   label: wikipedia
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 pages:
 - content/Chairs/rabinovici.md
 - content/Mentors/aumann.md
