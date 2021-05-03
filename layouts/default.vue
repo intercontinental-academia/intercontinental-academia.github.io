@@ -222,6 +222,6 @@ export default {
   top: 160px;
 }
 .v-application a {
-  color: var(--v-primary-base);
+  color: var(--v-primary-base) !important;
 }
 </style>
