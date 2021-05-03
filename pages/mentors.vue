@@ -26,7 +26,14 @@
         <div class="flex-row justify-center">
           <v-tooltip v-if="item.wikipedia" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.wikipedia"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-wikipedia</v-icon></v-btn
               >
             </template>
@@ -34,7 +41,14 @@
           </v-tooltip>
           <v-tooltip v-if="item.linkedin" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.linkedin"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-linkedin</v-icon></v-btn
               >
             </template>
@@ -42,7 +56,14 @@
           </v-tooltip>
           <v-tooltip v-if="item.twitter" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.twitter"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-twitter</v-icon></v-btn
               >
             </template>
@@ -63,7 +84,14 @@
         >
           <v-tooltip v-if="item.wikipedia" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.wikipedia"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-wikipedia</v-icon></v-btn
               >
             </template>
@@ -71,7 +99,14 @@
           </v-tooltip>
           <v-tooltip v-if="item.linkedin" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.linkedin"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-linkedin</v-icon></v-btn
               >
             </template>
@@ -79,7 +114,14 @@
           </v-tooltip>
           <v-tooltip v-if="item.twitter" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.twitter"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-twitter</v-icon></v-btn
               >
             </template>

@@ -27,7 +27,14 @@
         <div class="flex-row justify-center">
           <v-tooltip v-if="item.wikipedia" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.wikipedia"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-wikipedia</v-icon></v-btn
               >
             </template>
@@ -35,7 +42,14 @@
           </v-tooltip>
           <v-tooltip v-if="item.linkedin" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.linkedin"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-linkedin</v-icon></v-btn
               >
             </template>
@@ -43,7 +57,14 @@
           </v-tooltip>
           <v-tooltip v-if="item.twitter" bottom>
             <template #activator="{ on, attrs }">
-              <v-btn icon text v-bind="attrs" v-on="on">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.twitter"
+                target="_blank"
+                v-on="on"
+              >
                 <v-icon>mdi-twitter</v-icon></v-btn
               >
             </template>
@@ -57,6 +78,56 @@
         </div>
         <div class="text-h6 mb-3">
           {{ item.title_and_institution }}
+        </div>
+        <div
+          v-if="$vuetify.breakpoint.smAndDown"
+          class="flex-row justify-center mb-6"
+        >
+          <v-tooltip v-if="item.wikipedia" bottom>
+            <template #activator="{ on, attrs }">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.wikipedia"
+                target="_blank"
+                v-on="on"
+              >
+                <v-icon>mdi-wikipedia</v-icon></v-btn
+              >
+            </template>
+            <span>Check the Wikipedia page of the fellow </span>
+          </v-tooltip>
+          <v-tooltip v-if="item.linkedin" bottom>
+            <template #activator="{ on, attrs }">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.linkedin"
+                target="_blank"
+                v-on="on"
+              >
+                <v-icon>mdi-linkedin</v-icon></v-btn
+              >
+            </template>
+            <span>Get in touch on Linkedin</span>
+          </v-tooltip>
+          <v-tooltip v-if="item.twitter" bottom>
+            <template #activator="{ on, attrs }">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="item.twitter"
+                target="_blank"
+                v-on="on"
+              >
+                <v-icon>mdi-twitter</v-icon></v-btn
+              >
+            </template>
+            <span>Follow this fellow on Twitter</span>
+          </v-tooltip>
         </div>
         <p>{{ item.presentation }}</p>
       </v-col>
