@@ -11,6 +11,11 @@ fields:
 - type: file
   name: image
   label: image
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 - name: presentation
   type: textarea
   default: ''
@@ -35,11 +40,6 @@ fields:
   config:
     required: false
   label: wikipedia
-- name: title
-  type: text
-  config:
-    required: false
-  label: title
 pages:
 - content/Chairs/rabinovici.md
 - content/Mentors/aumann.md
