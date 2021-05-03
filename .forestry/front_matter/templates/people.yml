@@ -36,6 +36,7 @@ fields:
     required: false
   label: wikipedia
 pages:
+- content/Chairs/rabinovici.md
 - content/Steering_Committee/aryplonski.md
 - content/Steering_Committee/decarvalho.md
 - content/Steering_Committee/floresmendoza.md
