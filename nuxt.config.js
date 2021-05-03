@@ -64,9 +64,7 @@ export default {
     manifest: {
       lang: 'en',
     },
-    icon: {
-
-    }
+    icon: {},
   },
   webfontloader: {
     google: {
