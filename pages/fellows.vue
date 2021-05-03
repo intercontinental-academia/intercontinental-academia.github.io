@@ -1,13 +1,19 @@
 <template>
   <div class="my-9">
     <TitleBlock title="Fellows"></TitleBlock>
-    <v-row v-for="(item, index) in fellows" :key="index" class="mt-12 mx-6">
+    <v-row
+      v-for="(item, index) in fellows"
+      :key="index"
+      class="mt-12 mx-6"
+      :class="{ 'mx:6': $vuetify.breakpoint.mdAndUp }"
+    >
       <v-col
         cols="3"
         col-md-offset="1"
         justify="center"
         align="center"
         class="d-flex flex-column align-center"
+        v-if="$vuetify.breakpoint.mdAndUp"
       >
         <v-avatar size="160" class="mb-3">
           <img v-if="item.image" alt="Avatar" :src="item.image" />
@@ -45,7 +51,7 @@
           </v-tooltip>
         </div>
       </v-col>
-      <v-col cols="8">
+      <v-col cols="12" md="8">
         <div class="text-h5 font-weight-black">
           {{ item.firstname }} {{ item.lastname }}
         </div>

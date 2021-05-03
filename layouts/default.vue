@@ -66,8 +66,9 @@
             optional
             height="80px"
             slider-size="3"
+            :color="$vuetify.theme.themes.light.primary"
           >
-            <v-tab nuxt to="/about" class="headline">About</v-tab>
+            <v-tab nuxt to="/about" class="headline">The 4th</v-tab>
             <v-tab nuxt to="/mentors" class="headline">Mentors</v-tab>
             <v-tab nuxt to="/fellows" class="headline">Fellows</v-tab>
             <v-tab nuxt to="/program" class="headline">Program</v-tab>
@@ -121,23 +122,21 @@
         ><v-btn
           color="white"
           text
-          v-bind="attrs"
-          v-on="on"
           href="https://www.paris-iea.fr/en/"
           target="_blank"
           >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
           Study</v-btn
         >
         <v-tooltip top>
-          <template v-slot:activator="{ on, attrs }">
+          <template #activator="{ on, attrs }">
             <v-btn
               icon
               text
               v-bind="attrs"
-              v-on="on"
               href="https://github.com/intercontinental-academia/intercontinental-academia.github.io"
               target="_blank"
               small
+              v-on="on"
             >
               <v-icon small color="white">mdi-github</v-icon></v-btn
             >
@@ -156,25 +155,34 @@ export default {
       drawer: false,
       items: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
+          icon: 'mdi-home',
+          title: 'HOME',
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          icon: 'mdi-numeric-4-box-multiple-outline',
+          title: 'THE 4TH',
+          to: '/about',
+        },
+        {
+          icon: 'mdi-school',
+          title: 'MENTORS',
+          to: '/mentors',
+        },
+        {
+          icon: 'mdi-school-outline',
+          title: 'FELLOWS',
+          to: '/fellows',
+        },
+
+        {
+          icon: 'mdi-calendar',
+          title: 'PROGRAM',
+          to: '/program',
         },
       ],
       visible: false,
     }
-  },
-  methods: {
-    onIntersect(entries, observer) {
-      // More information about these options
-      // is located here: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
-      this.visible = entries[0].isIntersecting
-    },
   },
   async created() {
     const programs = await this.$content('Programs')
@@ -198,6 +206,13 @@ export default {
       'this.$vuetify.theme.themes.light.primary: ',
       this.$vuetify.theme.themes.light.primary
     )
+  },
+  methods: {
+    onIntersect(entries, observer) {
+      // More information about these options
+      // is located here: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+      this.visible = entries[0].isIntersecting
+    },
   },
 }
 </script>

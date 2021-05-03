@@ -90,7 +90,7 @@
         </div>
       </v-col>
     </v-row>
-    <TitleBlock class="mt-9" title="Testimonials"></TitleBlock>
+    <TitleBlock class="mt-9 mb-6" title="Testimonials"></TitleBlock>
     <v-carousel cycle hide-delimiter-background hide-delimiters>
       <v-carousel-item v-for="item in testimonials" :key="item.slug">
         <v-sheet light tile class="px-16">

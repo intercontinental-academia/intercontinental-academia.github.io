@@ -32,10 +32,13 @@
           </v-card-title>
         </v-col>
 
-        <v-col cols="12" class="px-12">
+        <v-col
+          cols="12"
+          :class="$vuetify.breakpoint.mdAndUp ? 'px-12' : 'px-3'"
+        >
           <v-card-text>
             <div class="text-h5 mb-6 font-weight-black">
-              <v-chip class="mr-2" label v-if="item.public"> PUBLIC </v-chip
+              <v-chip v-if="item.public" class="mr-2" label> PUBLIC </v-chip
               >{{ item.time + ' ' + item.title }}
             </div>
             <YoutubeEmbedded
@@ -52,7 +55,7 @@
                 </v-btn>
               </template>
             </div>
-            <div class="d-flex justify-end" v-if="item.apply_link">
+            <div v-if="item.apply_link" class="d-flex justify-end">
               <v-btn
                 :href="item.apply_link"
                 target="_blank"
