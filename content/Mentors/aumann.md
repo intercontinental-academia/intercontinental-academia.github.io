@@ -1,7 +1,7 @@
 ---
 firstname: Robert
 lastname: Aumann
-image: ''
+image: "/aumann.jpg"
 presentation: 'Robert Aumann is widely recognized for his fundamental contributions
   to game theory, mathematical economics, and related areas. Together with mathematician
   Michael Bahir Maschler, he applied game theory to analyze Talmudic dilemmas. Laureate
