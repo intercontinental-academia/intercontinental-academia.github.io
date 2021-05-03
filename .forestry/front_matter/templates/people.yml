@@ -11,6 +11,11 @@ fields:
 - type: file
   name: image
   label: image
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 - name: presentation
   type: textarea
   default: ''
