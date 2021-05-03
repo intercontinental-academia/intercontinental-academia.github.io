@@ -1,5 +1,5 @@
 <template>
-  <v-app :style="'a {color:' + primary + '!important;}'">
+  <v-app>
     <v-app-bar
       clipped-left
       fixed
@@ -102,7 +102,11 @@
       </v-list>
     </v-navigation-drawer>
     <v-main>
-      <v-container fluid :class="{ 'pa-0': $vuetify.breakpoint.mdAndDown }">
+      <v-container
+        fluid
+        :class="{ 'pa-0': $vuetify.breakpoint.mdAndDown }"
+        :style="'a {color:' + primary + '!important;}'"
+      >
         <v-row no-gutters justify="center">
           <v-col cols="12" lg="8" xl="6">
             <div v-intersect="onIntersect" class="observer"></div>
