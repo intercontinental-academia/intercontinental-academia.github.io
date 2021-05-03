@@ -11,6 +11,13 @@ fields:
 - type: file
   name: image
   label: image
+- name: image_copyright_owner
+  type: text
+  config:
+    required: false
+  label: Image copyright owner
+  description: No need to include the copyright sign, just the copyright owner name
+    is needed.
 - name: title_and_institution
   type: text
   config:
