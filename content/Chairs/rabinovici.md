@@ -1,7 +1,7 @@
 ---
 firstname: Eliezer
 lastname: Rabinovici
-image: ''
+image: "/rabinovici.jpg"
 presentation: 'Eliezer Rabinovici is a physicist whose main research interests are
   in Particle Theory, Field Theory, and String Theory. He is Professor of Physics,
   holding the Leon H. and Ada G. Miller Chair of Science at the Racah Institute of
@@ -14,5 +14,9 @@ presentation: 'Eliezer Rabinovici is a physicist whose main research interests a
 linkedin: ''
 twitter: ''
 wikipedia: ''
+copyright: ''
+title_and_institution: Leon H. and Ada G. Miller Chair of Science, Professor Racah
+  Institute of Physics, Hebrew University of Jerusalem, initiator of the ICA concept
+  and Vice President of SESAME Council
 
 ---
