@@ -1,6 +1,7 @@
 <template>
   <div>
     <logo
+      v-if="$vuetify.breakpoint.mdAndUp"
       :size="240"
       :colors="[
         $store.state.logo[0],
@@ -10,7 +11,6 @@
         $store.state.logo[4],
       ]"
       style="position: absolute; top: -80px; z-index: 5"
-      v-if="$vuetify.breakpoint.mdAndUp"
     />
 
     <div class="d-flex justify-end align-end flex-column mt-16">
@@ -92,9 +92,13 @@
     </v-row>
     <TitleBlock class="mt-9 mb-6" title="Testimonials"></TitleBlock>
     <v-carousel cycle hide-delimiter-background hide-delimiters>
-      <v-carousel-item v-for="item in testimonials" :key="item.slug">
+      <v-carousel-item
+        v-for="item in testimonials"
+        :key="item.slug"
+        class="align-center"
+      >
         <v-sheet light tile class="px-16">
-          <v-row class="fill-height" align="center" justify="center">
+          <v-row align="center" justify="center">
             <v-col cols="4" align="center" justify="center">
               <v-avatar size="80%">
                 <img
@@ -222,15 +226,5 @@ export default {
   padding: 1rem;
   margin-bottom: -20px;
   z-index: 2;
-  span {
-    font-feature-settings: frac;
-    font-variant-numeric: ordinal;
-  }
-}
-@supports (font-variant-numeric: diagonal-fractions) {
-  .count span {
-    font-feature-settings: frac;
-    font-variant-numeric: ordinal;
-  }
 }
 </style>

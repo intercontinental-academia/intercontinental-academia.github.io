@@ -1,10 +1,10 @@
 <template>
-  <div class="my-9 mx-3">
+  <div class="my-9">
     <TitleBlock
       class="mt-9"
       :title="'THE ' + editions.length + 'TH EDITION'"
     ></TitleBlock>
-    <v-row justify="center">
+    <v-row justify="center" class="mr-3">
       <v-col cols="12" class="px-12">
         <div class="text-h4 font-weight-black text-uppercase my-6">
           {{ current.title }}

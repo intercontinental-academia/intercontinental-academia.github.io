@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app :style="'a {color:' + pimary + '!important;}'">
     <v-app-bar
       clipped-left
       fixed
@@ -182,6 +182,7 @@ export default {
         },
       ],
       visible: false,
+      primary: 'rgb(100, 53, 139)',
     }
   },
   async created() {
@@ -189,6 +190,7 @@ export default {
       .sortBy('_', 'desc')
       .limit(1)
       .fetch()
+    this.primary = programs[0].primary_color
     this.$store.commit('setColors', {
       primary: programs[0].primary_color,
       colors: [
@@ -220,8 +222,5 @@ export default {
 .observer {
   position: absolute;
   top: 160px;
-}
-.v-application a {
-  color: var(--v-primary-base) !important;
 }
 </style>
