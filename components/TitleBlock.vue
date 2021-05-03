@@ -1,9 +1,16 @@
 <template>
   <div class="d-flex justify-space-between mb-12 mt-3">
     <div
-      class="d-flex section-title justify-space-between"
-      :style="'background-color: ' + $vuetify.theme.themes.light.primary"
       v-if="isSession"
+      class="d-flex section-title justify-space-between"
+      :style="
+        'background-color: ' +
+        $vuetify.theme.themes.light.primary +
+        ';width:' +
+        $vuetify.breakpoint.mdAndUp
+          ? '50%;'
+          : 'auto;'
+      "
     >
       <v-tooltip bottom>
         <template #activator="{ on, attrs }">
@@ -16,9 +23,16 @@
       <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
     </div>
     <div
-      class="section-title"
-      :style="'background-color:' + $vuetify.theme.themes.light.primary"
       v-else
+      class="section-title"
+      :style="
+        'background-color: ' +
+        $vuetify.theme.themes.light.primary +
+        ';width:' +
+        $vuetify.breakpoint.mdAndUp
+          ? '50%;'
+          : '100%;'
+      "
     >
       <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
     </div>

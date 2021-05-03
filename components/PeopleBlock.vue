@@ -1,0 +1,169 @@
+<template>
+  <v-row class="mt-12 mx-6" :class="{ 'mx:6': $vuetify.breakpoint.mdAndUp }">
+    <v-col
+      v-if="$vuetify.breakpoint.mdAndUp"
+      cols="3"
+      col-md-offset="1"
+      justify="center"
+      align="center"
+      class="d-flex flex-column align-center"
+    >
+      <v-avatar size="160" class="mb-3">
+        <img v-if="item.image" alt="Avatar" :src="item.image" />
+        <v-icon
+          v-else
+          class="white--text headline"
+          :style="
+            'background-color:' +
+            $vuetify.theme.themes.light.primary +
+            '; font-style: normal;'
+          "
+          >{{ item.firstname[0] + item.lastname[0] }}</v-icon
+        >
+      </v-avatar>
+      <div class="flex-row justify-center">
+        <v-tooltip v-if="item.wikipedia" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.wikipedia"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-wikipedia</v-icon></v-btn
+            >
+          </template>
+          <span
+            >Check the Wikipedia page of the {{ mentor ? 'mentor' : 'fellow' }}
+          </span>
+        </v-tooltip>
+        <v-tooltip v-if="item.linkedin" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.linkedin"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-linkedin</v-icon></v-btn
+            >
+          </template>
+          <span>Get in touch on Linkedin</span>
+        </v-tooltip>
+        <v-tooltip v-if="item.twitter" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.twitter"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-twitter</v-icon></v-btn
+            >
+          </template>
+          <span>Follow this {{ mentor ? 'mentor' : 'fellow' }} on Twitter</span>
+        </v-tooltip>
+      </div>
+    </v-col>
+    <v-col cols="12" md="8">
+      <div class="text-h5 font-weight-black">
+        {{ item.firstname }} {{ item.lastname }}
+      </div>
+      <div class="text-h6 mb-3">
+        {{ item.title_and_institution }}
+      </div>
+      <div
+        v-if="$vuetify.breakpoint.smAndDown"
+        class="flex-row justify-center mb-6"
+      >
+        <v-tooltip v-if="item.wikipedia" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.wikipedia"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-wikipedia</v-icon></v-btn
+            >
+          </template>
+          <span
+            >Check the Wikipedia page of the {{ mentor ? 'mentor' : 'fellow' }}
+          </span>
+        </v-tooltip>
+        <v-tooltip v-if="item.linkedin" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.linkedin"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-linkedin</v-icon></v-btn
+            >
+          </template>
+          <span>Get in touch on Linkedin</span>
+        </v-tooltip>
+        <v-tooltip v-if="item.twitter" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.twitter"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-twitter</v-icon></v-btn
+            >
+          </template>
+          <span>Follow this {{ mentor ? 'mentor' : 'fellow' }} on Twitter</span>
+        </v-tooltip>
+      </div>
+      <p>{{ item.presentation }}</p>
+      <small v-if="item.copyright" class="muted caption"
+        >Image of &copy; {{ item.copyright }}</small
+      >
+      <v-expansion-panels v-if="mentor" class="mt-6">
+        <v-expansion-panel>
+          <v-expansion-panel-header> References </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <nuxt-content :document="item" />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-col>
+  </v-row>
+</template>
+<script>
+export default {
+  props: {
+    mentor: {
+      type: Boolean,
+      default: false,
+    },
+    item: {
+      type: Object,
+      default: () => {},
+    },
+  },
+  data() {
+    return {}
+  },
+  computed: {},
+  mounted() {},
+  methods: {},
+}
+</script>
+
+<style lang="scss"></style>
