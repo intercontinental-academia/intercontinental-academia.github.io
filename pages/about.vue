@@ -44,6 +44,9 @@
             </v-avatar>
             <div class="mt-3">
               <b>{{ item.firstname }} {{ item.lastname }}</b>
+              <p class="overline">
+                <b>{{ item.title }}</b>
+              </p>
               <p>{{ item.presentation }}</p>
             </div>
           </v-col>
