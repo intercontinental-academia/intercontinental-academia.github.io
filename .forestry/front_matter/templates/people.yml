@@ -11,13 +11,13 @@ fields:
 - type: file
   name: image
   label: image
-- name: image_copyright_owner
+- name: copyright
   type: text
   config:
     required: false
-  label: Image copyright owner
-  description: No need to include the copyright sign, just the copyright owner name
-    is needed.
+  label: Image copyright owner and date
+  description: 'No need to include the copyright sign, just the copyright owner name
+    is needed, with a comma separating with the date: e.g. "Sponge Bob, 2007"'
 - name: title_and_institution
   type: text
   config:
