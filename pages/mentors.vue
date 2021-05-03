@@ -14,8 +14,12 @@
           <img v-if="item.image" alt="Avatar" :src="item.image" />
           <v-icon
             v-else
-            class="white--text"
-            :style="'background-color:' + $vuetify.theme.themes.light.primary"
+            class="white--text headline"
+            :style="
+              'background-color:' +
+              $vuetify.theme.themes.light.primary +
+              '; font-style: normal;'
+            "
             >{{ item.firstname[0] + item.lastname[0] }}</v-icon
           >
         </v-avatar>

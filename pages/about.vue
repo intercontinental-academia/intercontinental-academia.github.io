@@ -103,15 +103,25 @@
     <TitleBlock class="mt-9" title="PARTNERS"></TitleBlock>
 
     <div class="mb-12">
-      <v-avatar
-        v-for="item in [1, 2, 3, 4]"
-        :key="item"
-        color="indigo"
-        size="100"
-        class="mx-6"
-      >
-        <v-icon dark> mdi-account-circle </v-icon>
-      </v-avatar>
+      <v-tooltip v-for="item in partners" :key="item" bottom>
+        <template #activator="{ on, attrs }">
+          <v-avatar
+            v-bind="attrs"
+            color="indigo"
+            size="100"
+            class="mx-6"
+            v-on="on"
+          >
+            <v-img
+              v-if="item.logo"
+              :src="item.logo"
+              :alt="item.name"
+              contain
+            ></v-img>
+          </v-avatar>
+        </template>
+        <span>{{ item.name }}</span>
+      </v-tooltip>
     </div>
   </div>
 </template>
@@ -121,6 +131,9 @@ export default {
     const concept = await $content('Pages_content/about/concept').fetch()
     const editions = await $content('Programs').sortBy('_', 'asc').fetch()
     const chairs = await $content('Chairs').sortBy('slug', 'asc').fetch()
+    const partners = await $content('Partners_and_Sponsors')
+      .sortBy('slug', 'asc')
+      .fetch()
     const institutions = await $content('Institutions')
       .sortBy('slug', 'asc')
       .fetch()
@@ -136,6 +149,7 @@ export default {
       chairs,
       steering,
       institutions,
+      partners,
     }
   },
   mounted() {},

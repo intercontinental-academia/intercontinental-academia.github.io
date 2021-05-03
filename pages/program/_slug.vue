@@ -39,7 +39,7 @@
           <v-card-text>
             <div class="text-h5 mb-6 font-weight-black">
               <v-chip v-if="item.public" class="mr-2" label> PUBLIC </v-chip
-              >{{ item.time + ' ' + item.title }}
+              >{{ item.time + ' ' + item.name }}
             </div>
             <YoutubeEmbedded
               v-if="item.youtube_video_id"

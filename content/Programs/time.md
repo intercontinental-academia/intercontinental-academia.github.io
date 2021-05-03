@@ -1,6 +1,6 @@
 ---
 _: 1
-title_and_institution: TIME
+title: TIME
 date: April 17 - 29, 2015
 link: http://intercontinental-academia.ubias.net/home-sao-paulo
 website: ''

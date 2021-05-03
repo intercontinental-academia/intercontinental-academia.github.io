@@ -1,6 +1,6 @@
 ---
 _: 2
-title_and_institution: HUMAN DIGNITY
+title: HUMAN DIGNITY
 website: https://scholars.huji.ac.il/iahd
 logo_colors:
   '2': "#2F8BC1"

@@ -91,16 +91,21 @@
       </v-col>
     </v-row>
     <TitleBlock class="mt-9 mb-6" title="Testimonials"></TitleBlock>
-    <v-carousel cycle hide-delimiter-background :show-arrows="false" dark>
-      <v-carousel-item
-        v-for="item in testimonials"
-        :key="item.slug"
-        class="align-center"
-      >
-        <v-sheet light tile class="px-16">
-          <v-row align="center" justify="center">
-            <v-col cols="4" align="center" justify="center">
-              <v-avatar size="80%">
+    <v-row no-gutters class="mb-12">
+      <v-col cols="12">
+        <v-carousel
+          cycle
+          hide-delimiters
+          :show-arrows="testimonials.length > 1"
+          continuous
+          height="auto"
+        >
+          <v-carousel-item v-for="item in testimonials" :key="item.slug">
+            <div
+              class="d-flex justify-center align-center mx-16 black--text mb-12"
+              style="height: 100%"
+            >
+              <v-avatar v-if="$vuetify.breakpoint.mdAndUp" size="120px">
                 <img
                   v-if="item.picture.length"
                   :src="item.picture"
@@ -110,26 +115,26 @@
                   {{ item.first_name[0] + ' ' + item.last_name[0] }}
                 </div>
               </v-avatar>
-            </v-col>
-            <v-col cols="8" class="">
-              <nuxt-content
-                :document="item"
-                class="d-inline-block testimonial"
-              />
-              <b>{{
-                item.first_name +
-                ' ' +
-                item.last_name +
-                ', ' +
-                item.title_and_institution +
-                ' - ICA' +
-                item.millesime
-              }}</b>
-            </v-col>
-          </v-row>
-        </v-sheet>
-      </v-carousel-item>
-    </v-carousel>
+              <div class="ml-12">
+                <nuxt-content
+                  :document="item"
+                  class="d-inline-block testimonial"
+                />
+                <b>{{
+                  item.first_name +
+                  ' ' +
+                  item.last_name +
+                  ', ' +
+                  item.title_and_institution +
+                  ' - ICA' +
+                  item.millesime
+                }}</b>
+              </div>
+            </div>
+          </v-carousel-item>
+        </v-carousel>
+      </v-col>
+    </v-row>
   </div>
 </template>
 

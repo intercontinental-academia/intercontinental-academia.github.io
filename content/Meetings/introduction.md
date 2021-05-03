@@ -1,6 +1,6 @@
 ---
 related-session: content/Sessions/opening-session.md
-title_and_institution: Introduction
+name: Introduction
 date: June 13th
 time: 1pm-3pm.
 description: ''
