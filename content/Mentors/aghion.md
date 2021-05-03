@@ -14,8 +14,8 @@ presentation: Philippe Aghion is an expert in the economics of growth and in con
   Sciences.
 twitter: jhblhbkujkjn
 linkedin: jhbkjhilnkjn
-wikipedia: lgbbbbbbbbbbbbbbbbbbbkj
-title: Expert economist
+wikipedia: https://en.wikipedia.org/wiki/Philippe_Aghion
+
 ---
 Aghion, P., Cherif, R., & Hasanov, F. (2021). _Competition, Innovation, and Inclusive Growth_ (No. 2021/080). International Monetary Fund. [https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf](https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf "https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf")
 
