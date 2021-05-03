@@ -12,7 +12,9 @@ presentation: 'Robert Aumann is widely recognized for his fundamental contributi
 linkedin: ''
 twitter: ''
 wikipedia: https://de.wikipedia.org/wiki/Robert_Aumann
-title_and_institution: ''
+title_and_institution: Economist; Professor at the Center for the Study of Rationality
+  in the Hebrew University of Jerusalem; Winner of the 2005 Nobel Memorial Prize in
+  Economic Sciences
 copyright: Sponge Bob, 2007
 
 ---
