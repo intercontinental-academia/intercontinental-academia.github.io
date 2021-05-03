@@ -2,7 +2,7 @@
 first_name: Alastair
 last_name: Wilson
 picture: "/wilson.jpg"
-title: Professor of Philosophy at University of Birmingham
+title_and_institution: Professor of Philosophy at University of Birmingham
 millesime: "3"
 
 ---

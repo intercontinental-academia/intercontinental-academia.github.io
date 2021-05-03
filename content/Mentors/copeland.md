@@ -2,7 +2,7 @@
 firstname: Jack
 lastname: Copeland
 image: ''
-title: Professor of Philosophy, Director of the Turing Archive for the History of
+title_and_institution: Professor of Philosophy, Director of the Turing Archive for the History of
   Computing
 presentation: 'Jack Copeland’s expertise lies in cognitive science, mathematical logic,
   and philosophy of computation, language, mind, and religion. His contributions on

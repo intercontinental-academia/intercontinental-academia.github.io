@@ -1,6 +1,6 @@
 ---
 _: 3
-title: 'LAWS: RIGIDITY AND DYNAMICS'
+title_and_institution: 'LAWS: RIGIDITY AND DYNAMICS'
 website: https://www.icalaws.com/
 logo_colors:
   '2': "#F9A51A"

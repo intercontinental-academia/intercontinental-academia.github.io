@@ -227,4 +227,7 @@ export default {
   position: absolute;
   top: 160px;
 }
+a {
+  color: #5c3190 !important;
+}
 </style>

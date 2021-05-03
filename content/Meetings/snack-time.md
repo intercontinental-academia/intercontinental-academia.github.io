@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-13T16:04:08Z
-title: Snack Time
+title_and_institution: Snack Time
 date: June 13th
 time: 6pm-7pm.
 apply_link: ''

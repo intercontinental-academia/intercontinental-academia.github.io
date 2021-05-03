@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-13T14:01:56Z
-title: Presentations of the A team
+title_and_institution: Presentations of the A team
 date: June 13th
 time: 3pm-6pm.
 apply_link: 'https://www.youtube.com/watch?v=7FVC11hQNWE'

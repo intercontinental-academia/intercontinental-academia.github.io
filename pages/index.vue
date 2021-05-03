@@ -91,7 +91,7 @@
       </v-col>
     </v-row>
     <TitleBlock class="mt-9 mb-6" title="Testimonials"></TitleBlock>
-    <v-carousel cycle hide-delimiter-background hide-delimiters>
+    <v-carousel cycle hide-delimiter-background :show-arrows="false" dark>
       <v-carousel-item
         v-for="item in testimonials"
         :key="item.slug"
@@ -120,8 +120,8 @@
                 item.first_name +
                 ' ' +
                 item.last_name +
-                ' ' +
-                item.title +
+                ', ' +
+                item.title_and_institution +
                 ' - ICA' +
                 item.millesime
               }}</b>

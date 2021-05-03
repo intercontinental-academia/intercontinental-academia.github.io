@@ -45,7 +45,7 @@
             <div class="mt-3">
               <b>{{ item.firstname }} {{ item.lastname }}</b>
               <p class="overline">
-                <b>{{ item.title }}</b>
+                <b>{{ item.title_and_institution }}</b>
               </p>
               <p>{{ item.presentation }}</p>
             </div>

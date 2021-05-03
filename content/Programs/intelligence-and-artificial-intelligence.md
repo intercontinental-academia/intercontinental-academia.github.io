@@ -1,6 +1,6 @@
 ---
 _: 4
-title: Intelligence and Artificial Intelligence
+title_and_institution: Intelligence and Artificial Intelligence
 website: ''
 logo_colors:
   '2': "#FBA421"

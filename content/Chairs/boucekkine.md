@@ -2,7 +2,7 @@
 firstname: Raouf
 lastname: Boucekkine
 image: "/boucekkine.jpg"
-title: Rocket Scientist
+title_and_institution: Rocket Scientist
 presentation: 'Raouf Boucekkine is an economist whose main areas of expertise are
   growth and development, demography, sustainable growth, political economy, operation
   research, and international macroeconomics. Formerly director of the Institute for

@@ -1,6 +1,6 @@
 ---
 title: The concept
-subtitle: Intercontinental academia
+subtitle_and_institution: Intercontinental academia
 
 ---
 The Intercontinental Academia (ICA) creates a **global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe**.

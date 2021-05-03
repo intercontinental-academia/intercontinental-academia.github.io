@@ -56,7 +56,7 @@
           {{ item.firstname }} {{ item.lastname }}
         </div>
         <div class="text-h6 mb-3">
-          {{ item.title }}
+          {{ item.title_and_institution }}
         </div>
         <p>{{ item.presentation }}</p>
       </v-col>
