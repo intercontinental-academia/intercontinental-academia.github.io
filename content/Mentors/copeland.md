@@ -1,9 +1,9 @@
 ---
 firstname: Jack
 lastname: Copeland
-image: ''
-title_and_institution: Professor of Philosophy, Director of the Turing Archive for the History of
-  Computing
+image: "/copeland.jpg"
+title_and_institution: Professor of Philosophy, Director of the Turing Archive for
+  the History of Computing
 presentation: 'Jack Copeland’s expertise lies in cognitive science, mathematical logic,
   and philosophy of computation, language, mind, and religion. His contributions on
   Turing machines and the concept of hypercomputing are recognized as substantial
@@ -15,5 +15,6 @@ presentation: 'Jack Copeland’s expertise lies in cognitive science, mathematic
 linkedin: https://www.linkedin.com/in/jack-copeland-b955191/
 twitter: ''
 wikipedia: https://en.wikipedia.org/wiki/Jack_Copeland
+copyright: ''
 
 ---
