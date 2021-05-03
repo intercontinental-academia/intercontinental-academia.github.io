@@ -1,5 +1,5 @@
 <template>
-  <v-app :style="'a {color:' + pimary + '!important;}'">
+  <v-app :style="'a {color:' + primary + '!important;}'">
     <v-app-bar
       clipped-left
       fixed

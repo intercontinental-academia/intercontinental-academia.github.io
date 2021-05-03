@@ -3,41 +3,41 @@
     <TitleBlock title="MENTORS"></TitleBlock>
     <v-row v-for="(item, index) in mentors" :key="index" class="mt-12 mx-6">
       <v-col
+        v-if="$vuetify.breakpoint.mdAndUp"
         cols="3"
         col-md-offset="1"
         justify="center"
         align="center"
         class="d-flex flex-column align-center"
-        v-if="$vuetify.breakpoint.mdAndUp"
       >
         <v-avatar size="160" class="mb-3">
           <img v-if="item.image" alt="Avatar" :src="item.image" />
           <v-icon
             v-else
-            class="text-white"
-            background-color="primary"
-            :v-text="item.firstname[0] + item.lastname[0]"
-          ></v-icon>
+            class="white--text"
+            :style="'background-color:' + $vuetify.theme.themes.light.primary"
+            >{{ item.firstname[0] + item.lastname[0] }}</v-icon
+          >
         </v-avatar>
         <div class="flex-row justify-center">
-          <v-tooltip bottom v-if="item.wikipedia">
-            <template v-slot:activator="{ on, attrs }">
+          <v-tooltip v-if="item.wikipedia" bottom>
+            <template #activator="{ on, attrs }">
               <v-btn icon text v-bind="attrs" v-on="on">
                 <v-icon>mdi-wikipedia</v-icon></v-btn
               >
             </template>
             <span>Check the Wikipedia page of the mentor </span>
           </v-tooltip>
-          <v-tooltip bottom v-if="item.linkedin">
-            <template v-slot:activator="{ on, attrs }">
+          <v-tooltip v-if="item.linkedin" bottom>
+            <template #activator="{ on, attrs }">
               <v-btn icon text v-bind="attrs" v-on="on">
                 <v-icon>mdi-linkedin</v-icon></v-btn
               >
             </template>
             <span>Get in touch on Linkedin</span>
           </v-tooltip>
-          <v-tooltip bottom v-if="item.twitter">
-            <template v-slot:activator="{ on, attrs }">
+          <v-tooltip v-if="item.twitter" bottom>
+            <template #activator="{ on, attrs }">
               <v-btn icon text v-bind="attrs" v-on="on">
                 <v-icon>mdi-twitter</v-icon></v-btn
               >
@@ -54,27 +54,27 @@
           {{ item.title }}
         </div>
         <div
-          class="flex-row justify-center mb-6"
           v-if="$vuetify.breakpoint.smAndDown"
+          class="flex-row justify-center mb-6"
         >
-          <v-tooltip bottom v-if="item.wikipedia">
-            <template v-slot:activator="{ on, attrs }">
+          <v-tooltip v-if="item.wikipedia" bottom>
+            <template #activator="{ on, attrs }">
               <v-btn icon text v-bind="attrs" v-on="on">
                 <v-icon>mdi-wikipedia</v-icon></v-btn
               >
             </template>
             <span>Check the Wikipedia page of the mentor </span>
           </v-tooltip>
-          <v-tooltip bottom v-if="item.linkedin">
-            <template v-slot:activator="{ on, attrs }">
+          <v-tooltip v-if="item.linkedin" bottom>
+            <template #activator="{ on, attrs }">
               <v-btn icon text v-bind="attrs" v-on="on">
                 <v-icon>mdi-linkedin</v-icon></v-btn
               >
             </template>
             <span>Get in touch on Linkedin</span>
           </v-tooltip>
-          <v-tooltip bottom v-if="item.twitter">
-            <template v-slot:activator="{ on, attrs }">
+          <v-tooltip v-if="item.twitter" bottom>
+            <template #activator="{ on, attrs }">
               <v-btn icon text v-bind="attrs" v-on="on">
                 <v-icon>mdi-twitter</v-icon></v-btn
               >
