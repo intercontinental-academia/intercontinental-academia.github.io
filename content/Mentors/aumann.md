@@ -12,8 +12,9 @@ presentation: 'Robert Aumann is widely recognized for his fundamental contributi
 linkedin: ''
 twitter: ''
 wikipedia: https://de.wikipedia.org/wiki/Robert_Aumann
+title_and_institution: ''
 
 ---
 Aumann, R. J. (2019). A synthesis of behavioural and mainstream economics. _Nature human behaviour_, _3_(7), 666-670. [https://www.nature.com/articles/s41562-019-0617-3](https://www.nature.com/articles/s41562-019-0617-3 "https://www.nature.com/articles/s41562-019-0617-3")
 
-Aumann, R. J. (1976). Agreeing to disagree. _The annals of statistics_, 1236-1239. [https://www.jstor.org/stable/pdf/2958591.pdf?casa_token=1NU7Gy2DWfUAAAAA:6dXdZ7aJrMuaxZFmvyvHOHTL-kHCla4ACMsYYFC_hhIeRF-BfrzLTQgIr7l0VkL252qaxLHsJBIiaA3GrOl5SDqKqsEwhXwkVQ-qKh_nZGswqMTogDYs](https://www.jstor.org/stable/pdf/2958591.pdf?casa_token=1NU7Gy2DWfUAAAAA:6dXdZ7aJrMuaxZFmvyvHOHTL-kHCla4ACMsYYFC_hhIeRF-BfrzLTQgIr7l0VkL252qaxLHsJBIiaA3GrOl5SDqKqsEwhXwkVQ-qKh_nZGswqMTogDYs "https://www.jstor.org/stable/pdf/2958591.pdf?casa_token=1NU7Gy2DWfUAAAAA:6dXdZ7aJrMuaxZFmvyvHOHTL-kHCla4ACMsYYFC_hhIeRF-BfrzLTQgIr7l0VkL252qaxLHsJBIiaA3GrOl5SDqKqsEwhXwkVQ-qKh_nZGswqMTogDYs")
+Aumann, R. J. (1976). Agreeing to disagree. _The annals of statistics_, 1236-1239. [https://www.jstor.org/stable/2958591?seq=1](https://www.jstor.org/stable/2958591?seq=1 "https://www.jstor.org/stable/2958591?seq=1")
