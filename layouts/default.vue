@@ -221,4 +221,7 @@ export default {
   position: absolute;
   top: 160px;
 }
+.v-application a {
+  color: var(--v-primary-base);
+}
 </style>

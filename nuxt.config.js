@@ -58,6 +58,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'nuxt-webfontloader',
+    '@nuxtjs/style-resources',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -77,7 +78,9 @@ export default {
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
-
+  styleResources: {
+    scss: ['./assets/*.scss'],
+  },
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
@@ -89,7 +92,6 @@ export default {
     },
     treeShake: true,
     theme: {
-      dark: false,
       themes: {
         dark: {
           primary,
