@@ -1,7 +1,7 @@
 ---
 firstname: Toshio
 lastname: Fukada
-image: ''
+image: "/fukada.png"
 copyright: ''
 title_and_institution: Professor at the Beijing Institute for Technology; Emeritus
   professor at Nagoya University; 2019 President-Elect of the Institute of Electrical
