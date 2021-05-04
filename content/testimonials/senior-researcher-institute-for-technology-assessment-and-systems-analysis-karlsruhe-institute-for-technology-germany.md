@@ -2,7 +2,7 @@
 millesime: '3'
 first_name: Isabel
 last_name: Kusche
-picture: "/kusche.jpg"
+picture: "/kusche.jpeg"
 title: Senior researcher, Institute for Technology Assessment and Systems Analysis,
   Karlsruhe Institute for Technology, Germany
 
