@@ -20,6 +20,6 @@ twitter: ''
 wikipedia: ''
 
 ---
-Yeung, K & Lodge, M (eds) 2019, Algorithmic Regulation. Oxford University Press.
+[Yeung, K & Lodge, M (eds) 2019, Algorithmic Regulation. Oxford University Press.](http://www.nasonline.org/programs/scientific-forum/frontiers-of-machine-learning/yeung-ppt.pdf "Yeung, K & Lodge, M (eds) 2019, Algorithmic Regulation. Oxford University Press.")
 
-Yeung, K 2021, 'What the healthcare sector’s experience of blockchain reveals about its real transformative potential: A cross-disciplinary analysis', Journal of Medical Internet Research. [https://doi.org/doi:10.2196/24109](https://doi.org/doi:10.2196/24109 "https://doi.org/doi:10.2196/24109")
+[Yeung, K 2021, 'What the healthcare sector’s experience of blockchain reveals about its real transformative potential: A cross-disciplinary analysis', Journal of Medical Internet Research.](https://doi.org/doi:10.2196/24109 "Yeung, K 2021, 'What the healthcare sector’s experience of blockchain reveals about its real transformative potential: A cross-disciplinary analysis', Journal of Medical Internet Research.") 
