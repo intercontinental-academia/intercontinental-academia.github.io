@@ -20,6 +20,6 @@ twitter: https://twitter.com/AdaYonath
 wikipedia: https://en.wikipedia.org/wiki/Ada_Yonath
 
 ---
-G. Cimicata, T. Bose, G. Fridkin, A. Rivalta, M., Peretz, A., Bashan, A., and Yonath, A. E. (2020). Contemporary challenges in medical usage of antibiotics. In Acta - The Pontifical Academy of Sciences.
+[Schluenzen, F., Tocilj, A., Zarivach, R., Harms, J., Gluehmann, M., Janell, D., ... & Yonath, A. (2000). Structure of functionally activated small ribosomal subunit at 3.3 Å resolution. Cell, 102(5), 615-623.](https://doi.org/10.1016/S0092-8674(00)00084-2 "Schluenzen, F., Tocilj, A., Zarivach, R., Harms, J., Gluehmann, M., Janell, D., ... & Yonath, A. (2000). Structure of functionally activated small ribosomal subunit at 3.3 Å resolution. Cell, 102(5), 615-623.")
 
-Schluenzen, F., Tocilj, A., Zarivach, R., Harms, J., Gluehmann, M., Janell, D., ... & Yonath, A. (2000). Structure of functionally activated small ribosomal subunit at 3.3 Å resolution. Cell, 102(5), 615-623.
+[G. Cimicata, T. Bose, G. Fridkin, A. Rivalta, M., Peretz, A., Bashan, A., and Yonath, A. E. (2020). Contemporary challenges in medical usage of antibiotics. In Acta - The Pontifical Academy of Sciences.](http://www.academiadelasciencias.va/content/dam/accademia/pdf/pas_acta25.pdf#page=98 "G. Cimicata, T. Bose, G. Fridkin, A. Rivalta, M., Peretz, A., Bashan, A., and Yonath, A. E. (2020). Contemporary challenges in medical usage of antibiotics. In Acta - The Pontifical Academy of Sciences.")
