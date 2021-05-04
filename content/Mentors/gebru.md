@@ -17,6 +17,6 @@ twitter: https://twitter.com/timnitgebru
 wikipedia: https://en.wikipedia.org/wiki/Timnit_Gebru
 
 ---
-Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (pp. 610-623).
+[Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (pp. 610-623). ](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922 "Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (pp. 610-623).")
 
-Gebru, T. (2020). Race and Gender. _The Oxford handbook of ethics of aI_, 251-269. 
+[Gebru, T. (2020). Race and Gender. _The Oxford handbook of ethics of aI_, 251-269. ](https://books.google.fr/books?hl=en&lr=&id=8vQTEAAAQBAJ&oi=fnd&pg=PA253&dq=Gebru,+T.+(2020).+Race+and+Gender.+The+Oxford+handbook+of+ethics+of+aI,+251-269.&ots=JkkFr5Qzt5&sig=rdknzYCHkCfoSrNFLWV_mQ-0yKc&redir_esc=y#v=onepage&q&f=false "Gebru, T. (2020). Race and Gender. The Oxford handbook of ethics of aI, 251-269. ")
