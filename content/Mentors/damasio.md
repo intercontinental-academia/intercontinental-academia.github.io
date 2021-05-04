@@ -2,9 +2,8 @@
 firstname: Antonio
 lastname: Damasio
 image: "/damasio.jpg"
-title_and_institution: David Dornsife Chair, Professor of Neuroscience, Psychology,
-  and Philosophy; Director of the Brain and Creativity Institute at the University
-  of Southern California
+title_and_institution: Professor of Neuroscience, Psychology, and Philosophy; Director
+  of the Brain and Creativity Institute at the University of Southern California
 presentation: 'Antonio Damasio is a neurologist and neuroscientist, expert in the
   brain processes underlying emotions, feelings, and consciousness. His findings have
   been applied to understand the role of affect in decision-making, spanning the disciplines
