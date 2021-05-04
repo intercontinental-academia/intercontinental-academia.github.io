@@ -28,4 +28,5 @@ fields:
     have to fill some parts.
   default: "#FFFFFF"
 pages:
+- content/Institutions/parisias.md
 - content/Institutions/rfiea.md
