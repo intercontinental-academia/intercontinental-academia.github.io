@@ -18,6 +18,6 @@ twitter: https://twitter.com/zatorrelab
 wikipedia: ''
 
 ---
-Coffey, E.B.J., Herholz, S.B., Chepesiuk, A.M.P., Baillet, S., and Zatorre, R.J. (2016) Cortical contributions to the auditory frequency-following response revealed by MEG. Nature Communications, 7:11070.
+[Coffey, E.B.J., Herholz, S.B., Chepesiuk, A.M.P., Baillet, S., and Zatorre, R.J. (2016) Cortical contributions to the auditory frequency-following response revealed by MEG. Nature Communications, 7:11070.](https://www.nature.com/articles/ncomms11070 "Coffey, E.B.J., Herholz, S.B., Chepesiuk, A.M.P., Baillet, S., and Zatorre, R.J. (2016) Cortical contributions to the auditory frequency-following response revealed by MEG. Nature Communications, 7:11070.")
 
-Mas-Herrero, E., Dagher, A., and Zatorre, R.J. (2017) Modulating musical reward sensitivity up and down with transcranial magnetic stimulation. Nature Human Behaviour. doi:10.1038/s41562-017-0241-z
+[Mas-Herrero, E., Dagher, A., and Zatorre, R.J. (2017) Modulating musical reward sensitivity up and down with transcranial magnetic stimulation. Nature Human Behaviour.](https://www.nature.com/articles/s41562-017-0241-z?mobile&width=320 "Mas-Herrero, E., Dagher, A., and Zatorre, R.J. (2017) Modulating musical reward sensitivity up and down with transcranial magnetic stimulation. Nature Human Behaviour.") 
