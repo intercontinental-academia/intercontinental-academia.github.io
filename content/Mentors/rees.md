@@ -22,8 +22,8 @@ twitter: https://twitter.com/LordMartinRees
 wikipedia: https://en.wikipedia.org/wiki/Martin_Rees
 
 ---
-Rees, M., & Hawking, S. (1997). _Before the beginning: our universe and others_. Helix books.
+[Rees, M., & Hawking, S. (1997). _Before the beginning: our universe and others_. Helix books.](https://catalogue.library.cern/literature/r7gvh-5tv54 "Rees, M., & Hawking, S. (1997). Before the beginning: our universe and others. Helix books.")
 
-Rees, M. (2018). _On the future: prospects for humanity_. Princeton University Press.
+[Rees, M. (2018). _On the future: prospects for humanity_. Princeton University Press.](https://books.google.fr/books?hl=en&lr=&id=wT1hDwAAQBAJ&oi=fnd&pg=PP1&dq=Rees,+M.+(2018).+On+the+future:+prospects+for+humanity.+Princeton+University+Press.&ots=SFrL8nGnpc&sig=IKW3HgrqasBAo_0EPzomXNF5TNI&redir_esc=y#v=onepage&q=Rees%2C%20M.%20(2018).%20On%20the%20future%3A%20prospects%20for%20humanity.%20Princeton%20University%20Press.&f=false "Rees, M. (2018). On the future: prospects for humanity. Princeton University Press.")
 
-Avin, S., Wintle, B. C., Weitzdörfer, J., Ó hÉigeartaigh, S. S., Sutherland, W. J., & Rees, M. J. (2018). Classifying global catastrophic risks. _Futures_, _102_, 20-26. [https://doi.org/10.1016/j.futures.2018.02.001](https://doi.org/10.1016/j.futures.2018.02.001 "https://doi.org/10.1016/j.futures.2018.02.001")
+[Avin, S., Wintle, B. C., Weitzdörfer, J., Ó hÉigeartaigh, S. S., Sutherland, W. J., & Rees, M. J. (2018). Classifying global catastrophic risks. _Futures_, _102_, 20-26. ](https://www.sciencedirect.com/science/article/pii/S0016328717301957 "Avin, S., Wintle, B. C., Weitzdörfer, J., Ó hÉigeartaigh, S. S., Sutherland, W. J., & Rees, M. J. (2018). Classifying global catastrophic risks. Futures, 102, 20-26. ")
