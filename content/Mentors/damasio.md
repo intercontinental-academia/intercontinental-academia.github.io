@@ -21,8 +21,8 @@ image_copyright_owner: Sponge Bob
 copyright: ''
 
 ---
-Damasio, A. R. (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. _Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences_, _351_(1346), 1413-1420. [https://doi.org/10.1098/rstb.1996.0125](https://doi.org/10.1098/rstb.1996.0125 "https://doi.org/10.1098/rstb.1996.0125")
+[Damasio, A. R. (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. _Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences_, _351_(1346), 1413-1420. ](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.1996.0125 "Damasio, A. R. (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, 351(1346), 1413-1420. ")
 
-Damasio, A. (2005). _Descartes' Error: Emotion, Reason, and the Human Brain_. Penguin. [https://books.google.fr/books?hl=en&lr=&id=SLdYHlhqgKMC&oi=fnd&pg=PT12&ots=n-ZZpFaH0b&sig=v9l16j7g4xYvsc6G8gFg_OO6hmI&redir_esc=y#v=onepage&q&f=false](https://books.google.fr/books?hl=en&lr=&id=SLdYHlhqgKMC&oi=fnd&pg=PT12&ots=n-ZZpFaH0b&sig=v9l16j7g4xYvsc6G8gFg_OO6hmI&redir_esc=y#v=onepage&q&f=false "https://books.google.fr/books?hl=en&lr=&id=SLdYHlhqgKMC&oi=fnd&pg=PT12&ots=n-ZZpFaH0b&sig=v9l16j7g4xYvsc6G8gFg_OO6hmI&redir_esc=y#v=onepage&q&f=false")
+[Damasio, A. (2005). _Descartes' Error: Emotion, Reason, and the Human Brain_. Penguin.](https://books.google.fr/books?hl=en&lr=&id=SLdYHlhqgKMC&oi=fnd&pg=PT12&ots=n-ZZpFaH0b&sig=v9l16j7g4xYvsc6G8gFg_OO6hmI&redir_esc=y#v=onepage&q&f=false "Damasio, A. (2005). Descartes' Error: Emotion, Reason, and the Human Brain. Penguin.")
 
-Carvalho, G. B., & Damasio, A. (2021). Interoception and the origin of feelings: A new synthesis. _BioEssays_, 2000261.[https://doi.org/10.1002/bies.202000261](https://doi.org/10.1002/bies.202000261 "https://doi.org/10.1002/bies.202000261")
+[Carvalho, G. B., & Damasio, A. (2021). Interoception and the origin of feelings: A new synthesis. _BioEssays_, ](https://onlinelibrary.wiley.com/doi/epdf/10.1002/bies.202000261 "Carvalho, G. B., & Damasio, A. (2021). Interoception and the origin of feelings: A new synthesis. BioEssays, 2000261.")
