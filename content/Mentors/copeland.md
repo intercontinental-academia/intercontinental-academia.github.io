@@ -18,6 +18,6 @@ wikipedia: https://en.wikipedia.org/wiki/Jack_Copeland
 copyright: ''
 
 ---
-Copeland, J. (2015). _Artificial intelligence: A philosophical introduction_. John Wiley & Sons. [https://books.google.fr/books?hl=en&lr=&id=T05ICgAAQBAJ&oi=fnd&pg=PP1&dq=Jack+Copeland&ots=NVMuXq5TkD&sig=Ljk73dxHVLYJfye8mg4TWp0176U&redir_esc=y#v=onepage&q=Jack%20Copeland&f=false](https://books.google.fr/books?hl=en&lr=&id=T05ICgAAQBAJ&oi=fnd&pg=PP1&dq=Jack+Copeland&ots=NVMuXq5TkD&sig=Ljk73dxHVLYJfye8mg4TWp0176U&redir_esc=y#v=onepage&q=Jack%20Copeland&f=false "https://books.google.fr/books?hl=en&lr=&id=T05ICgAAQBAJ&oi=fnd&pg=PP1&dq=Jack+Copeland&ots=NVMuXq5TkD&sig=Ljk73dxHVLYJfye8mg4TWp0176U&redir_esc=y#v=onepage&q=Jack%20Copeland&f=false")
+[Copeland, J. (2015). _Artificial intelligence: A philosophical introduction_. John Wiley & Sons.](https://books.google.fr/books?hl=en&lr=&id=T05ICgAAQBAJ&oi=fnd&pg=PP1&dq=Jack+Copeland&ots=NVMuXq5TkD&sig=Ljk73dxHVLYJfye8mg4TWp0176U&redir_esc=y#v=onepage&q=Jack%20Copeland&f=false "Copeland, J. (2015). Artificial intelligence: A philosophical introduction. John Wiley & Sons.")
 
-Copeland BJ. and Shagrir O. (2019) _The Church-Turing Thesis: Logical Limit or Breachable Barrier?_ COMMUNICATIONS OF THE ACM 62(1): 66-74. [http://dx.doi.org/10.1145/3198448](http://dx.doi.org/10.1145/3198448 "http://dx.doi.org/10.1145/3198448").
+[Copeland BJ. and Shagrir O. (2019) _The Church-Turing Thesis: Logical Limit or Breachable Barrier?_ COMMUNICATIONS OF THE ACM 62(1): 66-74. ](https://dl.acm.org/doi/pdf/10.1145/3198448 "Copeland BJ. and Shagrir O. (2019) The Church-Turing Thesis: Logical Limit or Breachable Barrier? COMMUNICATIONS OF THE ACM 62(1): 66-74. ")
