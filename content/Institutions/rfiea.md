@@ -1,7 +1,7 @@
 ---
 logo_background_color: "#FFFFFF"
 name: RFIEA- Réseau Français des Instituts d'Etudes Avancées
-logo: "/screenshot-2021-05-04-at-10-34-25.png"
+logo: "/logo_rfiea_2018.png"
 url: http://rfiea.fr/en/candidater/ias
 
 ---
