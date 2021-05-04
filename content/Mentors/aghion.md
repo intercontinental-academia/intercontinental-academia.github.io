@@ -19,8 +19,8 @@ title_and_institution: Economist; Professor at College de France and at London S
   of Economics
 
 ---
-[Aghion, P., Cherif, R., & Hasanov, F. (2021). _Competition, Innovation, and Inclusive Growth_ (No. 2021/080). International Monetary Fund. ](https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf "Aghion, P., Cherif, R., & Hasanov, F. (2021). Competition, Innovation, and Inclusive Growth (No. 2021/080). International Monetary Fund.")
+[Aghion, P., & Howitt, P. (1990). _A model of growth through creative destruction_ (No. w3223). National Bureau of Economic Research.](https://www.nber.org/system/files/working_papers/w3223/w3223.pdf "Aghion, P., & Howitt, P. (1990). A model of growth through creative destruction (No. w3223). National Bureau of Economic Research.")
 
 [Aghion, P., Jones, B. F., & Jones, C. I. (2017). Artificial intelligence and economic growth (No. w23928). National Bureau of Economic Research. ](https://www.nber.org/system/files/working_papers/w23928/w23928.pdf "Aghion, P., Jones, B. F., & Jones, C. I. (2017). Artificial intelligence and economic growth (No. w23928). National Bureau of Economic Research. ")
 
-[Aghion, P., & Howitt, P. (1990). _A model of growth through creative destruction_ (No. w3223). National Bureau of Economic Research.](https://www.nber.org/system/files/working_papers/w3223/w3223.pdf "Aghion, P., & Howitt, P. (1990). A model of growth through creative destruction (No. w3223). National Bureau of Economic Research.") 
+[Aghion, P., Cherif, R., & Hasanov, F. (2021). _Competition, Innovation, and Inclusive Growth_ (No. 2021/080). International Monetary Fund. ](https://www.sipotra.it/wp-content/uploads/2021/03/Competition-Innovation-and-Inclusive-Growth.pdf "Aghion, P., Cherif, R., & Hasanov, F. (2021). Competition, Innovation, and Inclusive Growth (No. 2021/080). International Monetary Fund.")
