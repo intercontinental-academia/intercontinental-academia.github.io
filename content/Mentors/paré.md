@@ -20,6 +20,6 @@ twitter: https://twitter.com/zavenpare
 wikipedia: https://en.wikipedia.org/wiki/Zaven_Paré
 
 ---
-[Pare, Z. (2018). Artificial Free Will: Experiments on patience and impatience with robots. _EVOLUTION PSYCHIATRIQUE_, _83_(1), 45-53.]()
-
 [Grimaud, E., & Paré, Z. (2011). Le jour où les robots mangeront des pommes. _Petra, Paris_.](https://www.researchgate.net/profile/Zaven-Pare/publication/321020299_Le_jour_ou_les_robots_mangeront_des_pommes_Paris_Petra_2011/links/5a08b99f4585157013a7626a/Le-jour-ou-les-robots-mangeront-des-pommes-Paris-Petra-2011.pdf "Grimaud, E., & Paré, Z. (2011). Le jour où les robots mangeront des pommes. Petra, Paris.")
+
+[Pare, Z. (2018). Artificial Free Will: Experiments on patience and impatience with robots. _EVOLUTION PSYCHIATRIQUE_, _83_(1), 45-53.]()
