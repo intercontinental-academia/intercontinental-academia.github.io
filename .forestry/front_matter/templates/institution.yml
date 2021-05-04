@@ -27,3 +27,5 @@ fields:
     (we keep the same aspect ratio, so depending on the shape of the logo, we may
     have to fill some parts.
   default: "#FFFFFF"
+pages:
+- content/Institutions/rfiea.md
