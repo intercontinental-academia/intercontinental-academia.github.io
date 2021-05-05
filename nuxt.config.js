@@ -7,7 +7,7 @@ export default {
   target: 'static',
   generate: {
     fallback: true,
-    async ready () {
+    async ready() {
       const { $content } = require('@nuxt/content')
       const programs = await $content('Programs')
         .sortBy('_', 'desc')
