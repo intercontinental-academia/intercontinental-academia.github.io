@@ -1,8 +1,31 @@
 <template>
   <div class="my-9">
-    <TitleBlock title="Fellows"></TitleBlock>
-    <template v-for="(item, index) in fellows">
-      <people-block :item="item" :key="index"></people-block>
+    <TitleBlock
+      title="Fellows"
+      :search-string="searchString"
+      @search="searchString = $event"
+      @esc="searchString = ''"
+    ></TitleBlock>
+    <template v-if="searching">
+      <div v-if="results.length > 0" class="overline">
+        Searching for "{{ searchString }}" - {{ results.length }}
+        {{ results.length > 1 ? 'results' : 'result' }}
+      </div>
+      <div v-else class="overline text-h6 d-flex flex-column align-center">
+        <div>No result found mathing "{{ searchString }}"</div>
+        <v-btn outlined class="mt-3" @click="searchString = ''"
+          >Cancel my search</v-btn
+        >
+      </div>
+      <people-block
+        v-for="(people, index) in results"
+        :key="index"
+        :item="people"
+        :search="searchString"
+      />
+    </template>
+    <template v-for="(item, index) in fellows" v-else>
+      <people-block :key="index" :item="item"></people-block>
     </template>
   </div>
 </template>
@@ -18,6 +41,25 @@ export default {
       fellows,
     }
   },
-  mounted() {},
+  data() {
+    return {
+      searching: false,
+      searchString: '',
+      results: [],
+    }
+  },
+  watch: {
+    async searchString(searchString) {
+      if (!searchString) {
+        this.searching = false
+      } else {
+        this.searching = true
+        this.results = await this.$content('Fellows')
+          .sortBy('start_date_and_time', 'asc')
+          .search(searchString)
+          .fetch()
+      }
+    },
+  },
 }
 </script>

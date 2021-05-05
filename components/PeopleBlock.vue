@@ -72,12 +72,14 @@
       </div>
     </v-col>
     <v-col cols="12" md="8">
-      <div class="text-h5 font-weight-black">
-        {{ item.firstname }} {{ item.lastname }}
-      </div>
-      <div class="text-h6 mb-3">
-        {{ item.title_and_institution }}
-      </div>
+      <div
+        class="text-h5 font-weight-black"
+        v-html="highlight(item.firstname + ' ' + item.lastname, search)"
+      ></div>
+      <div
+        class="text-h6 mb-3"
+        v-html="highlight(item.title_and_institution, search)"
+      ></div>
       <div
         v-if="$vuetify.breakpoint.smAndDown"
         class="flex-row justify-center mb-6"
@@ -100,7 +102,7 @@
           <span>{{ social.tooltip }} </span>
         </v-tooltip>
       </div>
-      <p>{{ item.presentation }}</p>
+      <p v-html="highlight(item.presentation, search)"></p>
       <small v-if="item.copyright" class="muted caption"
         >Image of &copy; {{ item.copyright }}</small
       >
@@ -126,6 +128,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    search: {
+      type: String,
+      default: '',
+    },
   },
   data() {
     return {}
@@ -133,6 +139,16 @@ export default {
   computed: {},
   mounted() {},
   methods: {
+    highlight: (word, query) => {
+      const check = new RegExp(query, 'ig')
+      return word.replace(check, function (matchedText, a, b) {
+        return (
+          '<strong style="color: darkslategray;background-color: yellow;">' +
+          matchedText +
+          '</strong>'
+        )
+      })
+    },
     getSocials(item) {
       const socials = []
       if (item.website)

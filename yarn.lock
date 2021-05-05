@@ -1080,7 +1080,7 @@
     std-env "^2.3.0"
     ufo "^0.6.10"
 
-"@nuxt/content@^1.14.0":
+"@nuxt/content@^1.14.0", "@nuxt/content@^1.3.2":
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-1.14.0.tgz#5775b596d2db1ae65c41d461c0a6734fc276cb82"
   integrity sha512-MYx+dTu2ZRUHWGp9EgVtFfXJHFeCKrzazaM4a9785OCipItp6zmm1hTlbfdCYenwa0HgaOXCxYAiN0h6tjyUZw==
@@ -6773,6 +6773,14 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
+nuxt-content-highlight@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/nuxt-content-highlight/-/nuxt-content-highlight-0.1.10.tgz#45034ce39149eb96e820575113d15f4397534d7d"
+  integrity sha512-C8pXrRq5kUj17PZvB8JZNshCpZLuVCFv9Kq5U6sVMfHef0FPunfgS6l6T671C8WMNVAcTJPcQRn+OKZe2UysHg==
+  dependencies:
+    "@nuxt/content" "^1.3.2"
+    nuxt "^2.13.3"
+
 nuxt-webfontloader@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nuxt-webfontloader/-/nuxt-webfontloader-1.1.0.tgz#68b47ffbeaee4c41969f42f57a86946e0c36715c"
@@ -6780,7 +6788,7 @@ nuxt-webfontloader@^1.1.0:
   dependencies:
     webfontloader "^1.6.28"
 
-nuxt@^2.15.3:
+nuxt@^2.13.3, nuxt@^2.15.3:
   version "2.15.4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.15.4.tgz#5e2b441acec7344a1124bb550904b5576c850cef"
   integrity sha512-o11VE61EwLj05PBPUN5RlDpaFb7vKbg3d5c+gfLi0gLVMpLUmjksRVTLzE9Ie8MB/TEnipy5BkhxMNppy0FKVg==

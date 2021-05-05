@@ -8,7 +8,7 @@ export default {
   target: 'static',
   generate: {
     fallback: true,
-    async ready () {
+    async ready() {
       const { $content } = require('@nuxt/content')
       const programs = await $content('Programs')
         .sortBy('_', 'desc')
@@ -67,6 +67,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxtjs/sitemap',
     '@nuxt/content',
+    'nuxt-content-highlight',
     'nuxt-webfontloader',
     '@nuxtjs/style-resources',
   ],
@@ -81,15 +82,19 @@ export default {
     },
     icon: {},
   },
+  loading: {
+    color: primary || '#5c3190',
+    height: '5px',
+  },
   webfontloader: {
     google: {
       families: ['Petrona:500,700'], // Loads Lato font with weights 400 and 700
     },
   },
   /*
-  ** Sitemap module configuration
-  ** https://github.com/nuxt-community/sitemap-module#setup-a-sitemap
-  */
+   ** Sitemap module configuration
+   ** https://github.com/nuxt-community/sitemap-module#setup-a-sitemap
+   */
   sitemap: {
     hostname: 'https://intercontinental-academia.github.io',
     gzip: true,
@@ -97,7 +102,18 @@ export default {
     icons: [],
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    // Les recherches s'effectuent uniquement sur les champs titre et description
+    fullTextSearchFields: [
+      'title',
+      'text',
+      'related-session',
+      'firstname',
+      'lastname',
+      'presentation',
+      'title_and_institution',
+    ],
+  },
   styleResources: {
     scss: ['./assets/*.scss'],
   },
@@ -138,5 +154,7 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ['nuxt-content-highlight', '@nuxt'],
+  },
 }

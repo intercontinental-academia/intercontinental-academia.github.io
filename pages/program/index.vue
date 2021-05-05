@@ -1,8 +1,38 @@
 <template>
   <div class="my-9">
-    <TitleBlock title="PROGRAM"></TitleBlock>
+    <TitleBlock
+      title="PROGRAM"
+      :search-string="searchString"
+      @search="searchString = $event"
+      @esc="searchString = ''"
+    ></TitleBlock>
+    <template v-if="searching">
+      <div v-if="results.length > 0" class="overline">
+        Searching for "{{ searchString }}" - {{ results.length }}
+        {{ results.length > 1 ? 'results' : 'result' }}
+      </div>
+      <div v-else class="overline text-h6 d-flex flex-column align-center">
+        <div>No result found mathing "{{ searchString }}"</div>
+        <v-btn outlined class="mt-3" @click="searchString = ''"
+          >Cancel my search</v-btn
+        >
+      </div>
+      <template v-for="session in sessions">
+        <meeting-block
+          v-for="(meeting, index) in results.filter(
+            (rst) => rst.session.slug === session.slug
+          )"
+          :key="index"
+          :item="meeting"
+          :session="meeting.session"
+          :search="searchString"
+          :index="index"
+        />
+      </template>
+    </template>
     <v-card
       v-for="(item, index) in sessions"
+      v-else
       :key="index"
       class="my-12"
       nuxt
@@ -47,7 +77,6 @@ export default {
       .sortBy('_', 'desc')
       .limit(1)
       .fetch()
-    console.log('programs[0].slug: ', programs[0].slug)
     const target = 'content' + programs[0].path + '.md'
     const sessions = await $content('Sessions')
       .where({
@@ -61,6 +90,37 @@ export default {
       sessions,
       programs: programs[0],
     }
+  },
+  data() {
+    return {
+      searching: false,
+      searchString: '',
+      results: [],
+    }
+  },
+  watch: {
+    async searchString(searchString) {
+      if (!searchString) {
+        this.searching = false
+      } else {
+        this.searching = true
+        const results = await this.$content('Meetings')
+          .sortBy('start_date_and_time', 'asc')
+          .search(searchString)
+          .fetch()
+        this.results = results.map((item) => {
+          return {
+            ...item,
+            session: this.sessions.find((meeting) => {
+              return (
+                item['related-session'] ===
+                'content/Sessions/' + meeting.slug + '.md'
+              )
+            }),
+          }
+        })
+      }
+    },
   },
   mounted() {},
   methods: {},

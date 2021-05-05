@@ -6,9 +6,8 @@
       app
       height="80"
       color="white"
-      :flat="
-        $route.name === 'index' && visible && $vuetify.breakpoint.mdAndUp
-      "
+      :elevate-on-scroll="$route.name !== 'index'"
+      :flat="$route.name === 'index' && visible && $vuetify.breakpoint.mdAndUp"
     >
       <v-row no-gutters justify="center">
         <v-col cols="12" lg="8" xl="6" class="d-flex align-end align-center">
@@ -42,6 +41,7 @@
               "
             >
               <svg
+                id="svg8"
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
                 xmlns:cc="http://creativecommons.org/ns#"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -51,7 +51,6 @@
                 height="21.344009"
                 viewBox="0 0 13.343467 5.647269"
                 version="1.1"
-                id="svg8"
               >
                 <defs id="defs2" />
                 <metadata id="metadata5">
@@ -67,6 +66,7 @@
                 </metadata>
                 <g id="layer1" transform="translate(-52.996603,-96.735093)">
                   <text
+                    id="text835"
                     xml:space="preserve"
                     :style="
                       'font-style: normal;font-variant: normal;font-weight: normal;font-stretch: normal;font-size: 8.46667px;line-height: 1.25;font-family: Petrona;letter-spacing: 0px;word-spacing: 0px;fill:' +
@@ -75,7 +75,6 @@
                     "
                     x="52.429337"
                     y="102.28076"
-                    id="text835"
                   >
                     <tspan
                       id="tspan833"
@@ -203,18 +202,6 @@
 </template>
 <script>
 export default {
-  async created() {
-    const programs = await this.$content('Programs').sortBy('_', 'asc').fetch()
-    const current = programs[programs.length - 1]
-    this.logo = [
-      current.logo_colors['1_inner_circle_color'],
-      current.logo_colors['2'],
-      current.logo_colors['3'],
-      current.logo_colors['4'],
-      current.logo_colors['5_outer_circle_color'],
-    ]
-    console.log(this.logo)
-  },
   data() {
     return {
       window,
@@ -251,6 +238,25 @@ export default {
       primary: 'rgb(100, 53, 139)',
       logo: [],
     }
+  },
+  async created() {
+    const programs = await this.$content('Programs').sortBy('_', 'asc').fetch()
+    const current = programs[programs.length - 1]
+    this.logo = [
+      current.logo_colors['1_inner_circle_color'],
+      current.logo_colors['2'],
+      current.logo_colors['3'],
+      current.logo_colors['4'],
+      current.logo_colors['5_outer_circle_color'],
+    ]
+    
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
   },
   methods: {
     onIntersect(entries, observer) {

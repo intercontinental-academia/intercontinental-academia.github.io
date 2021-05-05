@@ -43,6 +43,55 @@
         >{{ nextName }} <v-icon x-large>mdi-chevron-right</v-icon></v-btn
       >
     </div>
+    <div
+      v-if="['program', 'fellows', 'mentors'].includes($route.name)"
+      class="d-flex"
+    >
+      <v-expand-x-transition>
+        <v-tooltip bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              v-show="!expand"
+              text
+              class="text-h4 py-8 my-0"
+              nuxt
+              v-bind="attrs"
+              v-on="on"
+              @click="showInput()"
+              ><v-icon large :color="$vuetify.theme.themes.light.primary"
+                >mdi-magnify</v-icon
+              ></v-btn
+            >
+          </template>
+          <span>Search in the program</span>
+        </v-tooltip>
+      </v-expand-x-transition>
+      <v-expand-x-transition>
+        <v-text-field
+          v-show="expand"
+          ref="search"
+          v-model="searchString"
+          height="64"
+          large
+          :style="'max-width:' + (expand ? '300px' : '0px') + ';'"
+          placeholder="Search"
+          outlined
+          prepend-inner-icon="mdi-magnify"
+          :color="$vuetify.theme.themes.light.primary"
+          hide-details
+          clearable
+          @keyup="$emit('search', searchString)"
+          @keydown.esc.prevent="
+            expand = false
+            $emit('esc')
+          "
+          @click:clear="
+            expand = false
+            $emit('esc')
+          "
+        />
+      </v-expand-x-transition>
+    </div>
   </div>
 </template>
 <script>
@@ -74,7 +123,10 @@ export default {
     },
   },
   data() {
-    return {}
+    return {
+      expand: false,
+      searchString: '',
+    }
   },
   computed: {
     returnTooltip() {
@@ -84,7 +136,24 @@ export default {
     },
   },
   mounted() {},
-  methods: {},
+  methods: {
+    showInput() {
+      // Show the input component
+      this.expand = true
+      // Focus the component, but we have to wait
+      // so that it will be showing first.
+      this.$nextTick(() => {
+        this.focusInput()
+      })
+    },
+
+    focusInput() {
+      this.$refs.search.focus()
+    },
+    onClickOutside() {
+      this.expand = false
+    },
+  },
 }
 </script>
 <style lang="scss">
