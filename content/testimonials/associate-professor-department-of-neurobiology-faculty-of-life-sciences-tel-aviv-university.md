@@ -3,7 +3,7 @@ millesime: '3'
 first_name: Tom
 last_name: Schonberg
 picture: "/schonberg.jpg"
-title: Associate Professor, Department of Neurobiology, Faculty of Life Sciences,
+title_and_institution: Associate Professor, Department of Neurobiology, Faculty of Life Sciences,
   Tel Aviv University
 
 ---

@@ -97,14 +97,33 @@
               ></v-img>
               <span v-else class="white--text headline">{{ item.name }}</span>
             </v-avatar>
-            <nuxt-content :document="item" /><a
-              :href="item.url"
-              class="d-inline"
-              target="_blank"
-              rel="noopener noreferrer"
-              :title="item.name"
-              >(See more).</a
-            >
+            <div class="flex-column align-content-start">
+              <div class="text-h5 font-weight-black">
+                <v-tooltip v-if="item.url" bottom>
+                  <template #activator="{ on, attrs }">
+                    <v-btn
+                      text
+                      v-bind="attrs"
+                      :href="item.url"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      v-on="on"
+                      :title="item.name"
+                    >
+                      <v-icon>mdi-open-in-new</v-icon></v-btn
+                    >
+                  </template>
+                  <span>Visit the website of {{ item.name }}</span>
+                </v-tooltip>
+                {{ item.name }}
+              </div>
+
+              <nuxt-content :document="item" />
+
+              <small v-if="item.copyright" class="muted caption"
+                >Image of &copy; {{ item.copyright }}</small
+              >
+            </div>
           </v-col>
         </v-row>
       </v-col>

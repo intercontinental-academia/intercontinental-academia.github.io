@@ -7,7 +7,8 @@
       height="80"
       color="white"
       :flat="
-        !($route.name === 'index' && !visible && $vuetify.breakpoint.mdAndUp)
+        !($route.name === 'index' && !visible && $vuetify.breakpoint.mdAndUp) ||
+        $route.name !== 'index'
       "
     >
       <v-row no-gutters justify="center">
@@ -30,17 +31,7 @@
               to="/"
               color="white"
             >
-              <logo
-                :size="80"
-                :colors="[
-                  $store.state.logo[0],
-                  $store.state.logo[1],
-                  $store.state.logo[2],
-                  $store.state.logo[3],
-                  $store.state.logo[4],
-                ]"
-                class="d-block ml-3"
-              />
+              <logo :size="80" :colors="logo" class="d-block ml-3" />
             </v-btn>
             <nuxt-link
               text
@@ -51,8 +42,63 @@
                 $vuetify.theme.themes.light.primary
               "
             >
-              ICA
-            </nuxt-link>
+              <svg
+                xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:cc="http://creativecommons.org/ns#"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50.432003"
+                height="21.344009"
+                viewBox="0 0 13.343467 5.647269"
+                version="1.1"
+                id="svg8"
+              >
+                <defs id="defs2" />
+                <metadata id="metadata5">
+                  <rdf:RDF>
+                    <cc:Work rdf:about="">
+                      <dc:format>image/svg+xml</dc:format>
+                      <dc:type
+                        rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+                      />
+                      <dc:title></dc:title>
+                    </cc:Work>
+                  </rdf:RDF>
+                </metadata>
+                <g id="layer1" transform="translate(-52.996603,-96.735093)">
+                  <text
+                    xml:space="preserve"
+                    :style="
+                      'font-style: normal;font-variant: normal;font-weight: normal;font-stretch: normal;font-size: 8.46667px;line-height: 1.25;font-family: Petrona;letter-spacing: 0px;word-spacing: 0px;fill:' +
+                      $vuetify.theme.themes.light.primary +
+                      ';fill-opacity: 1;stroke: none;stroke-width: 0.264583;'
+                    "
+                    x="52.429337"
+                    y="102.28076"
+                    id="text835"
+                  >
+                    <tspan
+                      id="tspan833"
+                      x="52.429337"
+                      y="102.28076"
+                      style="
+                        font-style: normal;
+                        font-variant: normal;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-size: 7px;
+                        font-family: Petrona;
+                        -inkscape-font-specification: Petrona;
+                        stroke-width: 0.264583;
+                      "
+                    >
+                      ICA
+                    </tspan>
+                  </text>
+                </g>
+              </svg></nuxt-link
+            >
           </template>
 
           <v-spacer></v-spacer>
@@ -156,6 +202,18 @@
 </template>
 <script>
 export default {
+  async created() {
+    const programs = await this.$content('Programs').sortBy('_', 'asc').fetch()
+    const current = programs[programs.length - 1]
+    this.logo = [
+      current.logo_colors['1_inner_circle_color'],
+      current.logo_colors['2'],
+      current.logo_colors['3'],
+      current.logo_colors['4'],
+      current.logo_colors['5_outer_circle_color'],
+    ]
+    console.log(this.logo)
+  },
   data() {
     return {
       window,
@@ -190,31 +248,8 @@ export default {
       ],
       visible: false,
       primary: 'rgb(100, 53, 139)',
+      logo: [],
     }
-  },
-  async created() {
-    const programs = await this.$content('Programs')
-      .sortBy('_', 'desc')
-      .limit(1)
-      .fetch()
-    this.primary = programs[0].primary_color
-    this.$store.commit('setColors', {
-      primary: programs[0].primary_color,
-      colors: [
-        programs[0].logo_colors['1_inner_circle_color'],
-        programs[0].logo_colors['2'],
-        programs[0].logo_colors['3'],
-        programs[0].logo_colors['4'],
-        programs[0].logo_colors['5_outer_circle_color'],
-      ],
-    })
-
-    this.$vuetify.theme.themes.light.primary = programs[0].primary_color
-    console.log('programs[0].primary_color: ', programs[0].primary_color)
-    console.log(
-      'this.$vuetify.theme.themes.light.primary: ',
-      this.$vuetify.theme.themes.light.primary
-    )
   },
   methods: {
     onIntersect(entries, observer) {

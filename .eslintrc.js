@@ -9,10 +9,18 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
+    'prettier',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
   ],
-  plugins: [],
+  plugins: ['prettier'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'no-console': 'off',
+    'no-unused-vars': 'warn',
+    'vue/no-unused-components': 'warn',
+    'vue/no-v-html': 'off',
+    'prettier/prettier': 'warn',
+  },
+  ignorePatterns: ['config.js'],
 }

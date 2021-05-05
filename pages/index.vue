@@ -3,17 +3,13 @@
     <logo
       v-if="$vuetify.breakpoint.mdAndUp"
       :size="240"
-      :colors="[
-        $store.state.logo[0],
-        $store.state.logo[1],
-        $store.state.logo[2],
-        $store.state.logo[3],
-        $store.state.logo[4],
-      ]"
+      :colors="logo"
       style="position: absolute; top: -80px; z-index: 5"
     />
-
-    <div class="d-flex justify-end align-end flex-column mt-16">
+    <div
+      class="d-flex justify-end align-end flex-column"
+      style="margin-top: 8rem"
+    >
       <div
         class="d-flex flex-row text-h4 text-uppercase justify-end align-end"
         :style="'color: ' + $vuetify.theme.themes.light.primary"
@@ -53,7 +49,6 @@
       </v-carousel-item>
     </v-carousel>
     <TitleBlock :title="concept.title" class="mt-6"></TitleBlock>
-
     <div class="px-12">
       <div class="text-h4 font-weight-black text-uppercase my-6">
         {{ concept.subtitle }}
@@ -145,6 +140,13 @@ export default {
     const programs = await $content('Programs').sortBy('_', 'asc').fetch()
     const current = programs[programs.length - 1]
     const testimonials = await $content('testimonials').fetch()
+    const logo = [
+      current.logo_colors['1_inner_circle_color'],
+      current.logo_colors['2'],
+      current.logo_colors['3'],
+      current.logo_colors['4'],
+      current.logo_colors['5_outer_circle_color'],
+    ]
     programs.forEach(async (item) => {
       const target = 'content' + item.path + '.md'
       item.sessions = await $content('Sessions')
@@ -160,12 +162,16 @@ export default {
       programs,
       current,
       testimonials,
+      logo,
     }
   },
   data: () => ({
     model: 0,
     colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
   }),
+  mounted() {
+    console.log('app: ', this.$vuetify.theme)
+  },
   methods: {
     LightenDarkenColor(col, amt) {
       let usePound = false

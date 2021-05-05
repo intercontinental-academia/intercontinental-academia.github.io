@@ -1,5 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 let primary = ''
+let logo = []
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -7,13 +8,20 @@ export default {
   target: 'static',
   generate: {
     fallback: true,
-    async ready() {
+    async ready () {
       const { $content } = require('@nuxt/content')
       const programs = await $content('Programs')
         .sortBy('_', 'desc')
         .limit(1)
         .fetch()
       primary = programs[0].primary_color
+      logo = [
+        programs[0].logo_colors['1_inner_circle_color'],
+        programs[0].logo_colors['2'],
+        programs[0].logo_colors['3'],
+        programs[0].logo_colors['4'],
+        programs[0].logo_colors['5_outer_circle_color'],
+      ]
       console.log('primary: ', primary)
     },
   },
@@ -57,6 +65,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
+    '@nuxtjs/sitemap',
     '@nuxt/content',
     'nuxt-webfontloader',
     '@nuxtjs/style-resources',
@@ -102,6 +111,7 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
+          logo,
         },
         light: {
           primary: primary || '#5c3190',
@@ -111,6 +121,7 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
+          logo,
         },
       },
     },

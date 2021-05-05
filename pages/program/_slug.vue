@@ -60,7 +60,7 @@
                 :href="item.apply_link"
                 target="_blank"
                 color="#fba421"
-                class="white--text"
+                class="white--text font-weight-bold"
               >
                 Subscribe!
               </v-btn>
