@@ -7,8 +7,7 @@
       height="80"
       color="white"
       :flat="
-        !($route.name === 'index' && !visible && $vuetify.breakpoint.mdAndUp) ||
-        $route.name !== 'index'
+        $route.name === 'index' && visible && $vuetify.breakpoint.mdAndUp
       "
     >
       <v-row no-gutters justify="center">
