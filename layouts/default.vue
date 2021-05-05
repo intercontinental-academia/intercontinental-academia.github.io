@@ -168,7 +168,9 @@
       class="justify-center flex-column white--text mt-16"
     >
       <div class="pb-8">
-        <div class="d-flex"><Contact /><PrivacyPolicy /><Credits /></div>
+        <div class="d-flex justify-center">
+          <Contact /><PrivacyPolicy /><Credits />
+        </div>
         <br />
         <span class="mt-3 d-flex align-items-center text-uppercase"
           ><v-btn
