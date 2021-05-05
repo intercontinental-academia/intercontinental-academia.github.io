@@ -7,9 +7,7 @@
         'background-color: ' +
         $vuetify.theme.themes.light.primary +
         ';width:' +
-        $vuetify.breakpoint.mdAndUp
-          ? '50%;'
-          : 'auto;'
+        ($vuetify.breakpoint.mdAndUp ? '50%;' : 'auto;')
       "
     >
       <v-tooltip bottom>
@@ -29,9 +27,7 @@
         'background-color: ' +
         $vuetify.theme.themes.light.primary +
         ';width:' +
-        $vuetify.breakpoint.mdAndUp
-          ? '50%;'
-          : '100%;'
+        ($vuetify.breakpoint.mdAndUp ? '50%;' : '100%;')
       "
     >
       <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
