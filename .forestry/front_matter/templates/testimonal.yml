@@ -39,3 +39,6 @@ fields:
       path: 
   label: Vintage
   description: To what ICA did this person participate? ICA-3?
+pages:
+- content/testimonials/associate-professor-department-of-neurobiology-faculty-of-life-sciences-tel-aviv-university.md
+- content/testimonials/senior-researcher-institute-for-technology-assessment-and-systems-analysis-karlsruhe-institute-for-technology-germany.md
