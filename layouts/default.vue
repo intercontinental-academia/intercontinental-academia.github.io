@@ -172,7 +172,7 @@
           <Contact /><PrivacyPolicy /><Credits />
         </div>
         <br />
-        <span class="mt-3 d-flex align-items-center text-uppercase"
+        <span class="mt-3 d-flex align-center text-uppercase"
           ><v-btn
             color="white"
             text
