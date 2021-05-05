@@ -86,6 +86,16 @@ export default {
       families: ['Petrona:500,700'], // Loads Lato font with weights 400 and 700
     },
   },
+  /*
+  ** Sitemap module configuration
+  ** https://github.com/nuxt-community/sitemap-module#setup-a-sitemap
+  */
+  sitemap: {
+    hostname: 'https://intercontinental-academia.github.io',
+    gzip: true,
+    exclude: [],
+    icons: [],
+  },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
   styleResources: {
