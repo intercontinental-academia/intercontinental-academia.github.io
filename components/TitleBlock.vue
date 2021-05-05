@@ -82,11 +82,6 @@ export default {
   },
   computed: {
     returnTooltip() {
-      console.log(
-        this.previousName.length > 0
-          ? 'Back to ' + this.previousName
-          : 'Back to the program'
-      )
       return this.previousName.length > 0
         ? 'Back to ' + this.previousName
         : 'Back to the program'

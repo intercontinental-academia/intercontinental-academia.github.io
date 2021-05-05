@@ -106,6 +106,7 @@
         fluid
         :class="{ 'pa-0': $vuetify.breakpoint.mdAndDown }"
         :style="'a {color:' + primary + '!important;}'"
+        class="mb-12"
       >
         <v-row no-gutters justify="center">
           <v-col cols="12" lg="8" xl="6">
@@ -118,36 +119,38 @@
       absolute
       app
       :color="$vuetify.theme.themes.light.primary"
-      class="justify-center flex-column white--text pt-8 pb-8"
+      class="justify-center flex-column white--text mt-16"
     >
-      <div class="d-flex"><Contact /><PrivacyPolicy /><Credits /></div>
-      <br />
-      <span class="mt-3 d-flex align-items-center text-uppercase"
-        ><v-btn
-          color="white"
-          text
-          href="https://www.paris-iea.fr/en/"
-          target="_blank"
-          >&copy; {{ new Date().getFullYear() }} by Paris Institute for Advanced
-          Study</v-btn
+      <div class="pb-8">
+        <div class="d-flex"><Contact /><PrivacyPolicy /><Credits /></div>
+        <br />
+        <span class="mt-3 d-flex align-items-center text-uppercase"
+          ><v-btn
+            color="white"
+            text
+            href="https://www.paris-iea.fr/en/"
+            target="_blank"
+            >&copy; {{ new Date().getFullYear() }} by Paris Institute for
+            Advanced Study</v-btn
+          >
+          <v-tooltip top>
+            <template #activator="{ on, attrs }">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                href="https://github.com/intercontinental-academia/intercontinental-academia.github.io"
+                target="_blank"
+                small
+                v-on="on"
+              >
+                <v-icon small color="white">mdi-github</v-icon></v-btn
+              >
+            </template>
+            <span>This website is open source, under MIT licence</span>
+          </v-tooltip></span
         >
-        <v-tooltip top>
-          <template #activator="{ on, attrs }">
-            <v-btn
-              icon
-              text
-              v-bind="attrs"
-              href="https://github.com/intercontinental-academia/intercontinental-academia.github.io"
-              target="_blank"
-              small
-              v-on="on"
-            >
-              <v-icon small color="white">mdi-github</v-icon></v-btn
-            >
-          </template>
-          <span>This website is open source, under MIT licence</span>
-        </v-tooltip></span
-      >
+      </div>
     </v-footer>
   </v-app>
 </template>

@@ -7,7 +7,7 @@ export default {
   target: 'static',
   generate: {
     fallback: true,
-    async ready() {
+    async ready () {
       const { $content } = require('@nuxt/content')
       const programs = await $content('Programs')
         .sortBy('_', 'desc')
@@ -94,7 +94,7 @@ export default {
     theme: {
       themes: {
         dark: {
-          primary,
+          primary: primary || '#5c3190',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -103,7 +103,7 @@ export default {
           success: colors.green.accent3,
         },
         light: {
-          primary,
+          primary: primary || '#5c3190',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
