@@ -47,6 +47,12 @@ fields:
   config:
     required: false
   label: wikipedia
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+  description: The person personal website or page
 pages:
 - content/Chairs/rabinovici.md
 - content/Fellows/candiotto.md
