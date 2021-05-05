@@ -85,49 +85,19 @@
         <v-tooltip v-if="item.wikipedia" bottom>
           <template #activator="{ on, attrs }">
             <v-btn
+              v-for="social in getSocials(item)"
+              :key="social.link"
               icon
               text
               v-bind="attrs"
-              :href="item.wikipedia"
+              :href="socail.link"
               target="_blank"
               v-on="on"
             >
-              <v-icon>mdi-wikipedia</v-icon></v-btn
+              <v-icon>{{ social.icon }}</v-icon></v-btn
             >
           </template>
-          <span
-            >Check the Wikipedia page of the {{ mentor ? 'mentor' : 'fellow' }}
-          </span>
-        </v-tooltip>
-        <v-tooltip v-if="item.linkedin" bottom>
-          <template #activator="{ on, attrs }">
-            <v-btn
-              icon
-              text
-              v-bind="attrs"
-              :href="item.linkedin"
-              target="_blank"
-              v-on="on"
-            >
-              <v-icon>mdi-linkedin</v-icon></v-btn
-            >
-          </template>
-          <span>Get in touch on Linkedin</span>
-        </v-tooltip>
-        <v-tooltip v-if="item.twitter" bottom>
-          <template #activator="{ on, attrs }">
-            <v-btn
-              icon
-              text
-              v-bind="attrs"
-              :href="item.twitter"
-              target="_blank"
-              v-on="on"
-            >
-              <v-icon>mdi-twitter</v-icon></v-btn
-            >
-          </template>
-          <span>Follow this {{ mentor ? 'mentor' : 'fellow' }} on Twitter</span>
+          <span>{{ social.tooltip }} </span>
         </v-tooltip>
       </div>
       <p>{{ item.presentation }}</p>
@@ -162,7 +132,41 @@ export default {
   },
   computed: {},
   mounted() {},
-  methods: {},
+  methods: {
+    getSocials(item) {
+      const socials = []
+      if (item.website)
+        socials.push({
+          link: item.website,
+          icon: 'mdi-link-variant',
+          tooltip:
+            'Visit this ' + (this.mentor ? 'mentor' : 'fellow') + ' website',
+        })
+      if (item.wikipedia)
+        socials.push({
+          link: item.wikipedia,
+          icon: 'mdi-wikipedia',
+          tooltip:
+            'Check the Wikipedia page of the ' +
+            (this.mentor ? 'mentor' : 'fellow'),
+        })
+      if (item.linkedin)
+        socials.push({
+          link: item.linkedin,
+          icon: 'mdi-linkedin',
+          tooltip: 'Get in touch on Linkedin',
+        })
+      if (item.twitter)
+        socials.push({
+          link: item.twitter,
+          icon: 'mdi-twitter',
+          tooltip:
+            'Follow this ' +
+            (this.mentor ? 'mentor' : 'fellow') +
+            ' on Twitter',
+        })
+    },
+  },
 }
 </script>
 
