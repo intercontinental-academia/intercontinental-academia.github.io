@@ -98,24 +98,27 @@
               <span v-else class="white--text headline">{{ item.name }}</span>
             </v-avatar>
             <div class="flex-column align-content-start">
-              <div class="text-h5 font-weight-black">
+              <div class="d-flex flex-row text-h5 font-weight-black align-center">
+                
+                {{ item.name }}
                 <v-tooltip v-if="item.url" bottom>
                   <template #activator="{ on, attrs }">
                     <v-btn
                       text
+                      icon
                       v-bind="attrs"
                       :href="item.url"
                       target="_blank"
                       rel="noopener noreferrer"
                       v-on="on"
                       :title="item.name"
+                      small
                     >
-                      <v-icon>mdi-open-in-new</v-icon></v-btn
+                      <v-icon small>mdi-open-in-new</v-icon></v-btn
                     >
                   </template>
                   <span>Visit the website of {{ item.name }}</span>
                 </v-tooltip>
-                {{ item.name }}
               </div>
 
               <nuxt-content :document="item" />
