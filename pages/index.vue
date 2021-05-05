@@ -8,15 +8,18 @@
     />
     <div
       class="d-flex justify-end align-end flex-column"
-      style="margin-top: 8rem"
+      :style="'margin-top:' + ($vuetify.breakpoint.mdAndUp ? '8rem' : '2rem')"
     >
       <div
-        class="d-flex flex-row text-h4 text-uppercase justify-end align-end"
+        class="d-flex flex-row text-uppercase justify-end align-end"
         :style="'color: ' + $vuetify.theme.themes.light.primary"
+        :class="$vuetify.breakpoint.smAndUp ? 'text-h4' : 'text-h5'"
       >
-        <div class="pb-3 mr-4">INTERCONTINENTAL ACADEMIA</div>
+        <div class="pb-3 mx-4">
+          {{ $vuetify.breakpoint.smAndUp ? 'INTERCONTINENTAL ACADEMIA' : 'ICA' }}
+        </div>
         <div
-          class="count text-h4 pa-8"
+          class="count pa-8"
           :style="
             'background-color:' +
             LightenDarkenColor($vuetify.theme.themes.light.primary, -30)
@@ -31,7 +34,8 @@
       </div>
 
       <div
-        class="theme text-h4"
+        class="theme"
+        :class="$vuetify.breakpoint.smAndUp ? 'text-h4' : 'text-h5'"
         :style="'background-color:' + $vuetify.theme.themes.light.primary"
       >
         INTELLIGENCE AND ARTIFICIAL INTELLIGENCE
@@ -94,6 +98,7 @@
           :show-arrows="testimonials.length > 1"
           continuous
           height="auto"
+          interval="10000"
         >
           <v-carousel-item v-for="item in testimonials" :key="item.slug">
             <div
