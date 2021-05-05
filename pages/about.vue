@@ -43,10 +43,12 @@
               >
             </v-avatar>
             <div class="mt-3">
-              <b>{{ item.firstname }} {{ item.lastname }}</b>
-              <p class="overline">
-                <b>{{ item.title_and_institution }}</b>
-              </p>
+              <div class="text-h5 font-weight-black">
+                {{ item.firstname }} {{ item.lastname }}
+              </div>
+              <div class="text-h6 mb-3">
+                {{ item.title_and_institution }}
+              </div>
               <p>{{ item.presentation }}</p>
             </div>
           </v-col>
@@ -95,7 +97,14 @@
               ></v-img>
               <span v-else class="white--text headline">{{ item.name }}</span>
             </v-avatar>
-            <nuxt-content :document="item" />
+            <nuxt-content :document="item" /><a
+              :href="item.url"
+              class="d-inline"
+              target="_blank"
+              rel="noopener noreferrer"
+              :title="item.name"
+              >(See more).</a
+            >
           </v-col>
         </v-row>
       </v-col>

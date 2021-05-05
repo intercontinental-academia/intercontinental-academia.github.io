@@ -14,6 +14,7 @@ export default {
         .limit(1)
         .fetch()
       primary = programs[0].primary_color
+      console.log('primary: ', primary)
     },
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
