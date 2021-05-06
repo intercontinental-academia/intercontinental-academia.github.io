@@ -3,7 +3,7 @@ _: 1
 title: TIME
 date: April 17 - 29, 2015
 link: http://intercontinental-academia.ubias.net/home-sao-paulo
-website: ''
+website: http://intercontinental-academia.ubias.net/home-sao-paulo
 logo_colors:
   '2': "#F48120"
   '3': "#5BC3BE"
