@@ -15,7 +15,8 @@ wikipedia: https://de.wikipedia.org/wiki/Robert_Aumann
 title_and_institution: Economist; Professor at the Center for the Study of Rationality
   in the Hebrew University of Jerusalem; Winner of the 2005 Nobel Memorial Prize in
   Economic Sciences
-copyright: Sponge Bob, 2007
+copyright: ''
+website: ''
 
 ---
 [Aumann, R. J. (1976). Agreeing to disagree. _The annals of statistics_, 1236-1239.](https://www.jstor.org/stable/2958591?seq=1#metadata_info_tab_contents "Aumann, R. J. (1976). Agreeing to disagree. The annals of statistics, 1236-1239.")
