@@ -25,7 +25,7 @@
       />
     </template>
     <template v-for="(item, index) in mentors" v-else>
-      <people-block :key="index" :item="item"></people-block>
+      <people-block :key="index" :item="item" mentor></people-block>
     </template>
   </div>
 </template>
