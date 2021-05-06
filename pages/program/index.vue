@@ -84,8 +84,6 @@ export default {
       })
       .sortBy('start_date_and_time', 'asc')
       .fetch()
-    console.log('sessions: ', sessions)
-    console.log('programs: ', programs)
     return {
       sessions,
       programs: programs[0],

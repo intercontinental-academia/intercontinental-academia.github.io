@@ -249,15 +249,9 @@ export default {
       current.logo_colors['4'],
       current.logo_colors['5_outer_circle_color'],
     ]
-    
+    this.primary = current.primary_color
   },
-  mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-
-      setTimeout(() => this.$nuxt.$loading.finish(), 500)
-    })
-  },
+  mounted() {},
   methods: {
     onIntersect(entries, observer) {
       // More information about these options

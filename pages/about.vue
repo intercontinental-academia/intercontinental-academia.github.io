@@ -23,10 +23,8 @@
           >
             <v-avatar
               v-if="$vuetify.breakpoint.smAndUp"
-              class="my-3 mr-6"
+              class="mt-5 mr-6 "
               size="125"
-              tile
-              rounded
               :color="
                 item.image.length
                   ? 'transparent'
