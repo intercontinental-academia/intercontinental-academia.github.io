@@ -1,5 +1,5 @@
 ---
-title: The concept
+title: Concept
 subtitle_and_institution: Intercontinental academia
 
 ---
