@@ -20,3 +20,5 @@ fields:
 - name: open_in_new_tab
   type: boolean
   label: Open in new tab
+pages:
+- content/Carousel/concept.md
