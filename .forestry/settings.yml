@@ -83,6 +83,13 @@ sections:
   match: "**/*"
   templates:
   - institution
+- type: directory
+  path: content/Carousel
+  label: Carousel
+  create: all
+  match: "**/*"
+  templates:
+  - carousel-item
 upload_dir: static
 public_path: ''
 front_matter_path: ''
