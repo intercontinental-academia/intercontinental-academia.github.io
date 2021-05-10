@@ -22,4 +22,5 @@ fields:
   label: Open in new tab
 pages:
 - content/Carousel/concept.md
+- content/Carousel/fellows.md
 - content/Carousel/mentors.md
