@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Text content
+pages:
+- content/Pages_content/index.md
