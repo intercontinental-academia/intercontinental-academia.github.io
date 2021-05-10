@@ -2,7 +2,13 @@
   <div class="my-9">
     <TitleBlock
       class="mt-9"
-      :title="'THE ' + editions.length + 'TH EDITION'"
+      :title="
+        'About the ' +
+        current._ +
+        ([, 'st', 'nd', 'rd'][(current._ / 10) % 10 ^ 1 && current._ % 10] ||
+          'th') +
+        ' edition'
+      "
     ></TitleBlock>
     <v-row justify="center" class="mr-3">
       <v-col cols="12" class="px-12">
@@ -23,7 +29,7 @@
           >
             <v-avatar
               v-if="$vuetify.breakpoint.smAndUp"
-              class="mt-5 mr-6 "
+              class="mt-5 mr-6"
               size="125"
               :color="
                 item.image.length
@@ -96,8 +102,9 @@
               <span v-else class="white--text headline">{{ item.name }}</span>
             </v-avatar>
             <div class="flex-column align-content-start">
-              <div class="d-flex flex-row text-h5 font-weight-black align-center">
-                
+              <div
+                class="d-flex flex-row text-h5 font-weight-black align-center"
+              >
                 {{ item.name }}
                 <v-tooltip v-if="item.url" bottom>
                   <template #activator="{ on, attrs }">
@@ -108,9 +115,9 @@
                       :href="item.url"
                       target="_blank"
                       rel="noopener noreferrer"
-                      v-on="on"
                       :title="item.name"
                       small
+                      v-on="on"
                     >
                       <v-icon small>mdi-open-in-new</v-icon></v-btn
                     >

@@ -16,7 +16,9 @@
         :class="$vuetify.breakpoint.smAndUp ? 'text-h4' : 'text-h5'"
       >
         <div class="pb-3 mx-4">
-          {{ $vuetify.breakpoint.smAndUp ? 'INTERCONTINENTAL ACADEMIA' : 'ICA' }}
+          {{
+            $vuetify.breakpoint.smAndUp ? 'INTERCONTINENTAL ACADEMIA' : 'ICA'
+          }}
         </div>
         <div
           class="count pa-8"
@@ -44,48 +46,20 @@
       <div class="by text-h4">BY UBIAS</div>
     </div>
     <v-carousel v-model="model" cycle>
-      <v-carousel-item v-for="(color, i) in colors" :key="color">
-        <v-sheet :color="color" height="100%" tile>
-          <v-row class="fill-height" align="center" justify="center">
-            <div class="display-3">Slide {{ i + 1 }}</div>
-          </v-row>
-        </v-sheet>
+      <v-carousel-item
+        v-for="item in carousel"
+        :key="item.label"
+        :src="item.image"
+        :nuxt="!item.open_in_new_tab"
+        :blank="!item.open_in_new_tab"
+        :to="item.link"
+      >
       </v-carousel-item>
     </v-carousel>
-    <TitleBlock :title="concept.title" class="mt-6"></TitleBlock>
-    <div class="px-12">
-      <div class="text-h4 font-weight-black text-uppercase my-6">
-        {{ concept.subtitle }}
-      </div>
-      <v-row>
-        <v-col cols="12">
-          <nuxt-content id="conceptText" :document="concept" />
-        </v-col>
-      </v-row>
-    </div>
-    <v-row class="px-12">
-      <v-col v-for="(item, index) in programs" :key="item.slug" cols="12">
-        <div v-if="index < programs.length - 1">
-          <div class="d-flex mb-6">
-            <logo
-              :size="100"
-              :colors="Object.values(item.logo_colors)"
-              class="d-block"
-            />
-            <div class="flex-column align-self-center ml-6" justify="bottom">
-              <div class="text-h5 font-weight-black">
-                ICA {{ item._ }} - {{ item.title.toUpperCase() }}
-              </div>
-              <div
-                v-for="session in item.sessions"
-                :key="session.date"
-                class="font-italic"
-              >
-                {{ session.location }}: {{ session.date }}
-              </div>
-            </div>
-          </div>
-          <nuxt-content :document="item" />
+  <v-row no-gutters class="ma-12">
+      <v-col cols="12">
+        <div class="text-h4 text-center">
+          <nuxt-content :document="index" />
         </div>
       </v-col>
     </v-row>
@@ -141,10 +115,11 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const concept = await $content('Pages_content/about/concept').fetch()
     const programs = await $content('Programs').sortBy('_', 'asc').fetch()
     const current = programs[programs.length - 1]
     const testimonials = await $content('testimonials').fetch()
+    const carousel = await $content('Carousel').fetch()
+    const index = await $content('Pages_content/index').fetch()
     const logo = [
       current.logo_colors['1_inner_circle_color'],
       current.logo_colors['2'],
@@ -163,16 +138,16 @@ export default {
     })
     console.log('programs: ', programs)
     return {
-      concept,
+      index,
       programs,
       current,
       testimonials,
       logo,
+      carousel,
     }
   },
   data: () => ({
     model: 0,
-    colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
   }),
   mounted() {
     console.log('app: ', this.$vuetify.theme)

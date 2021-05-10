@@ -112,10 +112,11 @@
             slider-size="3"
             :color="$vuetify.theme.themes.light.primary"
           >
-            <v-tab nuxt to="/about" class="headline">The 4th</v-tab>
+            <v-tab nuxt to="/about" class="headline">About</v-tab>
             <v-tab nuxt to="/mentors" class="headline">Mentors</v-tab>
             <v-tab nuxt to="/fellows" class="headline">Fellows</v-tab>
             <v-tab nuxt to="/program" class="headline">Program</v-tab>
+            <v-tab nuxt to="/concept" class="headline">Concept</v-tab>
           </v-tabs>
         </v-col>
       </v-row>
@@ -214,7 +215,7 @@ export default {
         },
         {
           icon: 'mdi-numeric-4-box-multiple-outline',
-          title: 'THE 4TH',
+          title: 'ABOUT',
           to: '/about',
         },
         {
@@ -232,6 +233,11 @@ export default {
           icon: 'mdi-calendar',
           title: 'PROGRAM',
           to: '/program',
+        },
+        {
+          icon: 'mdi-calendar',
+          title: 'CONCEPT',
+          to: '/concept',
         },
       ],
       visible: false,
