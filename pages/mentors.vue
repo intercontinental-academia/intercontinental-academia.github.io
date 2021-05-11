@@ -12,7 +12,7 @@
         {{ results.length > 1 ? 'results' : 'result' }}
       </div>
       <div v-else class="overline text-h6 d-flex flex-column align-center">
-        <div>No result found mathing "{{ searchString }}"</div>
+        <div>No result found matching "{{ searchString }}"</div>
         <v-btn outlined class="mt-3" @click="searchString = ''"
           >Cancel my search</v-btn
         >
