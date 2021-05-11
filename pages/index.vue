@@ -45,7 +45,7 @@
 
       <div class="by text-h4">BY UBIAS</div>
     </div>
-    <v-carousel v-model="model" cycle>
+    <v-carousel v-model="model" cycle height="auto">
       <v-carousel-item
         v-for="item in carousel"
         :key="item.label"
@@ -54,7 +54,6 @@
         :blank="!item.open_in_new_tab"
         :to="item.link"
         :lazy-src="item.placeholder"
-        :aspect-ratio="16 / 9"
       >
       </v-carousel-item>
     </v-carousel>
