@@ -164,7 +164,7 @@
       absolute
       app
       :color="$vuetify.theme.themes.light.primary"
-      class="justify-center flex-column white--text mt-16 "
+      class="justify-center flex-column white--text mt-16"
     >
       <div class="py-4">
         <div class="d-flex justify-center">

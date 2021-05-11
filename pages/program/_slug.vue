@@ -3,9 +3,11 @@
     <TitleBlock
       :title="session.name.toUpperCase()"
       is-session
+      :is-satellite="isSatellite"
       :next="next"
       :previous="previous"
       :next-name="nextName"
+      :next-satellite="nextSatellite"
       :previous-name="previousName"
     ></TitleBlock>
     <meeting-block
@@ -59,6 +61,8 @@ export default {
       previous,
       nextName,
       previousName,
+      isSatellite: session.satellite,
+      nextSatellite: next ? sessions[index + 1].satellite : false,
     }
   },
   mounted() {},

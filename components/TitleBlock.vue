@@ -4,8 +4,8 @@
       v-if="isSession"
       class="d-flex section-title justify-space-between"
       :style="
-        'background-color: ' +
-        $vuetify.theme.themes.light.primary +
+        'background-color:' +
+        (!!isSatellite ? '#fba421' : $vuetify.theme.themes.light.primary) +
         ';width:' +
         ($vuetify.breakpoint.mdAndUp ? '50%;' : 'auto;')
       "
@@ -24,7 +24,7 @@
       v-else
       class="section-title"
       :style="
-        'background-color: ' +
+        'background-color:' +
         $vuetify.theme.themes.light.primary +
         ';width:' +
         ($vuetify.breakpoint.mdAndUp ? '50%;' : '100%;')
@@ -38,9 +38,13 @@
         class="text-h4 py-8 my-0"
         x-large
         :to="next"
-        :color="$vuetify.theme.themes.light.primary"
         nuxt
-        >{{ nextName }} <v-icon x-large>mdi-chevron-right</v-icon></v-btn
+        :style="
+          'color:' +
+          (nextSatellite ? '#fba421' : $vuetify.theme.themes.light.primary) +
+          '!important'
+        "
+        >{{ nextName }} <v-icon right x-large>mdi-chevron-right</v-icon></v-btn
       >
     </div>
     <div
@@ -102,6 +106,14 @@ export default {
       default: '',
     },
     isSession: {
+      type: Boolean,
+      default: false,
+    },
+    isSatellite: {
+      type: Boolean,
+      default: false,
+    },
+    nextSatellite: {
       type: Boolean,
       default: false,
     },
