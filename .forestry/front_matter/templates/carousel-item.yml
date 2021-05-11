@@ -12,6 +12,19 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: placeholder
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Placeholder (data URL)
+  description: Used to display a blurry version of the carousel image while it is
+    not downloaded (usually a very short time). To create one, resize the image to
+    about 60px large (with same ratio), convert it to dataUrl and paste the related
+    string in this field
 - name: link
   type: text
   config:
