@@ -1,6 +1,6 @@
 ---
 related-program: content/Programs/intelligence-and-artificial-intelligence.md
-start_date_and_time: 2021-05-11T12:45:42Z
+start_date_and_time: 2022-07-11T12:45:42Z
 name: Satellite session
 location: Belo Horizonte
 date: May 11-18, 2022
