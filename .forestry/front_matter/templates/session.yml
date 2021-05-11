@@ -67,6 +67,11 @@ fields:
     schema:
       format: markdown
   label: Image Placeholder (DataURL)
+- name: satellite
+  type: boolean
+  label: Satellite Session
+  description: 'If true, it will display the session using an alternate color in the
+    current program (i.e. # edition) of ICA'
 pages:
 - content/Sessions/ica2_1.md
 - content/Sessions/ica3-session1.md
