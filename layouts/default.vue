@@ -164,14 +164,14 @@
       absolute
       app
       :color="$vuetify.theme.themes.light.primary"
-      class="justify-center flex-column white--text mt-16"
+      class="justify-center flex-column white--text mt-16 "
     >
-      <div class="pb-8">
+      <div class="py-4">
         <div class="d-flex justify-center">
           <Contact /><PrivacyPolicy /><Credits />
         </div>
         <br />
-        <span class="mt-3 d-flex align-center text-uppercase"
+        <span class="d-flex align-center text-uppercase"
           ><v-btn
             color="white"
             text

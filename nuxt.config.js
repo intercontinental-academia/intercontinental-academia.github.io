@@ -29,6 +29,13 @@ export default {
   head: {
     titleTemplate: '%s - Intercontinental Academia',
     title: 'ICA',
+    // polyfill for intersection observer
+    script: [
+      {
+        src:
+          'https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver',
+      },
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -152,7 +159,20 @@ export default {
       },
     },
   },
-
+  /*
+   ** Page Layout transition
+   ** https://nuxtjs.org/guides/features/transitions#the-layouttransition-property
+   */
+  layoutTransition: {
+    name: 'layout',
+    mode: 'out-in',
+    beforeEnter(el) {
+      console.log('TRANSITION : Before enter...')
+    },
+    afterLeave(el) {
+      console.log('TRANSITION : afterLeave', el)
+    },
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: ['nuxt-content-highlight', '@nuxt'],

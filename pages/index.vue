@@ -54,6 +54,7 @@
         :blank="!item.open_in_new_tab"
         :to="item.link"
         :lazy-src="item.placeholder"
+        :aspect-ratio="16/9"
       >
       </v-carousel-item>
     </v-carousel>
