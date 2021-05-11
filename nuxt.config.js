@@ -96,7 +96,7 @@ export default {
    ** https://github.com/nuxt-community/sitemap-module#setup-a-sitemap
    */
   sitemap: {
-    hostname: 'https://intercontinental-academia.github.io',
+    hostname: 'https://www.intercontinental-academia.org',
     gzip: true,
     exclude: [],
     icons: [],

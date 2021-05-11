@@ -42,6 +42,7 @@
         class="white--text d-flex align-end"
         :src="item.image"
         height="500"
+        :lazy-src="item.placeholder"
       >
         <v-row class="justify-space-between pb-9">
           <v-col cols="auto" class="justify-start align-start">
