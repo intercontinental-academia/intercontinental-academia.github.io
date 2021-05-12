@@ -2,7 +2,7 @@
 firstname: Laura
 lastname: Candiotto
 image: "/laura-candiotto.jpg"
-copyright: ''
+copyright: Laura Candiotto, 2021
 title_and_institution: Alexander von Humboldt Foundation Senior Research Fellow at
   Free University of Berlin; Institute of Philosophy
 presentation: 'Laura Candiotto is a philosopher of emotion who works on the epistemology
