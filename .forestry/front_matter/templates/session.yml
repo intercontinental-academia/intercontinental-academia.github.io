@@ -73,6 +73,7 @@ fields:
   description: 'If true, it will display the session using an alternate color in the
     current program (i.e. # edition) of ICA'
 pages:
+- content/Sessions/ica1_session1-1.md
 - content/Sessions/ica1_session1.md
 - content/Sessions/ica2_1.md
 - content/Sessions/ica2_session2.md
