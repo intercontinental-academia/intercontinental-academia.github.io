@@ -2,7 +2,7 @@
 firstname: Ithai
 lastname: Rabinowitch
 image: "/ithai-rabinowitch-cropped.jpeg"
-copyright: ''
+copyright: Ithai Rabinowitch, 2021
 title_and_institution: Assistant Professor at the Faculty of Medicine of the Hebrew
   University of Jerusalem
 presentation: 'Ithai Rabinowitch is a neurobiologist and synthetic biologist, Assistant
