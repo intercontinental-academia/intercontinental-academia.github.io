@@ -1,7 +1,7 @@
 ---
 logo_background_color: "#FFFFFF"
 name: Paris IAS
-logo: "/paris-ias-logo.png"
+logo: "/variante-pastille.png"
 url: https://www.paris-iea.fr/fr/
 
 ---
