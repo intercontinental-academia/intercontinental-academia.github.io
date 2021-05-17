@@ -168,7 +168,15 @@
     >
       <div class="py-4">
         <div class="d-flex justify-center">
-          <Contact /><PrivacyPolicy /><Credits />
+          <v-btn
+            color="white"
+            text
+            v-bind="attrs"
+            href="mailto:info@intercontinental-academia.org"
+            v-on="on"
+            >Contact</v-btn
+          >
+          <PrivacyPolicy /><Credits />
         </div>
         <br />
         <span class="d-flex align-center text-uppercase"
