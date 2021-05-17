@@ -3,7 +3,7 @@ millesime: '3'
 first_name: V V
 last_name: Binoy
 picture: "/vv-binoy.jpg"
-Title_and_institution: Assistant Professor, National Institute of Advanced Studies
+title_and_institution: Assistant Professor, National Institute of Advanced Studies
   (NIAS), Bangalore, India
 
 ---
