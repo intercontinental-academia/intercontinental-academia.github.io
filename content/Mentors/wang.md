@@ -3,20 +3,23 @@ firstname: Xiao-Jing
 lastname: Wang
 image: "/wang.jpg"
 copyright: ''
-title_and_institution: Computational neuroscientist; Associate Vice Chancellor for
-  Research at NYU Shanghai; Professor of Neural Science at New York University
-presentation: 'Xiao-Jing Wang is a computational neuroscientist, expert on the neurobiology
-  of executive and cognitive functions. Known for pioneering neural-circuit models
-  of the prefrontal cortex, he is now applying findings on short-term memory, decision-making,
-  communication, and synchronization through inhibitory neurons to develop neurobiologically-realistic
-  large-scale brain circuit models of cognitively controlled flexible behavior. In
-  2017, he was awarded the Swartz Prize for Theoretical and Computational Neuroscience,
-  in 2018 the Goldman-Rakic Prize for Outstanding Achievement in Cognitive Neuroscience.
-  He is Associate Vice Chancellor for Research at NYU Shanghai, and Professor of Neural
-  Science at New York University. '
+title_and_institution: 'Computational neuroscientist; Distinguished Global Professor
+  of Neural Science at New York University '
+presentation: 'Xiao-Jing Wang is Distinguished Global Professor of Neural Science,
+  director of the Swartz Center for Theoretical Neuroscience at New York University.
+  Previously he was Professor at Brandeis University and Yale University School of
+  Medicine. Dr. Wang’s research focuses on theory and neural mechanisms of cognitive
+  functions such as working memory and decision-making, with a special interest in
+  the prefrontal cortex (often called the “CEO of the brain”). More recently, his
+  group developed biologically-based modeling of large-scale brain circuits. His work
+  bridges neurobiology, cognitive science and AI in the areas of training recurrent
+  neural networks to perform many cognitive tasks and learning to learn. He was awarded
+  the Swartz Prize for Theoretical and Computational Neuroscience in 2017 and the
+  Goldman-Rakic Prize for Outstanding Achievement in Cognitive Neuroscience in 2018. '
 linkedin: https://www.linkedin.com/in/xiao-jing-wang-960127b7/
 twitter: ''
 wikipedia: ''
+website: ''
 
 ---
 [Wang, X. J. (2010). Neurophysiological and computational principles of cortical rhythms in cognition. Physiological reviews, 90(3), 1195-1268.](https://journals.physiology.org/doi/pdf/10.1152/physrev.00035.2008 "Wang, X. J. (2010). Neurophysiological and computational principles of cortical rhythms in cognition. Physiological reviews, 90(3), 1195-1268.")
