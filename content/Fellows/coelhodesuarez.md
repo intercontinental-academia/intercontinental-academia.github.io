@@ -1,7 +1,7 @@
 ---
 firstname: Patricia
-lastname: Coelho de Suarez
-image: ''
+lastname: Coelho de Soarez
+image: "/patricia-soarez.jpeg"
 copyright: ''
 title_and_institution: Associate Professor at the Department of Preventive Medicine
   at University of São Paulo
