@@ -12,8 +12,8 @@ presentation: 'Philippe Aghion is an expert in the economics of growth and in co
   2020. He is a Professor at the College de France and at the London School of Economics,
   and a fellow of the Econometric Society and of the American Academy of Arts and
   Sciences.  '
-twitter: jhblhbkujkjn
-linkedin: jhbkjhilnkjn
+twitter: ''
+linkedin: https://www.linkedin.com/in/philippe-aghion-49385447/
 wikipedia: https://en.wikipedia.org/wiki/Philippe_Aghion
 title_and_institution: Economist; Professor at College de France and at London School
   of Economics
