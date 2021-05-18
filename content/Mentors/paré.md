@@ -18,6 +18,7 @@ presentation: 'Zaven Paré is a new media artist and an expert in robotics, inte
 linkedin: https://www.linkedin.com/in/zavenp/
 twitter: https://twitter.com/zavenpare
 wikipedia: https://en.wikipedia.org/wiki/Zaven_Paré
+website: http://www.zavenpare.com
 
 ---
 [Grimaud, E., & Paré, Z. (2011). Le jour où les robots mangeront des pommes. _Petra, Paris_.](https://www.researchgate.net/profile/Zaven-Pare/publication/321020299_Le_jour_ou_les_robots_mangeront_des_pommes_Paris_Petra_2011/links/5a08b99f4585157013a7626a/Le-jour-ou-les-robots-mangeront-des-pommes-Paris-Petra-2011.pdf "Grimaud, E., & Paré, Z. (2011). Le jour où les robots mangeront des pommes. Petra, Paris.")
