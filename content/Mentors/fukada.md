@@ -17,7 +17,8 @@ presentation: 'Toshio Fukada is a world-leading researcher in robotics, with spe
   President-Elect of the Institute of Electrical and Electronics Engineers. '
 linkedin: ''
 twitter: ''
-wikipedia: http://www.toshiofukuda.org
+wikipedia: ''
+website: http://www.toshiofukuda.org
 
 ---
 [Fukuda, T., Shibata, T., Tokita, M., & Mitsuoka, T. (1992). Neuromorphic control: Adaptation and learning. _IEEE Transactions on Industrial Electronics_, _39_(6), 497-503.](https://ieeexplore.ieee.org/document/170968 "Fukuda, T., Shibata, T., Tokita, M., & Mitsuoka, T. (1992). Neuromorphic control: Adaptation and learning. IEEE Transactions on Industrial Electronics, 39(6), 497-503.") 
