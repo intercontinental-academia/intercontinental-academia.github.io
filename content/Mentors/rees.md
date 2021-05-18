@@ -17,9 +17,10 @@ presentation: 'Martin Rees (Lord Rees of Ludlow, OM FRS) is an astrophysicist an
   and the impact of powerful recent technologies. He co-founded the Centre for the
   Study of Existential Risk (CSER) at the University of Cambridge with a focus on
   these issues.  '
-linkedin: https://www.martinrees.uk
+linkedin: ''
 twitter: https://twitter.com/LordMartinRees
 wikipedia: https://en.wikipedia.org/wiki/Martin_Rees
+website: https://www.martinrees.uk
 
 ---
 [Rees, M., & Hawking, S. (1997). _Before the beginning: our universe and others_. Helix books.](https://catalogue.library.cern/literature/r7gvh-5tv54 "Rees, M., & Hawking, S. (1997). Before the beginning: our universe and others. Helix books.")
