@@ -67,3 +67,5 @@ fields:
     label: 5 Outer circle color
   label: Logo colors
   description: Colors used to generate the ICA logo
+pages:
+- content/Programs/the-satellite-event-intelligence-and-artificial-intelligence.md
