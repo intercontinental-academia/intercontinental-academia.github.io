@@ -14,11 +14,12 @@ presentation: 'Antonio Damasio is a neurologist and neuroscientist, expert in th
   Damasio is David Dornsife Chair, Professor of Neuroscience, Psychology, and Philosophy,
   as well as Director of the Brain and Creativity Institute at the University of Southern
   California, Los Angeles. '
-linkedin: https://t.co/YigylXcx3W?amp=1
+linkedin: ''
 twitter: https://twitter.com/damasiousc
 wikipedia: https://de.wikipedia.org/wiki/António_Damásio
 image_copyright_owner: Sponge Bob
 copyright: ''
+website: https://www.antoniodamasio.com
 
 ---
 [Damasio, A. R. (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. _Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences_, _351_(1346), 1413-1420. ](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.1996.0125 "Damasio, A. R. (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, 351(1346), 1413-1420. ")
