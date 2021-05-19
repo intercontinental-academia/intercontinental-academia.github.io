@@ -27,11 +27,7 @@
             LightenDarkenColor($vuetify.theme.themes.light.primary, -30)
           "
         >
-          {{ current._
-          }}{{
-            [, 'st', 'nd', 'rd'][(current._ / 10) % 10 ^ 1 && current._ % 10] ||
-            'th'
-          }}
+          #{{ current._ }}
         </div>
       </div>
 
@@ -57,9 +53,9 @@
       >
       </v-carousel-item>
     </v-carousel>
-    <v-row no-gutters class="ma-12">
-      <v-col cols="12">
-        <div class="text-h4 text-center">
+    <v-row no-gutters class="ma-12" justify="center">
+      <v-col cols="12" md="8">
+        <div class="text-h5 py-6 text-justify">
           <nuxt-content :document="index" />
         </div>
       </v-col>
