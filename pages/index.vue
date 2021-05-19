@@ -69,7 +69,7 @@
           :show-arrows="testimonials.length > 1"
           continuous
           height="auto"
-          interval="10000"
+          interval="20000"
         >
           <v-carousel-item v-for="item in testimonials" :key="item.slug">
             <div
