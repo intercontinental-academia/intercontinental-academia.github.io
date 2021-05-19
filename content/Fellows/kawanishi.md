@@ -1,5 +1,5 @@
 ---
-firstname: Yasumoto
+firstname: Yasutomo
 lastname: Kawanishi
 image: "/yasumoto-kawanishi.jpeg"
 copyright: Yasumoto Kawanishi, 2021
