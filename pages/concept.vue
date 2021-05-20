@@ -23,6 +23,24 @@
             <div class="flex-column align-self-center ml-6" justify="bottom">
               <div class="text-h5 font-weight-black">
                 ICA {{ item._ }} - {{ item.title.toUpperCase() }}
+                <v-tooltip v-if="item.website" bottom>
+                  <template #activator="{ on, attrs }">
+                    <v-btn
+                      text
+                      icon
+                      v-bind="attrs"
+                      :href="item.website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      :title="item.title"
+                      small
+                      v-on="on"
+                    >
+                      <v-icon small>mdi-open-in-new</v-icon></v-btn
+                    >
+                  </template>
+                  <span>Visit the website of ICA {{ item._ }} - {{ item.title }}</span>
+                </v-tooltip>
               </div>
               <div
                 v-for="session in item.sessions"
