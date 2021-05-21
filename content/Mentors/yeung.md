@@ -3,7 +3,7 @@ firstname: Karen
 lastname: Yeung
 image: "/yeung.jpg"
 copyright: ''
-title_and_institution: Interdisciplinary Professorial Fellow in Law, Ethics and Informatics
+title_and_institution: Interdisciplinary Professorial Fellow in Law, Ethics, and Informatics
   at the University of Birmingham
 presentation: 'Karen Yeung’s research has been at the forefront of understanding the
   challenges associated with the regulation and governance of emerging technologies.
