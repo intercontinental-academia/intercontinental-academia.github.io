@@ -7,19 +7,19 @@ title_and_institution: Interdisciplinary Professorial Fellow in Law, Ethics, and
   at the University of Birmingham
 presentation: 'Karen Yeung’s research has been at the forefront of understanding the
   challenges associated with the regulation and governance of emerging technologies.
-  Her work particularly focuses on the legal, ethical, social, and democratic implications
-  of a suite of technologies associated with automation and the ‘computational turn,’
-  including big data analytics, artificial intelligence (including various forms of
-  machine learning), distributed ledger technologies (including blockchain) and robotics.
-  She is actively involved in several technology policy and related initiatives at
-  the national, European, and international levels, including the UN’s Global Judicial
-  Integrity Network and as a former member of the EU High Level Expert Group on AI
-  and the Council of Europe’s Expert Committee on human rights dimensions of automated
-  data processing and different forms of artificial intelligence (MSI-AUT). Karen
-  occupies several strategic and advisory roles for various non-profit organizations
-  and research programs concerned with responsible governance of technology. She is
-  on the editorial boards of the Modern Law Review, Big Data & Society, Public Law
-  and Technology and Regulation. '
+  Her recent and on-going work particularly focuses on the legal, ethical, social,
+  and democratic implications of a suite of technologies associated with automation
+  and the ‘computational turn,’ including big data analytics, artificial intelligence
+  (including various forms of machine learning), distributed ledger technologies (including
+  blockchain) and robotics. She is actively involved in several technology policy
+  and related initiatives at the national, European, and international levels, including
+  the UN’s Global Judicial Integrity Network and as a former member of the EU High
+  Level Expert Group on AI and the Council of Europe’s Expert Committee on human rights
+  dimensions of automated data processing and different forms of artificial intelligence
+  (MSI-AUT). Karen occupies several strategic and advisory roles for various non-profit
+  organizations and research programs concerned with responsible governance of technology.
+  She is on the editorial boards of the Modern Law Review, Big Data & Society, Public
+  Law and Technology and Regulation. '
 linkedin: ''
 twitter: ''
 wikipedia: ''
