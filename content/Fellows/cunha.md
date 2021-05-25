@@ -2,7 +2,7 @@
 firstname: Evandro
 lastname: Cunha
 image: "/evandro-cunha.jpg"
-copyright: ''
+copyright: Evandro Cunha, 2021
 title_and_institution: 'Professor at the Faculty of Letters of the Federal University
   of Minas Gerais (UFMG) '
 presentation: 'Evandro L. T. P. Cunha is a computational linguist interested in computer-mediated
