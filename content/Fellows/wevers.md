@@ -1,7 +1,7 @@
 ---
 firstname: Melvin
 lastname: Wevers
-image: ''
+image: "/melvin-wevers.jpg"
 copyright: ''
 title_and_institution: Assistant Professor in Urban History and Digital Methods at
   University of Amsterdam
