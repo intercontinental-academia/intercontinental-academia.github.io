@@ -1,10 +1,12 @@
 ---
 related-program: content/Programs/laws-rigidity-and-dynamics.md
-start_date_and_time: 2018-03-18T23:00:00Z
+start_date_and_time: 2018-08-31T22:00:00Z
 name: Session 2
-location: Birmingham
-date: 'March 19-27, 2019 '
+location: Munich
+date: 'September 2018 '
 link: https://www.icalaws.com/
 image: ''
+placeholder: ''
+satellite: false
 
 ---

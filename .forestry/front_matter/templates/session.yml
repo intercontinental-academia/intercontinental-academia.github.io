@@ -73,6 +73,8 @@ fields:
   description: 'If true, it will display the session using an alternate color in the
     current program (i.e. # edition) of ICA'
 pages:
+- content/Sessions/ICA3_session3.md
+- content/Sessions/ICA3_session4.md
 - content/Sessions/ica1_session1-1.md
 - content/Sessions/ica1_session1.md
 - content/Sessions/ica2_1.md
@@ -81,6 +83,5 @@ pages:
 - content/Sessions/ica3-session1.md
 - content/Sessions/ica3_2.md
 - content/Sessions/opening-session.md
-- content/Sessions/satellite.md
 - content/Sessions/session-1.md
 - content/Sessions/session-2.md

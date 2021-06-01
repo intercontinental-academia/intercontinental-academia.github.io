@@ -4,7 +4,7 @@ lastname: Paré
 image: "/pare.jpg"
 copyright: ''
 title_and_institution: 'New media artist an expert in robotics; collaborator of the
-  Graduate Program in Arts, Culture and Languages da Universidade Federal de Juiz
+  Graduate Program in Arts, Culture and Languages at Universidade Federal de Juiz
   de Fora (IAD/UFJF) '
 presentation: " Zaven Paré is a new media artist and an expert in robotics, internationally
   known for his artwork on electronic marionettes and robots. He designed his first

@@ -3,19 +3,18 @@ firstname: 'William '
 lastname: Hopkins
 image: "/hopkins.jpg"
 copyright: ''
-title_and_institution: Professor of Neuroscience at Georgia State University; Associate
-  Scientist in the Division of Developmental and Cognitive Neuroscience at the Yerkes
-  National Primate Research Center; Co-Director of National Chimpanzee Brain Resource
-  (NCBR); President of the Ape Cognition and Conservation Initiative (ACCI)
+title_and_institution: 'Professor of Comparative Medicine and Director, Michale E
+  Keeling Center for Comparative Medicine and Research; Co-Director, National Chimpanzee
+  Brain Resource '
 presentation: 'William Hopkins is a developmental and comparative psychologist who
-  has made referential contributions to research on cognition, behavior, and the brain
-  of primates. His behavioral research in chimpanzees has been focused on gestural
-  and vocal communication, particularly the functional use of communicative signals
-  in chimpanzees. He is Professor of Neuroscience at Georgia State University and
-  Associate Scientist in the Division of Developmental and Cognitive Neuroscience
-  at the Yerkes National Primate Research Center. He is also Co-Director of National
-  Chimpanzee Brain Resource (NCBR) and President of the Ape Cognition and Conservation
-  Initiative (ACCI). '
+  has made significant contributions to research on cognition and the brain in primates
+  with a particular focus on the evolution of neural systems underlying language and
+  communication in chimpanzees and other great apes.  He also uses quantitative genetic
+  analyses to explore the co-evolution of different cognitive and brain systems in
+  chimpanzees and other primates.   He is currently Chair of the Department of Comparative
+  Medicine at the MD Anderson Cancer Center and a Blaise-Pascal laureate at Paris-Saclay
+  Université and a former fellow at the Institute for Advanced Studies, Universite
+  Aix-Marseille. '
 linkedin: ''
 twitter: ''
 wikipedia: ''

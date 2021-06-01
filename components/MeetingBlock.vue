@@ -103,7 +103,7 @@ export default {
   },
   updated() {},
   methods: {
-    highlight: (word, query) => {
+    highlight: (word = '', query) => {
       const check = new RegExp(query, 'ig')
       return word.replace(check, function (matchedText, a, b) {
         return (
