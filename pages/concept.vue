@@ -76,7 +76,7 @@ export default {
         .sortBy('start_date_and_time', 'asc')
         .fetch()
     })
-    console.log('programs: ', programs)
+
     return {
       concept,
       programs,

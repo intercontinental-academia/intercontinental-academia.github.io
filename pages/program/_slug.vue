@@ -21,7 +21,6 @@
 <script>
 export default {
   async asyncData({ app, $content, params }) {
-    console.log('params: ', params)
     const program = await $content('Programs')
       .sortBy('_', 'desc')
       .limit(1)
@@ -36,9 +35,6 @@ export default {
 
     const session = sessions.find((item) => item.slug === params.slug)
     const index = sessions.findIndex((item) => item.slug === params.slug)
-    console.log('index: ', index)
-
-    console.log('session: ', session)
 
     const meetings = await $content('Meetings')
       .where({

@@ -133,7 +133,7 @@ export default {
         .sortBy('start_date_and_time', 'asc')
         .fetch()
     })
-    console.log('programs: ', programs)
+
     return {
       index,
       programs,
@@ -146,9 +146,7 @@ export default {
   data: () => ({
     model: 0,
   }),
-  mounted() {
-    console.log('app: ', this.$vuetify.theme)
-  },
+  mounted() {},
   methods: {
     LightenDarkenColor(col, amt) {
       let usePound = false

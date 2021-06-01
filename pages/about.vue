@@ -177,7 +177,7 @@ export default {
       .sortBy('slug', 'asc')
       .fetch()
     const current = editions[editions.length - 1]
-    console.log('editions: ', editions)
+
     return {
       concept,
       editions,
