@@ -39,7 +39,10 @@
                       <v-icon small>mdi-open-in-new</v-icon></v-btn
                     >
                   </template>
-                  <span>Visit the website of ICA {{ item._ }} - {{ item.title }}</span>
+                  <span
+                    >Visit the website of ICA {{ item._ }} -
+                    {{ item.title }}</span
+                  >
                 </v-tooltip>
               </div>
               <div

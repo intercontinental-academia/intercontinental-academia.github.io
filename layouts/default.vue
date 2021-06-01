@@ -171,9 +171,7 @@
           <v-btn
             color="white"
             text
-            v-bind="attrs"
             href="mailto:info@intercontinental-academia.org"
-            v-on="on"
             >Contact</v-btn
           >
           <PrivacyPolicy /><Credits />

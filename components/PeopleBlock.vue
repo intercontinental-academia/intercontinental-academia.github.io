@@ -69,6 +69,24 @@
           </template>
           <span>Follow this {{ mentor ? 'mentor' : 'fellow' }} on Twitter</span>
         </v-tooltip>
+        <v-tooltip v-if="item.website" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              :href="item.website"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>mdi-link-variant</v-icon></v-btn
+            >
+          </template>
+          <span
+            >Check this {{ mentor ? 'mentor' : 'fellow' }} personal
+            website</span
+          >
+        </v-tooltip>
       </div>
     </v-col>
     <v-col cols="12" md="8">
