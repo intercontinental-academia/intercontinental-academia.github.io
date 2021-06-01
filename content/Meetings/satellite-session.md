@@ -5,8 +5,7 @@ title: Satellite Session
 date: June 5-8
 time: ''
 apply_link: 'yes'
-attachements:
-- "/6990120326_f30f999715_o.jpg"
+attachements: []
 youtube_video_id: ''
 public: true
 side_event_name: ''
