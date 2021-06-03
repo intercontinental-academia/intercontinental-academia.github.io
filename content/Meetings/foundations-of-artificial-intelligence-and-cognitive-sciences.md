@@ -18,6 +18,6 @@ Location: Zoom
 10 min break  
 Questions by selected fellows to the panel Public discussion
 
-3:30pm – 4:30pm
+**3:30pm – 4:30pm**
 
 fellows debrief
