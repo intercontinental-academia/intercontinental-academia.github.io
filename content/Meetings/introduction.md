@@ -14,10 +14,6 @@ youtube_video_id: ''
 public: false
 
 ---
-June 13 (1:30pm- 4pm) 
-
-Hello
-
 Location: tba
 
 Presentation of ICA by Eliezer Rabinovici (7-8mn)  
