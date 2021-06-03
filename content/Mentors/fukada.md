@@ -1,12 +1,12 @@
 ---
 firstname: Toshio
-lastname: Fukada
+lastname: Fukuda
 image: "/fukada.png"
 copyright: ''
 title_and_institution: Professor at the Beijing Institute for Technology; Emeritus
   professor at Nagoya University; 2019 President-Elect of the Institute of Electrical
   and Electronics Engineers
-presentation: 'Toshio Fukada is a world-leading researcher in robotics, with special
+presentation: 'Toshio Fukuda is a world-leading researcher in robotics, with special
   interest in intelligent robotic systems, micro-nano robotics, bio-robotic system
   and neuromorphic intelligent control. Among his greatest achievements are the development
   of continuous movement in robots and his pioneering microrobotics technology that
