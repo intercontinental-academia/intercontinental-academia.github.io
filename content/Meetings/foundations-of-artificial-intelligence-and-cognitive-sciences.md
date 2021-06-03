@@ -16,7 +16,9 @@ Location: Zoom
 
 3x20 min presentations by mentors  
 10 min break  
-Questions by selected fellows to the panel Public discussion
+Questions by selected fellows to the panel 
+
+Public discussion
 
 **3:30pm – 4:30pm**
 
