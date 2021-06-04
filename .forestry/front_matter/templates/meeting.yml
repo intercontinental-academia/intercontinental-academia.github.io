@@ -80,6 +80,7 @@ fields:
     value: true
 pages:
 - content/Meetings/foundations-of-artificial-intelligence-and-cognitive-sciences.md
+- content/Meetings/interdisciplinary-exploration-of-artificial-intelligence.md
 - content/Meetings/introduction.md
 - content/Meetings/presentations-of-the-a-team.md
 - content/Meetings/satellite-session.md
