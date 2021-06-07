@@ -1,8 +1,8 @@
 ---
 firstname: Benjamin
 lastname: Guedj
-image: ''
-copyright: ''
+image: "/bguedj.jpg"
+copyright: Benjamin Guedj, 2021
 title_and_institution: Research Scientist at Inria (France), Principal Research Fellow
   at Centre for AI at University College London
 presentation: 'Benjamin Guedj is a senior researcher in machine learning, based in
