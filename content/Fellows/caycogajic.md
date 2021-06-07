@@ -3,8 +3,8 @@ firstname: Alex
 lastname: Cayco Gajic
 image: ''
 copyright: ''
-title_and_institution: Junior Professor for Applied Mathematics at École Normale Supérieure
-  in Paris
+title_and_institution: Junior Professor in the Département d’Etudes Cognitives at
+  École Normale Supérieure in Paris
 presentation: 'Natasha Alex Cayco Gajic is a neuroscientist who works on recurrent
   neural networks (RNNs) in flexible learning. She is junior professor at École Normale
   Supérieure in Paris, where she is in the Group for Neural Theory at the Laboratory
