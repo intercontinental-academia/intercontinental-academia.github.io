@@ -15,8 +15,8 @@ presentation: 'Benjamin Guedj is a senior researcher in machine learning, based 
   and applications. In line with his long-term project to integrate semantical representations
   into the mathematical framework of learning to make AI more like human intelligence,
   he proposes to discuss semantic-aware, data-frugal learning at ICA4. '
-linkedin: ''
-twitter: ''
+linkedin: https://www.linkedin.com/in/benjaminguedj/
+twitter: https://twitter.com/bguedj
 wikipedia: ''
 website: https://bguedj.github.io/
 
