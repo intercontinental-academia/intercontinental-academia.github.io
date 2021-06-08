@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-14T11:30:21Z
-name: Foundations of artificial intelligence and cognitive sciences
+title: Foundations of artificial intelligence and cognitive sciences
 date: June 14th
 time: 1:30pm-3:30pm
 apply_link: ''
@@ -9,14 +9,22 @@ attachements: []
 youtube_video_id: ''
 public: false
 side_event_name: ''
+name: Foundations of Artificial Intelligence and cognitive sciences
 
 ---
-Mentors: Jack Copeland (video), Oron Shagrir, Shimon Ullman Moderator: Raouf Boucekkine  
+Mentored by Jack Copeland (pre-registered video), Oron Shagrir, Shimon Ullman 
+
+Moderated by Raouf Boucekkine  
 Location: Zoom
 
-3x20 min presentations by mentors  
-10 min break  
-Questions by selected fellows to the panel                                     Public discussion
+_AI and cognitive sciences look toward each other for inspiration. Considering paradigm shifts in both AI and cognitive sciences, cooperation between these scientific disciplines should be aware of the limitations that operating within a specific paradigm brings. This event will explore the history of AI, the applications of neuroscience within AI and vice-versa._
+
+Topic guide:
+
+1. 3x20 min presentations by mentors
+2. 10 min break
+3. Questions by selected fellows to the panel                                    
+4. Public discussion
 
 **3:30pm – 4:30pm**
 
