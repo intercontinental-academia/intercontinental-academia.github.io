@@ -3,7 +3,7 @@ related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-14T11:30:21Z
 title: Foundations of artificial intelligence and cognitive sciences
 date: June 14th
-time: 1:30pm-3:30pm
+time: '1:30pm-3:30pm:'
 apply_link: ''
 attachements: []
 youtube_video_id: ''
