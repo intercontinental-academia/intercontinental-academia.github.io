@@ -39,3 +39,14 @@ export const LightenDarkenColor = (col, amt) => {
     String('000000' + (g | (b << 8) | (r << 16)).toString(16)).slice(-6)
   )
 }
+export const _srcset = function (ctx, src) {
+  console.log('calling src set', src)
+  return ctx.$img.getSizes(src, {
+    sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
+    modifiers: {
+      format: 'webp',
+      quality: 70,
+      height: 160,
+    },
+  })
+}

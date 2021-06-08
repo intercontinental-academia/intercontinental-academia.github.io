@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/session-2.md
 start_date_and_time: 2022-06-05T13:56:02Z
-title: Satellite Session
+name: Satellite Session
 date: June 5-8
 time: ''
 apply_link: 'https://www.ufmg.br/ieat/iai/'

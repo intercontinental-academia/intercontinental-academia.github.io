@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-18T11:30:14Z
-title: Robots and emotions
+name: Robots and emotions
 date: June 18th
 time: 1:30pm-3:30pm
 apply_link: ''

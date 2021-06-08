@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-15T11:29:29Z
-title: Interdisciplinary exploration of artificial intelligence
+name: Interdisciplinary exploration of artificial intelligence
 date: June 15th
 time: 1:30pm-3:30pm
 apply_link: ''

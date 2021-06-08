@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-16T11:30:29Z
-title: Intelligence and rationality
+name: Intelligence and rationality
 date: June 16th
 time: 1:30pm-3:30pm
 apply_link: ''

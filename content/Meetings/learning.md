@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-17T14:30:53Z
-title: Learning
+name: Learning
 date: June 17th
 time: 4:30pm-6:30pm
 apply_link: ''

@@ -1,7 +1,7 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-18T14:30:50Z
-title: Wrap up
+name: Wrap up
 date: June 18th
 time: 4:30pm-5:30pm
 apply_link: ''
