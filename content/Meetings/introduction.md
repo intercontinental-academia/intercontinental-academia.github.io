@@ -16,10 +16,13 @@ public: false
 ---
 Location: tba
 
-Presentation of ICA by Eliezer Rabinovici (7-8mn)  
-Presentation of ICA4 by Raouf Boucekkine (7-8mn)  
-Presentation of Paris and Belo Horizonte by Saadi Lahlou and Estevam Las Casas (5+5mn)  
-Presentation by fellows (3mn each -> 60mn)  
-Presentation of ICA alumni by Sue Gilligan (5mn)  
-Presentation of the team, website, Slack, VR environment (10mn)  
-Q&A on the functioning of ICA4 (20mn)
+_The chairs of the Intercontinental Academia 4 and the steering committee welcome fellows and introduce the planning for the next days. One hour will be dedicated to presentations by fellows, who will each give a brief outlook on their research proposal for ICA4. Finally, there will be time to ask questions and go through specificities of the planning._
+
+Topic guide:
+
+1. Presentation of ICA by Eliezer Rabinovici and Raouf Boucekkine, co-chairs of ICA.
+2. Presentation of IEA Paris by Saadi Lahlou and IEAT Belo Horizonte by Estevam Las Casas, Directors of the institutes.
+3. Presentation by fellows (3mn each -> 60mn)
+4. Presentation of the ICA alumni programme by Sue Gilligan from the University of Birmingham.
+5. Presentation of the team, website, Slack, VR environment.
+6. Q&A on the functioning of ICA4.
