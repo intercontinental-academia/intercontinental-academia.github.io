@@ -12,7 +12,7 @@ side_event_name: ''
 name: Interdisciplinary exploration of Artificial Intelligence
 
 ---
-Mentored by Philippe Aghion, Marc Mézard, Karen Yeung 
+Mentored by Philippe Aghion, Marc Mézard, Karen Yeung
 
 Moderated by Saadi Lahlou  
 Location: Teemew
@@ -23,7 +23,7 @@ Topic guide:
 
 1. 3x20 min presentations by mentors
 2. 10 min break
-3. Questions by selected fellows to the panel                                    
+3. Questions by selected fellows to the panel
 4. Public discussion
 
 **3:30pm – 4:30pm**
