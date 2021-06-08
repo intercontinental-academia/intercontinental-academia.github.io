@@ -2,7 +2,7 @@
 related-session: content/Sessions/opening-session.md
 name: Introduction
 date: June 13th
-time: 1:30pm-4pm.
+time: '1:30pm-4pm:'
 description: ''
 apply_link: ''
 attachements: []
