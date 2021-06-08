@@ -1,22 +1,30 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-18T11:30:14Z
-name: Robots and emotions
+title: Robots and emotions
 date: June 18th
-time: 1:30pm-3:30pm
+time: '1:30pm-3:30pm:'
 apply_link: ''
 attachements: []
 youtube_video_id: ''
 public: false
 side_event_name: ''
+name: Robots and emotions
 
 ---
-Mentors: Toshio Fukuda, Zaven Paré, Antonio Damasio Moderator: Saadi Lahlou (tbc)  
+Mentored by Toshio Fukuda, Zaven Paré, Antonio Damasio 
+
+Moderated by Saadi Lahlou (tbc)  
 Location: tba
 
-3x20 min presentations by mentors  
-10 min break  
-Questions by selected fellows to the panel                                     Public discussion
+_Emotions could be seen as the opposite of rationality. Yet, both emotions and rationality are part of the construct of intelligence, at least in humans. This session will look at emotions in decision-making and ask the question of just how human-like robots’ emotions can become._
+
+Topic guide:
+
+1. 3x20 min presentations by mentors
+2. 10 min break
+3. Questions by selected fellows to the panel                                    
+4. Public discussion
 
 **3:30pm-4:30pm**
 
