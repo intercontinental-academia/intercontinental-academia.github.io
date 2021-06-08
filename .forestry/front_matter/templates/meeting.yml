@@ -15,7 +15,7 @@ fields:
       path: 
   label: Related Session
   description: Which session this meeting is related to?
-- name: title
+- name: name
   type: text
   config:
     required: false
