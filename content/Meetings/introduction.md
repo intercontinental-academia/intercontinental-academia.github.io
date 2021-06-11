@@ -14,7 +14,7 @@ youtube_video_id: ''
 public: false
 
 ---
-Location: tba
+Location: Zoom
 
 _The chairs of the Intercontinental Academia 4 and the steering committee welcome fellows and introduce the planning for the next days. One hour will be dedicated to presentations by fellows, who will each give a brief outlook on their research proposal for ICA4. Finally, there will be time to ask questions and go through specificities of the planning._
 
