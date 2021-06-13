@@ -14,8 +14,8 @@ name: Robots and emotions
 ---
 Mentored by Toshio Fukuda and Zaven Paré
 
-Moderated by Saadi Lahlou (tbc)  
-Location: tba
+Moderated by Saadi Lahlou  
+Location: Zoom
 
 _Emotions could be seen as the opposite of rationality. Yet, both emotions and rationality are part of the construct of intelligence, at least in humans. This session will look at emotions in decision-making and ask the question of just how human-like robots’ emotions can become._
 
