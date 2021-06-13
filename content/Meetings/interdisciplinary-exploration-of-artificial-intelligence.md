@@ -15,7 +15,7 @@ name: Interdisciplinary exploration of Artificial Intelligence
 Mentored by Philippe Aghion, Marc Mézard, Karen Yeung
 
 Moderated by Saadi Lahlou  
-Location: Teemew
+Location: Zoom
 
 _The growing importance of applied AI in our everyday lives poses ethical, political, and juridical dilemmas. The question of whether AI will save economic growth is not answered by yes or no. This event will approach AI from a policy and government angle to navigate the current and future political climate around AI._
 
