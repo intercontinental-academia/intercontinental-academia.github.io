@@ -14,7 +14,9 @@ presentation: 'Laureate of the 2017 L’Oréal UNESCO for women in science Frenc
   blockchain-based solutions for drone systems. She is very active in the fight for
   gender equality and especially in promoting women''s participation in science. In
   this context, she is ambassadress of the L''Oréal Foundation "For Girls in Science"
-  program and member of the "Elles Bougent" association. '
+  program and member of the "Elles Bougent" association. For ICA4, she wants to answer
+  the following question: How to tackle open problems related to the economy of Decentralised
+  EXchanges using rational agents?'
 linkedin: ''
 twitter: ''
 wikipedia: ''
