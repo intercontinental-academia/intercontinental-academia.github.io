@@ -12,9 +12,9 @@ side_event_name: ''
 name: Learning
 
 ---
-Mentored by Xiao-Jing Wang, Robert Zatorre, James McClelland 
+Mentored by Xiao-Jing Wang, Robert Zatorre, James McClelland
 
-Moderated by Estevam LasCasas (tbc)  
+Moderated by Estevam LasCasas  
 Location: Zoom
 
 _The ability to learn from different types of input is seen as a fundamental characteristic of intelligence. Both humans and machines can learn, but the inputs they use are not quite the same. Exploring learning in humans is fundamental to figuring out how intelligence emerges and adapts to changes._
@@ -23,7 +23,7 @@ Topic guide:
 
 1. 3x20 min presentations by mentors
 2. 10 min break
-3. Questions by selected fellows to the panel                                    
+3. Questions by selected fellows to the panel
 4. Public discussion
 
 **6:30pm – 7:30pm**
