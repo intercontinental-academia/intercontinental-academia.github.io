@@ -1,5 +1,5 @@
 ---
-logo_background_color: "#FFFFFF"
+logo_background_color: ''
 name: Rennes School of Business
 logo: "/screenshot-2021-06-30-at-16-50-54.png"
 url: https://www.rennes-sb.com
