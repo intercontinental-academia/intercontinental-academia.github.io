@@ -54,6 +54,7 @@ fields:
   label: Website
   description: The person personal website or page
 pages:
+- content/Chairs/bouin.md
 - content/Chairs/lahlou.md
 - content/Chairs/rabinovici.md
 - content/Fellows/candiotto.md
