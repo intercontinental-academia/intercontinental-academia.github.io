@@ -1,6 +1,7 @@
 ---
 firstname: Raouf
 lastname: Boucekkine
+order: 2
 image: "/boucekkine-1.jpg"
 title_and_institution: Professor, Rennes School of Business & Aix-Marseille School
   of Economics

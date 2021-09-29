@@ -2,6 +2,7 @@
 firstname: Saadi
 lastname: Lahlou
 image: "/lahlousaadi.jpg"
+order: 3
 copyright: ''
 title_and_institution: Director, Paris Institute for Advanced Study, Professor London
   School of Economics

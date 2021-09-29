@@ -166,7 +166,7 @@ export default {
   async asyncData({ app, $content }) {
     const concept = await $content('Pages_content/about/concept').fetch()
     const editions = await $content('Programs').sortBy('_', 'asc').fetch()
-    const chairs = await $content('Chairs').sortBy('slug', 'asc').fetch()
+    const chairs = await $content('Chairs').sortBy('order', 'asc').fetch()
     const partners = await $content('Partners_and_Sponsors')
       .sortBy('slug', 'asc')
       .fetch()

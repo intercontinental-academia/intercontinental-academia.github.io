@@ -1,7 +1,8 @@
 ---
 firstname: Olivier
 lastname: Bouin
-image: "/bouin-1.jpg"
+image: "/bouin.jpg"
+order: 5
 copyright: ''
 title_and_institution: Director of the Foundation-Excellence Laboratory RFIEA, President-elect
   of the Governing Board of EASSH (European Alliance for Social Sciences and Humanities),
