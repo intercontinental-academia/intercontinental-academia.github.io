@@ -8,7 +8,7 @@ export default {
   target: 'static',
   generate: {
     fallback: true,
-    async ready () {
+    async ready() {
       const { $content } = require('@nuxt/content')
       const programs = await $content('Programs')
         .sortBy('_', 'desc')
@@ -166,10 +166,10 @@ export default {
   layoutTransition: {
     name: 'layout',
     mode: 'out-in',
-    beforeEnter (el) {
+    beforeEnter(el) {
       console.log('TRANSITION : Before enter...')
     },
-    afterLeave (el) {
+    afterLeave(el) {
       console.log('TRANSITION : afterLeave', el)
     },
   },

@@ -143,8 +143,8 @@
         <template #activator="{ on, attrs }">
           <v-avatar
             v-bind="attrs"
-            color="indigo"
-            size="100"
+            :color="item.logo_background_color"
+            size="200"
             class="mx-6"
             v-on="on"
           >
