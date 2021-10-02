@@ -81,26 +81,32 @@
             class="d-flex"
             justify="center"
           >
-            <v-avatar
+            <v-card
               v-if="$vuetify.breakpoint.smAndUp"
               class="my-3 mr-6"
-              size="125"
-              tile
-              rounded
-              :color="
-                item.logo.length
-                  ? 'transparent'
-                  : $vuetify.theme.themes.light.primary
-              "
+              flat
+              :href="item.url"
+              target="_blank"
             >
-              <v-img
-                v-if="item.logo"
-                :src="item.logo"
-                :alt="item.name"
-                contain
-              ></v-img>
-              <span v-else class="white--text headline">{{ item.name }}</span>
-            </v-avatar>
+              <v-avatar
+                size="125"
+                tile
+                rounded
+                :color="
+                  item.logo.length
+                    ? 'transparent'
+                    : $vuetify.theme.themes.light.primary
+                "
+              >
+                <v-img
+                  v-if="item.logo"
+                  :src="item.logo"
+                  :alt="item.name"
+                  contain
+                ></v-img>
+                <span v-else class="white--text headline">{{ item.name }}</span>
+              </v-avatar>
+            </v-card>
             <div class="flex-column align-content-start">
               <div
                 class="d-flex flex-row text-h5 font-weight-black align-center"
@@ -139,22 +145,27 @@
     <TitleBlock class="mt-9" title="PARTNERS"></TitleBlock>
 
     <div class="mb-12">
-      <v-tooltip v-for="item in partners" :key="item" bottom>
+      <v-tooltip v-for="item in partners" :key="item.name" bottom>
         <template #activator="{ on, attrs }">
-          <v-avatar
+          <v-card
+            flat
+            :href="item.url"
+            target="_blank"
             v-bind="attrs"
-            :color="item.logo_background_color"
-            size="200"
-            class="mx-6"
+            class="d-inline"
             v-on="on"
-          >
-            <v-img
-              v-if="item.logo"
-              :src="item.logo"
-              :alt="item.name"
-              contain
-            ></v-img>
-          </v-avatar>
+            ><v-avatar
+              :color="item.logo_background_color"
+              size="200"
+              class="mx-6"
+            >
+              <v-img
+                v-if="item.logo"
+                :src="item.logo"
+                :alt="item.name"
+                contain
+              ></v-img> </v-avatar
+          ></v-card>
         </template>
         <span>{{ item.name }}</span>
       </v-tooltip>
