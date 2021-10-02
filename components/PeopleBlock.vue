@@ -102,23 +102,23 @@
         v-if="$vuetify.breakpoint.smAndDown"
         class="flex-row justify-center mb-6"
       >
-        <v-tooltip v-if="item.wikipedia" bottom>
-          <template #activator="{ on, attrs }">
-            <v-btn
-              v-for="social in getSocials(item)"
-              :key="social.link"
-              icon
-              text
-              v-bind="attrs"
-              :href="socail.link"
-              target="_blank"
-              v-on="on"
-            >
-              <v-icon>{{ social.icon }}</v-icon></v-btn
-            >
-          </template>
-          <span>{{ social.tooltip }} </span>
-        </v-tooltip>
+        <template v-for="social in getSocials(item)">
+          <v-tooltip :key="social.link" bottom>
+            <template #activator="{ on, attrs }">
+              <v-btn
+                icon
+                text
+                v-bind="attrs"
+                :href="social.link"
+                target="_blank"
+                v-on="on"
+              >
+                <v-icon>{{ social.icon }}</v-icon></v-btn
+              >
+            </template>
+            <span>{{ social.tooltip }} </span>
+          </v-tooltip>
+        </template>
       </div>
       <p v-html="highlight(item.presentation, search)"></p>
       <small v-if="item.copyright" class="muted caption"
@@ -199,6 +199,7 @@ export default {
             (this.mentor ? 'mentor' : 'fellow') +
             ' on Twitter',
         })
+      return socials
     },
   },
 }

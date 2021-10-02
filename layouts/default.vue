@@ -165,18 +165,22 @@
       :padless="$vuetify.breakpoint.smAndDown"
       app
       :color="$vuetify.theme.themes.light.primary"
-      class="justify-center flex-column white--text mt-16"
+      class="justify-center flex-column white--text mt-16 py-6"
     >
-      <div class="d-flex">
-        <v-btn
-          color="white"
-          text
-          href="mailto:info@intercontinental-academia.org"
-          >Contact</v-btn
-        >
-        <PrivacyPolicy />
-        <Credits />
-      </div>
+      <v-row justify="center" no-gutters>
+        <v-col cols="12" md="auto" class="text-center">
+          <v-btn
+            color="white"
+            text
+            href="mailto:info@intercontinental-academia.org"
+            >Contact</v-btn
+          >
+        </v-col>
+        <v-col cols="12" md="auto">
+          <PrivacyPolicy />
+        </v-col>
+        <v-col cols="12" md="auto"> <Credits /> </v-col
+      ></v-row>
 
       <span class="d-flex align-center text-uppercase"
         ><v-btn
