@@ -119,6 +119,16 @@
             <span>{{ social.tooltip }} </span>
           </v-tooltip>
         </template>
+        <template v-if="item.podcast">
+          <v-btn
+            color="primary"
+            target="_blank"
+            :href="item.podcast"
+            class="white--text"
+          >
+            <v-icon left>mdi-play-circle</v-icon> Podcast
+          </v-btn>
+        </template>
       </div>
       <p v-html="highlight(item.presentation, search)"></p>
       <small v-if="item.copyright" class="muted caption"
