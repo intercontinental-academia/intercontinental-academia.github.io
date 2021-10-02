@@ -53,6 +53,12 @@ fields:
     required: false
   label: Website
   description: The person personal website or page
+- name: podcast
+  type: text
+  config:
+    required: false
+  label: Podcast
+  description: The url of the podcast. Leave empty if there is none.
 pages:
 - content/Chairs/bouin.md
 - content/Chairs/lahlou.md
