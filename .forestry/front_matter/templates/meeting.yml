@@ -79,6 +79,7 @@ fields:
     field: is_a_side_event
     value: true
 pages:
+- content/Meetings/18-10-21.md
 - content/Meetings/18/10/21.md
 - content/Meetings/19/10/21.md
 - content/Meetings/foundations-of-artificial-intelligence-and-cognitive-sciences.md
