@@ -9,7 +9,13 @@
       class="d-flex flex-column align-center"
     >
       <v-avatar size="160" class="mb-3">
-        <img v-if="item.image" alt="Avatar" :src="item.image" />
+        <OptimizedImage
+          v-if="item.image"
+          alt="Avatar"
+          :src="item.image"
+          height="160"
+          :ratio="1"
+        />
         <v-icon
           v-else
           class="white--text headline"

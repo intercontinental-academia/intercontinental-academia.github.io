@@ -211,7 +211,6 @@
 export default {
   data() {
     return {
-      window,
       drawer: false,
       items: [
         {

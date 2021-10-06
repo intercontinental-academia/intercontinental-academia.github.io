@@ -3,12 +3,12 @@ let primary = ''
 let logo = []
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  /*   ssr: false, */
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   generate: {
     fallback: true,
-    async ready () {
+    async ready() {
       const { $content } = require('@nuxt/content')
       const programs = await $content('Programs')
         .sortBy('_', 'desc')
@@ -24,6 +24,10 @@ export default {
       ]
       console.log('primary: ', primary)
     },
+  },
+  server: {
+    port: 3000, // par défaut: 3000
+    host: '0.0.0.0', // par défaut: localhost
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -166,15 +170,22 @@ export default {
   layoutTransition: {
     name: 'layout',
     mode: 'out-in',
-    beforeEnter (el) {
+    beforeEnter(el) {
       console.log('TRANSITION : Before enter...')
     },
-    afterLeave (el) {
+    afterLeave(el) {
       console.log('TRANSITION : afterLeave', el)
     },
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: ['nuxt-content-highlight', '@nuxt'],
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-class-properties', { loose: true }],
+        ['@babel/plugin-proposal-private-methods', { loose: true }],
+        ['@babel/plugin-proposal-private-property-in-object', { loose: true }],
+      ],
+    },
   },
 }
