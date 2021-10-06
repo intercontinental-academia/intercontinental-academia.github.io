@@ -1,6 +1,6 @@
 ---
 firstname: Suranga
-lastname: Kasthurirathne
+lastname: Kasturi
 image: "/suranga-kasthurirathne.jpg"
 copyright: Suranga Kasthurirathne, 2021
 title_and_institution: Research Scientist at the Center for Biomedical Informatics
@@ -21,5 +21,6 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
+podcast: https://soundcloud.com/user-311970225/an-interview-with-suranga-kasthurirathne
 
 ---

@@ -86,7 +86,7 @@
                   {{ item.first_name[0] + ' ' + item.last_name[0] }}
                 </div>
               </v-avatar>
-              <div class="ml-12">
+              <div :class="{ 'ml-12': $vuetify.breakpoint.mdAndUp }">
                 <nuxt-content
                   :document="item"
                   class="d-inline-block testimonial"

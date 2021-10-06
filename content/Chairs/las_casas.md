@@ -1,6 +1,7 @@
 ---
 firstname: Estevam
 lastname: Barbosa de Las Casas
+order: 4
 image: "/estevam_las_casas_250x250.jpg"
 presentation: 'Estevam Barbosa de Las Casas is an expert in structural engineering,
   his main lines of research being computational mechanics, structural analysis, and

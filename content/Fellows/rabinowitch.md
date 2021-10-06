@@ -19,5 +19,6 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: https://scholars.huji.ac.il/ithairabinowitch
+podcast: https://soundcloud.com/user-311970225/an-interview-with-ithai-rabinowitch-on-engineering-the-brain
 
 ---

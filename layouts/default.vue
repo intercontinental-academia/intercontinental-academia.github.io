@@ -10,7 +10,7 @@
       :flat="$route.name === 'index' && visible && $vuetify.breakpoint.mdAndUp"
     >
       <v-row no-gutters justify="center">
-        <v-col cols="12" lg="8" xl="6" class="d-flex align-end align-center">
+        <v-col cols="12" lg="8" xl="6" class="d-flex align-center">
           <template
             v-if="
               !(
@@ -162,48 +162,57 @@
     </v-main>
     <v-footer
       absolute
+      :padless="$vuetify.breakpoint.smAndDown"
       app
       :color="$vuetify.theme.themes.light.primary"
-      class="justify-center flex-column white--text mt-16"
+      class="justify-center flex-column white--text mt-16 py-6"
     >
-      <div class="py-4">
-        <div class="d-flex justify-center">
+      <v-row justify="center" no-gutters>
+        <v-col cols="12" md="auto" class="text-center">
           <v-btn
             color="white"
             text
             href="mailto:info@intercontinental-academia.org"
             >Contact</v-btn
           >
-          <PrivacyPolicy /><Credits />
-        </div>
-        <br />
-        <span class="d-flex align-center text-uppercase"
-          ><v-btn
-            color="white"
-            text
-            href="https://www.paris-iea.fr/en/"
-            target="_blank"
-            >&copy; {{ new Date().getFullYear() }} by Paris Institute for
-            Advanced Study</v-btn
-          >
-          <v-tooltip top>
-            <template #activator="{ on, attrs }">
-              <v-btn
-                icon
-                text
-                v-bind="attrs"
-                href="https://github.com/intercontinental-academia/intercontinental-academia.github.io"
-                target="_blank"
-                small
-                v-on="on"
-              >
-                <v-icon small color="white">mdi-github</v-icon></v-btn
-              >
-            </template>
-            <span>This website is open source, under MIT licence</span>
-          </v-tooltip></span
-        >
-      </div>
+        </v-col>
+        <v-col cols="12" md="auto">
+          <PrivacyPolicy />
+        </v-col>
+        <v-col cols="12" md="auto"> <Credits /> </v-col
+      ></v-row>
+
+      <span class="d-flex align-center text-uppercase"
+        ><v-btn
+          color="white"
+          text
+          href="https://www.paris-iea.fr/en/"
+          max-width="90vw"
+          target="_blank"
+          >&copy; {{ new Date().getFullYear() }} by Paris
+          {{
+            $vuetify.breakpoint.smAndDown
+              ? 'IAS'
+              : 'Institute for Advanced Study'
+          }}
+        </v-btn>
+        <v-tooltip top>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              icon
+              text
+              v-bind="attrs"
+              href="https://github.com/intercontinental-academia/intercontinental-academia.github.io"
+              target="_blank"
+              small
+              v-on="on"
+            >
+              <v-icon small color="white">mdi-github</v-icon></v-btn
+            >
+          </template>
+          <span>This website is open source, under MIT licence</span>
+        </v-tooltip></span
+      >
     </v-footer>
   </v-app>
 </template>

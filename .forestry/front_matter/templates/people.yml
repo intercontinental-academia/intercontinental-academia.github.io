@@ -53,7 +53,15 @@ fields:
     required: false
   label: Website
   description: The person personal website or page
+- name: podcast
+  type: text
+  config:
+    required: false
+  label: Podcast
+  description: The url of the podcast. Leave empty if there is none.
 pages:
+- content/Chairs/bouin.md
+- content/Chairs/lahlou.md
 - content/Chairs/rabinovici.md
 - content/Fellows/candiotto.md
 - content/Fellows/caycogajic.md
@@ -76,7 +84,6 @@ pages:
 - content/Fellows/wevers.md
 - content/Mentors/aumann.md
 - content/Mentors/copeland.md
-- content/Mentors/damasio.md
 - content/Mentors/fukada.md
 - content/Mentors/hopkins.md
 - content/Mentors/mcclelland.md
@@ -92,10 +99,12 @@ pages:
 - content/Steering_Committee/aryplonski.md
 - content/Steering_Committee/decarvalho.md
 - content/Steering_Committee/floresmendoza.md
+- content/Steering_Committee/gadelhaguimaraes.md
 - content/Steering_Committee/gajdos.md
 - content/Steering_Committee/gilligan.md
 - content/Steering_Committee/henneaux.md
 - content/Steering_Committee/lahlou.md
 - content/Steering_Committee/meira.md
 - content/Steering_Committee/montenegro.md
+- content/Steering_Committee/name.md
 - content/Steering_Committee/tuffisaliba.md

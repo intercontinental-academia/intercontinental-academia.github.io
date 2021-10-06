@@ -22,5 +22,6 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: " https://henrytaylorphilosophy.com/  "
+podcast: https://soundcloud.com/user-311970225/an-interview-with-henry-taylo
 
 ---

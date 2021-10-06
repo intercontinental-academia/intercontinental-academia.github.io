@@ -20,5 +20,6 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: http://www.emotionsfirst.org/
+podcast: https://soundcloud.com/user-311970225/an-interview-with-laura-candiotto
 
 ---

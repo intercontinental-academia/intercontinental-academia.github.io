@@ -3,9 +3,9 @@ firstname: 'William '
 lastname: Hopkins
 image: "/hopkins.jpg"
 copyright: ''
-title_and_institution: 'Professor of Comparative Medicine and Director, Michale E
-  Keeling Center for Comparative Medicine and Research; Co-Director, National Chimpanzee
-  Brain Resource '
+title_and_institution: Professor of Comparative Medicine, Director of the Michale
+  E Keeling Center for Comparative Medicine and Research; Co-Director of the National
+  Chimpanzee Brain Resource
 presentation: 'William Hopkins is a developmental and comparative psychologist who
   has made significant contributions to research on cognition and the brain in primates
   with a particular focus on the evolution of neural systems underlying language and

@@ -1,22 +1,30 @@
 ---
 related-session: content/Sessions/opening-session.md
 start_date_and_time: 2021-06-17T14:30:53Z
-name: Learning
+title: Learning
 date: June 17th
-time: 4:30pm-6:30pm
+time: '4:30pm-6:30pm:'
 apply_link: ''
 attachements: []
 youtube_video_id: ''
 public: false
 side_event_name: ''
+name: Learning
 
 ---
-Mentors: Xiao-Jing Wang, Robert Zatorre, James McClelland Moderator: Estevam LasCasas (tbc)  
+Mentored by Xiao-Jing Wang, Robert Zatorre, James McClelland
+
+Moderated by Estevam LasCasas  
 Location: Zoom
 
-3x20 min presentations by mentors  
-10 min break  
-Questions by selected fellows to the panel                                     Public discussion
+_The ability to learn from different types of input is seen as a fundamental characteristic of intelligence. Both humans and machines can learn, but the inputs they use are not quite the same. Exploring learning in humans is fundamental to figuring out how intelligence emerges and adapts to changes._
+
+Topic guide:
+
+1. 3x20 min presentations by mentors
+2. 10 min break
+3. Questions by selected fellows to the panel
+4. Public discussion
 
 **6:30pm – 7:30pm**
 

@@ -1,7 +1,7 @@
 ---
 firstname: Diego
 lastname: Frassinelli
-image: ''
+image: "/frassinelli.jpg"
 copyright: ''
 title_and_institution: 'Junior Professor (Assistant Professor) in Artificial Intelligence
   at the Department of Linguistics, University of Konstanz '

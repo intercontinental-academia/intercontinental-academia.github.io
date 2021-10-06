@@ -18,7 +18,11 @@
         </template>
         <span>{{ returnTooltip }}</span>
       </v-tooltip>
-      <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
+      <div
+        class="content pa-3 mr-2"
+        :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
+        v-text="title"
+      ></div>
     </div>
     <div
       v-else
@@ -30,12 +34,17 @@
         ($vuetify.breakpoint.mdAndUp ? '50%;' : '100%;')
       "
     >
-      <div class="content text-h4 pa-3 mr-2" v-text="title"></div>
+      <div
+        class="content pa-3 mr-2"
+        :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
+        v-text="title"
+      ></div>
     </div>
     <div v-if="isSession && next.length" class="d-flex align-center">
       <v-btn
         text
-        class="text-h4 py-8 my-0"
+        class="py-8 my-0"
+        :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
         x-large
         :to="next"
         nuxt
@@ -57,7 +66,8 @@
             <v-btn
               v-show="!expand"
               text
-              class="text-h4 py-8 my-0"
+              class="py-8 my-0"
+              :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
               nuxt
               v-bind="attrs"
               v-on="on"
