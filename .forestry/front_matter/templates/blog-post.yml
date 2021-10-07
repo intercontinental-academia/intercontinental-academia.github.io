@@ -30,22 +30,6 @@ fields:
   config:
     required: false
   label: Youtube video ID
-- name: audio
-  type: field_group_list
-  fields:
-  - name: soundcloud_id
-    type: text
-    config:
-      required: false
-    label: Soundcloud ID
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Soundcloud IDs
-  description: On soundcloud, in the audio track page (not the playlist), click share
-    &gt; embed and copy paste the link in a text editor. The ID after "track/" and
-    before "&amp;color=" is what you should paste in these fields.
 - name: tags
   type: tag_list
   default: []
