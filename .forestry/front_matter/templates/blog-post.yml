@@ -1,4 +1,52 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+fields:
+- name: post_title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: authors
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Authors
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: youtube_video_id
+  type: text
+  config:
+    required: false
+  label: Youtube video ID
+- name: audio
+  type: field_group_list
+  fields:
+  - name: soundcloud_id
+    type: text
+    config:
+      required: false
+    label: Soundcloud ID
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Soundcloud IDs
+  description: On soundcloud, in the audio track page (not the playlist), click share
+    &gt; embed and copy paste the link in a text editor. The ID after "track/" and
+    before "&amp;color=" is what you should paste in these fields.
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
