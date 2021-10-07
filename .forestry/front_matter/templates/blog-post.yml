@@ -40,3 +40,12 @@ fields:
     required: false
   label: anchor
   description: Le last word of the person lastname
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
