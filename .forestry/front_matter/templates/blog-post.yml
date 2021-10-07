@@ -50,3 +50,9 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: anchor
+  type: text
+  config:
+    required: false
+  label: anchor
+  description: Le last word of the person lastname
