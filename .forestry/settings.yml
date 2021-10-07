@@ -60,6 +60,13 @@ sections:
 - type: heading
   label: Other
 - type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
   path: content/Pages_content
   label: Pages
   create: all
