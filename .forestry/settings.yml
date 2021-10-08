@@ -60,7 +60,7 @@ sections:
 - type: heading
   label: Other
 - type: directory
-  path: content/blog
+  path: content/Blog
   label: Blog
   create: all
   match: "**/*"
