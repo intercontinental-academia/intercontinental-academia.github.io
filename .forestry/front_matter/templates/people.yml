@@ -19,11 +19,17 @@ fields:
   description: 'No need to include the copyright sign, just the copyright owner name
     is needed, with a comma separating with the date: e.g. "Sponge Bob, 2007"'
 - name: podcast
-  type: boolean
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: blog
+      file: 
+      path: 
   label: Podcast
-  description: If true, make sure that a blog post exists with a field "anchor" that
-    has the last word of the person last name as value (case insensitive, no special
-    char).
 - name: title_and_institution
   type: text
   config:
