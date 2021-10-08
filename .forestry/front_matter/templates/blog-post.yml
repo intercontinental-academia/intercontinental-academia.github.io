@@ -1,0 +1,53 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- name: post_title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: authors
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Authors
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: youtube_video_id
+  type: text
+  config:
+    required: false
+  label: Youtube video ID
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: anchor
+  type: text
+  config:
+    required: false
+  label: anchor
+  description: Le last word of the person lastname
+pages:
+- content/blog/growiek.md

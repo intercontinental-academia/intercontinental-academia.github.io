@@ -1,10 +1,11 @@
 ---
 firstname: Michael
 lastname: Livermore
-image: "/livermore.jpg"
+image: '/livermore.jpg'
 copyright: University of Virginia, 2021
 title_and_institution: Law professor at the University of Virginia
-presentation: 'Michael A. Livermore is a law scholar who uses artificial intelligence
+presentation:
+  'Michael A. Livermore is a law scholar who uses artificial intelligence
   tools to understand the law and legal institutions. He frequently collaborates on
   interdisciplinary projects with researchers in other academic fields, including
   economics, computer science, neurology and the humanities. His substantive areas
@@ -19,6 +20,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-podcast: https://soundcloud.com/user-311970225/an-interview-with-michael-livermore
-
+podcast: true
 ---

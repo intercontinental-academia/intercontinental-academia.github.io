@@ -1,11 +1,13 @@
 ---
 firstname: Philipp
 lastname: Kellmeyer
-image: "/kellmeyer_portrait.jpg"
+image: '/kellmeyer_portrait.jpg'
 copyright: ''
-title_and_institution: Head of the Neuroethics and AI Lab at University Medical Center
+title_and_institution:
+  Head of the Neuroethics and AI Lab at University Medical Center
   Freiburg (UKF) and Research Fellow at Freiburg Institute for Advanced Studies (FRIAS)
-presentation: 'Philipp Kellmeyer is a neurologist, neuroscientist and researcher in
+presentation:
+  'Philipp Kellmeyer is a neurologist, neuroscientist and researcher in
   neuroethics and AI ethics at the University Medical Center Freiburg (UKF) and Freiburg
   Institute for Advanced Studies (FRIAS). He co-founded of the research initiative
   “Responsible Artificial Intelligence” at the University of Freiburg. He earned his
@@ -20,6 +22,5 @@ linkedin: https://www.linkedin.com/in/philipp-kellmeyer-05543515b/
 twitter: https://twitter.com/neuroastics
 wikipedia: ''
 website: ''
-podcast: https://soundcloud.com/user-311970225/an-interview-with-philipp-kellmeyer
-
+podcast: true
 ---

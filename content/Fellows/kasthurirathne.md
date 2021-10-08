@@ -1,12 +1,14 @@
 ---
 firstname: Suranga
 lastname: Kasturi
-image: "/suranga-kasthurirathne.jpg"
+image: '/suranga-kasthurirathne.jpg'
 copyright: Suranga Kasthurirathne, 2021
-title_and_institution: Research Scientist at the Center for Biomedical Informatics
+title_and_institution:
+  Research Scientist at the Center for Biomedical Informatics
   at Regenstrief Institute and Assistant Professor in the Department of Pediatrics;
   Indiana University School of Medicine
-presentation: 'Suranga Kasthurirathne is a computer scientist and a health and biomedical
+presentation:
+  'Suranga Kasthurirathne is a computer scientist and a health and biomedical
   informatician by training. His research focusses on the generalizability and fairness
   of healthcare AI tools, AI-driven innovations for resource constrained settings
   and the accountability of AI tools used in the healthcare domain. His ICA4 proposal
@@ -21,6 +23,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-podcast: https://soundcloud.com/user-311970225/an-interview-with-suranga-kasthurirathne
-
+podcast: true
 ---

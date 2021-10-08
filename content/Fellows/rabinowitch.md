@@ -1,11 +1,13 @@
 ---
 firstname: Ithai
 lastname: Rabinowitch
-image: "/ithai-rabinowitch-cropped.jpeg"
+image: '/ithai-rabinowitch-cropped.jpeg'
 copyright: Ithai Rabinowitch, 2021
-title_and_institution: Assistant Professor at the Faculty of Medicine of the Hebrew
+title_and_institution:
+  Assistant Professor at the Faculty of Medicine of the Hebrew
   University of Jerusalem
-presentation: 'Ithai Rabinowitch is a neurobiologist and synthetic biologist, Assistant
+presentation:
+  'Ithai Rabinowitch is a neurobiologist and synthetic biologist, Assistant
   Professor at the Faculty of Medicine of the Hebrew University of Jerusalem. His
   research focuses on the tiny (1mm-long) nematode worm Caenorhabditis elegans, taking
   advantage of its relatively simple nervous system to unravel molecular and cellular
@@ -19,6 +21,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: https://scholars.huji.ac.il/ithairabinowitch
-podcast: https://soundcloud.com/user-311970225/an-interview-with-ithai-rabinowitch-on-engineering-the-brain
-
+podcast: true
 ---

@@ -1,10 +1,11 @@
 ---
 firstname: Henry
 lastname: Taylor
-image: "/henry-taylor.jpg"
+image: '/henry-taylor.jpg'
 copyright: John Henry Taylor, 2021
 title_and_institution: Birmingham Fellow, University of Birmingham, UK
-presentation: 'Henry Taylor primarily works on the interface of philosophy and cognitive
+presentation:
+  'Henry Taylor primarily works on the interface of philosophy and cognitive
   science. He is especially interested in how philosophy can productively work with
   psychophysics to address questions concerning perception, consciousness and attention.
   His project for ICA4 involves using natural kinds theory to inform research at the
@@ -21,7 +22,6 @@ presentation: 'Henry Taylor primarily works on the interface of philosophy and c
 linkedin: ''
 twitter: ''
 wikipedia: ''
-website: " https://henrytaylorphilosophy.com/  "
-podcast: https://soundcloud.com/user-311970225/an-interview-with-henry-taylo
-
+website: ' https://henrytaylorphilosophy.com/  '
+podcast: true
 ---

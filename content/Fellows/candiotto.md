@@ -1,11 +1,13 @@
 ---
 firstname: Laura
 lastname: Candiotto
-image: "/laura-candiotto.jpg"
+image: '/laura-candiotto.jpg'
 copyright: ChDelory, 2021
-title_and_institution: Alexander von Humboldt Foundation Senior Research Fellow at
+title_and_institution:
+  Alexander von Humboldt Foundation Senior Research Fellow at
   Free University of Berlin; Institute of Philosophy
-presentation: 'Laura Candiotto is a philosopher of emotion who works on the epistemology
+presentation:
+  'Laura Candiotto is a philosopher of emotion who works on the epistemology
   of emotions. She is Alexander von Humboldt Foundation Senior Research Fellow at
   the Free University of Berlin, Institute of Philosophy, Affective Societies Research
   Centre. From October 2021 she will be Senior Research Fellow at the Centre for Ethics
@@ -20,6 +22,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: http://www.emotionsfirst.org/
-podcast: https://soundcloud.com/user-311970225/an-interview-with-laura-candiotto
-
+podcast: true
 ---

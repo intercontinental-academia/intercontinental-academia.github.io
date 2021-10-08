@@ -57,8 +57,17 @@ fields:
   type: text
   config:
     required: false
-  label: Podcast
-  description: The url of the podcast. Leave empty if there is none.
+  label: Podcast Mobile
+  description: The "share" URL of the podcast. Used on mobile only. Leave empty if
+    there is none.
+- name: podcast_desktop
+  type: text
+  config:
+    required: false
+  label: Podcast desktop
+  description: On soundcloud, in the audio track page (not the playlist), click share
+    &gt; embed and copy paste the link in a text editor. The ID after "track/" and
+    before "&amp;color=" is what you should paste in these fields.
 pages:
 - content/Chairs/bouin.md
 - content/Chairs/lahlou.md
