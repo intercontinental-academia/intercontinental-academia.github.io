@@ -18,6 +18,12 @@ fields:
   label: Image copyright owner and date
   description: 'No need to include the copyright sign, just the copyright owner name
     is needed, with a comma separating with the date: e.g. "Sponge Bob, 2007"'
+- name: podcast
+  type: boolean
+  label: Podcast
+  description: If true, make sure that a blog post exists with a field "anchor" that
+    has the last word of the person last name as value (case insensitive, no special
+    char).
 - name: title_and_institution
   type: text
   config:
@@ -53,21 +59,6 @@ fields:
     required: false
   label: Website
   description: The person personal website or page
-- name: podcast
-  type: text
-  config:
-    required: false
-  label: Podcast Mobile
-  description: The "share" URL of the podcast. Used on mobile only. Leave empty if
-    there is none.
-- name: podcast_desktop
-  type: text
-  config:
-    required: false
-  label: Podcast desktop
-  description: On soundcloud, in the audio track page (not the playlist), click share
-    &gt; embed and copy paste the link in a text editor. The ID after "track/" and
-    before "&amp;color=" is what you should paste in these fields.
 pages:
 - content/Chairs/bouin.md
 - content/Chairs/lahlou.md
