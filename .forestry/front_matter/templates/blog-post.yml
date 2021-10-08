@@ -60,3 +60,5 @@ fields:
     min: 
     max: 
   label: Audio
+pages:
+- content/Blog/growiec.md
