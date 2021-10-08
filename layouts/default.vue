@@ -207,7 +207,7 @@
           >
         </v-col>
         <v-col cols="12" md="auto" class="text-center">
-          <v-btn color="white" text nuxt to="/pressroom">Pressroom</v-btn>
+          <v-btn color="white" text nuxt to="/media">Media</v-btn>
         </v-col>
         <v-col cols="12" md="auto">
           <PrivacyPolicy />

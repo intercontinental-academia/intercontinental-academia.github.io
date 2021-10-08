@@ -3,9 +3,22 @@
     :id="(item.anchor && item.anchor.toLowerCase()) || item.post_title"
     class="pa-6 my-3"
   >
+    <v-card-subtitle class="pb-0">
+      {{
+        new Date(item.date).toLocaleDateString('EN', {
+          timezone: 'UTC',
+        }) +
+        ' - ' +
+        new Date(item.date).toLocaleTimeString('EN', {
+          hour: '2-digit',
+          minute: '2-digit',
+          timezone: 'UTC',
+        })
+      }}
+    </v-card-subtitle>
     <v-card-title class="pt-0">
       <span class="text-h4" v-html="highlight(item.post_title, search)"></span>
-      <v-chip v-for="(tag, index) in item.tags" :key="index" class="ma-2">
+      <v-chip v-for="(tag, index2) in item.tags" :key="index2" class="ma-2">
         {{ tag }}
       </v-chip>
     </v-card-title>
@@ -26,8 +39,8 @@
       <template v-if="item.authors.length">
         <div class="overline mt-6">Author</div>
         <div class="mb-3">
-          <span v-for="(author, index) in item.authors" :key="index"
-            >{{ author
+          <span v-for="(author, index2) in item.authors" :key="index2"
+            >{{ author.name
             }}<template v-if="index < item.authors.length - 1"
               >,&nbsp;</template
             ></span
@@ -36,8 +49,8 @@
       </template>
       <nuxt-content :document="item" />
       <SoundCloudEmbed
-        v-for="(track, index) in item.audio"
-        :key="index"
+        v-for="(track, index2) in item.audio"
+        :key="index2"
         :src="track"
       />
     </v-card-text>

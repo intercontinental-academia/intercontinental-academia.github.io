@@ -10,7 +10,44 @@
           :flat="$vuetify.theme.isDark"
         >
           <v-card-title class="justify-center font-weight-black text-uppercase">
-            Press releases
+            Contact
+          </v-card-title>
+          <v-card-text
+            :class="{ 'pa-2': $vuetify.breakpoint.smAndDown }"
+            class="subtitle-1"
+            color="black"
+          >
+            <v-list three-line subheader align="left">
+              <v-list-item
+                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
+                href="mailto:Claire.Jeandel@paris-iea.fr"
+              >
+                <v-list-item-avatar>
+                  <v-icon large> mdi-account-circle </v-icon>
+                </v-list-item-avatar>
+                <v-list-item-content>
+                  <v-list-item-title>Claire Jeandel</v-list-item-title>
+                  <v-list-item-subtitle>
+                    <v-icon color="grey"> mdi-phone </v-icon
+                    >&nbsp;+&#051;&#051;&#032;(&#048;)&#049;&#032;&#053;&#054;&#032;&#056;&#049;&#032;&#048;&#057;&#032;&#050;&#048;
+                  </v-list-item-subtitle>
+                  <v-list-item-subtitle>
+                    <v-icon color="grey"> mdi-email </v-icon
+                    >&nbsp;&#099;&#108;&#097;&#105;&#114;&#101;&#046;&#106;&#101;&#097;&#110;&#100;&#101;&#108;&#064;&#112;&#097;&#114;&#105;&#115;&#045;&#105;&#101;&#097;&#046;&#102;&#114;
+                  </v-list-item-subtitle>
+                </v-list-item-content>
+              </v-list-item>
+            </v-list>
+          </v-card-text>
+        </v-card>
+        <v-card
+          :class="{
+            'pa-6 mb-6': $vuetify.breakpoint.mdAndUp,
+          }"
+          :flat="$vuetify.theme.isDark"
+        >
+          <v-card-title class="justify-center font-weight-black text-uppercase">
+            Podcasts
           </v-card-title>
           <v-card-text
             :class="{
@@ -116,111 +153,11 @@
             </v-list>
           </v-card-text>
         </v-card>
-        <v-card
-          :class="{
-            'pa-6 mb-6': $vuetify.breakpoint.mdAndUp,
-          }"
-          :flat="$vuetify.theme.isDark"
-        >
-          <v-card-title class="justify-center font-weight-black text-uppercase">
-            Contact
-          </v-card-title>
-          <v-card-text
-            :class="{ 'pa-2': $vuetify.breakpoint.smAndDown }"
-            class="subtitle-1"
-            color="black"
-          >
-            <v-list three-line subheader align="left">
-              <!--  <v-list-item
-                :class="{'pl-2':$vuetify.breakpoint.smAndDown}"
-              >
-                <v-list-item-avatar>
-                  <v-icon large>
-                    mdi-account-circle
-                  </v-icon>
-                </v-list-item-avatar>
-                <v-list-item-content>
-                  <v-list-item-title>
-                    Martine Savary
-                    <v-chip
-                      small
-                      label
-                      class="ml-2"
-                      href="http://mediathena.fr/"
-                      target="_blank"
-                    >
-                      Mediathena
-                    </v-chip>
-                  </v-list-item-title>
-                  <v-list-item-subtitle>
-                    <v-icon color="grey">
-                      mdi-phone
-                    </v-icon>
-                    <span
-                      v-html="
-                        '&nbsp;&#051;&#051;&#032;(&#048;)&#054;&#032;&#054;&#052;&#032;&#050;&#053;&#032;&#054;&#054;&#032;&#053;&#057;'
-                      "
-                    />
-                  </v-list-item-subtitle>
-                  <v-list-item-subtitle>
-                    <v-icon color="grey">
-                      mdi-email
-                    </v-icon>&nbsp;&#109;&#097;&#114;&#116;&#105;&#110;&#101;&#064;&#103;&#101;&#099;&#107;&#111;&#116;&#111;&#109;&#046;&#099;&#111;&#109;
-                  </v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>-->
-              <v-list-item
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-                href="mailto:Claire.Jeandel@paris-iea.fr"
-              >
-                <v-list-item-avatar>
-                  <v-icon large> mdi-account-circle </v-icon>
-                </v-list-item-avatar>
-                <v-list-item-content>
-                  <v-list-item-title>Claire Jeandel</v-list-item-title>
-                  <v-list-item-subtitle>
-                    <v-icon color="grey"> mdi-phone </v-icon
-                    >&nbsp;+&#051;&#051;&#032;(&#048;)&#049;&#032;&#053;&#054;&#032;&#056;&#049;&#032;&#048;&#057;&#032;&#050;&#048;
-                  </v-list-item-subtitle>
-                  <v-list-item-subtitle>
-                    <v-icon color="grey"> mdi-email </v-icon
-                    >&nbsp;&#099;&#108;&#097;&#105;&#114;&#101;&#046;&#106;&#101;&#097;&#110;&#100;&#101;&#108;&#064;&#112;&#097;&#114;&#105;&#115;&#045;&#105;&#101;&#097;&#046;&#102;&#114;
-                  </v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-card-text>
-        </v-card>
       </v-col>
       <v-col cols="12" sm="6">
-        <v-card class="px-6 pt-6 mb-6" :flat="$vuetify.theme.isDark">
-          <v-card-title class="justify-center font-weight-black text-uppercase">
-            Intercontinental Academia 4 Media kit
-          </v-card-title>
-          <v-card-text :class="{ 'pa-2': $vuetify.breakpoint.smAndDown }">
-            This zip folder contains :
-            <ul>
-              <li>#WPRN21 communication guidance pdf</li>
-              <li>Facebook, Twitter and Linkedin pictures</li>
-              <li>#WPRN21 teaser video</li>
-            </ul>
-          </v-card-text>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn
-              outlined
-              class="ml-6 mb-6"
-              href="https://cdn-yggdrasil-prod.s3.eu-west-2.amazonaws.com/WPRN21-Communication_kit.zip"
-              target="_blank"
-            >
-              <v-icon left>mdi-folder-zip-outline</v-icon>
-              Download
-            </v-btn>
-          </v-card-actions>
-        </v-card>
         <v-card class="pa-6 mb-6" :flat="$vuetify.theme.isDark">
           <v-card-title class="justify-center font-weight-black text-uppercase">
-            Press reviews
+            Videos
           </v-card-title>
           <v-card-text :class="{ 'pa-2': $vuetify.breakpoint.smAndDown }">
             <v-list two-line subheader>
@@ -388,6 +325,17 @@
 <script>
 export default {
   components: {},
+  async asyncData({ app, $content }) {
+    let podcasts = await $content('Blog')
+      .where({ published: true })
+      .sortBy('slug')
+      .fetch()
+    podcasts = podcasts.filter((item) => item.audio && item.audio.length)
+    console.log('podcasts: ', podcasts)
+    return {
+      podcasts,
+    }
+  },
   data() {
     return {
       contact: false,

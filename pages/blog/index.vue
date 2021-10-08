@@ -30,7 +30,11 @@
 <script>
 export default {
   async asyncData({ app, $content }) {
-    const posts = await $content('Blog').sortBy('createdAt', 'asc').fetch()
+    const posts = await $content('Blog')
+      .where({ published: true })
+      .sortBy('date', 'asc')
+      .fetch()
+    console.log('posts: ', posts)
     return {
       posts,
     }
@@ -46,13 +50,15 @@ export default {
     async searchString(searchString) {
       if (!searchString) {
         this.posts = await this.$content('Blog')
-          .sortBy('createdAt', 'asc')
+          .where({ published: true })
+          .sortBy('date', 'asc')
           .fetch()
         this.searching = false
       } else {
         this.searching = true
         this.posts = await this.$content('Blog')
-          .sortBy('createdAt', 'asc')
+          .where({ published: true })
+          .sortBy('date', 'asc')
           .search(searchString)
           .fetch()
       }
