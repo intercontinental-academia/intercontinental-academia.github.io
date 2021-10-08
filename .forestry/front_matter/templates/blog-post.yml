@@ -53,3 +53,10 @@ fields:
     required: false
   label: anchor
   description: Le last word of the person lastname
+- name: audio
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Audio
