@@ -42,17 +42,17 @@
               {{ item.time }}
               <span v-html="highlight(item.name, search)"></span>
             </div>
-            <YoutubeEmbedded
+            <YoutubeEmbed
               v-if="item.youtube_video_id"
               :yt="item.youtube_video_id"
               class="mb-6"
-            ></YoutubeEmbedded>
+            ></YoutubeEmbed>
             <nuxt-content-highlight :document="item" :highlight-text="search">
             </nuxt-content-highlight>
             <div class="d-flex">
               <template v-for="file in item.attachements">
                 <v-btn :key="file" :href="file" target="_blank">
-                  <v-icon left> mdi-file-pdf </v-icon>
+                  <v-icon left> mdi-file-pdf-box </v-icon>
                   {{ file.substring(1) }}
                 </v-btn>
               </template>

@@ -45,11 +45,14 @@
       <v-carousel-item
         v-for="item in carousel"
         :key="item.label"
-        :src="item.image"
+        eager
+        :lazy-src="$img(item.image, { width: 10, quality: 70 })"
+        :src="$img(item.image, { height: 'auto', quality: 70 })"
+        :srcset="_srcset(item.image).srcset"
+        :sizes="_srcset(item.image).size"
         :nuxt="!item.open_in_new_tab"
         :blank="!item.open_in_new_tab"
         :to="item.link"
-        :lazy-src="item.placeholder"
       >
       </v-carousel-item>
     </v-carousel>
@@ -60,7 +63,7 @@
         </div>
       </v-col>
     </v-row>
-    <TitleBlock class="mt-9 mb-6" title="Testimonials"></TitleBlock>
+    <TitleBlock class="mt-9 mb-3" title="Testimonials"></TitleBlock>
     <v-row no-gutters class="mb-12">
       <v-col cols="12">
         <v-carousel
@@ -68,7 +71,7 @@
           hide-delimiters
           :show-arrows="testimonials.length > 1"
           continuous
-          height="auto"
+          :height="$vuetify.breakpoint.mdAndUp ? '330' : 'auto'"
           interval="20000"
         >
           <v-carousel-item v-for="item in testimonials" :key="item.slug">
@@ -177,6 +180,15 @@ export default {
         (usePound ? '#' : '') +
         String('000000' + (g | (b << 8) | (r << 16)).toString(16)).slice(-6)
       )
+    },
+    _srcset(src) {
+      return this.$img.getSizes(src, {
+        sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
+        modifiers: {
+          format: 'webp',
+          quality: 70,
+        },
+      })
     },
   },
 }

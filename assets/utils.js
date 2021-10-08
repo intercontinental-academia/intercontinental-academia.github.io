@@ -8,6 +8,12 @@ export const slugify = (str) =>
     .replace(/--+/g, '-')
     .replace(/^-+/, '')
     .replace(/-+$/, '')
+export const truncateString = (str, num) => {
+  if (str.length <= num) {
+    return str
+  }
+  return str.slice(0, num) + '...'
+}
 
 export const LightenDarkenColor = (col, amt) => {
   let usePound = false

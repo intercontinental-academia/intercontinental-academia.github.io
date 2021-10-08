@@ -57,7 +57,7 @@
       >
     </div>
     <div
-      v-if="['program', 'fellows', 'mentors'].includes($route.name)"
+      v-if="['program', 'fellows', 'mentors', 'blog'].includes($route.name)"
       class="d-flex"
     >
       <v-expand-x-transition>

@@ -53,7 +53,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@mdi/font/css/materialdesignicons.min.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -68,10 +68,14 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxt/image',
+    '@nuxtjs/style-resources',
+    'nuxt-compress',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/robots',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
@@ -80,9 +84,37 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxt/content',
     'nuxt-content-highlight',
-    'nuxt-webfontloader',
-    '@nuxtjs/style-resources',
+    '@nuxtjs/sentry',
+    '@nuxtjs/ackee',
   ],
+  // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  // MODULES CONFIGURATIONS
+  // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  /*
+   ** Sentry module configuration
+   ** https://github.com/nuxt-community/sentry-module#options
+   */
+  sentry: {
+    dsn: 'https://ff140d7ad0014db3be954a0149ab5216@sentry.paris-ias.io/8',
+    config: {}, // Additional config
+  },
+  /*
+   ** Ackee module configuration
+   ** https://github.com/nuxt-community/ackee-module
+   ** https://ackee.nuxtjs.org/
+   */
+  ackee: {
+    server: 'https://ackee.paris-ias.io/',
+    domainId: '5d8bb345-4757-41e7-b3ab-145be40df01b',
+    // see documentation for more!
+    ignoreOwnVisits: false,
+  },
+  // ESLint module configuration (https://github.com/nuxt-community/eslint-module)
+  eslint: {
+    fix: true,
+    emitWarning: true,
+    quiet: true,
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
@@ -97,11 +129,15 @@ export default {
     color: primary || '#5c3190',
     height: '5px',
   },
-  webfontloader: {
-    google: {
-      families: ['Petrona:500,700'], // Loads Lato font with weights 400 and 700
+  googleFonts: {
+    families: {
+      Petrona: [500, 700],
     },
+    download: true,
+    base64: true,
+    inject: true,
   },
+
   /*
    ** Sitemap module configuration
    ** https://github.com/nuxt-community/sitemap-module#setup-a-sitemap
@@ -117,12 +153,14 @@ export default {
     // Les recherches s'effectuent uniquement sur les champs titre et description
     fullTextSearchFields: [
       'title',
+      'name',
       'text',
       'related-session',
       'firstname',
       'lastname',
       'presentation',
       'title_and_institution',
+      'post_title',
     ],
   },
   styleResources: {
@@ -131,11 +169,13 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    iconfont: 'mdi',
     options: {
       customProperties: true,
     },
     defaultAssets: {
       font: false,
+      icons: false,
     },
     treeShake: true,
     theme: {

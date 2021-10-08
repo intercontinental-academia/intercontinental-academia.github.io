@@ -24,7 +24,6 @@
             v-for="item in chairs"
             :key="item.slug"
             cols="12"
-            xl="6"
             class="d-flex"
           >
             <v-avatar
@@ -188,6 +187,17 @@ export default {
       .sortBy('slug', 'asc')
       .fetch()
     const current = editions[editions.length - 1]
+    const programs = await $content('Programs').sortBy('_', 'asc').fetch()
+
+    programs.forEach(async (item) => {
+      const target = 'content' + item.path + '.md'
+      item.sessions = await $content('Sessions')
+        .where({
+          'related-program': target,
+        })
+        .sortBy('start_date_and_time', 'asc')
+        .fetch()
+    })
 
     return {
       concept,

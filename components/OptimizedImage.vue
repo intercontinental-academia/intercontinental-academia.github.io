@@ -1,6 +1,8 @@
 <template>
   <div class="frame">
-    <div class="overlay"></div>
+    <div class="overlay">
+      <slot></slot>
+    </div>
     <v-img
       v-if="src"
       :aspect-ratio="ratio"
@@ -11,10 +13,6 @@
       v-bind="$attrs"
       :height="height"
     >
-      <span id="caption-content">
-        <slot name="caption"></slot>
-        <br />
-      </span>
     </v-img>
     <v-sheet v-else></v-sheet>
   </div>
@@ -26,7 +24,7 @@ export default {
     height: { type: [Number, String], default: 500 },
     src: {
       type: String,
-      default: '/img/header-bg.jpg',
+      default: '',
     },
   },
   computed: {
@@ -62,8 +60,6 @@ export default {
   display: flex;
   flex-direction: column;
   z-index: 2;
-  padding-bottom: 2rem;
-  padding-right: 1.9rem;
   justify-content: space-between;
 }
 .v-image {

@@ -112,11 +112,41 @@
             slider-size="3"
             :color="$vuetify.theme.themes.light.primary"
           >
-            <v-tab nuxt to="/about" class="headline">About</v-tab>
+            <v-spacer></v-spacer>
+            <v-menu left bottom offset-y>
+              <template #activator="{ on, attrs }">
+                <v-tab
+                  v-bind="attrs"
+                  class="headline primary--text"
+                  offset-y="10"
+                  v-on="on"
+                >
+                  About
+                  <v-icon color="primary">mdi-chevron-down</v-icon>
+                </v-tab>
+              </template>
+
+              <v-list>
+                <v-list-item nuxt to="/about/concept" class="px-2">
+                  <v-list-item-title
+                    class="headline primary--text text-uppercase py-3"
+                  >
+                    Concept
+                  </v-list-item-title>
+                </v-list-item>
+                <v-list-item nuxt to="/about/ica4" class="px-2">
+                  <v-list-item-title
+                    class="headline primary--text text-uppercase py-3"
+                  >
+                    ICA 4
+                  </v-list-item-title>
+                </v-list-item>
+              </v-list>
+            </v-menu>
             <v-tab nuxt to="/mentors" class="headline">Mentors</v-tab>
             <v-tab nuxt to="/fellows" class="headline">Fellows</v-tab>
             <v-tab nuxt to="/program" class="headline">Program</v-tab>
-            <v-tab nuxt to="/concept" class="headline">Concept</v-tab>
+            <v-tab nuxt to="/blog" class="headline">Blog</v-tab>
           </v-tabs>
         </v-col>
       </v-row>
@@ -176,6 +206,9 @@
             >Contact</v-btn
           >
         </v-col>
+        <v-col cols="12" md="auto" class="text-center">
+          <v-btn color="white" text nuxt to="/pressroom">Pressroom</v-btn>
+        </v-col>
         <v-col cols="12" md="auto">
           <PrivacyPolicy />
         </v-col>
@@ -207,7 +240,7 @@
               small
               v-on="on"
             >
-              <v-icon small color="white">mdi-github</v-icon></v-btn
+              <v-icon color="white">mdi-github</v-icon></v-btn
             >
           </template>
           <span>This website is open source, under MIT licence</span>
@@ -230,7 +263,12 @@ export default {
         {
           icon: 'mdi-numeric-4-box-multiple-outline',
           title: 'ABOUT',
-          to: '/about',
+          to: '/about/ica4',
+        },
+        {
+          icon: 'mdi-lightbulb-on-outline',
+          title: 'CONCEPT',
+          to: '/about/concept',
         },
         {
           icon: 'mdi-school',
@@ -249,9 +287,9 @@ export default {
           to: '/program',
         },
         {
-          icon: 'mdi-calendar',
-          title: 'CONCEPT',
-          to: '/concept',
+          icon: 'mdi-post',
+          title: 'BLOG',
+          to: '/blog',
         },
       ],
       visible: false,

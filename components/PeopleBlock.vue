@@ -112,8 +112,9 @@
           <v-tooltip :key="social.link" bottom>
             <template #activator="{ on, attrs }">
               <v-btn
-                icon
                 text
+                icon
+                color="primary"
                 v-bind="attrs"
                 :href="social.link"
                 target="_blank"
@@ -127,19 +128,42 @@
         </template>
         <template v-if="item.podcast">
           <v-btn
-            color="primary"
             target="_blank"
-            :href="item.podcast"
-            class="white--text"
+            outlined
+            nuxt
+            :to="
+              '/blog#' +
+              item.lastname
+                .split(' ')
+                [item.lastname.split(' ').length - 1].toLowerCase()
+            "
           >
             <v-icon left>mdi-play-circle</v-icon> Podcast
           </v-btn>
         </template>
       </div>
       <p v-html="highlight(item.presentation, search)"></p>
-      <small v-if="item.copyright" class="muted caption"
-        >Image of &copy; {{ item.copyright }}</small
-      >
+      <template v-if="item.podcast && $vuetify.breakpoint.mdAndUp">
+        <v-btn
+          outlined
+          class="mb-3"
+          nuxt
+          :to="
+            '/blog#' +
+            item.lastname
+              .split(' ')
+              [item.lastname.split(' ').length - 1].toLowerCase()
+          "
+        >
+          <v-icon left>mdi-play-circle</v-icon> Podcast
+        </v-btn>
+      </template>
+      <div>
+        <small v-if="item.copyright" class="muted caption"
+          >Image of &copy; {{ item.copyright }}</small
+        >
+      </div>
+
       <v-expansion-panels v-if="mentor" class="mt-6">
         <v-expansion-panel>
           <v-expansion-panel-header> References </v-expansion-panel-header>

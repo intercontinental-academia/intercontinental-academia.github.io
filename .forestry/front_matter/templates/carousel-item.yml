@@ -2,39 +2,40 @@
 label: Carousel item
 hide_body: true
 fields:
-- name: label
-  type: text
-  config:
-    required: false
-  label: Label
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-- name: placeholder
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Placeholder (data URL)
-  description: Used to display a blurry version of the carousel image while it is
-    not downloaded (usually a very short time). To create one, resize the image to
-    about 60px large (with same ratio), convert it to dataUrl and paste the related
-    string in this field
-- name: link
-  type: text
-  config:
-    required: false
-  label: link
-- name: open_in_new_tab
-  type: boolean
-  label: Open in new tab
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: placeholder
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Placeholder (data URL)
+    description:
+      Used to display a blurry version of the carousel image while it is
+      not downloaded (usually a very short time). To create one, resize the image to
+      about 60px large (with same ratio), convert it to dataUrl and paste the related
+      string in this field
+  - name: link
+    type: text
+    config:
+      required: false
+    label: link
+  - name: open_in_new_tab
+    type: boolean
+    label: Open in new tab
 pages:
-- content/Carousel/about.md
-- content/Carousel/concept.md
-- content/Carousel/fellows.md
-- content/Carousel/mentors.md
+  - content/Carousel/about/ica4.md
+  - content/Carousel/about/concept.md
+  - content/Carousel/fellows.md
+  - content/Carousel/mentors.md
