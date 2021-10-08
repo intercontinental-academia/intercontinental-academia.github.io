@@ -49,5 +49,3 @@ fields:
     required: false
   label: anchor
   description: Le last word of the person lastname
-pages:
-- content/blog/growiek.md
