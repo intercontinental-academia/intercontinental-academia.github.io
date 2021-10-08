@@ -7,6 +7,15 @@ fields:
   config:
     required: true
   label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: authors
   type: field_group_list
   fields:
@@ -40,12 +49,3 @@ fields:
     required: false
   label: anchor
   description: Le last word of the person lastname
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
