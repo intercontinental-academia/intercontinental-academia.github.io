@@ -2,6 +2,10 @@
 label: Blog post
 hide_body: false
 fields:
+- name: published
+  type: boolean
+  label: Published
+  description: switch to ON in you want this post to be published
 - name: post_title
   type: text
   config:
