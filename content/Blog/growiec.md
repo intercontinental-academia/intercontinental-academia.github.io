@@ -2,7 +2,7 @@
 tags:
 - gerg
 - gergr
-published: false
+published: true
 post_title: Show must go on
 date: 2021-10-26T22:00:00Z
 authors: []
