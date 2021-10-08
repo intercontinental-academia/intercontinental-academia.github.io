@@ -2,6 +2,10 @@
 label: Blog post
 hide_body: false
 fields:
+- name: published
+  type: boolean
+  label: Published
+  description: switch to ON in you want this post to be published
 - name: post_title
   type: text
   config:
@@ -49,3 +53,12 @@ fields:
     required: false
   label: anchor
   description: Le last word of the person lastname
+- name: audio
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Audio
+pages:
+- content/Blog/growiec.md
