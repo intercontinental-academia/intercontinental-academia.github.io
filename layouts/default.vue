@@ -222,6 +222,7 @@
           href="https://www.paris-iea.fr/en/"
           max-width="90vw"
           target="_blank"
+          class="mt-1"
           >&copy; {{ new Date().getFullYear() }} by Paris
           {{
             $vuetify.breakpoint.smAndDown

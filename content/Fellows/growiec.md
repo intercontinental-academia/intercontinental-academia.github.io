@@ -3,6 +3,7 @@ firstname: Jakub
 lastname: Growiec
 image: '/jakubgrowiec_eea.jpg'
 copyright: Jakup Growiec, 2021
+podcast: content/Blog/growiec.md
 title_and_institution:
   Professor and head of the department of Quantitative Economics
   at Warsaw School of Economics
@@ -21,5 +22,4 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-podcast: true
 ---
