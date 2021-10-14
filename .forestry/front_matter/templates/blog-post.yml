@@ -6,6 +6,11 @@ fields:
   type: boolean
   label: Published
   description: switch to ON in you want this post to be published
+- name: pinned
+  type: boolean
+  label: PInned
+  description: If activated the post will be pinned on top of the posts list. Note
+    that if more that one post is pinned, only the last one by Date will be considered.
 - name: post_title
   type: text
   config:
@@ -47,12 +52,6 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- name: anchor
-  type: text
-  config:
-    required: false
-  label: anchor
-  description: Le last word of the person lastname
 - name: audio
   type: list
   config:
