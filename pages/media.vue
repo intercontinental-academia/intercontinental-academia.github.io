@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TitleBlock title="Pressroom"></TitleBlock>
+    <TitleBlock title="Media"></TitleBlock>
     <v-row justify="center">
       <v-col cols="12" sm="6">
         <v-card
@@ -54,103 +54,32 @@
               'mb-6': $vuetify.breakpoint.smAndDown,
             }"
           >
-            <v-list two-line subheader>
+            <v-list v-if="podcasts.length" two-line subheader>
               <v-list-item
-                href="/conference/WPRN21-Press_release.pdf"
-                target="_blank"
+                v-for="(post, index) in podcasts"
+                :key="index"
+                :to="'/blog/' + post.slug"
+                nuxt
               >
-                <v-list-item-avatar>
-                  <v-icon>mdi-file-pdf-box</v-icon>
-                </v-list-item-avatar>
                 <v-list-item-content>
-                  <v-list-item-title
-                    >#WPRN21 Announcement (English)</v-list-item-title
+                  <v-list-item-title>{{ post.post_title }}</v-list-item-title>
+                  <v-list-item-subtitle>
+                    {{
+                      new Date(post.date).toLocaleDateString('EN', {
+                        timezone: 'UTC',
+                      }) +
+                      ' - ' +
+                      new Date(post.date).toLocaleTimeString('EN', {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        timezone: 'UTC',
+                      })
+                    }}</v-list-item-subtitle
                   >
-                  <v-list-item-subtitle>2021-06-11</v-list-item-subtitle>
                 </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item href="/press_releases/launch_en.pdf" target="_blank">
-                <v-list-item-avatar>
-                  <v-icon>mdi-file-pdf-box</v-icon>
-                </v-list-item-avatar>
-                <v-list-item-content>
-                  <v-list-item-title
-                    >Launching of WPRN.org (English)</v-list-item-title
-                  >
-                  <v-list-item-subtitle>2020-04-20</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="/press_releases/launch_fr.pdf"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-avatar>
-                  <v-icon>mdi-file-pdf-box</v-icon>
-                </v-list-item-avatar>
-                <v-list-item-content>
-                  <v-list-item-title
-                    >Lancement de WPRN.org (French version)</v-list-item-title
-                  >
-                  <v-list-item-subtitle>2020-04-20</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="/press_releases/update_en.pdf"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-avatar>
-                  <v-icon>mdi-file-pdf-box</v-icon>
-                </v-list-item-avatar>
-                <v-list-item-content>
-                  <v-list-item-title
-                    >Update of WPRN.org (English)</v-list-item-title
-                  >
-                  <v-list-item-subtitle>2020-12-12</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="/press_releases/update_fr.pdf"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-avatar>
-                  <v-icon>mdi-file-pdf-box</v-icon>
-                </v-list-item-avatar>
-                <v-list-item-content>
-                  <v-list-item-title
-                    >Mise à jour de WPRN.org (French version)</v-list-item-title
-                  >
-                  <v-list-item-subtitle>2020-12-12</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
               </v-list-item>
             </v-list>
+            <div v-else class="text-h6">No video available yet.</div>
           </v-card-text>
         </v-card>
       </v-col>
@@ -160,162 +89,33 @@
             Videos
           </v-card-title>
           <v-card-text :class="{ 'pa-2': $vuetify.breakpoint.smAndDown }">
-            <v-list two-line subheader>
+            <v-list v-if="videos.length" two-line subheader>
               <v-list-item
-                href="https://www.eurekalert.org/pub_releases/2020-05/idad-low050420.php"
-                target="_blank"
+                v-for="(video, index) in videos"
+                :key="index"
+                :to="'/blog/' + video.slug"
+                nuxt
                 :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
               >
                 <v-list-item-content>
-                  <v-list-item-title>Eurekalert</v-list-item-title>
-                  <v-list-item-subtitle
-                    >Launching of World Pandemic Research Network (WPRN) -
-                    2020-04-20</v-list-item-subtitle
+                  <v-list-item-title>{{ video.post_title }}</v-list-item-title>
+                  <v-list-item-subtitle>
+                    {{
+                      new Date(video.date).toLocaleDateString('EN', {
+                        timezone: 'UTC',
+                      }) +
+                      ' - ' +
+                      new Date(video.date).toLocaleTimeString('EN', {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        timezone: 'UTC',
+                      })
+                    }}</v-list-item-subtitle
                   >
                 </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="https://www.researchprofessionalnews.com/rr-news-world-2020-5-social-researchers-push-global-collaboration-amidst-covid-19/"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title
-                    >Research Professional News</v-list-item-title
-                  >
-                  <v-list-item-subtitle
-                    >Social researchers push global collaboration amidst
-                    Covid-19 - 2020-14-20</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="https://www.gazettelabo.fr/breves/9755Lancement-wprn-org-Covid19.html"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title>La Gazette du Labo</v-list-item-title>
-                  <v-list-item-subtitle
-                    >Lancement de wprn.org, 1er répertoire mondial de recherches
-                    et ressources de recherche sur les impacts sociétaux et
-                    humains du Covid-19 - 2020-04-22</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="https://www.aefinfo.fr/acces-depeche/626458"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title>AEF Info</v-list-item-title>
-                  <v-list-item-subtitle
-                    >Comment s’organise la réponse scientifique à la pandémie
-                    (2/2) : mise en réseau et partage des informations -
-                    2020-04-28</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-
-              <v-list-item
-                href="http://www.scienceeurope.org/our-priorities/covid-19/other-resources/"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title>Science Europe.org</v-list-item-title>
-                  <v-list-item-subtitle
-                    >Other European and Global Resources -
-                    2020-05-01</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="https://ec.europa.eu/jrc/communities/en/community/city-science-initiative/news/world-pandemic-research-network-wprn-global-real-time"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title
-                    >JCR Science Hub Communities - The European Commission’s
-                    science and Knowledge Newsletter</v-list-item-title
-                  >
-                  <v-list-item-subtitle
-                    >World Pandemic Research Network (WPRN) A global, real-time
-                    directory of research & research resources on the impacts of
-                    the Covid-19 pandemic - 2020-05-19</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="http://www.cnrs.fr/fr/cnrsinfo/les-shs-doivent-eclairer-la-decision-publique-en-cette-periode-de-crise"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title>CNRS</v-list-item-title>
-                  <v-list-item-subtitle
-                    >« Les SHS doivent éclairer la décision publique en cette
-                    période de crise » - 2020-05-19</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
-              </v-list-item>
-              <v-list-item
-                href="https://education.newstank.fr/fr/tour/news/184099/comment-iea-paris-suscite-premier-reseau-collaboration-mondiale-shs.html"
-                target="_blank"
-                :class="{ 'pl-2': $vuetify.breakpoint.smAndDown }"
-              >
-                <v-list-item-content>
-                  <v-list-item-title>Newstank</v-list-item-title>
-                  <v-list-item-subtitle
-                    >Comment l’IEA de Paris a suscité le premier réseau de
-                    collaboration mondiale en SHS sur la pandémie -
-                    2020-06-23</v-list-item-subtitle
-                  >
-                </v-list-item-content>
-                <v-list-item-action>
-                  <v-btn icon>
-                    <v-icon color="grey lighten-1" />
-                  </v-btn>
-                </v-list-item-action>
               </v-list-item>
             </v-list>
+            <div v-else class="text-h6">No video available yet.</div>
           </v-card-text>
         </v-card>
       </v-col>
@@ -326,14 +126,19 @@
 export default {
   components: {},
   async asyncData({ app, $content }) {
-    let podcasts = await $content('Blog')
+    const posts = await $content('Blog')
       .where({ published: true })
-      .sortBy('slug')
+      .sortBy('date')
       .fetch()
-    podcasts = podcasts.filter((item) => item.audio && item.audio.length)
+    const podcasts = posts.filter((item) => item.audio && item.audio.length)
+    const videos = posts.filter(
+      (item) => item.youtube_video_id && item.youtube_video_id.length
+    )
     console.log('podcasts: ', podcasts)
+    console.log('videos: ', videos)
     return {
       podcasts,
+      videos,
     }
   },
   data() {

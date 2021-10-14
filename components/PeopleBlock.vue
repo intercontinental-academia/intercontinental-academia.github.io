@@ -1,5 +1,5 @@
 <template>
-  <v-row class="mt-12 mx-6" :class="{ 'mx:6': $vuetify.breakpoint.mdAndUp }">
+  <v-row class="mt-12" :class="{ 'mx:6': $vuetify.breakpoint.mdAndUp }">
     <v-col
       v-if="$vuetify.breakpoint.mdAndUp"
       cols="3"
@@ -95,7 +95,8 @@
         </v-tooltip>
       </div>
     </v-col>
-    <v-col cols="12" md="8">
+    <v-col cols="12" md="8" class="mx-3">
+      <div :id="slugifyItem(item.lastname)" class="anchor"></div>
       <div
         class="text-h5 font-weight-black"
         v-html="highlight(item.firstname + ' ' + item.lastname, search)"
@@ -108,24 +109,22 @@
         v-if="$vuetify.breakpoint.smAndDown"
         class="flex-row justify-center mb-6"
       >
-        <template v-for="social in getSocials(item)">
-          <v-tooltip :key="social.link" bottom>
-            <template #activator="{ on, attrs }">
-              <v-btn
-                text
-                icon
-                color="primary"
-                v-bind="attrs"
-                :href="social.link"
-                target="_blank"
-                v-on="on"
-              >
-                <v-icon>{{ social.icon }}</v-icon></v-btn
-              >
-            </template>
-            <span>{{ social.tooltip }} </span>
-          </v-tooltip>
-        </template>
+        <v-tooltip v-for="social in getSocials(item)" :key="social.link" bottom>
+          <template #activator="{ on, attrs }">
+            <v-btn
+              text
+              icon
+              color="primary"
+              v-bind="attrs"
+              :href="social.link"
+              target="_blank"
+              v-on="on"
+            >
+              <v-icon>{{ social.icon }}</v-icon></v-btn
+            >
+          </template>
+          <span>{{ social.tooltip }} </span>
+        </v-tooltip>
         <template v-if="item.podcast">
           <v-btn
             target="_blank"
@@ -176,6 +175,7 @@
   </v-row>
 </template>
 <script>
+import { slugify } from '~/assets/utils'
 export default {
   props: {
     mentor: {
@@ -197,6 +197,10 @@ export default {
   computed: {},
   mounted() {},
   methods: {
+    slugifyItem(item) {
+      console.log('slugify(item): ', slugify(item))
+      return slugify(item)
+    },
     highlight: (word, query) => {
       const check = new RegExp(query, 'ig')
       return word.replace(check, function (matchedText, a, b) {
@@ -245,4 +249,11 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+div.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+</style>

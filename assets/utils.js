@@ -14,7 +14,76 @@ export const truncateString = (str, num) => {
   }
   return str.slice(0, num) + '...'
 }
+export const getContent = async (cat, $content, params, search, error) => {
+  const currentPage = parseInt(params.page)
 
+  const perPage = 3
+
+  const count = await $content(cat)
+    .where({ published: true })
+    .search(search)
+    .only([])
+    .fetch()
+
+  const totalArticles = count.length
+
+  // use Math.ceil to round up to the nearest whole number
+  const lastPage = Math.ceil(totalArticles / perPage)
+
+  // use the % (modulus) operator to get a whole remainder
+  const lastPageCount = totalArticles % perPage
+
+  const skipNumber = () => {
+    if (currentPage === 1) {
+      return 0
+    }
+    if (currentPage === lastPage) {
+      return totalArticles - lastPageCount
+    }
+    return (currentPage - 1) * perPage
+  }
+  let posts, pinnedPost
+  if (currentPage === 1) {
+    const rawPosts = await $content(cat)
+      .where({ published: true })
+      .search(search)
+      .sortBy('date', 'desc')
+      .limit(perPage)
+      .skip(skipNumber())
+      .fetch()
+
+    pinnedPost = await $content(cat)
+      .where({ published: true, pinned: true })
+      .search(search)
+      .sortBy('date', 'desc')
+      .limit(1)
+      .fetch()
+
+    posts = pinnedPost
+      ? rawPosts.filter((item) => item.slug !== pinnedPost[0]?.slug)
+      : rawPosts
+  } else {
+    posts = await $content(cat)
+      .where({ published: true })
+      .search(search)
+      .sortBy('date', 'desc')
+      .limit(perPage)
+      .skip(skipNumber())
+      .fetch()
+    pinnedPost = false
+  }
+
+  if (currentPage === 0 || !posts.length) {
+    return error({ statusCode: 404, message: 'No result found!' })
+  }
+
+  return {
+    count: totalArticles,
+    pages: lastPage,
+    pinnedPost,
+    posts,
+  }
+}
 export const LightenDarkenColor = (col, amt) => {
   let usePound = false
 
@@ -46,7 +115,6 @@ export const LightenDarkenColor = (col, amt) => {
   )
 }
 export const _srcset = function (ctx, src) {
-  console.log('calling src set', src)
   return ctx.$img.getSizes(src, {
     sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
     modifiers: {

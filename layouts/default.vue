@@ -127,14 +127,14 @@
               </template>
 
               <v-list>
-                <v-list-item nuxt to="/about/concept" class="px-2">
+                <v-list-item nuxt to="/about/concept">
                   <v-list-item-title
                     class="headline primary--text text-uppercase py-3"
                   >
                     Concept
                   </v-list-item-title>
                 </v-list-item>
-                <v-list-item nuxt to="/about/ica4" class="px-2">
+                <v-list-item nuxt to="/about/ica4">
                   <v-list-item-title
                     class="headline primary--text text-uppercase py-3"
                   >

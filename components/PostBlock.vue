@@ -2,8 +2,34 @@
   <v-card
     :id="(item.anchor && item.anchor.toLowerCase()) || item.post_title"
     class="pa-6 my-3"
+    v-bind="$attrs"
   >
+    <v-tooltip v-if="$route.name === 'blog'" bottom>
+      <template #activator="{ on, attrs }">
+        <v-btn
+          text
+          icon
+          v-bind="attrs"
+          :href="'https://intercontinental-academia.org/blog/' + item.slug"
+          target="_blank"
+          rel="noopener noreferrer"
+          :title="item.post_title"
+          small
+          class="float-right"
+          v-on="on"
+        >
+          <v-icon>mdi-open-in-new</v-icon></v-btn
+        >
+      </template>
+      <span>Open in a new tab</span>
+    </v-tooltip>
     <v-card-subtitle class="pb-0">
+      <v-tooltip v-if="index === null" bottom>
+        <template #activator="{ on, attrs }">
+          <v-icon v-bind="attrs" v-on="on">mdi-pin</v-icon>
+        </template>
+        <span>This post is pinned</span>
+      </v-tooltip>
       {{
         new Date(item.date).toLocaleDateString('EN', {
           timezone: 'UTC',
@@ -47,7 +73,7 @@
           >
         </div>
       </template>
-      <nuxt-content :document="item" />
+      <nuxt-content :document="item" class="py-6" />
       <SoundCloudEmbed
         v-for="(track, index2) in item.audio"
         :key="index2"
@@ -70,7 +96,7 @@ export default {
     },
     index: {
       type: Number,
-      default: 1,
+      default: null,
     },
   },
   data() {
