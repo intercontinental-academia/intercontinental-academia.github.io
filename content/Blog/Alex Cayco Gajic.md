@@ -10,7 +10,7 @@ post_title: '"From Movement to Cognition": An exploration of Alex Cayco Gajic''s
 date: 
 authors: []
 image: ''
-youtube_video_id: qhjTekJ2Nc0
+youtube_video_id: https://youtu.be/qhjTekJ2Nc0
 audio: []
 
 ---
