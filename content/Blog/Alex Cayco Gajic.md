@@ -18,7 +18,7 @@ Have you been wondering what are the ICA4 fellows researching?
 
 Look no more!
 
-In this post, we focus on Alex's research **"From movement to cognition: Understanding cerebella-cortical coordination for flexible learning"**. She explains it herself through a bite-sized video pitch.
+In this post, we focus on Alex's research **"From movement to cognition: Understanding cerebella-cortical coordination for flexible learning"**. It's best to find out more from herself! She explains it all through a bite-sized video pitch.
 
 More about Alex:
 
