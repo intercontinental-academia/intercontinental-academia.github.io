@@ -1,10 +1,10 @@
 ---
 tags:
-- Alex Cayco Gajic
-- Cognition
-- Artificial Intelligence
-- Neuroscience
-- Learning
+  - Alex Cayco Gajic
+  - Cognition
+  - Artificial Intelligence
+  - Neuroscience
+  - Learning
 published: true
 pinned: false
 post_title: '"From Movement to Cognition": An exploration of Alex Cayco Gajic''s Research'
@@ -13,9 +13,9 @@ authors: []
 image: ''
 youtube_video_id: qhjTekJ2Nc0
 audio:
-- '1122330247'
-
+  - '1122330247'
 ---
+
 Have you been wondering what are the ICA4 fellows researching?
 
 Look no more!

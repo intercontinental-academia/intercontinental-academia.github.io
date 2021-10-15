@@ -22,5 +22,4 @@ linkedin: https://www.linkedin.com/in/philipp-kellmeyer-05543515b/
 twitter: https://twitter.com/neuroastics
 wikipedia: ''
 website: ''
-podcast: true
 ---

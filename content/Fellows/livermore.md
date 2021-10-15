@@ -20,5 +20,4 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-podcast: true
 ---

@@ -23,5 +23,4 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ' https://henrytaylorphilosophy.com/  '
-podcast: true
 ---

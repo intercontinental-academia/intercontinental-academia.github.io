@@ -126,17 +126,7 @@
           <span>{{ social.tooltip }} </span>
         </v-tooltip>
         <template v-if="item.podcast">
-          <v-btn
-            target="_blank"
-            outlined
-            nuxt
-            :to="
-              '/blog#' +
-              item.lastname
-                .split(' ')
-                [item.lastname.split(' ').length - 1].toLowerCase()
-            "
-          >
+          <v-btn outlined nuxt :to="'/blog/' + item.podcast">
             <v-icon left>mdi-play-circle</v-icon> Podcast
           </v-btn>
         </template>

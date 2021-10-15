@@ -21,5 +21,4 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: https://scholars.huji.ac.il/ithairabinowitch
-podcast: true
 ---
