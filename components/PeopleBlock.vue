@@ -125,25 +125,15 @@
           </template>
           <span>{{ social.tooltip }} </span>
         </v-tooltip>
-        <template v-if="item.podcast">
-          <v-btn outlined nuxt :to="'/blog/' + item.podcast">
+        <template v-if="podcast">
+          <v-btn outlined nuxt :to="'/blog/' + podcast">
             <v-icon left>mdi-play-circle</v-icon> Podcast
           </v-btn>
         </template>
       </div>
       <p v-html="highlight(item.presentation, search)"></p>
-      <template v-if="item.podcast && $vuetify.breakpoint.mdAndUp">
-        <v-btn
-          outlined
-          class="mb-3"
-          nuxt
-          :to="
-            '/blog#' +
-            item.lastname
-              .split(' ')
-              [item.lastname.split(' ').length - 1].toLowerCase()
-          "
-        >
+      <template v-if="podcast && $vuetify.breakpoint.mdAndUp">
+        <v-btn outlined class="mb-3" nuxt :to="'/blog/' + podcast">
           <v-icon left>mdi-play-circle</v-icon> Podcast
         </v-btn>
       </template>
@@ -182,7 +172,23 @@ export default {
     },
   },
   data() {
-    return {}
+    return {
+      podcast: false,
+    }
+  },
+  async fetch() {
+    if (this.item.podcast) {
+      console.log(this.item.podcast.substring(7))
+      const rst = await this.$content('Blog')
+        .where({
+          path: this.item.podcast
+            .substring(0, this.item.podcast.length - 3)
+            .substring(7),
+        })
+        .only('slug')
+        .fetch()
+      this.podcast = rst && rst.length ? rst[0].slug : false
+    }
   },
   computed: {},
   mounted() {},
