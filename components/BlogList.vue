@@ -18,8 +18,9 @@
         >
       </div>
     </template>
-    <template v-if="pinnedPost && $route.params.page == 1">
-      <post-block :item="pinnedPost[0]" :search="searchString" raised />
+    <div v-else class="overline">{{ count + ' blog posts available' }}</div>
+    <template v-if="pinnedPost">
+      <post-block :item="pinnedPost" :search="searchString" raised />
     </template>
 
     <post-block

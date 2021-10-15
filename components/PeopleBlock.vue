@@ -198,7 +198,6 @@ export default {
   mounted() {},
   methods: {
     slugifyItem(item) {
-      console.log('slugify(item): ', slugify(item))
       return slugify(item)
     },
     highlight: (word, query) => {

@@ -134,8 +134,7 @@ export default {
     const videos = posts.filter(
       (item) => item.youtube_video_id && item.youtube_video_id.length
     )
-    console.log('podcasts: ', podcasts)
-    console.log('videos: ', videos)
+
     return {
       podcasts,
       videos,

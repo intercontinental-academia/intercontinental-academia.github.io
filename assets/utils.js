@@ -15,9 +15,10 @@ export const truncateString = (str, num) => {
   return str.slice(0, num) + '...'
 }
 export const getContent = async (cat, $content, params, search, error) => {
-  const currentPage = parseInt(params.page)
+  const currentPage = parseInt(params.page) || 1
+  console.log('currentPage: ', currentPage)
 
-  const perPage = 3
+  const perPage = 5
 
   const count = await $content(cat)
     .where({ published: true })
@@ -26,6 +27,7 @@ export const getContent = async (cat, $content, params, search, error) => {
     .fetch()
 
   const totalArticles = count.length
+  console.log('totalArticles: ', totalArticles)
 
   // use Math.ceil to round up to the nearest whole number
   const lastPage = Math.ceil(totalArticles / perPage)
@@ -51,13 +53,14 @@ export const getContent = async (cat, $content, params, search, error) => {
       .limit(perPage)
       .skip(skipNumber())
       .fetch()
-
+    console.log('rawPosts: ', rawPosts)
     pinnedPost = await $content(cat)
       .where({ published: true, pinned: true })
       .search(search)
       .sortBy('date', 'desc')
       .limit(1)
       .fetch()
+    console.log('pinnedPost: ', pinnedPost)
 
     posts = pinnedPost
       ? rawPosts.filter((item) => item.slug !== pinnedPost[0]?.slug)
@@ -80,7 +83,7 @@ export const getContent = async (cat, $content, params, search, error) => {
   return {
     count: totalArticles,
     pages: lastPage,
-    pinnedPost,
+    pinnedPost: pinnedPost.length ? pinnedPost[0] : false,
     posts,
   }
 }

@@ -4,7 +4,7 @@
     class="pa-6 my-3"
     v-bind="$attrs"
   >
-    <v-tooltip v-if="$route.name === 'blog'" bottom>
+    <v-tooltip v-if="['blog', 'blog-page-page'].includes($route.name)" bottom>
       <template #activator="{ on, attrs }">
         <v-btn
           text
@@ -24,7 +24,12 @@
       <span>Open in a new tab</span>
     </v-tooltip>
     <v-card-subtitle class="pb-0">
-      <v-tooltip v-if="index === null" bottom>
+      <v-tooltip
+        v-if="
+          index === null && ['blog', 'blog-page-page'].includes($route.name)
+        "
+        bottom
+      >
         <template #activator="{ on, attrs }">
           <v-icon v-bind="attrs" v-on="on">mdi-pin</v-icon>
         </template>
@@ -105,15 +110,12 @@ export default {
     }
   },
   computed: {},
-  mounted() {
-    console.log(this.$route.name)
-  },
+  mounted() {},
   methods: {
     truncateString(str = '') {
       return truncateString(str, 250)
     },
     highlight: (word = '', query) => {
-      console.log('query: ', query)
       const check = new RegExp(query, 'ig')
       return word.replace(check, function (matchedText, a, b) {
         return (

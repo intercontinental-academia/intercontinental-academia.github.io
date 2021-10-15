@@ -47,6 +47,8 @@
             </v-avatar>
             <div class="mt-3">
               <div class="text-h5 font-weight-black">
+                <div :id="slugifyItem(item.lastname)" class="anchor"></div>
+
                 {{ item.firstname }} {{ item.lastname }}
               </div>
               <div class="text-h6 mb-3">
@@ -172,6 +174,8 @@
   </div>
 </template>
 <script>
+import { slugify } from '~/assets/utils'
+
 export default {
   async asyncData({ app, $content }) {
     const concept = await $content('Pages_content/about/concept').fetch()
@@ -210,6 +214,11 @@ export default {
     }
   },
   mounted() {},
+  methods: {
+    slugifyItem(item) {
+      return slugify(item)
+    },
+  },
 }
 </script>
 <style scopped>
