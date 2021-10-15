@@ -1,13 +1,14 @@
 ---
 tags:
-- YouTube
 - Alex Cayco Gajic
-- cognition
-- fellows
+- Cognition
+- Artificial Intelligence
+- Neuroscience
+- Cognitive Science
 published: true
 pinned: false
 post_title: '"From Movement to Cognition": An exploration of Alex Cayco Gajic''s Research'
-date: 2021-10-14T22:00:00Z
+date: 2021-10-14T22:00:00.000+00:00
 authors: []
 image: ''
 youtube_video_id: qhjTekJ2Nc0
@@ -18,7 +19,7 @@ Have you been wondering what are the ICA4 fellows researching?
 
 Look no more!
 
-In this post, we focus on Alex's research **"From movement to cognition: Understanding cerebella-cortical coordination for flexible learning"**. It's best to find out more from herself! She explains it all through a bite-sized video pitch.
+Alex is Junior Professor in the Département d’Etudes Cognitives at École Normale Supérieure in Paris. Let's hear all about her research from herself, as she explains **"From movement to cognition: Understanding cerebella-cortical coordination for flexible learning"** through a bite-sized video pitch.
 
 More about Alex:
 
