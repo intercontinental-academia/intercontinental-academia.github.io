@@ -13,7 +13,8 @@ date: 2021-10-14T22:00:00.000+00:00
 authors: []
 image: ''
 youtube_video_id: qhjTekJ2Nc0
-audio: []
+audio:
+- https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316428987&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 
 ---
 Have you been wondering what are the ICA4 fellows researching?
@@ -26,6 +27,6 @@ More about Alex:
 
 Alex Cayco Gajic is a neuroscientist who works on recurrent neural networks (RNNs) in flexible learning. She is junior professor at École Normale Supérieure in Paris, where she is in the Group for Neural Theory at the Laboratory for Cognitive and Computational Neuroscience. Previously, she was research associate at University College London. She received her PhD in Applied Mathematics in 2015 from the University of Washington. For her project at the 4th Intercontinental Academia, she proposes to investigate the links between sensorimotor and cognitive behaviors with a focus on cerebello-cortical coordination. In particular, she wishes to explore how a cognitive internal model in the cerebellum could aid the neocortex in adapting to unexpected changes in cognitive tasks.
 
-Excited to learn more?
+**Excited to learn more on this?**
 
-Listen to the ICA4 podcast in which Alex talks about Intelligence and the Brain in an interview with Mike Livermore:
+Listen to the **ICA4 podcast** in which Alex talks about **Intelligence and the Brain** in an interview with Mike Livermore:
