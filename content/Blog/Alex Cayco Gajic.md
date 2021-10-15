@@ -5,7 +5,6 @@ tags:
 - Artificial Intelligence
 - Neuroscience
 - Learning
-- Cognitive Science
 published: true
 pinned: false
 post_title: '"From Movement to Cognition": An exploration of Alex Cayco Gajic''s Research'
