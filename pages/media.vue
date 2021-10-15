@@ -47,6 +47,42 @@
           :flat="$vuetify.theme.isDark"
         >
           <v-card-title class="justify-center font-weight-black text-uppercase">
+            Press releases
+          </v-card-title>
+          <v-card-text
+            :class="{
+              'mb-6': $vuetify.breakpoint.smAndDown,
+            }"
+          >
+            <v-list two-line subheader>
+              <v-list-item href="/presentation_ICA4.pdf" target="_blank">
+                <v-list-item-avatar>
+                  <v-icon large>mdi-file-pdf-box</v-icon>
+                </v-list-item-avatar>
+                <v-list-item-content>
+                  <v-list-item-title
+                    >ICA4 Presentation (french)</v-list-item-title
+                  >
+                  <v-list-item-subtitle>2021-10-15</v-list-item-subtitle>
+                </v-list-item-content>
+                <v-list-item-action>
+                  <v-btn icon>
+                    <v-icon color="grey lighten-1" />
+                  </v-btn>
+                </v-list-item-action>
+              </v-list-item>
+            </v-list>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" sm="6">
+        <v-card
+          :class="{
+            'pa-6 mb-6': $vuetify.breakpoint.mdAndUp,
+          }"
+          :flat="$vuetify.theme.isDark"
+        >
+          <v-card-title class="justify-center font-weight-black text-uppercase">
             Podcasts
           </v-card-title>
           <v-card-text
@@ -82,8 +118,6 @@
             <div v-else class="text-h6">No video available yet.</div>
           </v-card-text>
         </v-card>
-      </v-col>
-      <v-col cols="12" sm="6">
         <v-card class="pa-6 mb-6" :flat="$vuetify.theme.isDark">
           <v-card-title class="justify-center font-weight-black text-uppercase">
             Videos

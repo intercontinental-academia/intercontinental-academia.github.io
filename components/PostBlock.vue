@@ -57,8 +57,8 @@
       <v-row>
         <v-col cols="12">
           <YoutubeEmbed
-            v-if="item.video"
-            :yt="item.video"
+            v-if="item.youtube_video_id"
+            :yt="item.youtube_video_id"
             class="mb-9 ml-3"
           ></YoutubeEmbed
         ></v-col>
@@ -78,7 +78,7 @@
           >
         </div>
       </template>
-      <nuxt-content :document="item" class="py-6" />
+      <nuxt-content :document="item" />
       <SoundCloudEmbed
         v-for="(track, index2) in item.audio"
         :key="index2"
