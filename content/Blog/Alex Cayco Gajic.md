@@ -7,10 +7,10 @@ tags:
 published: true
 pinned: false
 post_title: '"From Movement to Cognition": An exploration of Alex Cayco Gajic''s Research'
-date: 
+date: 2021-10-14T22:00:00Z
 authors: []
 image: ''
-youtube_video_id: https://youtu.be/qhjTekJ2Nc0
+youtube_video_id: qhjTekJ2Nc0
 audio: []
 
 ---
