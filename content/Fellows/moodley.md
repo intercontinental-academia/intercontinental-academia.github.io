@@ -1,14 +1,12 @@
 ---
 firstname: Deshen
 lastname: Moodley
-image: '/deshenmoodley.jpg'
+image: "/deshenmoodley.jpg"
 copyright: Design Moodley, 2021
-title_and_institution:
-  'Associate Professor, Department of Computer Science, University
+title_and_institution: 'Associate Professor, Department of Computer Science, University
   of Cape Town and Co-Director of the South African national Centre for Artificial
   Intelligence Research '
-presentation:
-  'Deshen Moodley is an Associate Professor in the Department of Computer
+presentation: 'Deshen Moodley is an Associate Professor in the Department of Computer
   Science at the University of Cape Town (UCT) and co-founder and co-director of the
   South African National Centre for Artificial Intelligence Research. His research
   focuses on the development of Adaptive and Cognitive Systems. He is specifically
@@ -21,5 +19,6 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-podcast: true
+podcast: content/Blog/Deshen Moodley.md
+
 ---
