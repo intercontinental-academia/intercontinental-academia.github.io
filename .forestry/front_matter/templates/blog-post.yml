@@ -60,4 +60,5 @@ fields:
     max: 
   label: Audio
 pages:
+- content/Blog/Alex Cayco Gajic.md
 - content/Blog/growiec.md
