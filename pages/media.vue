@@ -115,7 +115,7 @@
                 </v-list-item-content>
               </v-list-item>
             </v-list>
-            <div v-else class="text-h6">No video available yet.</div>
+            <div v-else class="text-h6">No Podcast available yet.</div>
           </v-card-text>
         </v-card>
         <v-card class="pa-6 mb-6" :flat="$vuetify.theme.isDark">
