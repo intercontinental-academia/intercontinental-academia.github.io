@@ -6,7 +6,7 @@ tags:
 - Perception
 - Memory
 - Attention
-published: false
+published: true
 pinned: false
 post_title: Henry Taylor speaks about the interface between cognitive science and
   philosophy
@@ -14,20 +14,23 @@ date: 2021-10-15T22:00:00Z
 authors: []
 image: ''
 youtube_video_id: ''
-audio: []
+audio:
+- '1122328567'
 
 ---
-I work in the philosophy of mind broadly construed. I am especially interested in the interface between cognitive science and philosophy.
+Have you been wondering what are the ICA4 fellows researching?
 
-I am currently focussing mainly on natural kinds in psychology. Psychologists use particular categories to talk about the mind, such as _consciousness_, _memory,_ and _perception_. I am interested in how these categories are developed, and what they must be like in order to explain the success of science. I am currently writing a monograph on this topic.
+Look no more!
 
-Other interests include:
+Listen to Henry as he discusses **the interface between cognitive science and philosophy** with Mike Livermore in an ICA4 podcast.
 
 * Attention (what is attention? How does attention interact with perception, and consciousness?)
 * Consciousness (is consciousness just a feature of the brain? How should consciousness be studied scientifically?)
 * Perception (can perception occur unconsciously?)
 * The metaphysics of properties (how should we understand the properties that make up our world?)
 
-I am also very interested in visual crowding. This is when objects in the periphery of the visual field become harder to identify when placed near other objects. I have mainly worked on this with [Dr Bilge Sayim,](http://appearancelab.org/researchteam/bilge.html) a perceptual psychologist at the University of Bern.
+Henry works in the philosophy of mind broadly construed, and is especially interested in the interface between cognitive science and philosophy. He is currently focussing mainly on natural kinds in psychology. Psychologists use particular categories to talk about the mind, such as _consciousness_, _memory,_ and _perception_. Henry is interested in how these categories are developed, and what they must be like in order to explain the success of science. 
 
-Before Birmingham, I was a Leverhulme Early Career Fellow at the University of Cambridge. I got my PhD in 2015 from the University of Durham.
+Curious about the ICA4 fellow?
+
+**Henry Taylor** is a Senior Lecturer in University of Birmingham. Before Birmingham, he was a Leverhulme Early Career Fellow at the University of Cambridge.
