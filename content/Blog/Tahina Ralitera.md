@@ -4,7 +4,7 @@ tags:
 - Modelling
 - Blockchain
 - Computer Science
-published: false
+published: true
 pinned: false
 post_title: Exploring modelling and simulation based research with Tahina Ralitera
 date: 2021-10-15T22:00:00Z
