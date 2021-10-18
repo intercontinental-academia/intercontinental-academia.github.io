@@ -10,7 +10,8 @@ pinned: false
 post_title: Yasutomo Kawanishi's investigation of how human beings recognise, describe
   and memorise the environment
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: ZMzFmx60U2w
 audio: []
