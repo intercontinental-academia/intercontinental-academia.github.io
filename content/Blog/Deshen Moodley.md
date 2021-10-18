@@ -8,7 +8,8 @@ published: true
 pinned: false
 post_title: Deshen Moodley on "Adaptive and Cognitive Systems"
 date: 2021-10-14T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: ziT27xYdi6o
 audio:
