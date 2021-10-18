@@ -9,7 +9,8 @@ pinned: false
 post_title: Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age
   of Artificial Intelligence"
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: j0Gy3kJK2Dw
 audio:
