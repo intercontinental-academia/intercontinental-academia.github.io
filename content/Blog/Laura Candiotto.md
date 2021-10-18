@@ -9,7 +9,8 @@ published: true
 pinned: false
 post_title: All About Emotions with Laura Candiotto
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: W8WkGsscoI4
 audio:
