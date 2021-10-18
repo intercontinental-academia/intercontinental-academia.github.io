@@ -8,7 +8,8 @@ published: true
 pinned: false
 post_title: An exploration of computational linguistics with Evandro Cunha
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: W0kUyzxSCbQ
 audio: []
