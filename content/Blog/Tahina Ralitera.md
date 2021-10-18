@@ -8,7 +8,8 @@ published: true
 pinned: false
 post_title: Exploring modelling and simulation based research with Tahina Ralitera
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: 8kW0EvrunIU
 audio: []
