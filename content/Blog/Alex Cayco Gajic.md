@@ -1,25 +1,21 @@
 ---
 tags:
-- Cognition
-- Artificial Intelligence
-- Neuroscience
-- Learning
-- Movement
+  - Cognition
+  - Artificial Intelligence
+  - Neuroscience
+  - Learning
+  - Movement
 published: true
 pinned: false
 post_title: '"From Movement to Cognition": An exploration of Alex Cayco Gajic''s Research'
 date: 2021-10-14T22:00:00.000+00:00
 authors:
-- name: Atrina Oraee
+  - name: Atrina Oraee
 image: ''
 youtube_video_id: qhjTekJ2Nc0
 audio:
-- '1122330247'
-
+  - '1122330247'
 ---
-Have you been wondering what are the ICA4 fellows researching?
-
-Look no more!
 
 Alex is Junior Professor in the Département d’Etudes Cognitives at École Normale Supérieure in Paris. Let's hear all about her research from herself, as she explains **"From movement to cognition: Understanding cerebello-cortical coordination for flexible learning"** through a bite-sized video pitch.
 

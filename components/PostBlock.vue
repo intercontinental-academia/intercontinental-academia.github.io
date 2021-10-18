@@ -38,21 +38,25 @@
       {{
         new Date(item.date).toLocaleDateString('EN', {
           timezone: 'UTC',
-        }) +
-        ' - ' +
+        })
+      }}
+      <!--  +    ' - ' +
         new Date(item.date).toLocaleTimeString('EN', {
           hour: '2-digit',
           minute: '2-digit',
-          timezone: 'UTC',
-        })
-      }}
+          timezone: 'UTC', 
+      })-->
     </v-card-subtitle>
-    <v-card-title class="pt-0">
+    <v-card-title>
       <span class="text-h4" v-html="highlight(item.post_title, search)"></span>
+    </v-card-title>
+
+    <div class="px-3">
       <v-chip v-for="(tag, index2) in item.tags" :key="index2" class="ma-2">
         {{ tag }}
       </v-chip>
-    </v-card-title>
+    </div>
+
     <v-card-text>
       <v-row>
         <v-col cols="12">
@@ -68,7 +72,7 @@
         >&copy; {{ item.copyright }}</small
       >
 
-      <nuxt-content :document="item" class="px-3" />
+      <nuxt-content :document="item" />
       <template v-if="item.authors.length">
         <div class="mb-3 px-3 font-italic">
           By

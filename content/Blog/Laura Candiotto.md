@@ -1,25 +1,21 @@
 ---
 tags:
-- Emotions
-- Epistemology
-- Philosophy
-- Affect
-- Robots
+  - Emotions
+  - Epistemology
+  - Philosophy
+  - Affect
+  - Robots
 published: true
 pinned: false
 post_title: All About Emotions with Laura Candiotto
 date: 2021-10-15T22:00:00Z
 authors:
-- name: Atrina Oraee
+  - name: Atrina Oraee
 image: ''
 youtube_video_id: W8WkGsscoI4
 audio:
-- '1121149873'
-
+  - '1121149873'
 ---
-Have you been wondering what are the ICA4 fellows researching?
-
-Look no more!
 
 As a philosopher of emotion, **Laura** works on the **epistemology of emotions**. She's elaborated her research in the above pitch.
 

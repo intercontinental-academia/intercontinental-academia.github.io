@@ -1,25 +1,22 @@
 ---
 tags:
-- Economic Growth
-- Artificial Intelligence
-- Human Capital
-- Future Economy
+  - Economic Growth
+  - Artificial Intelligence
+  - Human Capital
+  - Future Economy
 published: true
 pinned: false
-post_title: Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age
+post_title:
+  Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age
   of Artificial Intelligence"
 date: 2021-10-15T22:00:00Z
 authors:
-- name: Atrina Oraee
+  - name: Atrina Oraee
 image: ''
 youtube_video_id: j0Gy3kJK2Dw
 audio:
-- '1117701793'
-
+  - '1117701793'
 ---
-Have you been wondering what are the ICA4 fellows researching?
-
-Look no more!
 
 How the economy will adapt to the rise of AI is what fascinates **Jakub** and he explores **the importance of the digital revolution for global economic growth, income inequality, and factor shares**.
 

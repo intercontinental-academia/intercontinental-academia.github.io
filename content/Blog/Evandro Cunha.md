@@ -1,25 +1,21 @@
 ---
 tags:
-- Language
-- Computational Processing
-- Historical Linguistics
-- Neuroscience of Language
+  - Language
+  - Computational Processing
+  - Historical Linguistics
+  - Neuroscience of Language
 published: true
 pinned: false
 post_title: An exploration of computational linguistics with Evandro Cunha
 date: 2021-10-15T22:00:00Z
 authors:
-- name: Atrina Oraee
+  - name: Atrina Oraee
 image: ''
 youtube_video_id: W0kUyzxSCbQ
 audio: []
-
 ---
-Have you been wondering what are the ICA4 fellows researching?
 
-Look no more!
-
-While expressing his fascination for linguistics in his research pitch, Evandro explained: "**Language** is arguably the most powerful tool that we humans developed to express out thoughts and feelings and to convey information." 
+While expressing his fascination for linguistics in his research pitch, Evandro explained: "**Language** is arguably the most powerful tool that we humans developed to express out thoughts and feelings and to convey information."
 
 Watch him as he explains more about his research!
 
