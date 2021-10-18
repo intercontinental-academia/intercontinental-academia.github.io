@@ -11,7 +11,8 @@ pinned: false
 post_title: Henry Taylor speaks about the interface between cognitive science and
   philosophy
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: ''
 audio:
