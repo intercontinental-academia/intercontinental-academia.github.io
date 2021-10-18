@@ -21,5 +21,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-podcast: content/Blog/Alex-Cayco-Gajic.md
+podcast: content/Blog/Alex Cayco Gajic.md
 ---

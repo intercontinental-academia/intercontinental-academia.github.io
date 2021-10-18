@@ -18,7 +18,9 @@
         >
       </div>
     </template>
-    <div v-else class="overline">{{ count + ' blog posts available' }}</div>
+    <div v-else class="overline mx-3">
+      {{ count + ' blog posts available' }}
+    </div>
     <template v-if="pinnedPost">
       <post-block :item="pinnedPost" :search="searchString" raised />
     </template>
@@ -33,15 +35,10 @@
     <div v-if="pages > 1" class="text-center">
       <v-pagination
         :v-model="current"
-        :value="current"
+        :value="+$route.query.page || 1"
         :length="pages"
         circle
-        @input="
-          $router.push({
-            name: 'blog-page-page',
-            params: { page: +$event },
-          })
-        "
+        @input="updatePage($event)"
       ></v-pagination>
     </div>
   </div>
@@ -57,28 +54,41 @@ export default {
       pinnedPost: false,
       posts: [],
       pages: 1,
-      current: +this.$route.params.page || 1,
+      current: this.$route.query.page || 1,
       count: 0,
     }
   },
   async fetch() {
-    const rst = await getContent(
-      'Blog',
-      this.$content,
-      this.$route.params,
-      false
-    )
+    const rst = await getContent('Blog', this.$content, this.current, false)
     this.count = rst.count
     this.pages = rst.pages
     this.pinnedPost = rst.pinnedPost
     this.posts = rst.posts
   },
   watch: {
+    async current() {
+      const rst = await getContent(
+        'Blog',
+        this.$content,
+        this.current,
+        this.searchString || null
+      )
+
+      this.count = rst.count
+      this.pages = rst.pages
+      this.pinnedPost = rst.pinnedPost
+      this.posts = rst.posts
+      if (!this.searchString) {
+        this.searching = false
+      } else {
+        this.searching = true
+      }
+    },
     async searchString(searchString) {
       const rst = await getContent(
         'Blog',
         this.$content,
-        this.$route.params,
+        this.$route.query,
         searchString || null
       )
 
@@ -94,7 +104,16 @@ export default {
     },
   },
   mounted() {},
-  methods: {},
+  methods: {
+    async updatePage(page) {
+      this.current = +page
+      await this.$router.push({
+        name: 'blog',
+        query: { ...this.$route.query, page },
+      })
+      window.scrollTo(0, 0)
+    },
+  },
 }
 </script>
 <style lang="scss">

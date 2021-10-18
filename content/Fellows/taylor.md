@@ -22,5 +22,6 @@ presentation:
 linkedin: ''
 twitter: ''
 wikipedia: ''
-website: ' https://henrytaylorphilosophy.com/  '
+website: ' https://henrytaylorphilosophy.com/'
+podcast: content/Blog/Henry Taylor.md
 ---

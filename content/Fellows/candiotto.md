@@ -17,5 +17,6 @@ presentation:
 linkedin: ''
 twitter: ''
 wikipedia: ''
+podcast: content/Blog/Laura Candiotto.md
 website: http://www.emotionsfirst.org/
 ---

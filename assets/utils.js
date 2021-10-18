@@ -14,8 +14,8 @@ export const truncateString = (str, num) => {
   }
   return str.slice(0, num) + '...'
 }
-export const getContent = async (cat, $content, params, search, error) => {
-  const currentPage = parseInt(params.page) || 1
+export const getContent = async (cat, $content, page, search, error) => {
+  const currentPage = parseInt(page) || 1
 
   const perPage = 5
 
@@ -34,15 +34,20 @@ export const getContent = async (cat, $content, params, search, error) => {
   const lastPageCount = totalArticles % perPage
 
   const skipNumber = () => {
-    if (currentPage === 1) {
+    if (+currentPage === 1) {
       return 0
     }
-    if (currentPage === lastPage) {
+    if (+currentPage === lastPage) {
+      if (lastPageCount === 0) {
+        return totalArticles - perPage
+      }
+
       return totalArticles - lastPageCount
     }
     return (currentPage - 1) * perPage
   }
   let posts, pinnedPost
+
   if (currentPage === 1) {
     const rawPosts = await $content(cat)
       .where({ published: true })
@@ -74,7 +79,7 @@ export const getContent = async (cat, $content, params, search, error) => {
   }
 
   if (currentPage === 0 || !posts.length) {
-    return error({ statusCode: 404, message: 'No result found!' })
+    return
   }
 
   return {

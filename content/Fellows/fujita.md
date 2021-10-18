@@ -1,11 +1,13 @@
 ---
 firstname: André
 lastname: Fujita
-image: "/andre-fujita.jpg"
+image: '/andre-fujita.jpg'
 copyright: André Fujita, 2021
-title_and_institution: Associate Professor at the Department of Computer Science;
+title_and_institution:
+  Associate Professor at the Department of Computer Science;
   University of São Paulo (USP)
-presentation: 'André Fujita is a computer scientist who is specialized in bioinformatics.
+presentation:
+  'André Fujita is a computer scientist who is specialized in bioinformatics.
   Associate Professor at the Department of Computer Science and coordinator of the
   Bioinformatics graduate program at the University of São Paulo (USP), he received
   his PhD from USP in 2007. Generally, his research focuses on understanding how the
@@ -19,5 +21,4 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-
 ---

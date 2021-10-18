@@ -229,4 +229,10 @@ export default {
   /* Firefox */
   columns: 500px 2;
 }
+div.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
 </style>

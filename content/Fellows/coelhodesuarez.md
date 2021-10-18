@@ -1,11 +1,13 @@
 ---
 firstname: Patricia
 lastname: Coelho de Soarez
-image: "/patricia-soarez.jpeg"
+image: '/patricia-soarez.jpeg'
 copyright: Patricia Coelho de Soarez, 2021
-title_and_institution: Associate Professor at the Department of Preventive Medicine
+title_and_institution:
+  Associate Professor at the Department of Preventive Medicine
   at University of São Paulo
-presentation: 'Patricia Coelho de Suarez is an expert in Health Technology Assessment,
+presentation:
+  'Patricia Coelho de Suarez is an expert in Health Technology Assessment,
   Health Economic Evaluation, and Decision Analysis Models. She is Associate Professor
   at the Department of Preventive Medicine, at University of São Paulo (USP). She
   is also a member of the research group Science, Technology and Innovation in Health,
@@ -19,5 +21,4 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-
 ---

@@ -178,7 +178,6 @@ export default {
   },
   async fetch() {
     if (this.item.podcast) {
-      console.log(this.item.podcast.substring(7))
       const rst = await this.$content('Blog')
         .where({
           path: this.item.podcast

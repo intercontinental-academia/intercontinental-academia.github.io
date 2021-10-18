@@ -22,7 +22,6 @@ export default {
         programs[0].logo_colors['4'],
         programs[0].logo_colors['5_outer_circle_color'],
       ]
-      console.log('primary: ', primary)
     },
   },
   server: {

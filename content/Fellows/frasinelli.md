@@ -1,11 +1,13 @@
 ---
 firstname: Diego
 lastname: Frassinelli
-image: "/frassinelli.jpg"
+image: '/frassinelli.jpg'
 copyright: ''
-title_and_institution: 'Junior Professor (Assistant Professor) in Artificial Intelligence
+title_and_institution:
+  'Junior Professor (Assistant Professor) in Artificial Intelligence
   at the Department of Linguistics, University of Konstanz '
-presentation: 'Diego Frassinelli’s research aims to enhance the understanding of cognitive
+presentation:
+  'Diego Frassinelli’s research aims to enhance the understanding of cognitive
   processes engaged in language comprehension and processing. Having received his
   Ph.D. in Informatics from University of Edinburgh in 2015, he is now Assistant Professor
   in Artificial Intelligence at University of Konstanz (Germany) and has been a visiting
@@ -23,5 +25,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
-
+podcast: content/Blog/Diego Frassinelli.md
 ---

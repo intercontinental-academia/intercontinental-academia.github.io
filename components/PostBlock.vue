@@ -67,9 +67,11 @@
       <small v-if="item.copyright" class="muted caption"
         >&copy; {{ item.copyright }}</small
       >
+
+      <nuxt-content :document="item" class="px-3" />
       <template v-if="item.authors.length">
-        <div class="overline mt-6">Author</div>
-        <div class="mb-3">
+        <div class="mb-3 px-3 font-italic">
+          By
           <span v-for="(author, index2) in item.authors" :key="index2"
             >{{ author.name
             }}<template v-if="index < item.authors.length - 1"
@@ -78,7 +80,6 @@
           >
         </div>
       </template>
-      <nuxt-content :document="item" />
       <SoundCloudEmbed
         v-for="(track, index2) in item.audio"
         :key="index2"

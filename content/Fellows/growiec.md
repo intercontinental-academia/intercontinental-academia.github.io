@@ -21,4 +21,5 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: ''
+podcast: content/Blog/Jakub Growiec.md
 ---
