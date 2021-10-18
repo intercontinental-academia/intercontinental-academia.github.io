@@ -8,7 +8,8 @@ published: true
 pinned: false
 post_title: Mike Livermore explains the intersection of law and artificial intelligence
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: uLNtvRT0Urk
 audio:
