@@ -9,7 +9,8 @@ pinned: false
 post_title: Could our culture and society impact natural language models? Let's ask
   Diego Frassinelli!
 date: 2021-10-15T22:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 image: ''
 youtube_video_id: 3AwyxNdg71A
 audio: []
