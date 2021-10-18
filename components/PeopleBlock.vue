@@ -126,14 +126,23 @@
           <span>{{ social.tooltip }} </span>
         </v-tooltip>
         <template v-if="podcast">
-          <v-btn outlined nuxt :to="'/blog/' + podcast">
+          <v-btn
+            outlined
+            nuxt
+            :href="'https://www.intercontinental-academia.org/blog/' + podcast"
+          >
             <v-icon left>mdi-play-circle</v-icon> Podcast
           </v-btn>
         </template>
       </div>
       <p v-html="highlight(item.presentation, search)"></p>
       <template v-if="podcast && $vuetify.breakpoint.mdAndUp">
-        <v-btn outlined class="mb-3" nuxt :to="'/blog/' + podcast">
+        <v-btn
+          outlined
+          class="mb-3"
+          nuxt
+          :href="'https://www.intercontinental-academia.org/blog/' + podcast"
+        >
           <v-icon left>mdi-play-circle</v-icon> Podcast
         </v-btn>
       </template>
@@ -143,7 +152,7 @@
         >
       </div>
 
-      <v-expansion-panels v-if="mentor" class="mt-6">
+      <v-expansion-panels v-if="menhrefr" class="mt-6">
         <v-expansion-panel>
           <v-expansion-panel-header> References </v-expansion-panel-header>
           <v-expansion-panel-content>
