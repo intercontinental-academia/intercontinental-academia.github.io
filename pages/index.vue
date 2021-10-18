@@ -41,11 +41,10 @@
 
       <div class="by text-h4">BY UBIAS</div>
     </div>
-    <v-carousel v-model="model" cycle>
+    <v-carousel v-model="model" cycle height="auto">
       <v-carousel-item
         v-for="item in carousel"
         :key="item.label"
-        transition="fade-transition"
         :height="$vuetify.breakpoint.mdAndUp ? '600' : '300'"
         :lazy-src="$img(item.image, { width: 10, quality: 70 })"
         :src="$img(item.image, { height: 'auto', quality: 70 })"
@@ -225,13 +224,5 @@ export default {
   padding: 1rem;
   margin-bottom: -20px;
   z-index: 2;
-}
-.v-carousel {
-}
-.v-carousel .v-window-item {
-  position: absolute;
-  height: 600px;
-  top: 0;
-  width: 100%;
 }
 </style>
