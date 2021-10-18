@@ -10,11 +10,11 @@ youtube_video_id: ''
 public: false
 side_event_name: ''
 name: Learning
-
 ---
-Mentored by Xiao-Jing Wang, Robert Zatorre, James McClelland
 
-Moderated by Estevam LasCasas  
+Mentored by [Xiao-Jing Wang](/mentors#wang), [Robert Zatorre](/mentors#zatorre), [James McClelland](/mentors#mcclelland)
+
+Moderated by [Estevam Las Casas](/about/ica4#barbosa-de-las-casas)  
 Location: Zoom
 
 _The ability to learn from different types of input is seen as a fundamental characteristic of intelligence. Both humans and machines can learn, but the inputs they use are not quite the same. Exploring learning in humans is fundamental to figuring out how intelligence emerges and adapts to changes._

@@ -10,11 +10,11 @@ youtube_video_id: ''
 public: false
 side_event_name: ''
 name: Foundations of Artificial Intelligence and cognitive sciences
-
 ---
-Mentored by Jack Copeland (pre-registered video), Oron Shagrir, Shimon Ullman
 
-Moderated by Raouf Boucekkine  
+Mentored by [Jack Copeland](/mentors#copeland) (pre-registered video), [Oron Shagrir](/mentors#shagrir), [Shimon Ullman](/mentors#ullman)
+
+Moderated by [Raouf Boucekkine](/about/ica4#boucekkine)  
 Location: Zoom
 
 _AI and cognitive sciences look toward each other for inspiration. Considering paradigm shifts in both AI and cognitive sciences, cooperation between these scientific disciplines should be aware of the limitations that operating within a specific paradigm brings. This event will explore the history of AI, the applications of neuroscience within AI and vice-versa._

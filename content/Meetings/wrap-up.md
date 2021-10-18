@@ -10,9 +10,9 @@ youtube_video_id: ''
 public: false
 side_event_name: ''
 name: Wrap up
-
 ---
-Chaired by Saadi Lahlou, Estevam Las Casas, and representatives of Paris Universities
+
+Chaired by [Saadi Lahlou](/about/ica4#lahlou), [Estevam Las Casas](/about/ica4#barbosa-de-las-casas), and representatives of Paris Universities
 
 Location: Zoom, then Teemew
 
@@ -20,7 +20,7 @@ _We will wrap up the June programme with instructions for the next months, inclu
 
 Topic guide:
 
-1. Reminder of agenda and instructions for the Paris and Belo Horizonte sessions by Saadi Lahlou and Estevam Las Casas
+1. Reminder of agenda and instructions for the Paris and Belo Horizonte sessions by [Saadi Lahlou](/about/ica4#lahlou) and [Estevam Las Casas](/about/ica4#barbosa-de-las-casas),
 2. Presentation of some of the partnering Universities from Paris who will be hosting sessions in October
 3. Conclusion and recommendations by fellows
 4. Global discussion and AOB
