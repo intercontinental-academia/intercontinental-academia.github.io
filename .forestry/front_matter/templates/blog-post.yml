@@ -38,6 +38,10 @@ fields:
     max: 
     labelField: 
   label: Authors
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
 - name: image
   type: file
   config:
@@ -69,5 +73,6 @@ pages:
 - content/Blog/Laura Candiotto.md
 - content/Blog/Mike Livermore.md
 - content/Blog/Overview.md
+- content/Blog/Some Challenges of AI.md
 - content/Blog/Tahina Ralitera.md
 - content/Blog/Yasutomo Kawanishi.md
