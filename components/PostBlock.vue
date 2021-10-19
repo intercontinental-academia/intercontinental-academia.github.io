@@ -67,7 +67,27 @@
           ></YoutubeEmbed
         ></v-col>
       </v-row>
-      <OptimizedImage v-if="item.image" :src="item.image"> </OptimizedImage>
+      <OptimizedImage
+        v-if="item.images && item.images.length === 1"
+        :src="item.images[0]"
+        class="my-3"
+      >
+      </OptimizedImage>
+      <v-carousel
+        v-if="item.images && item.images.length > 1"
+        class="ma-6"
+        height="auto"
+      >
+        <v-carousel-item
+          v-for="image in item.images"
+          :key="image"
+          cycle
+          :lazy-src="$img(image, { width: 10, quality: 70 })"
+          :src="$img(image, { height: 'auto', quality: 70 })"
+          :srcset="_srcset(image).srcset"
+          :sizes="_srcset(image).size"
+        ></v-carousel-item>
+      </v-carousel>
       <small v-if="item.copyright" class="muted caption"
         >&copy; {{ item.copyright }}</small
       >
@@ -128,6 +148,15 @@ export default {
           matchedText +
           '</strong>'
         )
+      })
+    },
+    _srcset(src) {
+      return this.$img.getSizes(src, {
+        sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
+        modifiers: {
+          format: 'webp',
+          quality: 70,
+        },
       })
     },
   },
