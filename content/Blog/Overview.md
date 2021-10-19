@@ -11,8 +11,8 @@ pinned: false
 post_title: An Overview of ICA4 - Session 1 (Paris IAS)
 date: 2021-10-18T22:00:00.000+00:00
 authors:
-- name: Saadi Lahlou
 - name: Atrina Oraee
+- name: Saadi Lahlou
 image: ''
 youtube_video_id: ''
 audio: []
