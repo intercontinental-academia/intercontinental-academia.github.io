@@ -10,7 +10,6 @@
           text
           icon
           v-bind="attrs"
-          nuxt
           :href="'https://intercontinental-academia.org/blog/' + item.slug"
           target="_blank"
           rel="noopener noreferrer"
