@@ -11,8 +11,8 @@ post_title: '"An Argus with billions of eyes and ears in addition to the capacit
   for action, and with infinite memory"'
 date: 2021-10-18T22:00:00.000+00:00
 authors:
-- name: Atrina Oraee
 - name: Saadi Lahlou
+- name: Atrina Oraee
 image: "/snapseed-3.jpg"
 youtube_video_id: ''
 audio: []
