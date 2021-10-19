@@ -6,3 +6,8 @@
   word-break: normal;
 }
 $body-font-family: 'Petrona', sans-serif !important;
+
+.nuxt-content p img {
+  max-width: 100%;
+  padding: 2rem 0;
+}
