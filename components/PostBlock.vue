@@ -72,7 +72,7 @@
         >&copy; {{ item.copyright }}</small
       >
 
-      <nuxt-content :document="item" />
+      <nuxt-content :document="item" class="px-3" />
       <template v-if="item.authors.length">
         <div class="mb-3 px-3 font-italic">
           By
