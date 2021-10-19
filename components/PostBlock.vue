@@ -10,6 +10,7 @@
           text
           icon
           v-bind="attrs"
+          nuxt
           :href="'https://intercontinental-academia.org/blog/' + item.slug"
           target="_blank"
           rel="noopener noreferrer"
@@ -73,26 +74,38 @@
         class="my-3"
       >
       </OptimizedImage>
-      <v-carousel
-        v-if="item.images && item.images.length > 1"
-        class="ma-6"
-        height="auto"
-      >
-        <v-carousel-item
-          v-for="image in item.images"
-          :key="image"
-          cycle
-          :lazy-src="$img(image, { width: 10, quality: 70 })"
-          :src="$img(image, { height: 'auto', quality: 70 })"
-          :srcset="_srcset(image).srcset"
-          :sizes="_srcset(image).size"
-        ></v-carousel-item>
-      </v-carousel>
+      <div v-if="item.images && item.images.length > 1" class="pb-8 pt-3">
+        <v-carousel height="auto" cycle>
+          <v-carousel-item
+            v-for="image in item.images"
+            :key="image"
+            eager
+            :lazy-src="$img(image, { width: 10, quality: 70 })"
+            :src="$img(image, { height: 'auto', quality: 70 })"
+            :srcset="_srcset(image).srcset"
+            :sizes="_srcset(image).size"
+          ></v-carousel-item>
+        </v-carousel>
+      </div>
+
       <small v-if="item.copyright" class="muted caption"
         >&copy; {{ item.copyright }}</small
       >
+      <template v-if="item.description && $route.name === 'blog' && !show">
+        <p>
+          {{ item.description }} &nbsp;<b
+            v-if="item.description && $route.name === 'blog'"
+            class="primary--text text-decoration-underline"
+            style="cursor: pointer"
+            @click="show = !show"
+          >
+            Read&nbsp;more</b
+          >
+        </p>
+      </template>
 
-      <nuxt-content :document="item" class="px-3" />
+      <nuxt-content v-else :document="item" class="px-3" />
+
       <template v-if="item.authors.length">
         <div class="mb-3 px-3 font-italic">
           By

@@ -45,6 +45,7 @@
       <v-carousel-item
         v-for="item in carousel"
         :key="item.label"
+        eager
         :lazy-src="$img(item.image, { width: 10, quality: 70 })"
         :src="$img(item.image, { height: 'auto', quality: 70 })"
         :srcset="_srcset(item.image).srcset"
