@@ -9,12 +9,19 @@ tags:
 published: false
 pinned: false
 post_title: An Overview of ICA4 - Session 1 (Paris IAS)
-date: 2021-10-18T22:00:00Z
+date: 2021-10-18T22:00:00.000+00:00
 authors:
 - name: Atrina Oraee
-image: "/snapseed.jpg"
+image: ''
 youtube_video_id: ''
 audio: []
+images:
+- "/snapseed.jpg"
+- "/snapseed-2.jpg"
+- "/img_4432-2.jpg"
+- "/image.png"
+- "/image-1.png"
+- "/snapseed-3.jpg"
 
 ---
 The Intercontinental Academia (ICA) seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.
@@ -55,4 +62,4 @@ ICA4 will continue in cyberspace, and has already started since June. The Academ
 
 _References:_
 
-* Lahlou, Saadi. "Welcome to ICA4, Paris IAS". Intercontinental Academia 4, 18 Oct. 2021, Paris Institute for Advances Studies (IAS), Paris, France. Welcome Speech.
+* [Lahlou, Saadi](). "Welcome to ICA4, Paris IAS". Intercontinental Academia 4, 18 Oct. 2021, Paris Institute for Advances Studies (IAS), Paris, France. Welcome Speech.
