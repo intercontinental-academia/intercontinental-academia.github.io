@@ -5,7 +5,7 @@ tags:
 - ICA4
 - Session 1
 - Paris
-published: false
+published: true
 pinned: false
 post_title: 'The Challenges Facing Artificial Intelligence '
 date: 2021-10-18T22:00:00.000+00:00
@@ -27,3 +27,7 @@ By enabling these systems to perceive, measure and evaluate the consequences of 
 To design, direct and control such recently established entities is a gigantic scientific problem. It is no longer theoretical: the movement is underway, on a planetary scale of almost unimaginable complexity! It is first and foremost a challenge to the sciences of matter and engineering.
 
 But how will these new entities emerge? As such, we are faced with an Argus with billions of eyes and ears in addition to the capacity for action, and with infinite memory. What will be their characteristics? How shall we integrate them into human society? How will humans adapt to this new situation? This is the second challenge: a challenge to our societies created by the technology we have brought into the world. What rights, what duties, what values, what police for these entities? These questions are all the more difficult considering the fact that such entities will remain in continuity with legal entities and natural persons, in technical, functional, economic and legal hybrids. In fact, they already are!
+
+_References:_
+
+* [Lahlou, Saadi](/about/ica4#lahlou "Saadi Lahlou"). "Welcome to ICA4, Paris IAS". Intercontinental Academia 4, 18 Oct. 2021, Paris Institute for Advanced Study (IAS), Paris, France. Welcome Speech.
