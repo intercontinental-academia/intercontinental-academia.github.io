@@ -38,6 +38,10 @@ fields:
     max: 
     labelField: 
   label: Authors
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
 - name: image
   type: file
   config:
