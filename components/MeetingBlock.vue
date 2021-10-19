@@ -50,12 +50,15 @@
             <nuxt-content-highlight :document="item" :highlight-text="search">
             </nuxt-content-highlight>
             <div class="d-flex">
-              <template v-for="file in item.attachements">
-                <v-btn :key="file" :href="file" target="_blank">
-                  <v-icon left> mdi-file-pdf-box </v-icon>
-                  {{ file.substring(1) }}
-                </v-btn>
-              </template>
+              <v-btn
+                v-for="file in item.attachements"
+                :key="file"
+                :href="file"
+                target="_blank"
+              >
+                <v-icon left> mdi-file-pdf-box </v-icon>
+                {{ file.substring(1) }}
+              </v-btn>
             </div>
             <div v-if="item.apply_link" class="d-flex justify-end">
               <v-btn

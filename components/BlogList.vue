@@ -60,10 +60,17 @@ export default {
   },
   async fetch() {
     const rst = await getContent('Blog', this.$content, this.current, false)
-    this.count = rst.count
-    this.pages = rst.pages
-    this.pinnedPost = rst.pinnedPost
-    this.posts = rst.posts
+    if (rst) {
+      this.count = rst.count
+      this.pages = rst.pages
+      this.pinnedPost = rst.pinnedPost
+      this.posts = rst.posts
+    } else {
+      this.count = 0
+      this.pages = 1
+      this.pinnedPost = false
+      this.posts = []
+    }
   },
   watch: {
     async current() {
@@ -74,10 +81,17 @@ export default {
         this.searchString || null
       )
 
-      this.count = rst.count
-      this.pages = rst.pages
-      this.pinnedPost = rst.pinnedPost
-      this.posts = rst.posts
+      if (rst) {
+        this.count = rst.count
+        this.pages = rst.pages
+        this.pinnedPost = rst.pinnedPost
+        this.posts = rst.posts
+      } else {
+        this.count = 0
+        this.pages = 1
+        this.pinnedPost = false
+        this.posts = []
+      }
       if (!this.searchString) {
         this.searching = false
       } else {
@@ -91,11 +105,17 @@ export default {
         this.$route.query,
         searchString || null
       )
-
-      this.count = rst.count
-      this.pages = rst.pages
-      this.pinnedPost = rst.pinnedPost
-      this.posts = rst.posts
+      if (rst) {
+        this.count = rst.count
+        this.pages = rst.pages
+        this.pinnedPost = rst.pinnedPost
+        this.posts = rst.posts
+      } else {
+        this.count = 0
+        this.pages = 1
+        this.pinnedPost = false
+        this.posts = []
+      }
       if (!searchString) {
         this.searching = false
       } else {

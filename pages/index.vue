@@ -71,13 +71,16 @@
           hide-delimiters
           :show-arrows="testimonials.length > 1"
           continuous
-          :height="$vuetify.breakpoint.mdAndUp ? '330' : 'auto'"
           interval="20000"
         >
-          <v-carousel-item v-for="item in testimonials" :key="item.slug">
+          <v-carousel-item
+            v-for="item in testimonials"
+            :key="item.slug"
+            eager
+            transition="slide-y-transition"
+          >
             <div
               class="d-flex justify-center align-center mx-16 black--text mb-12"
-              style="height: 100%"
             >
               <v-avatar v-if="$vuetify.breakpoint.mdAndUp" size="120px">
                 <img

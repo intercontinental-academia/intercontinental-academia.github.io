@@ -152,7 +152,7 @@
         >
       </div>
 
-      <v-expansion-panels v-if="menhrefr" class="mt-6">
+      <v-expansion-panels v-if="mentor" class="mt-6">
         <v-expansion-panel>
           <v-expansion-panel-header> References </v-expansion-panel-header>
           <v-expansion-panel-content>
