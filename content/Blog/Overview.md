@@ -24,7 +24,7 @@ images:
 - "/snapseed-3.jpg"
 
 ---
-**The Intercontinental Academia (ICA)** seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.
+**The Intercontinental Academia (ICA)** seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe. <!--more-->
 
 The 4th edition of the ICA explores the complementarities between **artificial intelligence and neuro/cognitive-science** and the tremendous challenges and opportunities they raise for humanity. Fellows and mentors initially met online and in **cyberspace**, and now in presence in **Paris**, from October 18 to 27. They shall meet again in cyberspace in the next few months and then finally, in Belo Horizonte in Brazil next June.
 
