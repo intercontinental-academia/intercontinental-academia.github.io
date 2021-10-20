@@ -89,20 +89,23 @@
       <small v-if="item.copyright" class="muted caption"
         >&copy; {{ item.copyright }}</small
       >
-      <template v-if="item.description && $route.name === 'blog' && !show">
-        <p>
-          {{ item.description }} &nbsp;<b
-            v-if="item.description && $route.name === 'blog'"
-            class="primary--text text-decoration-underline"
-            style="cursor: pointer"
-            @click="show = !show"
-          >
-            Read&nbsp;more</b
-          >
-        </p>
-      </template>
-
-      <nuxt-content v-else :document="item" class="px-3" />
+      <p v-if="item.description && $route.name === 'blog' && !show">
+        {{ item.description }} &nbsp;<b
+          v-if="item.description && $route.name === 'blog'"
+          class="primary--text text-decoration-underline"
+          style="cursor: pointer"
+          @click="show = !show"
+        >
+          Read&nbsp;more</b
+        >
+      </p>
+      <v-expand-transition>
+        <nuxt-content
+          v-show="$route.name !== 'blog' || show"
+          :document="item"
+          class="px-3"
+        />
+      </v-expand-transition>
 
       <template v-if="item.authors.length">
         <div class="mb-3 px-3 font-italic">
