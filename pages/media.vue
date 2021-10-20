@@ -95,7 +95,6 @@
                 v-for="(post, index) in podcasts"
                 :key="index"
                 :to="'/blog/' + post.slug"
-                nuxt
               >
                 <v-list-item-content>
                   <v-list-item-title>{{ post.post_title }}</v-list-item-title>
