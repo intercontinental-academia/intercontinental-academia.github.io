@@ -12,7 +12,7 @@ date: 2021-10-19T22:00:00Z
 authors:
 - name: Atrina Oraee
 images:
-- "/snapseed-8.jpg"
+- "/image.png"
 - "/snapseed-6.jpg"
 - "/img_4211.jpg"
 - "/snapseed-7.jpg"
