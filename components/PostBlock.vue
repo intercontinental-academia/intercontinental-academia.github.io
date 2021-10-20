@@ -10,7 +10,7 @@
           text
           icon
           v-bind="attrs"
-          :href="'https://intercontinental-academia.org/blog/' + item.slug"
+          :href="'/blog/' + item.slug"
           target="_blank"
           rel="noopener noreferrer"
           :title="item.post_title"
