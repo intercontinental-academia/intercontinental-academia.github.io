@@ -12,7 +12,6 @@
           v-bind="attrs"
           :href="'/blog/' + item.slug"
           target="_blank"
-          rel="noopener noreferrer"
           :title="item.post_title"
           small
           class="float-right"
