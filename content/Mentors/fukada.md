@@ -4,8 +4,8 @@ lastname: Fukuda
 image: "/fukada.png"
 copyright: ''
 title_and_institution: Professor at the Beijing Institute for Technology; Emeritus
-  professor at Nagoya University; 2019 President-Elect of the Institute of Electrical
-  and Electronics Engineers
+  professor aEmeritus professor at Nagoya University; 2020 President of the Institute
+  of Electrical and Electronics Engineers
 presentation: 'Toshio Fukuda is a world-leading researcher in robotics, with special
   interest in intelligent robotic systems, micro-nano robotics, bio-robotic system
   and neuromorphic intelligent control. Among his greatest achievements are the development
@@ -19,6 +19,7 @@ linkedin: ''
 twitter: ''
 wikipedia: ''
 website: http://www.toshiofukuda.org
+podcast: ''
 
 ---
 [Fukuda, T., Shibata, T., Tokita, M., & Mitsuoka, T. (1992). Neuromorphic control: Adaptation and learning. _IEEE Transactions on Industrial Electronics_, _39_(6), 497-503.](https://ieeexplore.ieee.org/document/170968 "Fukuda, T., Shibata, T., Tokita, M., & Mitsuoka, T. (1992). Neuromorphic control: Adaptation and learning. IEEE Transactions on Industrial Electronics, 39(6), 497-503.") 
