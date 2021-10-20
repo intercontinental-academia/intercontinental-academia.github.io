@@ -3,18 +3,17 @@ firstname: Toshio
 lastname: Fukuda
 image: "/fukada.png"
 copyright: ''
-title_and_institution: Professor at the Beijing Institute for Technology; Emeritus
-  professor aEmeritus professor at Nagoya University; 2020 President of the Institute
-  of Electrical and Electronics Engineers
-presentation: 'Toshio Fukuda is a world-leading researcher in robotics, with special
+title_and_institution: Emeritus professor at Nagoya University; 2020 President of
+  the Institute of Electrical and Electronics Engineers
+presentation: Toshio Fukuda is a world-leading researcher in robotics, with special
   interest in intelligent robotic systems, micro-nano robotics, bio-robotic system
   and neuromorphic intelligent control. Among his greatest achievements are the development
   of continuous movement in robots and his pioneering microrobotics technology that
   has been a decisive contribution to medical technology. Laureate of the 1997 Dr.-Ing.
-  Eugene Mittelmann Achievement Award, 2000 IEEE Third Millennium Medal, and 2011
-  IEEE/RSJ IROS Harashima Award for Innovative Technology, he is Professor at the
-  Beijing Institute for Technology, Emeritus professor at Nagoya University, and 2019
-  President-Elect of the Institute of Electrical and Electronics Engineers. '
+  Eugene Mittelmann Achievement Award, 2000 IEEE Third Millennium Medal, and 2010
+  IEEE Technical Field Award on Robotics and Automation, he is Emeritus professor
+  at Nagoya University, and 2020 President of the Institute of Electrical and Electronics
+  Engineers."
 linkedin: ''
 twitter: ''
 wikipedia: ''
