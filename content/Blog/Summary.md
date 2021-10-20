@@ -48,7 +48,7 @@ It was stated during the seminar that the brain represents the properties of the
 
 Moreover, results of the relation between connectivity of the auditory cortex with the striatum and several behavioural results were presented (e.g. related to amusia, music-specific anhedonia). Dynamic causal modelling and predictive coding frameworks have been presented as possible explanations of the relationship between learning and reward in music. Predictions make the rewards evolve from a biological event to the expectation of the event.
 
-Through the post-seminar collective discussions, the relevance of affective experience (pleasure and fear) in learning was emphasised. Discussions concluded with a rather open-ended question, leaving ICA4 Fellows wondering about whether or not AI should have a similar system for learning, and how should the reward and punishment be differentiated?" Maybe AI does not need to understand or experience human emotions; it just needs to behave like a human by capturing the features of a dataset that correctly describes the behaviour...
+Through the post-seminar collective discussions, the relevance of **affective experience** (pleasure and fear) in learning was emphasised. Discussions concluded with a rather open-ended question, leaving ICA4 Fellows wondering about whether or not AI should have a similar system for learning, and how should the reward and punishment be differentiated?" Maybe AI does not need to understand or experience human emotions; it just needs to behave like a human by capturing the features of a dataset that correctly describes the behaviour...
 
 **High Energy Physics: Successes, Challenges and Magic**
 
@@ -66,13 +66,13 @@ The session began with introducing the concept of singularity and defining it as
 
 # Day 2: "In AI we trust"...or not!
 
-Scribe: [Tahina Ralitera](https://www.intercontinental-academia.org/fellows#ralitera "Tahina Ralitera")
+Scribe: [_Tahina Ralitera_](https://www.intercontinental-academia.org/fellows#ralitera "Tahina Ralitera")
 
-Chair: [Benjamin Guedj](https://www.intercontinental-academia.org/fellows#guedj "Ben Guedj")
+Chair: [_Benjamin Guedj_](https://www.intercontinental-academia.org/fellows#guedj "Ben Guedj")
 
 **Why Consciousness?**
 
-Presented by [Robert Aumann](https://www.intercontinental-academia.org/mentors#aumann "Robert Aumann")
+Presented by [_Robert Aumann_](https://www.intercontinental-academia.org/mentors#aumann "Robert Aumann")
 
 Essentially, the seminar was focused on the purpose which consciousness serves. Consciousness was defined as the ability to do the following:
 
@@ -85,7 +85,7 @@ Of all the above, perceiving, thinking/intending, and carrying out intentions ma
 
 **Myths and misunderstandings about responsibility for the unintended impact of AI**
 
-Presented by [Karen Yeung](https://www.intercontinental-academia.org/mentors#yeung "Karen Yeung")
+Presented by [_Karen Yeung_](https://www.intercontinental-academia.org/mentors#yeung "Karen Yeung")
 
 The talk mostly focused on responsibility for unintended impact of Artificial Intelligence, based on the presenter's Council of Europe study. It was argued that Machine Learning's (ML) capacity to enable task automation and machine "autonomy" raise important questions about **responsibility**. Thus, responsibility-relevant attributes of ML were identified, for which an illustration is the data-driven profiling of individuals, and other ML applications, which may hold adverse impacts on human rights, on both individual and collective levels.  
 While responsibility is important for human beings, who are considered as moral agents, to maintain peaceful social co-operation within community, only a few studies have focused on tackling the fundamental role of responsibility for individuals, as well as the society.
@@ -108,19 +108,19 @@ Finally, five common myths and misunderstandings concerning responsibility for t
 
 **Data science and deep learning vs theory: two examples from economics and finance**
 
-Presented by [Raouf Boucekkine](https://www.intercontinental-academia.org/about/ica4#boucekkine "Raouf Boucekkine")
+Presented by [_Raouf Boucekkine_](https://www.intercontinental-academia.org/about/ica4#boucekkine "Raouf Boucekkine")
 
 The session included discussions on data Science, Machine Learning (ML), and some relevant theories in the field of economics and finance that share common disciplines. Certain examples from macroeconomics, in which characteristics of the underlying mechanisms for complex systems are of great interest, were then discussed in more detail. In such context, a misunderstanding between different disciplines was highlighted: **the concept of equilibrium** is of great significance in mainstream macroeconomics, whereas this is not the case for statistical physics (e.g., the "equilibrium" bias outside econ area, discussed by Bonneuil & Boucekkine (2020)). Finally, the use of various **methods** and approaches, such as DSGE (Dynamic Stochastic General Equilibrium), ABM (Agent-Based Modeling), and Neural Network-Based methods, in the field of macroeconomics were discussed.
 
 # Day 3: "What you do FOR  people, you do TO people, so do it WITH people"
 
-Scribe: [André Fujita](https://www.intercontinental-academia.org/fellows#fujita "Andre Fujita")
+Scribe: [_André Fujita_](https://www.intercontinental-academia.org/fellows#fujita "Andre Fujita")
 
-Chair: [Philipp Kellmeyer](https://www.intercontinental-academia.org/fellows#kellmeyer "Philipp Kellmeyer")
+Chair: [_Philipp Kellmeyer_](https://www.intercontinental-academia.org/fellows#kellmeyer "Philipp Kellmeyer")
 
 **Distributed Intelligence & Distributed Agency**
 
-Presented by [Saadi Lahlou](https://www.intercontinental-academia.org/about/ica4#lahlou "Saadi Lahlou")
+Presented by [_Saadi Lahlou_](https://www.intercontinental-academia.org/about/ica4#lahlou "Saadi Lahlou")
 
 We want intelligence to perform relevantly adapted actions that change the situation in which we are for the better. To design intelligence, we must first understand **the nature of the actual activity**. In this sense, behaviour was defined as what people do, seen from the outside. In other words, behaviour remains an external description of objective phenomena. This is while activity is how people subjectively perceive their action and how they see it from their own perspective.
 
@@ -134,7 +134,7 @@ To conclude, ICA4 Fellows were left with some questions as food for thought. For
 
 **Perspective on Artificial Inteligence research form studies on Agency, self recognition and social cognition in animals**
 
-Presented by [William Hopkins](https://www.intercontinental-academia.org/mentors#hopkins "William Hopkins")
+Presented by [_William Hopkins_](https://www.intercontinental-academia.org/mentors#hopkins "William Hopkins")
 
 The session began by discussing humans constructed concepts to reflect intellectual abilities in various domains of cognitive functions. In this sense, we use tests like the WAIS or Stanford Binet to quantify and scale performance to standards for specific age classes. These tests rely heavily on language. There are many approaches to developing fair tests of cognition between species with different sensory and motor capabilities. It began with Darwin and Furness. Then, George Romanes (1884) focused on animal intelligence and later on, Kohler (1925) on insight learning. Within the same field, Robert Yerkes (1916) worked on “The mental life of monkeys and apes: a study of ideational behavior”. Yerkes later developed the IQ test used by the army in WW1 (army alpha test).
 
@@ -146,7 +146,7 @@ However, is it language? There is very little evidence for declarative productio
 
 **AI and Robots for Future: The Moon Shot Project**
 
-Presented by [Toshio Fukuda](https://www.intercontinental-academia.org/mentors#fukuda "Toshio Fukuda")
+Presented by [_Toshio Fukuda_](https://www.intercontinental-academia.org/mentors#fukuda "Toshio Fukuda")
 
 Robots are avatars that pop up to help when humans need them. There is an information and physical interaction between robots and humans. Toshio showed several multi-scale robots, e.g., monkey-type robots, multi-locomotion, intelligent cane, etc. One of these robots is the Brachiator I-III. Brachiation is a form of long-armed ape locomotion. It uses dynamics of the pendulum, under-actuated mechanical system, variable constraint system, machine learning, AI, reinforce learning, soft computing (fuzzy, genetic algorithm). Regarding multi-locomotion types, in many cases, one creature has multiple types of locomotion in order to improve its mobility. The motivation of their study is to develop a robot mechanism and a control architecture that can achieve multiple locomotions. Hybrid computational intelligence, i.e., AI and brain interface were also commented upon by the speaker while showing a series of related videos. An example of such videos illustrated the Boston dynamics atlas and others: three robots dancing and jumping which was quite impressive!
 
