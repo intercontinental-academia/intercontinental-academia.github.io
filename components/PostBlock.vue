@@ -108,9 +108,12 @@
       <template v-if="item.authors.length">
         <div class="mb-3 px-3 font-italic">
           By
-          <span v-for="(author, index2) in item.authors" :key="index2"
+          <template v-if="item.authors.length === 2">
+            {{ item.authors[0].name + ' and ' + item.authors[1].name }}
+          </template>
+          <span v-for="(author, index2) in item.authors" v-else :key="index2"
             >{{ author.name
-            }}<template v-if="index < item.authors.length - 1"
+            }}<template v-if="index2 < item.authors.length - 1"
               >,&nbsp;</template
             ></span
           >
