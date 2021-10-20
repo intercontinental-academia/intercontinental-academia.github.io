@@ -114,6 +114,10 @@ The session included discussions on data Science, Machine Learning (ML), and som
 
 # Day 3: "What you do FOR  people, you do TO people, so do it WITH people"
 
+Scribe: [André Fujita](https://www.intercontinental-academia.org/fellows#fujita "Andre Fujita")
+
+Chair: [Philipp Kellmeyer](https://www.intercontinental-academia.org/fellows#kellmeyer "Philipp Kellmeyer")
+
 **Distributed Intelligence & Distributed Agency**
 
 Presented by [Saadi Lahlou](https://www.intercontinental-academia.org/about/ica4#lahlou "Saadi Lahlou")
