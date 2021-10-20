@@ -17,9 +17,14 @@ date: 2021-10-19T22:00:00Z
 authors:
 - name: Atrina Oraee
 images:
+- "/img_4552.jpg"
+- "/snapseed-10.jpg"
+- "/snapseed-9.jpg"
+- "/snapseed-11.jpg"
 - "/image.png"
-- "/snapseed-6.jpg"
+- "/fullsizerender-2.jpg"
 - "/img_4211.jpg"
+- "/snapseed-6.jpg"
 - "/snapseed-7.jpg"
 youtube_video_id: ''
 audio: []
@@ -111,7 +116,7 @@ The session included discussions on data Science, Machine Learning (ML), and som
 
 **Distributed Intelligence & Distributed Agency**
 
-Presented by Saadi Lahlou
+Presented by [Saadi Lahlou](https://www.intercontinental-academia.org/about/ica4#lahlou "Saadi Lahlou")
 
 We want intelligence to perform relevantly adapted actions that change the situation in which we are for the better. To design intelligence, we must first understand **the nature of the actual activity**. In this sense, behaviour was defined as what people do, seen from the outside. In other words, behaviour remains an external description of objective phenomena. This is while activity is how people subjectively perceive their action and how they see it from their own perspective.
 
@@ -125,12 +130,22 @@ To conclude, ICA4 Fellows were left with some questions as food for thought. For
 
 **Perspective on Artificial Inteligence research form studies on Agency, self recognition and social cognition in animals**
 
-Presented by William Hopkins
+Presented by [William Hopkins](https://www.intercontinental-academia.org/mentors#hopkins "William Hopkins")
 
 The session began by discussing humans constructed concepts to reflect intellectual abilities in various domains of cognitive functions. In this sense, we use tests like the WAIS or Stanford Binet to quantify and scale performance to standards for specific age classes. These tests rely heavily on language. There are many approaches to developing fair tests of cognition between species with different sensory and motor capabilities. It began with Darwin and Furness. Then, George Romanes (1884) focused on animal intelligence and later on, Kohler (1925) on insight learning. Within the same field, Robert Yerkes (1916) worked on “The mental life of monkeys and apes: a study of ideational behavior”. Yerkes later developed the IQ test used by the army in WW1 (army alpha test).
 
-Upon drawing on some of the literature, several videos were played, in which apes carries out various tasks including retrieving a peanut in the bottom of a tube followed by a video from an ape imitating a human, and so on. Several animals passed the mark test. E.g., magpies with a yellow stick in their neck can identify it and try to remove using the mirror. Cortical parcellation of chimpanzee brain - compared to humans, the ones that passed the test show differences in some cortices. Gray matter differences between MSR+ vs. MSR-. They also analyzed the anterior cingulate because these neurons are pretty long and connect the anterior cingulate and insula.
+Upon drawing on some of the literature, several videos were played, in which apes carries out various tasks including retrieving a peanut in the bottom of a tube followed by a video from an ape imitating a human, and so on. Several animals passed the mark test. E.g., magpies with a yellow stick in their neck can identify it and try to remove using the mirror. Cortical parcellation of chimpanzee brain - compared to humans, the ones that passed the test show differences in some cortices. Gray matter differences between MSR+ vs. MSR-. They also analysed the anterior cingulate since such neurones are rather long and connect the anterior cingulate with the insula.
 
-Moreover, results from studies which showed that human children outperformed apes on the social, but not physical, cognition tasks were presented and discussed. Human uses social information for cognition (Herrmann et al., 2007). Most early comparative studies of cognition or intelligence were strongly rooted in associative learning theory, much like AI research. However, associative or operant theories of learning were and are notoriously anti-cognitive. In the 1960s, there were attempts to reach apes alternative communication systems. The goal of the ape language studies was to determine whether language is uniquely human. The answer depends on how we define language. William showed a video in which the ape called Kanzi comprehends spoken English simple sentences. Like Kanzi, AI systems like Siri clearly can comprehend simple sentences and execute a series of responses based on the input.
+Moreover, results from studies which showed that human children outperformed apes on the social, but not physical, cognition tasks were presented and discussed. Much like the research in AI, Most early comparative studies of cognition and intelligence were strongly rooted in associative learning theory. However, associative or operant theories of learning were and are notoriously anti-cognitive. In the 1960s, there were attempts to reach apes alternative communication systems. The goal of the ape language studies was to determine whether language is uniquely human. The answer depends on how we define language. 
 
 However, is it language? There is very little evidence for declarative production (e.g., turn on the TV, give me an onion) in communication signals by primates and other animals. The other question is: are social stimuli rewarding? For chimpanzees, yes. Experiment: touch one button to see other chimpanzees or another button to see random animals. The chimp chose to press the button to see other chimps. Thus, the role of reward guides the learning and behavior of animals. Although animal cognition is often used to explain animal behavior, most can be explained by an associative learning mechanism.
+
+**AI and Robots for Future: The Moon Shot Project**
+
+Presented by [Toshio Fukuda](https://www.intercontinental-academia.org/mentors#fukuda "Toshio Fukuda")
+
+Robots are avatars that pop up to help when humans need them. There is an information and physical interaction between robots and humans. Toshio showed several multi-scale robots, e.g., monkey-type robots, multi-locomotion, intelligent cane, etc. One of these robots is the Brachiator I-III. Brachiation is a form of long-armed ape locomotion. It uses dynamics of the pendulum, under-actuated mechanical system, variable constraint system, machine learning, AI, reinforce learning, soft computing (fuzzy, genetic algorithm). Regarding multi-locomotion types, in many cases, one creature has multiple types of locomotion in order to improve its mobility. The motivation of their study is to develop a robot mechanism and a control architecture that can achieve multiple locomotions. Hybrid computational intelligence, i.e., AI and brain interface were also commented upon by the speaker while showing a series of related videos. An example of such videos illustrated the Boston dynamics atlas and others: three robots dancing and jumping which was quite impressive!
+
+Moreover AI+Robot+IoT (Internet of Things), the use of robots in mega-trend (energy, urbanisation, food, ageing, global warming, robot, and AI) were discussed. This was followed by further discussions on an autonomous cars, which may be safer than human drivers, mixed reality, the Eve project (a transparent body that simulates the human body), cyborg technology (fusion of robot and animal), and multiple robots (communication among robots).
+
+Finally, the Moonshot project was revealed: **a society where humans and robots live together in 2050!**
