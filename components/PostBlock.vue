@@ -74,7 +74,7 @@
       >
       </OptimizedImage>
       <div v-if="item.images && item.images.length > 1" class="pb-8 pt-3">
-        <v-carousel height="auto" cycle>
+        <v-carousel :height="$vuetify.breakpoint.mdAndUp ? '600' : '300'" cycle>
           <v-carousel-item
             v-for="image in item.images"
             :key="image"

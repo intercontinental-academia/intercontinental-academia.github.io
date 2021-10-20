@@ -41,7 +41,11 @@
 
       <div class="by text-h4">BY UBIAS</div>
     </div>
-    <v-carousel v-model="model" cycle height="auto">
+    <v-carousel
+      v-model="model"
+      cycle
+      :height="$vuetify.breakpoint.mdAndUp ? '600' : '300'"
+    >
       <v-carousel-item
         v-for="item in carousel"
         :key="item.label"
@@ -72,13 +76,9 @@
           :show-arrows="testimonials.length > 1"
           continuous
           interval="20000"
+          height="auto"
         >
-          <v-carousel-item
-            v-for="item in testimonials"
-            :key="item.slug"
-            eager
-            transition="slide-y-transition"
-          >
+          <v-carousel-item v-for="item in testimonials" :key="item.slug">
             <div
               class="d-flex justify-center align-center mx-16 black--text mb-12"
             >
