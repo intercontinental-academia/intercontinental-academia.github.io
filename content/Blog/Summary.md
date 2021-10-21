@@ -131,7 +131,7 @@ Moreover, certain question on designing trade-off issues were raised: which agen
 
 To conclude, ICA4 Fellows were left with some questions as food for thought. For each activity, do we want to augment existing agents with more agency? If so, which ones? Humans? Material objects? Social system? New agents? Who learns what? What values do we want to foster? What do we want AI for must be addressed for each activity, starting from the activity and discussed?
 
-**Perspective on Artificial Inteligence research form studies on Agency, self recognition and social cognition in animals**
+**Perspective on Artificial Inteligence research form studies on Agency, self-recognition and social cognition in animals**
 
 Presented by [_William Hopkins_](/mentors#hopkins "William Hopkins")
 
@@ -149,6 +149,6 @@ Presented by [_Toshio Fukuda_](/mentors#fukuda "Toshio Fukuda")
 
 Robots are avatars that pop up to help when humans need them. There is an information and physical interaction between robots and humans. Toshio showed several multi-scale robots, e.g., monkey-type robots, multi-locomotion, intelligent cane, etc. One of these robots is the Brachiator I-III. Brachiation is a form of long-armed ape locomotion. It uses dynamics of the pendulum, under-actuated mechanical system, variable constraint system, machine learning, AI, reinforce learning, soft computing (fuzzy, genetic algorithm). Regarding multi-locomotion types, in many cases, one creature has multiple types of locomotion in order to improve its mobility. The motivation of their study is to develop a robot mechanism and a control architecture that can achieve multiple locomotions. Hybrid computational intelligence, i.e., AI and brain interface were also commented upon by the speaker while showing a series of related videos. An example of such videos illustrated the Boston dynamics atlas and others: three robots dancing and jumping which was quite impressive!
 
-Moreover AI+Robot+IoT (Internet of Things), the use of robots in mega-trend (energy, urbanisation, food, ageing, global warming, robot, and AI) were discussed. This was followed by further discussions on an autonomous cars, which may be safer than human drivers, mixed reality, the Eve project (a transparent body that simulates the human body), cyborg technology (fusion of robot and animal), and multiple robots (communication among robots).
+Moreover, AI+Robot+IoT (Internet of Things), the use of robots in mega-trend (energy, urbanisation, food, ageing, global warming, robot, and AI) were discussed. This was followed by further discussions on autonomous cars, which may be safer than human drivers, mixed reality, the Eve project (a transparent body that simulates the human body), cyborg technology (fusion of robot and animal), and multiple robots (communication among robots).
 
 Finally, the Moonshot project was revealed: **a society where humans and robots live together in 2050!**
