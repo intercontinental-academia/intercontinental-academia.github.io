@@ -36,13 +36,13 @@ The other half of the day is left free for participants to **reflect on the scie
 
 # **Day 1: "The future needs wisdom”**
 
-Chair: [Laura Candiotto](https://www.intercontinental-academia.org/fellows#candiotto "Laura Candiotto")
+Chair: [Laura Candiotto](/fellows#candiotto "Laura Candiotto")
 
-Scribe: [Massimiliano Di Luca](https://www.intercontinental-academia.org/fellows#luca "Massimiliano Di Luca")
+Scribe: [Massimiliano Di Luca](/fellows#di-luca "Massimiliano Di Luca")
 
 **Perception, prediction, and pleasure: What can music teach us about neurocognition/intelligence?**
 
-Presented by [_Robert Zatorre_](https://www.intercontinental-academia.org/mentors#zatorre "Robert Zatorre")
+Presented by [_Robert Zatorre_](/mentors#zatorre "Robert Zatorre")
 
 It was stated during the seminar that the brain represents the properties of the environment and guides behaviour through evaluation and reward. Aesthetic pleasure can be defined as the phylogenetically older system that is centred on the striatum.
 
@@ -52,7 +52,7 @@ Through the post-seminar collective discussions, the relevance of **affective ex
 
 **High Energy Physics: Successes, Challenges and Magic**
 
-Presented by [_Eliezer Rabinovici_](https://www.intercontinental-academia.org/about/ica4#rabinovici "Eliezer Rabinovici")
+Presented by [_Eliezer Rabinovici_](/about/ica4/#rabinovici "Eliezer Rabinovici")
 
 It was discussed that observing natural phenomena can motivate scientific enquiry and drive us to understand the unknown. Moreover, equations are a way to increase predictability. However, a single, compact and reductionist explanation for all phenomena in the universe may not necessarily exist. The scientific method requires that results are reproducible. The correspondence principle requires that new theories can explain all phenomena for which a preceding theory was valid. To understand a phenomenon, one has to identify the relevant players and determine the correct explanation scale.
 
@@ -66,13 +66,13 @@ The session began with introducing the concept of singularity and defining it as
 
 # Day 2: "In AI we trust"...or not!
 
-Scribe: [_Tahina Ralitera_](https://www.intercontinental-academia.org/fellows#ralitera "Tahina Ralitera")
+Scribe: [_Tahina Ralitera_](/fellows#ralitera "Tahina Ralitera")
 
-Chair: [_Benjamin Guedj_](https://www.intercontinental-academia.org/fellows#guedj "Ben Guedj")
+Chair: [_Benjamin Guedj_](/fellows#guedj "Ben Guedj")
 
 **Why Consciousness?**
 
-Presented by [_Robert Aumann_](https://www.intercontinental-academia.org/mentors#aumann "Robert Aumann")
+Presented by [_Robert Aumann_](/mentors#aumann "Robert Aumann")
 
 Essentially, the seminar was focused on the purpose which consciousness serves. Consciousness was defined as the ability to do the following:
 
@@ -85,7 +85,7 @@ Of all the above, perceiving, thinking/intending, and carrying out intentions ma
 
 **Myths and misunderstandings about responsibility for the unintended impact of AI**
 
-Presented by [_Karen Yeung_](https://www.intercontinental-academia.org/mentors#yeung "Karen Yeung")
+Presented by [_Karen Yeung_](/mentors#yeung "Karen Yeung")
 
 The talk mostly focused on responsibility for unintended impact of Artificial Intelligence, based on the presenter's Council of Europe study. It was argued that Machine Learning's (ML) capacity to enable task automation and machine "autonomy" raise important questions about **responsibility**. Thus, responsibility-relevant attributes of ML were identified, for which an illustration is the data-driven profiling of individuals, and other ML applications, which may hold adverse impacts on human rights, on both individual and collective levels.  
 While responsibility is important for human beings, who are considered as moral agents, to maintain peaceful social co-operation within community, only a few studies have focused on tackling the fundamental role of responsibility for individuals, as well as the society.
@@ -97,7 +97,6 @@ In a nutshell, two dimensions of responsibility are required:
 * **Historic or retrospective responsibility:** responsibility for conduct and events that occurred in the past
 * **Prospective responsibility:** roles and tasks that look to the future
 
-  
 Finally, five common myths and misunderstandings concerning responsibility for the unintended adverse impacts of AI were identified:
 
 * Need for effective and legitimate mechanisms to protect human rights from AI applications.
@@ -108,19 +107,19 @@ Finally, five common myths and misunderstandings concerning responsibility for t
 
 **Data science and deep learning vs theory: two examples from economics and finance**
 
-Presented by [_Raouf Boucekkine_](https://www.intercontinental-academia.org/about/ica4#boucekkine "Raouf Boucekkine")
+Presented by [_Raouf Boucekkine_](/about/ica4#boucekkine "Raouf Boucekkine")
 
 The session included discussions on data Science, Machine Learning (ML), and some relevant theories in the field of economics and finance that share common disciplines. Certain examples from macroeconomics, in which characteristics of the underlying mechanisms for complex systems are of great interest, were then discussed in more detail. In such context, a misunderstanding between different disciplines was highlighted: **the concept of equilibrium** is of great significance in mainstream macroeconomics, whereas this is not the case for statistical physics (e.g., the "equilibrium" bias outside econ area, discussed by Bonneuil & Boucekkine (2020)). Finally, the use of various **methods** and approaches, such as DSGE (Dynamic Stochastic General Equilibrium), ABM (Agent-Based Modeling), and Neural Network-Based methods, in the field of macroeconomics were discussed.
 
 # Day 3: "What you do FOR  people, you do TO people, so do it WITH people"
 
-Scribe: [_André Fujita_](https://www.intercontinental-academia.org/fellows#fujita "Andre Fujita")
+Scribe: [_André Fujita_](/fellows#fujita "Andre Fujita")
 
-Chair: [_Philipp Kellmeyer_](https://www.intercontinental-academia.org/fellows#kellmeyer "Philipp Kellmeyer")
+Chair: [_Philipp Kellmeyer_](/fellows#kellmeyer "Philipp Kellmeyer")
 
 **Distributed Intelligence & Distributed Agency**
 
-Presented by [_Saadi Lahlou_](https://www.intercontinental-academia.org/about/ica4#lahlou "Saadi Lahlou")
+Presented by [_Saadi Lahlou_](/about/ica4#lahlou "Saadi Lahlou")
 
 We want intelligence to perform relevantly adapted actions that change the situation in which we are for the better. To design intelligence, we must first understand **the nature of the actual activity**. In this sense, behaviour was defined as what people do, seen from the outside. In other words, behaviour remains an external description of objective phenomena. This is while activity is how people subjectively perceive their action and how they see it from their own perspective.
 
@@ -134,19 +133,19 @@ To conclude, ICA4 Fellows were left with some questions as food for thought. For
 
 **Perspective on Artificial Inteligence research form studies on Agency, self recognition and social cognition in animals**
 
-Presented by [_William Hopkins_](https://www.intercontinental-academia.org/mentors#hopkins "William Hopkins")
+Presented by [_William Hopkins_](/mentors#hopkins "William Hopkins")
 
 The session began by discussing humans constructed concepts to reflect intellectual abilities in various domains of cognitive functions. In this sense, we use tests like the WAIS or Stanford Binet to quantify and scale performance to standards for specific age classes. These tests rely heavily on language. There are many approaches to developing fair tests of cognition between species with different sensory and motor capabilities. It began with Darwin and Furness. Then, George Romanes (1884) focused on animal intelligence and later on, Kohler (1925) on insight learning. Within the same field, Robert Yerkes (1916) worked on “The mental life of monkeys and apes: a study of ideational behavior”. Yerkes later developed the IQ test used by the army in WW1 (army alpha test).
 
 Upon drawing on some of the literature, several videos were played, in which apes carries out various tasks including retrieving a peanut in the bottom of a tube followed by a video from an ape imitating a human, and so on. Several animals passed the mark test. E.g., magpies with a yellow stick in their neck can identify it and try to remove using the mirror. Cortical parcellation of chimpanzee brain - compared to humans, the ones that passed the test show differences in some cortices. Gray matter differences between MSR+ vs. MSR-. They also analysed the anterior cingulate since such neurones are rather long and connect the anterior cingulate with the insula.
 
-Moreover, results from studies which showed that human children outperformed apes on the social, but not physical, cognition tasks were presented and discussed. Much like the research in AI, Most early comparative studies of cognition and intelligence were strongly rooted in associative learning theory. However, associative or operant theories of learning were and are notoriously anti-cognitive. In the 1960s, there were attempts to reach apes alternative communication systems. The goal of the ape language studies was to determine whether language is uniquely human. The answer depends on how we define language. 
+Moreover, results from studies which showed that human children outperformed apes on the social, but not physical, cognition tasks were presented and discussed. Much like the research in AI, Most early comparative studies of cognition and intelligence were strongly rooted in associative learning theory. However, associative or operant theories of learning were and are notoriously anti-cognitive. In the 1960s, there were attempts to reach apes alternative communication systems. The goal of the ape language studies was to determine whether language is uniquely human. The answer depends on how we define language.
 
 However, is it language? There is very little evidence for declarative production (e.g., turn on the TV, give me an onion) in communication signals by primates and other animals. The other question is: are social stimuli rewarding? For chimpanzees, yes. Experiment: touch one button to see other chimpanzees or another button to see random animals. The chimp chose to press the button to see other chimps. Thus, the role of reward guides the learning and behavior of animals. Although animal cognition is often used to explain animal behavior, most can be explained by an associative learning mechanism.
 
 **AI and Robots for Future: The Moon Shot Project**
 
-Presented by [_Toshio Fukuda_](https://www.intercontinental-academia.org/mentors#fukuda "Toshio Fukuda")
+Presented by [_Toshio Fukuda_](/mentors#fukuda "Toshio Fukuda")
 
 Robots are avatars that pop up to help when humans need them. There is an information and physical interaction between robots and humans. Toshio showed several multi-scale robots, e.g., monkey-type robots, multi-locomotion, intelligent cane, etc. One of these robots is the Brachiator I-III. Brachiation is a form of long-armed ape locomotion. It uses dynamics of the pendulum, under-actuated mechanical system, variable constraint system, machine learning, AI, reinforce learning, soft computing (fuzzy, genetic algorithm). Regarding multi-locomotion types, in many cases, one creature has multiple types of locomotion in order to improve its mobility. The motivation of their study is to develop a robot mechanism and a control architecture that can achieve multiple locomotions. Hybrid computational intelligence, i.e., AI and brain interface were also commented upon by the speaker while showing a series of related videos. An example of such videos illustrated the Boston dynamics atlas and others: three robots dancing and jumping which was quite impressive!
 
