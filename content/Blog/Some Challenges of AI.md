@@ -5,6 +5,9 @@ tags:
 - ICA4
 - Session 1
 - Paris
+- Intelligence
+- Ethics
+- Future
 published: true
 pinned: false
 post_title: The challenges of Artificial Intelligence (AI) in the upcoming decades
@@ -15,7 +18,11 @@ image: "/snapseed-3.jpg"
 youtube_video_id: ''
 audio: []
 images:
+- "/snapseed-22.jpg"
 - "/img_4328.jpg"
+- "/snapseed-23.jpg"
+- "/snapseed-20.jpg"
+- "/snapseed-24.jpg"
 - "/snapseed-5.jpg"
 - "/snapseed-4.jpg"
 
@@ -49,3 +56,17 @@ Achieving this will be one of the greatest challenges of the new digitised and "
 **The governance of AI** **challenge:**
 
 The highly sophisticated, opaque yet powerful capacities of these techniques and their embedding into myriad social applications have already demonstrated their adverse consequences - for individuals, groups and communities. No doubt there will be many that we have not yet properly identified or understood, particularly as new applications emerge and new vulnerabilities and problems are created. They are increasingly embedded into complex socio-technical systems that display emergent properties that are unstable and therefore uncertain. While these technologies have already delivered valuable benefits at the individual and collective level, many promises are made about their capabilities: yet whether these promises will be translated into real-world benefits of the kind that are promised remains a _very_ open question. History has shown just that on many occasions. This is particularly problematic concerning the AI applications that are dependant upon data collected through the continuous and pervasive 'uberveillance' of individual behaviour and activity in ways that are already used in ways that are contrary to the interests, welfare and autonomy of persons.
+
+[**Professor Ada Yonath**](/mentors#yonath "Ada Yonath") had a rather different perspective. She believes that recent years have witnessed a major, highly astonishing, and rather unexpected revolution in understanding and conceptualizing life, owing to the introduction of AI.
+
+Proteins are essential to life, supporting practically all biological functions. They are large complex molecules, made up of chains of 21 amino acids that are folded based on their sequence and local conditions. A protein’s shape and its potential alterations enable its function, which depends largely on its unique 3D structure and mobility. Thus, the characteristics of the specific proteins enable not only their basic functions. Such as digestion, inhaling and growth, but also molecular docking the introduction to Neural networks, intellectual interactions, etc. Figuring out proteins' shapes is being performed experimentally since mid 20th century, by nuclear magnetic resonance, X-ray crystallography and the newer cryo-electron microscopy. These were all time consuming and extensive trials that were heavily dependent on laboratory techniques.
+
+In 1994, when less than 1000 protein structures were known, realizing the experimental shortcoming Professors John Moult and Krzysztof Fidelis founded CASP, as a biennial a blind Critical Assessment of protein Structure Prediction to catalyze research in structure-function biological and medicinal aspects, based on learning how to discover the delicate balance of many weak forces that dictate the global minimum of protein structures, dynamics and function. In this effort, protein structures were predicted and compared to experimental structure determination perfumed elsewhere in parallel, and its average success, for over 2 decades, until 2016, was around 40% (fig 1). However, the numerous functionally meaningful conformations of proteins with known particular structures (namely \~180000), alongside the enormously large number of proteins with still unknown structures (>2 106), still pose a grand challenge in biology.
+
+Around 5 years ago, an extraordinary academic achievement, based on AI, which influences the entire life science field, was released. It is called AlphaFold, a system that generates 3D models of proteins as an open-source package that provides an implementation of intra-proteins contact predictions. Its future is overexciting, with a success rate of almost 100% (fig 1).
+
+Nevertheless, this impressive achievement is not supposed to stand alone. Among the main challenges ahead for Artificial Intelligence & Machine Learning techniques are executing molecular docking, design therapeutics and Drug Discovery. It also has huge implications in advanced areas, such as modelling complex diseases e.g. diabetes and Alzheimer’s. I think that in less than ten years this will be the way that complex biology is understood and even implicated. And, of course, by aggregation from the vast available literature, many other structural biology applications, starting with expression data variation, and creation of complexes, introduction to Neural networks, collecting AI based information on molecular dynamic simulations. In fact, this breakthrough demonstrates the impact that AI can have on various scientific discoveries and its potential to dramatically accelerate progress in some of the most fundamental fields. Thus, in addition to developing treatments for diseases, it will provide scientific tools for many of the world’s greatest challenges, like local and global environmental issues, including finding enzymes that break down industrial waste.
+
+A rather interesting view came from the Nobel prize winner, [**Professor Robert Aumann**](/mentors#aumann "Robert Aumann"), who stated that the first challenge is that we already see with information technology is the continuous, and excessive rate of change and updates, driven by technology. We are continuously to forced update and upgrade our devices, not because of our needs, but because the versions have changed. And usually we have no choice, we must take it all without discussion or explanation. A challenge for the development of AI is to avoid this excessive technology-driven pace of top-down change. The changes in the applications of AI in the public domain should be driven by actual needs, not by the technology.
+
+The second challenge is to enable a discussion between the users and the AI systems. At the moment, it is not possible to discuss with an AI why and how the decisions are taken. The decision process is opaque, as well as the data they are based on. This is forced on us. We must develop a language to discuss, argue, negotiate with AIs. This will give the users a say in the interventions of AI in their life.
