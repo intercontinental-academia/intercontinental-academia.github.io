@@ -1,24 +1,24 @@
 ---
 tags:
-  - Environment
-  - Robots
-  - Memory
-  - Recognition
-  - Vision Field
+- Environment
+- Robots
+- Memory
+- Recognition
+- Vision Field
 published: true
 pinned: false
-post_title:
-  Yasutomo Kawanishi's investigation of how human beings recognise, describe
+post_title: Yasutomo Kawanishi's investigation of how human beings recognise, describe
   and memorise the environment
-date: 2021-10-15T22:00:00Z
+date: 2021-10-15T22:00:00.000+00:00
 authors:
-  - name: Atrina Oraee
+- name: Atrina Oraee
 image: ''
 youtube_video_id: ZMzFmx60U2w
 audio: []
----
+images: []
 
-An intense 10-day event on intelligence and AI is bound to discuss **robots** at some point! Thankfully, this is precisely what interests **Yasutomo**. He focuses on **robot vision for environmental understanding and surveillance for human understanding, especially pedestrian detection, tracking, retrieval, and recognition**.
+---
+An intense 10-day event on intelligence and AI is bound to discuss **robots** at some point! Thankfully, this is precisely what interests [**Yasutomo**](/fellows#kawanishi "Yasutomo Kawanishi"). He focuses on **robot vision for environmental understanding and surveillance for human understanding, especially pedestrian detection, tracking, retrieval, and recognition**.
 
 He's presented his fascinating research in the above video.
 
