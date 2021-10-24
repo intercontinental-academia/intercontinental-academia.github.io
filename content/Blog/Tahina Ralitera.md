@@ -1,23 +1,24 @@
 ---
 tags:
-  - Simulation
-  - Modelling
-  - Blockchain
-  - Computer Science
+- Simulation
+- Modelling
+- Blockchain
+- Computer Science
 published: true
 pinned: false
 post_title: Exploring modelling and simulation based research with Tahina Ralitera
-date: 2021-10-15T22:00:00Z
+date: 2021-10-15T22:00:00.000+00:00
 authors:
-  - name: Atrina Oraee
+- name: Atrina Oraee
 image: ''
 youtube_video_id: 8kW0EvrunIU
 audio: []
----
+images: []
 
+---
 Living in a modern age, it's almost impossible to have not heard of a rather fascinating concept: **Blockchain!**
 
-This is precisely what Tahina is investigating! She is a Research Engineer at the French Alternative Energies and Atomic Energy Commission (CEA).
+This is precisely what [Tahina](/fellows#ralitera "Tahina Ralitera") is investigating! She is a Research Engineer at the French Alternative Energies and Atomic Energy Commission (CEA).
 
 She also explores **Multi-Agent Systems (MAS)** for modelling and simulation of complex and adaptive systems.
 
