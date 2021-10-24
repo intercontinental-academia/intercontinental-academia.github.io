@@ -101,7 +101,7 @@
       </p>
       <v-expand-transition>
         <nuxt-content
-          v-show="$route.name !== 'blog' || show"
+          v-show="$route.name !== 'blog' || show || !item.description"
           :document="item"
           class="px-3"
         />
