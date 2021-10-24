@@ -1,22 +1,23 @@
 ---
 tags:
-  - Law
-  - Artificial Intelligence
-  - Moral Reasoning
-  - Legal Institutions
+- Law
+- Artificial Intelligence
+- Moral Reasoning
+- Legal Institutions
 published: true
 pinned: false
 post_title: Mike Livermore explains the intersection of law and artificial intelligence
-date: 2021-10-15T22:00:00Z
+date: 2021-10-15T22:00:00.000+00:00
 authors:
-  - name: Atrina Oraee
+- name: Atrina Oraee
 image: ''
 youtube_video_id: uLNtvRT0Urk
 audio:
-  - '1124098528'
----
+- '1124098528'
+images: []
 
-**Artificial intelligence** might seem rather unrelated to **law and legal institutions**. However, this is definitely not the case! The **intersection** of the two in precisely what interests Mike. So, how can law be adapted by AI research? Have a look at his video!
+---
+**Artificial intelligence** might seem rather unrelated to **law and legal institutions**. However, this is definitely not the case! The **intersection** of the two in precisely what interests [Mike](/fellows#livermore "Mike Livermore"). So, how can law be adapted by AI research? Have a look at his video!
 
 Quite fascinatingly, Mike's project for ICA4 explores **how data-driven artificial intelligence techniques can be used to construct models of legal and moral reasoning that can address important outstanding questions in systems design**.
 
