@@ -17,7 +17,7 @@ audio:
 images: []
 
 ---
-**Artificial intelligence** might seem rather unrelated to **law and legal institutions**. However, this is definitely not the case! The **intersection** of the two in precisely what interests [Mike](/fellows#livermore "Mike Livermore"). So, how can law be adapted by AI research? Have a look at his video!
+**Artificial intelligence** might seem rather unrelated to **law and legal institutions**. However, this is definitely not the case! The **intersection** of the two is precisely what interests [Mike](/fellows#livermore "Mike Livermore"). So, how can the law be adapted by AI research? Have a look at his video!
 
 Quite fascinatingly, Mike's project for ICA4 explores **how data-driven artificial intelligence techniques can be used to construct models of legal and moral reasoning that can address important outstanding questions in systems design**.
 
