@@ -158,7 +158,7 @@ Finally, the Moonshot project was revealed: **a society where humans and robots 
 
 Scribe: [_Alex Cayco Gajic_](/fellows#cayco-gajic "Alex Cayco-Gajic")
 
-Chair: [Diego Frassinelli](/fellows#frassinelli "Diego Frassinelli")
+Chair: [_Diego Frassinelli_](/fellows#frassinelli "Diego Frassinelli")
 
 The scientific sessions at Saclay included two thought-provoking talks by [Xiao-Jing Wang](/mentors/#wang "Xiao-Jing Wang") and [Jay McClelland](/mentors/#mcclelland "Jay McClelland"), both of which touched upon **the principles underlying cognitive behaviours**, as well as **the difference between human and machine intelligence**. These were followed by a half-day symposium on AI organized in conjunction with the [Ecole Normale Superieure de Paris-Saclay](http://ens-paris-saclay.fr/en "Paris Saclay") which hosted us through the day.
 
