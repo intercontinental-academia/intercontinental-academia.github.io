@@ -190,6 +190,8 @@ Scribe: [_Henry Taylor_](/fellows#taylor "Henry Taylor")
 
 Chair: [_Ithai Rabinowitch_](/fellows#rabinowitch "Thai Rabinowitch")
 
+**Computational indeterminacy: what is your computer doing?**
+
 While at [**SCAI**](https://scai.sorbonne-universite.fr "SCAI"), The [ICA4 Fellows](/fellows "Fellows") plunged into **the** **philosophy of computation**, with two philosophers of cognitive science ([_Jack Copeland_](/mentors#copeland) and [_Oron Shagrir_](/mentors#shagrir "Oron Shagrir")). We focussed on the notion of **indeterminacy in computation**. Perhaps it's necessary to describe what computational indeterminacy is, and then look at its applications and philosophical questions.
 
 **_What is computational indeterminacy?_**
@@ -198,7 +200,7 @@ Suppose you have a computer, carrying out all sorts of tasks. Electrical signals
 
 This may seem easy to answer: you simply look at the machine and find out which computations it’s carrying out, surely? Well, no. Here is where the issue of computational indeterminacy comes in, and to understand it we’ll need a tiny bit of logic.
 
-**Computers make use of what are called _logic gates_, or simply _gates. _**Each gate takes a certain set of inputs, then (based on the rules that govern the gate), it gives a certain output. So let’s take a really simple gate, with two inputs, and one output. Inputs and outputs are in the form of electrical pulses (so it can take in up to two electrical pulses as inputs, and give up to one electrical pulse as an output). Furthermore, the _absence_ of a pulse can also be an output or an input as well.
+\**Computers make use of what are called _logic gates_, or simply _gates. _**Each gate takes a certain set of inputs, then (based on the rules that govern the gate), it gives a certain output. So let’s take a really simple gate, with two inputs, and one output. Inputs and outputs are in the form of electrical pulses (so it can take in up to two electrical pulses as inputs, and give up to one electrical pulse as an output). Furthermore, the _absence_ of a pulse can also be an output or an input as well.
 
 Let’s say the gate follows this rule:
 
