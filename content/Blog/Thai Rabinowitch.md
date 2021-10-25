@@ -6,7 +6,7 @@ tags:
 - Intelligence
 published: true
 pinned: false
-post_title: Thai Rabinowitch explores neurobiology from both a scientific and engineering
+post_title: Ithai Rabinowitch explores neurobiology from both a scientific and engineering
   perspectives
 date: 2021-10-09T22:00:00Z
 authors:
