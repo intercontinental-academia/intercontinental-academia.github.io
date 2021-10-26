@@ -43,13 +43,13 @@ The other half of the day is left free for participants to **reflect on the scie
 
 # Day 1: **"The future needs wisdom”**
 
-Chair: [Laura Candiotto](/fellows#candiotto "Laura Candiotto")
+Chair: [_Laura Candiotto_](/fellows#candiotto "Laura Candiotto")
 
-Scribe: [Massimiliano Di Luca](/fellows#di-luca "Massimiliano Di Luca")
+Scribe: [_Massimiliano Di Luca_](/fellows#di-luca "Massimiliano Di Luca")
 
 **Perception, prediction, and pleasure: What can music teach us about neurocognition/intelligence?**
 
-Presented by [_Robert Zatorre_](/mentors#zatorre "Robert Zatorre")
+Presented by [**_Robert Zatorre_**](/mentors#zatorre "Robert Zatorre")
 
 It was stated during the seminar that the brain represents the properties of the environment and guides behaviour through evaluation and reward. Aesthetic pleasure can be defined as the phylogenetically older system that is centred on the striatum.
 
@@ -59,13 +59,13 @@ Through the post-seminar collective discussions, the relevance of **affective ex
 
 **High Energy Physics: Successes, Challenges and Magic**
 
-Presented by [_Eliezer Rabinovici_](/about/ica4/#rabinovici "Eliezer Rabinovici")
+Presented by [**_Eliezer Rabinovici_**](/about/ica4/#rabinovici "Eliezer Rabinovici")
 
 It was discussed that observing natural phenomena can motivate scientific enquiry and drive us to understand the unknown. Moreover, equations are a way to increase predictability. However, a single, compact and reductionist explanation for all phenomena in the universe may not necessarily exist. The scientific method requires that results are reproducible. The correspondence principle requires that new theories can explain all phenomena for which a preceding theory was valid. To understand a phenomenon, one has to identify the relevant players and determine the correct explanation scale.
 
 **In AI We Trust: Power, illusion and control of predictive algorithms**
 
-Presented by [_Helga Nowotny_](http://helga-nowotny.eu "Helga Nowotny")
+Presented by [**_Helga Nowotny_**](http://helga-nowotny.eu "Helga Nowotny")
 
 The session began with introducing the concept of singularity and defining it as a tipping point: a change of state that can lead to the collapse of a system. In an attempt to define Ethical AI, examples such as Transhumanism (ideas of transcending the limitations of a mortal body through information sharing) were discussed. Furthermore, the illusion that AI knows humans better than humans know themselves was elaborated, ultimately concluding by mentioning the existence of a possibility for human beings to both profit or suffer from an AI system depending on how it is applied.
 
@@ -79,7 +79,7 @@ Chair: [_Benjamin Guedj_](/fellows#guedj "Ben Guedj")
 
 **Why Consciousness?**
 
-Presented by [_Robert Aumann_](/mentors#aumann "Robert Aumann")
+Presented by [**_Robert Aumann_**](/mentors#aumann "Robert Aumann")
 
 Essentially, the seminar was focused on the purpose which consciousness serves. Consciousness was defined as the ability to do the following:
 
@@ -92,7 +92,7 @@ Of all the above, perceiving, thinking/intending, and carrying out intentions ma
 
 **Myths and misunderstandings about responsibility for the unintended impact of AI**
 
-Presented by [_Karen Yeung_](/mentors#yeung "Karen Yeung")
+Presented by [**_Karen Yeung_**](/mentors#yeung "Karen Yeung")
 
 The talk mostly focused on responsibility for the unintended impact of Artificial Intelligence, based on the presenter's Council of Europe study. It was argued that Machine Learning's (ML) capacity to enable task automation and machine "autonomy" raise important questions about **responsibility**. Thus, responsibility-relevant attributes of ML were identified, for which an illustration is the data-driven profiling of individuals, and other ML applications, which may hold adverse impacts on human rights, on both individual and collective levels.  
 While responsibility is important for human beings, who are considered as moral agents, to maintain peaceful social co-operation within the community, only a few studies have focused on tackling the fundamental role of responsibility for individuals, as well as the society.
@@ -114,7 +114,7 @@ Finally, five common myths and misunderstandings concerning responsibility for t
 
 **Data science and deep learning vs theory: two examples from economics and finance**
 
-Presented by [_Raouf Boucekkine_](/about/ica4#boucekkine "Raouf Boucekkine")
+Presented by [**_Raouf Boucekkine_**](/about/ica4#boucekkine "Raouf Boucekkine")
 
 The session included discussions on Data Science, Machine Learning (ML), and some relevant theories in the field of economics and finance that share common disciplines. Certain examples from macroeconomics, in which characteristics of the underlying mechanisms for complex systems are of great interest, were then discussed in more detail. In such context, a misunderstanding between different disciplines was highlighted: **the concept of equilibrium** is of great significance in mainstream macroeconomics, whereas this is not the case for statistical physics (e.g., the "equilibrium" bias outside the econ area, discussed by Bonneuil & Boucekkine (2020)). Finally, the use of various **methods** and approaches, such as DSGE (Dynamic Stochastic General Equilibrium), ABM (Agent-Based Modeling), and Neural Network-Based methods, in the field of macroeconomics were discussed.
 
@@ -126,7 +126,7 @@ Chair: [_Philipp Kellmeyer_](/fellows#kellmeyer "Philipp Kellmeyer")
 
 **Distributed Intelligence & Distributed Agency**
 
-Presented by [_Saadi Lahlou_](/about/ica4#lahlou "Saadi Lahlou")
+Presented by [**_Saadi Lahlou_**](/about/ica4#lahlou "Saadi Lahlou")
 
 We want intelligence to perform relevantly adapted actions that change the situation in which we are for the better. To design intelligence, we must first understand **the nature of the actual activity**. In this sense, behaviour was defined as what people do, seen from the outside. In other words, behaviour remains an external description of objective phenomena. This is while activity is how people subjectively perceive their action and how they see it from their own perspective.
 
@@ -140,7 +140,7 @@ To conclude, ICA4 Fellows were left with some questions as food for thought. For
 
 **Perspective on Artificial Intelligence research from studies on Agency, self-recognition and social cognition in animals**
 
-Presented by [_William Hopkins_](/mentors#hopkins "William Hopkins")
+Presented by [**_William Hopkins_**](/mentors#hopkins "William Hopkins")
 
 The session began by discussing humans constructed concepts to reflect intellectual abilities in various domains of cognitive functions. In this sense, we use tests like the WAIS or Stanford Binet to quantify and scale performance to standards for specific age classes. These tests rely heavily on language. There are many approaches to developing fair tests of cognition between species with different sensory and motor capabilities. It began with Darwin and Furness. Then, George Romanes (1884) focused on animal intelligence and later on, Kohler (1925) on insight learning. Within the same field, Robert Yerkes (1916) worked on “The mental life of monkeys and apes: a study of ideational behavior”. Yerkes later developed the IQ test used by the army in WW1 (army alpha test).
 
@@ -166,7 +166,7 @@ Scribe: [_Alex Cayco Gajic_](/fellows#cayco-gajic "Alex Cayco-Gajic")
 
 Chair: [_Diego Frassinelli_](/fellows#frassinelli "Diego Frassinelli")
 
-The scientific sessions at Saclay included two thought-provoking talks by [Xiao-Jing Wang](/mentors/#wang "Xiao-Jing Wang") and [Jay McClelland](/mentors/#mcclelland "Jay McClelland"), both of which touched upon **the principles underlying cognitive behaviours**, as well as **the difference between human and machine intelligence**. These were followed by a half-day symposium on AI organized in conjunction with the [Ecole Normale Superieure de Paris-Saclay](http://ens-paris-saclay.fr/en "Paris Saclay") which hosted us through the day.
+The scientific sessions at Saclay included two thought-provoking talks by [**_Xiao-Jing Wang_**](/mentors/#wang "Xiao-Jing Wang") and [**_Jay McClelland_**](/mentors/#mcclelland "Jay McClelland"), both of which touched upon **the principles underlying cognitive behaviours**, as well as **the difference between human and machine intelligence**. These were followed by a half-day symposium on AI organized in conjunction with the [**Ecole Normale Superieure de Paris-Saclay**](http://ens-paris-saclay.fr/en "Paris Saclay") which hosted us through the day.
 
 First, **Wang** discussed his efforts to understand the **computational principles underlying cognition**. Deep neural networks, despite their recent success, differ from human cognition because they have no internal mental life - instead, they act as complex, nonlinear input-output functions. In humans, the prefrontal cortex (PFC) is known to be crucial for cognitive functions such as working memory, decision making, and executive function. An early avenue of this research involved understanding how persistent neural activity may underlie working memory by sustaining stimulus information in the brain after the sensory cue has disappeared. Such persistence is linked to recurrent connectivity, which is lacking in most deep networks. Wang described his previous research using spiking networks and tools from dynamical systems to understand the attractor dynamics behind this form of memory. In the second half of the talk, he showcased his more recent work which uses recurrent neural networks (RNNs) as a form of a model organism to probe how the PFC may perform multiple cognitive tasks simultaneously. These RNNs can then be used to address questions such as whether the PFC encodes cognitive building blocks in a compositional manner, similar to the psychological concepts of schema.
 
