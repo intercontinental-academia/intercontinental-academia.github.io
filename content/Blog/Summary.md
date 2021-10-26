@@ -174,7 +174,7 @@ Following this talk, **McClelland** highlighted **a different distinction betwee
 
 Upon completion of the talks by ICA4 Mentors, Paris-Saclay hosted **a half-day event with multiple workshops** in which **ICA4 mentors and Paris-Saclay researchers discussed major advances and issues surrounding AI**. Dehaene also presented a series of fMRI, MEG, and behavioural evidence that **humans use symbolic and recursive strategies on prediction tasks with complex sequences**, as compared with monkeys which seem to use a picture-based strategy. In a session focusing on AI and ethics, Paola Tubaro revealed the hidden human workers who provide the hand-labelled training data for products like Siri. Because companies need cheaper work in the same language this tends to reproduce historic colonial patterns.
 
-Finally, the intellectually intense day came to an end with a talk in which [**Zaven Paré**](/mentors/#pare "Zaven Pare") discussed his **artistic works based on electronic marionettes** and his collaborations with robotics specialists in Japan. Paré’s conception of automaton-centred theatre enchants audiences while challenging our tendency towards **anthropomorphisation**. This raises important questions regarding **how we will interact with AI algorithms and intelligent robotics in the decades to come...**
+Finally, the intellectually intense day came to an end with a talk in which [**_Zaven Paré_**](/mentors/#pare "Zaven Pare") discussed his **artistic works based on electronic marionettes** and his collaborations with robotics specialists in Japan. Paré’s conception of automaton-centred theatre enchants audiences while challenging our tendency towards **anthropomorphisation**. This raises important questions regarding **how we will interact with AI algorithms and intelligent robotics in the decades to come...**
 
 # Day 5: "**an Argus with billions of eyes and ears, capacity for action, and infinite memory!"**
 
@@ -182,7 +182,7 @@ Scribe: [_Oksana Stalnov_](/fellows/#stalnov "Oksana Stalnov")
 
 Chair: [_Evandro Cunha_](/fellows/#cunha "Evandro Cunha")
 
-While impossible to precisely predict, the convoluted future of AI may be presented in terms of **some major challenges it will inevitably face within the upcoming decades**. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS! _Find out more about their thoughts and **perceived challenges for AI **_[**_here_**](https://www.intercontinental-academia.org/blog/Some%20Challenges%20of%20AI/ "Challenges of AI")_._
+While impossible to precisely predict, the convoluted future of AI may be presented in terms of **some major challenges it will inevitably face within the upcoming decades**. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS! _Find out more about their thoughts and perceived challenges for AI_ [**_here_**](https://www.intercontinental-academia.org/blog/Some%20Challenges%20of%20AI/ "Challenges of AI")_._
 
 # Day 6: **A trip to Sorbonne Center for Artificial Intelligence - SCAI**
 
@@ -192,15 +192,15 @@ Chair: [_Ithai Rabinowitch_](/fellows#rabinowitch "Thai Rabinowitch")
 
 **Computational indeterminacy: what is your computer doing?**
 
-While at [**SCAI**](https://scai.sorbonne-universite.fr "SCAI"), The [ICA4 Fellows](/fellows "Fellows") plunged into **the** **philosophy of computation**, with two philosophers of cognitive science ([_Jack Copeland_](/mentors#copeland) and [_Oron Shagrir_](/mentors#shagrir "Oron Shagrir")). We focussed on the notion of **indeterminacy in computation**. Perhaps it's necessary to describe what computational indeterminacy is, and then look at its applications and philosophical questions.
+While at [**SCAI**](https://scai.sorbonne-universite.fr "SCAI"), The [ICA4 Fellows](/fellows "Fellows") plunged into **the** **philosophy of computation** with two [ICA4 mentors](/mentors "Mentors"), who are philosophers of cognitive science ([**_Jack Copeland _**](/mentors#copeland)and [**_Oron Shagrir_**](/mentors#shagrir "Oron Shagrir")). We focussed on the notion of **indeterminacy in computation**. Perhaps it's necessary to describe what computational indeterminacy is, and then look at its applications and philosophical questions.
 
-**_What is computational indeterminacy?_**
+**_So, what is computational indeterminacy anyway?_**
 
 Suppose you have a computer, carrying out all sorts of tasks. Electrical signals are pulsing through it, flowing across its circuits, inputs flowing in, outputs flowing out. Now, we can ask the question: **what is the computer doing?** Or, more precisely: **which computations is it actually carrying out?**
 
 This may seem easy to answer: you simply look at the machine and find out which computations it’s carrying out, surely? Well, no. Here is where the issue of computational indeterminacy comes in, and to understand it we’ll need a tiny bit of logic.
 
-\**Computers make use of what are called _logic gates_, or simply _gates. _**Each gate takes a certain set of inputs, then (based on the rules that govern the gate), it gives a certain output. So let’s take a really simple gate, with two inputs, and one output. Inputs and outputs are in the form of electrical pulses (so it can take in up to two electrical pulses as inputs, and give up to one electrical pulse as an output). Furthermore, the _absence_ of a pulse can also be an output or an input as well.
+Computers make use of what are called _logic gates_, or simply: gates. Each gate takes a certain set of inputs, then (based on the rules that govern the gate), it gives a certain output. So let’s take a really simple gate, with two inputs, and one output. Inputs and outputs are in the form of electrical pulses (so it can take in up to two electrical pulses as inputs, and give up to one electrical pulse as an output). Furthermore, the _absence_ of a pulse can also be an output or an input as well.
 
 Let’s say the gate follows this rule:
 
