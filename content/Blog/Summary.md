@@ -277,3 +277,37 @@ The economist [**_Philippe Aghion_**](/mentors#aghion "Philippe Aghion"), profes
 AI has already had a considerable impact on society, for example, through **the impact of automation on the labour force**. While AI has been instrumental in increasing productivity, **economic growth has declined since the mid-2000s**. Aghion's major concern is focused on the **formation of large companies which boosted growth but also inhibited innovation**. Much of the innovation related to AI is currently concentrated in such companies. To give AI more potential, we need to rethink ways to stimulate innovation while also making it sustainable. One crucial step is to re-calibrate the relationship between companies, institutions, and civic society. Rethinking funding strategies while also thinking of governmental regulatory measures and increasing the civic engagement with these companies is vital to achieving **sustainable growth** for companies developed AI.
 
 Both talks showed **the complicated interplay between research objectives related to AI and the societal and economic embedding of the technology**. Current research is devoting more attention to the **challenges** that Mézard raised, for example, work on Explainable AI. However, **public awareness of the limitations of neural networks and the research challenges is still lagging**. Increasing this **awareness** might help to balance polarized views on AI that often oscillate between dystopian and utopian perspectives. **An interdisciplinary project**, offered through [**the 4th Intercontinental Academia**](/about/concept "Concept"), is of utmost importance in **shaping how scholars should communicate the current state of AI and its challenges to a broader audience**.
+
+# The Final Day: **where we go from here...**
+
+Scribe: [_Mike Livermore_](/fellows#livermore "Mike Livermore")
+
+Chair: [_Alex Cayco Gajic_](/fellows#cayco-gajic "Alex Cayco Gajic")
+
+**The top-down and bottom-up in visual processing**
+
+Presented by [**_Shimon Ullman_**](/mentors#ullman "Shimon Ullman")
+
+A major question in visual processing is **how humans extract information from complex scenes**. Images often tell us a story! Extracting such a narrative from a complex scene is a sophisticated task. There is a great deal of **cultural and situational knowledge** that serves as the background for directing attentional and visual processing resources.
+
+Deep neural networks have made substantial progress in certain types of visual processing tasks. But there are massive data requirements. **Merely identifying objects and characteristics is not enough to account for relationships between objects**. Humans are very fast at identifying the important features in an image that relate to structure and narrative. There is an interesting set of psychophysics studies that examine how people extract information based on the time of exposure to an image. What we learn from these studies is that **there is a substantial amount of cross-talk between visual and cognitive systems**. It’s not the case that the visual system just analyses a scene and then sends the processed information upstream. Rather some visual information goes up to the cognitive centres, and that information is used to direct queries carried out by the visual system, which sends information up to the cognitive centres in an iterative process.
+
+**Can we model this process partially in an artificial system as an “unfolded RNN” that involves both bottom-up and top-down layers?** In such a system, there are both **symbolic and embedded representations**. The inputs for the models are the images themselves and a set of instructions. The instructions are queries structured as vectors coded over objects and properties. The algorithm returns a correct answer when it pulls the queried information from the image. We can interpret what’s happening here symbolically as a program or sequential set of instructions for extracting information from an image.
+
+A major challenge is a combinatorial generalisation. The same structure can be instantiated in many ways (_compare_ “A brown dog chasing a terrified kitten” _with_ “A large cat chasing a furry squirrel”). One way to test this is to leave out object/property pairs from the training set and test these. The bottom-up/top-down systems do well with the left-out data, but the bottom-up only system performs poorly on the left-out data.
+
+There is a broader set of questions on modelling and understanding. Humans have a very high-level understanding of a concept like “drinking” that is very hard to imagine arising from a purely bottom-up model. More data, even massive amounts of data, might not be sufficient without some higher-order structure.
+
+Upon completion of the presentation, [ICA4 Fellows](/fellows "Fellows") then asked questions related to how images are embedded in actions and within cultural contexts, the relationship between ontologies and bottom-up networks, and visual processing in non-humans and how that informs our thinking on the role of abstract reasoning in visual processing.
+
+**The role of the robot in society**
+
+Presented by [**_Zaven Paré_**](/mentors#pare "Zaven Pare")
+
+**Art** can tell us something about society and technology. **Once robots are embedded in contexts, they take on new characteristics** – even if they are manufactured to be the “same,” they are changed by their environments. Different robots serve different functions in different societies. **An important potential role for robots is to respond to isolation**. Robots in deep sea and space are examples of how these systems can generate human-artificial interaction in conditions of isolation. [**The Gatebox product**](https://www.gatebox.ai/en/ "Gatebox") is a provocative example of **an existing robot that is addressed to isolation in a contemporary urban environment**.
+
+The fellows then discussed questions related to the importance of isolation, what it means for a robot to offer companionship and the social meaning of different anthropic forms being projected onto robots.
+
+Upon completion of the day's scientific sessions, the Fellows then discussed their follow-up tasks and recurrent meetings. The first session of ICA4 in Paris was then wrapped up, and the key takeaways, as well as questions to explore further, were noted and presented by the Fellows, while also reflecting on the previous days.
+
+The intellectually intense series of events was then concluded with some cocktails at the [IEA de Paris](https://www.paris-iea.fr/en/ "Paris IEA"), marking the very beginning of a series of scientific adventures which are yet to come...
