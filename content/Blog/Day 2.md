@@ -13,15 +13,7 @@ post_title: 'Day 2: "In AI we trust"...or not!'
 date: 2021-10-18T23:00:00Z
 authors:
 - name: Atrina Oraee
-images:
-- "/snapseed-2.jpg"
-- "/snapseed-2.jpg"
-- "/snapseed-3.jpg"
-- "/image.png"
-- "/snapseed-2.jpg"
-- "/snapseed-11.jpg"
-- "/img_4328.jpg"
-- "/img_4432-2.jpg"
+images: []
 youtube_video_id: ''
 audio: []
 
