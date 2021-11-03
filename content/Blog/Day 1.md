@@ -11,7 +11,7 @@ tags:
 published: true
 pinned: false
 post_title: 'Day 1: "The future needs wisdom!”'
-date: 2021-10-18T21:00:00Z
+date: 2021-10-17T23:00:00Z
 authors:
 - name: Atrina Oraee
 images:
