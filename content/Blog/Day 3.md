@@ -1,30 +1,47 @@
 ---
-tags: []
-published: false
+tags:
+- Distributed Intelligence
+- Bhevaiour
+- Installation Theory
+- Social Cognition
+- Language
+- Robots
+- Agency
+- Internet of Things
+published: true
 pinned: false
 post_title: 'Day 3: "What you do FOR  people, you do TO people, so do it WITH people!"'
 date: 2021-10-19T23:00:00Z
-authors: []
+authors:
+- name: Atrina Oraee
 images:
+- "/snapseed-8.png"
 - "/snapseed-10.png"
 - "/snapseed-9.png"
-- "/snapseed-7.png"
-- "/snapseed-8.png"
-- "/snapseed-6.png"
-- "/snapseed-5.png"
 - "/fullsizerender-2.jpg"
+- "/snapseed-7.png"
+- "/snapseed-5.png"
+- "/snapseed-6.png"
 - "/img_4552.jpg"
 youtube_video_id: ''
 audio: []
 
 ---
+Day 3 of the first session of ICA4 continued in Paris IAS, where the Fellows sat through three more scientific seminars, followed by discussions and brainstorming sessions.  
+
+The day kicked off by a framework proposed by [_Saadi Lahlou_](/about/ica4#lahlou "Saadi Lahlou"), called **"Installation Theory"**, which enables scientists to **analyse and regulate human behaviour**. This was complemented by a new technique to **capture the subjective perception of action**, ultimately bringing psychological and behavioural sciences one step closer to what was once considered a technically impossible task: **introspection!**
+
+[_William Hopkins_](/mentors#hopkins "William Hopkins") then joined the discussions with some stimulating videos from research done on **apes**, while exploring **self-recognition and social cognition in animals**.
+
+Finally, Toshio Fukuda revealed the Moonshot project: **a society where humans and robots live together in 2050!**<!--more-->
+
 **Distributed Intelligence & Distributed Agency**
 
 Presented by [**_Saadi Lahlou_**](/about/ica4#lahlou "Saadi Lahlou")
 
 We want intelligence to perform relevantly adapted actions that change the situation in which we are for the better. To design intelligence, we must first understand **the nature of the actual activity**. In this sense, the behaviour was defined as what people do, seen from the outside. In other words, behaviour remains an external description of objective phenomena. This is while activity is how people subjectively perceive their action and how they see it from their own perspective.
 
-**Installations consist of components that simultaneously support and control**. In other words, they are specific, local, and societal settings where humans are expected to behave predictably, e.g., airport, metro, cash machine, etc. **Installations consist of three layers: affordances of the physical environment embodied competencies and social regulations. Intelligence is distributed over three layers.**
+**Installations consist of components that simultaneously support and control**. In other words, they are specific, local, and societal settings where humans are expected to behave predictably, e.g., airport, metro, cash machine, etc. **Installations** consist of **three** layers: **affordances of the physical environment, embodied competencies and social regulations.** Intelligence is thus **distributed** over these three layers.
 
 The question now is: why do we have these installations? Because **installations channel many of our behaviours** and consequently make us very efficient, although our short memory and cognitive processing are very limited compared to animals. Installations are **redundant**, and redundancy produces resilience and learning.
 
@@ -46,13 +63,11 @@ However, is it language? There is very little evidence for declarative productio
 
 **AI and Robots for Future: The Moon Shot Project**
 
-Presented by [_Toshio Fukuda_](/mentors#fukuda "Toshio Fukuda")
+Presented by [**_Toshio Fukuda_**](/mentors#fukuda "Toshio Fukuda")
 
 Robots are avatars that pop up to help when humans need them. There is an information and physical interaction between robots and humans. Toshio showed several multi-scale robots, e.g., monkey-type robots, multi-locomotion, intelligent cane, etc. One of these robots is the Brachiator I-III. Brachiation is a form of long-armed ape locomotion. It uses dynamics of the pendulum, under-actuated mechanical system, variable constraint system, machine learning, AI, reinforce learning, soft computing (fuzzy, genetic algorithm). Regarding multi-locomotion types, in many cases, one creature has multiple types of locomotion in order to improve its mobility. The motivation of their study is to develop a robot mechanism and a control architecture that can achieve multiple locomotions. Hybrid computational intelligence, i.e., AI and brain interface were also commented upon by the speaker while showing a series of related videos. An example of such videos illustrated the Boston dynamics atlas and others: three robots dancing and jumping which was quite impressive!
 
 Moreover, AI+Robot+IoT (Internet of Things), the use of robots in mega-trend (energy, urbanisation, food, ageing, global warming, robot, and AI) were discussed. This was followed by further discussions on autonomous cars, which may be safer than human drivers, mixed reality, the Eve project (a transparent body that simulates the human body), cyborg technology (fusion of robot and animal), and multiple robots (communication among robots).
-
-Finally, the Moonshot project was revealed: **a society where humans and robots live together in 2050!**
 
 Scribe: [_André Fujita_](/fellows#fujita "Andre Fujita")
 
