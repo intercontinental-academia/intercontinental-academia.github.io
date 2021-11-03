@@ -1,5 +1,12 @@
 ---
-tags: []
+tags:
+- Consciousness
+- Responsibility
+- Ethics
+- Economics
+- Data Science
+- Human Rights
+- AI Apllications
 published: false
 pinned: false
 post_title: 'Day 2: "In AI we trust"...or not!'
@@ -19,13 +26,13 @@ youtube_video_id: ''
 audio: []
 
 ---
-The ICA4 continued onto the second day, through which three seminars took place with mentors who had joined the first session in Paris from around the world! 
+The ICA4 continued onto the second day, through which three seminars took place with mentors who had joined the first session in Paris from around the world!
 
-The first lecture was by [_Robert Aumann_](/mentors#aumann "Robert Aumann"), a Nobel prize laureate, who focused on the convoluted concept of **consciousness** and its counterparts. 
+The first lecture was by [_Robert Aumann_](/mentors#aumann "Robert Aumann"), a Nobel prize laureate, who focused on the convoluted concept of **consciousness** and its counterparts.
 
-This was followed by a lecture from [_Karen Yeung_](/mentors#yeung "Karen Yeung"), who offered a rather critical point of view on the prevalence of AI, as well as some of its surrounding **myths and misconceptions**. She then went on to explain how **responsibility** should be re-defined to consider the **unintended impact(s) of AI in human societies**. 
+This was followed by a lecture from [_Karen Yeung_](/mentors#yeung "Karen Yeung"), who offered a rather critical point of view on the prevalence of AI, as well as some of its surrounding **myths and misconceptions**. She then went on to explain how **responsibility** should be re-defined to consider the **unintended impact(s) of AI in human societies**.
 
-Finally, [_Raouf Boucekkine _](/about/ica4#boucekkine "Raouf Boucekkine")took the fellows for an exploration into the world of economics and finance, using the concept of **equilibrium** as an example to illustrate the difference between disciplines: **mainstream economics VS. statistical physics!**<!--more-->
+Finally, [Raouf Boucekkine](/about/ica4#boucekkine "Raouf Boucekkine") took the fellows for an exploration into the world of economics and finance, using the concept of **equilibrium** as an example to illustrate the difference between disciplines: **mainstream economics VS. statistical physics!**<!--more-->
 
 **Why Consciousness?**
 
