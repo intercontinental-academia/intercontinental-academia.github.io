@@ -32,7 +32,7 @@ The other half of the day is left free for participants to **reflect on the scie
 
 The very **first lecture of ICA4 - Session 1** came from [_Robert Zatorre_](/mentors#zatorre "Robert Zatorre") who took us into the fascinating world of **music** while explaining **the relationship between perception, predictions, and pleasure!**
 
-This was followed by another lecture that introduced a rather different perspective on AI, and was presented by [_Eliezer Rabinovici_](/about/ica4/#rabinovici "Eliezer Rabinovici")_._ The lecture mostly explored the **complexities of scientific enquiries** **and methods in the context of AI**.
+This was followed by another lecture that introduced a rather different perspective on AI and was presented by [_Eliezer Rabinovici_](/about/ica4/#rabinovici "Eliezer Rabinovici")_._ The lecture mostly explored the **complexities of scientific enquiries** **and methods in the context of AI**.
 
 Before leaving for cocktails and welcome speeches in the chambers of Paris IAS, a final lecture was given by [_Helga Nowotny_](http://helga-nowotny.eu "Helga Nowotny"), who emphasised **an urgent need for establishing a context-sensitive AI control system**.<!--more-->
 
