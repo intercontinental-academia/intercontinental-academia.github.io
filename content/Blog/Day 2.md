@@ -33,7 +33,7 @@ The first lecture was by [_Robert Aumann_](/mentors#aumann "Robert Aumann"), a N
 
 This was followed by a lecture from [_Karen Yeung_](/mentors#yeung "Karen Yeung"), who offered a rather critical point of view on the prevalence of AI, as well as some of its surrounding **myths and misconceptions**. She then went on to explain how **responsibility** should be re-defined to consider the **unintended impact(s) of AI in human societies**.
 
-Finally, [Raouf Boucekkine](/about/ica4#boucekkine "Raouf Boucekkine") took the fellows for an exploration into the world of economics and finance, using the concept of **equilibrium** as an example to illustrate the difference between disciplines: **mainstream economics VS. statistical physics!**<!--more-->
+Finally, [_Raouf Boucekkine _](/about/ica4#boucekkine "Raouf Boucekkine")took the fellows for an exploration into the world of economics and finance, using the concept of **equilibrium** as an example to illustrate the difference between disciplines: **mainstream economics VS. statistical physics!**<!--more-->
 
 **Why Consciousness?**
 
