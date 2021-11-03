@@ -11,7 +11,7 @@ tags:
 published: true
 pinned: false
 post_title: 'Day 1: "The future needs wisdom!”'
-date: 2021-10-18T11:00:00Z
+date: 2021-10-18T21:00:00Z
 authors:
 - name: Atrina Oraee
 images:
@@ -30,7 +30,7 @@ Each day at the [Paris IAS](https://www.paris-iea.fr/en/ "Paris IAS"), [ICA4 Fel
 
 The other half of the day is left free for participants to **reflect on the scientific discussions** in small groups. Such discussions are occasionally complemented by **lectures from the** [**Chairs**](/about/ica4 "Chairs").
 
-The very **first lecture of ICA4 - Session 1** came from [_Robert Zatorre _](/mentors#zatorre "Robert Zatorre")who took us into the fascinating world of **music** while explaining **the relationship between perception, predictions, and pleasure!**
+The very **first lecture of ICA4 - Session 1** came from [_Robert Zatorre_](/mentors#zatorre "Robert Zatorre") who took us into the fascinating world of **music** while explaining **the relationship between perception, predictions, and pleasure!**
 
 This was followed by another lecture that introduced a rather different perspective on AI, and was presented by [_Eliezer Rabinovici_](/about/ica4/#rabinovici "Eliezer Rabinovici")_._ The lecture mostly explored the **complexities of scientific enquiries** **and methods in the context of AI**.
 
