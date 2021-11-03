@@ -7,13 +7,22 @@ tags:
 - Data Science
 - Human Rights
 - AI Apllications
-published: false
+published: true
 pinned: false
 post_title: 'Day 2: "In AI we trust"...or not!'
 date: 2021-10-18T23:00:00Z
 authors:
 - name: Atrina Oraee
-images: []
+images:
+- "/snapseed-10.jpg"
+- "/snapseed-32.jpg"
+- "/snapseed-3.jpg"
+- "/220cd751-06ee-44b0-8ca1-458e64780c70-1.JPG"
+- "/image.png"
+- "/img_4432-2.jpg"
+- "/2fa0618b-acab-4552-b468-62a883046858.JPG"
+- "/snapseed-11.jpg"
+- "/snapseed-29.jpg"
 youtube_video_id: ''
 audio: []
 
