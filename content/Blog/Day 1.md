@@ -16,6 +16,7 @@ authors:
 - name: Atrina Oraee
 images:
 - "/snapseed.jpg"
+- "/snapseed-24.jpg"
 - "/snapseed-5.jpg"
 - "/snapseed-2.jpg"
 - "/snapseed-7.jpg"
