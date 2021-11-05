@@ -29,13 +29,13 @@ youtube_video_id: ''
 audio: []
 
 ---
-The Final Day of ICA4 began with two thought-provoking lectures from [**_Shimon Ullman _**](/mentors#ullman "Shimon Ullman")and [**_Zaven Paré_**](/mentors#pare "Zaven Pare"), discussing **how humans extract information from complex scenes** and **the peculiar nature of the relationship between humans and robots**. Pare then revealed a provocative example of **an existing robot that is addressed to isolation in a contemporary urban environment**.
+The Final Day of ICA4 began with two thought-provoking lectures from [**Shimon Ullman **](/mentors#ullman "Shimon Ullman")and [**_Zaven Paré_**](/mentors#pare "Zaven Pare"), discussing **how humans extract information from complex scenes** and **the peculiar nature of the relationship between humans and robots**. Pare then revealed a provocative example of **an existing robot that is addressed to isolation in a contemporary urban environment**.
 
-The Fellows then took a break to explore the **cyberhalls of Paris IAS** with their avatars, discovering **their virtual reality space** for meetings, workshops, social gatherings and other events over the upcoming months, and until they physically meet again in Brazil.
+[The Fellows](/fellows "Fellows") then took a break to explore the **3D virtual campus of the** [**Paris IAS**](https://www.paris-iea.fr/en/ "Paris IAS"), called **Teemew Campus Alpha**, in which **lounges**, **public seminar rooms**, **private meeting rooms** and **workshops** are accessible to ICA4 Fellows and Mentors. Each Academia member possesses an avatar, created from his/her own image, which is then used to navigate through the **IAS cyber campus**.
 
 The Fellows then discussed their follow-up tasks and next step(s). The first session of ICA4 in Paris was then wrapped up with a presentation from, this time, the Fellows! They highlighted some **questions to explore further**, **ideas for research papers**, **an interdisciplinary manifesto for Artificial Intelligence** and finally, they **reflected on the key takeaways from the entire event**.
 
-The intellectually intense series of events was finally concluded with some cocktails at the [Paris IAS](https://www.paris-iea.fr/en/ "Paris IAS"), marking the very beginning of **a series of scientific adventures which are yet to come**, as [the ICA4 Fellows](/fellows "Fellows") continue to collectively explore some seemingly never-ending questions through combining various perspectives on [**Intelligence and Artificial Intelligence**](/about/ica4 "Concept"), ultimately **discovering and shaping how such complex matters should, and will be, embedded within societies...**<!--more-->
+The intellectually intense series of events was finally concluded with some cocktails at the Paris IAS, marking the very beginning of **a series of scientific adventures which are yet to come**, as the ICA4 Fellows continue to collectively explore some seemingly never-ending questions through combining various perspectives on [**Intelligence and Artificial Intelligence**](/about/ica4 "Concept"), ultimately **discovering and shaping how such complex matters should, and will be, embedded within societies...**<!--more-->
 
 **The top-down and bottom-up in visual processing**
 
