@@ -83,4 +83,4 @@ Chair: [_Evandro Cunha_](/fellows/#cunha "Evandro Cunha")
 
 Although the vast field of AI is faced with prominent challenges, some of the best minds in the world have come together in [Paris IAS](https://www.paris-iea.fr/en/ "IEA de Paris") to, in a collective effort established through [ICA4](/about/concept "ICA4"), try to identify the important questions that must be asked, and perhaps also point to ways of solving them...
 
-**The 6th of ICA4** was thankfully a Saturday, and a perfect opportunity for Fellows to rest and explore Paris. Mentors and Fellows were treated by Paris IAS to a Seine River Cruise over sunset: **A Parisien conclusion to the week!** 
+By the end of the 5th day of ICA4, the weekend had already approached, providing a perfect opportunity to rest and explore Paris. Mentors and Fellows were treated by Paris IAS to a Seine River Cruise over sunset: **A Parisien conclusion to the week!**
