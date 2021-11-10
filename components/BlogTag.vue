@@ -23,11 +23,6 @@ export default {
       required: false,
     },
   },
-  data() {
-    return {}
-  },
-  computed: {},
-  mounted() {},
   methods: {
     updateTag() {
       const tags = this.$route?.query?.tags

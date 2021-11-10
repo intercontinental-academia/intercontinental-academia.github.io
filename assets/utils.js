@@ -23,8 +23,8 @@ export const getContent = async (cat, $content, query, search, error) => {
   const pipeline = { published: true }
   if (tags.length) pipeline.tags = { $containsAny: tags }
   const count = await $content(cat)
-    .where(pipeline)
     .search(search)
+    .where(pipeline)
     .only([])
     .fetch()
 
@@ -52,16 +52,16 @@ export const getContent = async (cat, $content, query, search, error) => {
   let posts, pinnedPost
   if (currentPage === 1) {
     const rawPosts = await $content(cat)
-      .where(pipeline)
       .search(search)
+      .where(pipeline)
       .sortBy('date', 'desc')
       .limit(perPage)
       .skip(skipNumber())
       .fetch()
 
     pinnedPost = await $content(cat)
-      .where({ ...pipeline, pinned: true })
       .search(search)
+      .where({ ...pipeline, pinned: true })
       .sortBy('date', 'desc')
       .limit(1)
       .fetch()

@@ -9,7 +9,6 @@
         small
         class="mb-1 mr-1"
       >
-        {{ tag[0] }}
       </BlogTag>
     </template>
     <v-btn color="primary" small text @click="expanded = !expanded">{{
@@ -19,7 +18,6 @@
 </template>
 <script>
 export default {
-  props: {},
   data() {
     return { tags: [], expanded: false }
   },
@@ -42,18 +40,19 @@ export default {
           return b[1] - a[1]
         })
     )
+    // if one of the tag searched is not displayed (not in the 10 first tags) we expand the tag filter to display it
     if (
       this.$route.query.tags &&
       JSON.parse(this.$route.query.tags).find(
         (tag) => [...tagsCountedSortedUniques.keys()].indexOf(tag) > 9
       )
-    )
+    ) {
       this.expanded = true
+    }
     this.tags = tagsCountedSortedUniques
   },
-  computed: {},
-  mounted() {},
-  methods: {},
+  mounted() {
+    this.$fetch()
+  },
 }
 </script>
-<style lang="scss"></style>

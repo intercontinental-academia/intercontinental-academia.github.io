@@ -12,10 +12,10 @@
       <div v-if="count > 0" class="overline mb-3">
         Searching
         <template v-if="$route.query.tags && $route.query.tags.length"
-          >by tag <template v-if="searchString">and</template></template
+          >by tag<template v-if="searchString"> and</template></template
         ><template v-if="searchString"> for "{{ searchString }}"</template> -
         {{ count }}
-        {{ count > 1 ? 'results' : 'result' }}-<v-btn
+        {{ count > 1 ? 'results' : 'result' }} -<v-btn
           color="primary"
           class="pl-1"
           small

@@ -19,8 +19,8 @@
       <v-list-item
         v-for="(item, index) in feeds"
         :key="index"
-        nuxt
         :href="item.url"
+        target="_blank"
       >
         <v-list-item-title>{{ item.name }}</v-list-item-title>
       </v-list-item>
