@@ -48,7 +48,7 @@
         >
       </div>
     </template>
-    <div v-else class="overline mx-3">
+    <div v-else class="overline">
       {{ count + ' blog posts available' }}
     </div>
     <TagFilter />
