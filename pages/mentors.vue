@@ -9,7 +9,17 @@
     <template v-if="searching">
       <div v-if="results.length > 0" class="overline">
         Searching for "{{ searchString }}" - {{ results.length }}
-        {{ results.length > 1 ? 'results' : 'result' }}
+        {{ results.length > 1 ? 'results' : 'result' }}-<v-btn
+          color="primary"
+          class="pl-1"
+          small
+          text
+          @click="
+            $router.replace({ query: null })
+            searchString = null
+          "
+          >Cancel my search</v-btn
+        >
       </div>
       <div v-else class="overline text-h6 d-flex flex-column align-center">
         <div>No result found matching "{{ searchString }}"</div>
@@ -39,8 +49,8 @@ export default {
   },
   data() {
     return {
-      searching: false,
-      searchString: '',
+      searching: this.$route.query.search || false,
+      searchString: this.$route.query.search || '',
       results: [],
     }
   },

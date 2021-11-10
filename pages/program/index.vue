@@ -9,39 +9,56 @@
     <template v-if="searching">
       <div v-if="results.length > 0" class="overline">
         Searching for "{{ searchString }}" - {{ results.length }}
-        {{ results.length > 1 ? 'results' : 'result' }}
+        {{ results.length > 1 ? 'results' : 'result' }}-<v-btn
+          color="primary"
+          class="pl-1"
+          small
+          text
+          @click="
+            $router.replace({ query: null })
+            searchString = null
+          "
+          >Cancel my search</v-btn
+        >
       </div>
       <div v-else class="overline text-h6 d-flex flex-column align-center">
         <div>No result found matching "{{ searchString }}"</div>
-        <v-btn outlined class="mt-3" @click="searchString = ''"
+        <v-btn
+          outlined
+          class="mt-3"
+          @click="
+            searchString = ''
+            $router.replace({ query: null })
+          "
           >Cancel my search</v-btn
         >
       </div>
       <template v-for="session in sessions">
         <meeting-block
-          v-for="(meeting, index) in results.filter(
+          v-for="(meeting, meetingIndex) in results.filter(
             (rst) => rst.session.slug === session.slug
           )"
-          :key="index"
+          :key="meeting.title"
           :item="meeting"
           :session="meeting.session"
           :search="searchString"
-          :index="index"
+          :i="meetingIndex"
         />
       </template>
     </template>
     <SessionBlock
-      v-for="(item, index) in sessions"
+      v-for="(item, index2) in sessions"
       v-else
-      :key="index"
+      :key="index2"
       :item="item"
-      :index="index"
+      :i="index2"
     />
   </div>
 </template>
 <script>
 export default {
-  async asyncData({ app, $content }) {
+  async asyncData({ app, query, $content }) {
+    console.log('app: ', query)
     const programs = await $content('Programs')
       .sortBy('_', 'desc')
       .limit(1)
@@ -53,20 +70,41 @@ export default {
       })
       .sortBy('start_date_and_time', 'asc')
       .fetch()
+    let results = []
+    if (query.search) {
+      console.log('SEARCHING')
+      const rst = await $content('Meetings')
+        .sortBy('start_date_and_time', 'asc')
+        .search(query.search)
+        .fetch()
+      results = rst.map((item) => {
+        return {
+          ...item,
+          session: sessions.find((meeting) => {
+            return (
+              item['related-session'] ===
+              'content/Sessions/' + meeting.slug + '.md'
+            )
+          }),
+        }
+      })
+    }
     return {
       sessions,
       programs: programs[0],
+      results,
     }
   },
   data() {
     return {
-      searching: false,
-      searchString: '',
+      searching: this.$route.query.search || false,
+      searchString: this.$route.query.search || '',
       results: [],
     }
   },
   watch: {
     async searchString(searchString) {
+      console.log('searchString: ', searchString)
       if (!searchString) {
         this.searching = false
       } else {

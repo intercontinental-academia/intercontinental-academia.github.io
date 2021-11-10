@@ -49,7 +49,7 @@ export default {
       type: Object,
       required: true,
     },
-    index: {
+    i: {
       type: Number,
       required: true,
     },

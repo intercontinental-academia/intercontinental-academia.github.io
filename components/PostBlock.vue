@@ -51,9 +51,12 @@
     </v-card-title>
 
     <div class="px-3">
-      <v-chip v-for="(tag, index2) in item.tags" :key="index2" class="ma-2">
-        {{ tag }}
-      </v-chip>
+      <BlogTag
+        v-for="(tag, index2) in sortedTags"
+        :key="index2"
+        :tag="tag"
+        class="ma-1"
+      ></BlogTag>
     </div>
 
     <v-card-text>
@@ -151,7 +154,21 @@ export default {
       show: false,
     }
   },
-  computed: {},
+  computed: {
+    sortedTags() {
+      return this.$route.query?.tags?.length
+        ? this.item.tags.reduce((acc, tag) => {
+            if (
+              this.$route.query.tags &&
+              this.$route.query.tags.includes(JSON.stringify(tag))
+            ) {
+              return [tag, ...acc]
+            }
+            return [...acc, tag]
+          }, [])
+        : this.item.tags
+    },
+  },
   mounted() {},
   methods: {
     truncateString(str = '') {

@@ -14,13 +14,16 @@ export const truncateString = (str, num) => {
   }
   return str.slice(0, num) + '...'
 }
-export const getContent = async (cat, $content, page, search, error) => {
-  const currentPage = parseInt(page) || 1
+export const getContent = async (cat, $content, query, search, error) => {
+  const currentPage = parseInt(query.page) || 1
 
   const perPage = 5
 
+  const tags = query.tags ? JSON.parse(query.tags) : []
+  const pipeline = { published: true }
+  if (tags.length) pipeline.tags = { $containsAny: tags }
   const count = await $content(cat)
-    .where({ published: true })
+    .where(pipeline)
     .search(search)
     .only([])
     .fetch()
@@ -47,10 +50,9 @@ export const getContent = async (cat, $content, page, search, error) => {
     return (currentPage - 1) * perPage
   }
   let posts, pinnedPost
-
   if (currentPage === 1) {
     const rawPosts = await $content(cat)
-      .where({ published: true })
+      .where(pipeline)
       .search(search)
       .sortBy('date', 'desc')
       .limit(perPage)
@@ -58,7 +60,7 @@ export const getContent = async (cat, $content, page, search, error) => {
       .fetch()
 
     pinnedPost = await $content(cat)
-      .where({ published: true, pinned: true })
+      .where({ ...pipeline, pinned: true })
       .search(search)
       .sortBy('date', 'desc')
       .limit(1)
@@ -69,7 +71,7 @@ export const getContent = async (cat, $content, page, search, error) => {
       : rawPosts
   } else {
     posts = await $content(cat)
-      .where({ published: true })
+      .where(pipeline)
       .search(search)
       .sortBy('date', 'desc')
       .limit(perPage)

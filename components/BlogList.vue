@@ -6,14 +6,44 @@
       @search="searchString = $event"
       @esc="searchString = ''"
     ></TitleBlock>
-    <template v-if="searching">
-      <div v-if="posts && posts.length > 0" class="overline">
-        Searching for "{{ searchString }}" - {{ posts.length }}
-        {{ posts.length > 1 ? 'results' : 'result' }}
+    <template
+      v-if="searchString || ($route.query.tags && $route.query.tags.length)"
+    >
+      <div v-if="count > 0" class="overline mb-3">
+        Searching
+        <template v-if="$route.query.tags && $route.query.tags.length"
+          >by tag <template v-if="searchString">and</template></template
+        ><template v-if="searchString"> for "{{ searchString }}"</template> -
+        {{ count }}
+        {{ count > 1 ? 'results' : 'result' }}-<v-btn
+          color="primary"
+          class="pl-1"
+          small
+          text
+          @click="$router.replace({ query: null })"
+          >Cancel my search</v-btn
+        >
       </div>
       <div v-else class="overline text-h6 d-flex flex-column align-center">
-        <div>No result found matching "{{ searchString }}"</div>
-        <v-btn outlined class="mt-3" @click="searchString = ''"
+        <div>
+          No result found matching
+          <template v-if="searchString"
+            >"{{ searchString }}"
+            <b v-if="$route.query.tags && $route.query.tags.length"
+              >and</b
+            ></template
+          >
+          <template v-if="$route.query.tags && $route.query.tags.length"
+            >your tags</template
+          >
+        </div>
+        <v-btn
+          outlined
+          class="mt-3"
+          @click="
+            searchString = ''
+            $router.replace({ query: null })
+          "
           >Cancel my search</v-btn
         >
       </div>
@@ -21,6 +51,7 @@
     <div v-else class="overline mx-3">
       {{ count + ' blog posts available' }}
     </div>
+    <TagFilter />
     <template v-if="pinnedPost">
       <post-block :item="pinnedPost" :search="searchString" raised />
     </template>
@@ -48,8 +79,7 @@ import { getContent } from '~/assets/utils'
 export default {
   data() {
     return {
-      searching: false,
-      searchString: '',
+      searchString: this.$route.query.search || '',
       results: [],
       pinnedPost: false,
       posts: [],
@@ -59,7 +89,12 @@ export default {
     }
   },
   async fetch() {
-    const rst = await getContent('Blog', this.$content, this.current, false)
+    const rst = await getContent(
+      'Blog',
+      this.$content,
+      this.$route.query,
+      this.searchString || null
+    )
     if (rst) {
       this.count = rst.count
       this.pages = rst.pages
@@ -77,7 +112,7 @@ export default {
       const rst = await getContent(
         'Blog',
         this.$content,
-        this.current,
+        this.$route.query,
         this.searchString || null
       )
 
@@ -91,11 +126,6 @@ export default {
         this.pages = 1
         this.pinnedPost = false
         this.posts = []
-      }
-      if (!this.searchString) {
-        this.searching = false
-      } else {
-        this.searching = true
       }
     },
     async searchString(searchString) {
@@ -116,10 +146,26 @@ export default {
         this.pinnedPost = false
         this.posts = []
       }
-      if (!searchString) {
-        this.searching = false
+    },
+    async '$route.query'(query) {
+      if (!query.search) this.searchString = null
+      const rst = await getContent(
+        'Blog',
+        this.$content,
+        this.$route.query,
+        this.searchString || null
+      )
+
+      if (rst) {
+        this.count = rst.count
+        this.pages = rst.pages
+        this.pinnedPost = rst.pinnedPost
+        this.posts = rst.posts
       } else {
-        this.searching = true
+        this.count = 0
+        this.pages = 1
+        this.pinnedPost = false
+        this.posts = []
       }
     },
   },

@@ -26,7 +26,7 @@
     </div>
     <div
       v-else
-      class="section-title"
+      class="d-flex section-title justify-space-between"
       :style="
         'background-color:' +
         $vuetify.theme.themes.light.primary +
@@ -34,6 +34,7 @@
         ($vuetify.breakpoint.mdAndUp ? '50%;' : '100%;')
       "
     >
+      <Feed v-if="$route.name === 'blog'"></Feed>
       <div
         class="content pa-3 mr-2"
         :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
@@ -81,7 +82,7 @@
               ></v-btn
             >
           </template>
-          <span>Search in the program</span>
+          <span>Search</span>
         </v-tooltip>
       </v-expand-x-transition>
       <v-expand-x-transition>
@@ -98,14 +99,19 @@
           :color="$vuetify.theme.themes.light.primary"
           hide-details
           clearable
-          @keyup="$emit('search', searchString)"
+          @keyup="
+            $emit('search', searchString) &&
+              $router.push({ query: { ...$route.query, search: searchString } })
+          "
           @keydown.esc.prevent="
             expand = false
             $emit('esc')
+            $router.push({ query: { ...$route.query, search: undefined } })
           "
           @click:clear="
             expand = false
             $emit('esc')
+            $router.push({ query: { ...$route.query, search: undefined } })
           "
         />
       </v-expand-x-transition>
@@ -113,7 +119,9 @@
   </div>
 </template>
 <script>
+import Feed from './Feed.vue'
 export default {
+  components: { Feed },
   props: {
     title: {
       type: String,
@@ -150,8 +158,8 @@ export default {
   },
   data() {
     return {
-      expand: false,
-      searchString: '',
+      expand: this.$route.query.search,
+      searchString: this.$route.query.search || '',
     }
   },
   computed: {
@@ -161,7 +169,25 @@ export default {
         : 'Back to the program'
     },
   },
-  mounted() {},
+
+  watch: {
+    '$route.query'(query) {
+      if (!query.search) this.searchString = null
+    },
+  },
+  /*   watch: {
+    async '$route.query'(query) {
+      if (query.search) {
+        this.expand = true
+        this.searchString = this.$route.query.search
+      }
+  }, */
+  created() {
+    if (this.$route.query.search) {
+      this.expand = true
+      this.searchString = this.$route.query.search
+    }
+  },
   methods: {
     showInput() {
       // Show the input component
@@ -172,7 +198,6 @@ export default {
         this.focusInput()
       })
     },
-
     focusInput() {
       this.$refs.search.focus()
     },

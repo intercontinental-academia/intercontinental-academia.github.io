@@ -82,6 +82,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxtjs/sitemap',
     '@nuxt/content',
+    '@nuxtjs/feed',
     'nuxt-content-highlight',
     '@nuxtjs/sentry',
     '@nuxtjs/ackee',
@@ -202,6 +203,47 @@ export default {
       },
     },
   },
+
+  feed() {
+    const baseUrlArticles = 'https://www.intercontinental-academia.org/blog'
+    const baseLinkFeedArticles = '/blog'
+    const feedFormats = {
+      rss: { type: 'rss2', file: 'rss.xml' },
+      atom: { type: 'atom1', file: 'atom.xml' },
+      json: { type: 'json1', file: 'feed.json' },
+    }
+    const { $content } = require('@nuxt/content')
+
+    const createFeedArticles = async function (feed) {
+      feed.options = {
+        title: 'Intercontinental Academia',
+        description:
+          'The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.',
+        link: baseUrlArticles,
+      }
+      const articles = await $content('Blog').where({ published: true }).fetch()
+
+      articles.forEach((article) => {
+        const url = `${baseUrlArticles}/${article.slug}`
+
+        feed.addItem({
+          title: article.post_title,
+          id: url,
+          link: url,
+          date: new Date(article.date),
+          description: article.description,
+          content: article.summary,
+          author: article.authors.map((item) => item.name).join(', '),
+        })
+      })
+    }
+
+    return Object.values(feedFormats).map(({ file, type }) => ({
+      path: `${baseLinkFeedArticles}/${file}`,
+      type,
+      create: createFeedArticles,
+    }))
+  },
   /*
    ** Page Layout transition
    ** https://nuxtjs.org/guides/features/transitions#the-layouttransition-property
@@ -209,12 +251,8 @@ export default {
   layoutTransition: {
     name: 'layout',
     mode: 'out-in',
-    beforeEnter(el) {
-      console.log('TRANSITION : Before enter...')
-    },
-    afterLeave(el) {
-      console.log('TRANSITION : afterLeave', el)
-    },
+    beforeEnter(el) {},
+    afterLeave(el) {},
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

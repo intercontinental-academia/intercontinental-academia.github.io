@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="['program'].includes($route.name) && index === 0">
+    <div v-if="['program'].includes($route.name) && i === 0">
       <span
         class="text-h5 mt-6"
         v-html="highlight(item.session.name, search)"
@@ -91,7 +91,7 @@ export default {
       type: String,
       default: '',
     },
-    index: {
+    i: {
       type: Number,
       default: 1,
     },
