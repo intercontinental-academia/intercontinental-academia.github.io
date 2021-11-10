@@ -52,7 +52,9 @@ export default {
     this.tags = tagsCountedSortedUniques
   },
   mounted() {
-    this.$fetch()
+    if (this.$route.query?.tags?.length) {
+      this.$fetch()
+    }
   },
 }
 </script>
