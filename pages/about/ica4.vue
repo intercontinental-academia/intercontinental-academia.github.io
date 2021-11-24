@@ -157,8 +157,8 @@
             v-on="on"
             ><v-avatar
               :color="item.logo_background_color"
-              size="200"
-              class="mx-6"
+              size="180"
+              class="mx-3"
             >
               <v-img
                 v-if="item.logo"
