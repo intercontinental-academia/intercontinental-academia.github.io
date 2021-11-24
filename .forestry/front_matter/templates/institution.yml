@@ -28,7 +28,6 @@ fields:
     have to fill some parts.
   default: "#FFFFFF"
 pages:
-- content/Institutions/AMSE.md
 - content/Institutions/ieatmg.md
 - content/Institutions/parisias.md
 - content/Institutions/rfiea.md
