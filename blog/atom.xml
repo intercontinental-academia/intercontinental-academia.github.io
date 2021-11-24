@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>Intercontinental Academia</title>
-    <updated>2021-11-24T10:28:29.824Z</updated>
+    <updated>2021-11-24T10:53:25.851Z</updated>
     <generator>https://github.com/nuxt-community/feed-module</generator>
     <link rel="alternate" href="https://www.intercontinental-academia.org/blog"/>
     <subtitle>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</subtitle>
@@ -118,17 +118,17 @@ The intellectually intense series of events was finally concluded with some cock
         <updated>2021-10-15T22:00:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
-        <id>https://www.intercontinental-academia.org/blog/Mike Livermore</id>
-        <link href="https://www.intercontinental-academia.org/blog/Mike Livermore"/>
-        <updated>2021-10-15T22:00:00.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[An Overview of ICA4 - Session 1 (Paris IAS)]]></title>
         <id>https://www.intercontinental-academia.org/blog/Overview</id>
         <link href="https://www.intercontinental-academia.org/blog/Overview"/>
         <updated>2021-10-17T22:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Intercontinental Academia (ICA) seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
+        <id>https://www.intercontinental-academia.org/blog/Mike Livermore</id>
+        <link href="https://www.intercontinental-academia.org/blog/Mike Livermore"/>
+        <updated>2021-10-15T22:00:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring modelling and simulation based research with Tahina Ralitera]]></title>

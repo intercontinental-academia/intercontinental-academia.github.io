@@ -4,7 +4,7 @@
         <title>Intercontinental Academia</title>
         <link>https://www.intercontinental-academia.org/blog</link>
         <description>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</description>
-        <lastBuildDate>Wed, 24 Nov 2021 10:28:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Nov 2021 10:53:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -119,17 +119,17 @@ The intellectually intense series of events was finally concluded with some cock
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Mike Livermore</link>
-            <guid>https://www.intercontinental-academia.org/blog/Mike Livermore</guid>
-            <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[An Overview of ICA4 - Session 1 (Paris IAS)]]></title>
             <link>https://www.intercontinental-academia.org/blog/Overview</link>
             <guid>https://www.intercontinental-academia.org/blog/Overview</guid>
             <pubDate>Sun, 17 Oct 2021 22:00:00 GMT</pubDate>
             <description><![CDATA[The Intercontinental Academia (ICA) seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Mike Livermore</link>
+            <guid>https://www.intercontinental-academia.org/blog/Mike Livermore</guid>
+            <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Exploring modelling and simulation based research with Tahina Ralitera]]></title>

@@ -118,18 +118,18 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Mike Livermore",
-            "url": "https://www.intercontinental-academia.org/blog/Mike Livermore",
-            "title": "Mike Livermore explains the intersection of law and artificial intelligence",
-            "date_modified": "2021-10-15T22:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Overview",
             "url": "https://www.intercontinental-academia.org/blog/Overview",
             "title": "An Overview of ICA4 - Session 1 (Paris IAS)",
             "summary": "The Intercontinental Academia (ICA) seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.",
             "date_modified": "2021-10-17T22:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Mike Livermore",
+            "url": "https://www.intercontinental-academia.org/blog/Mike Livermore",
+            "title": "Mike Livermore explains the intersection of law and artificial intelligence",
+            "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
         {
