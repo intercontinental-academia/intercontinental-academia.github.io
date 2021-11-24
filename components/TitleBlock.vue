@@ -19,6 +19,7 @@
         <span>{{ returnTooltip }}</span>
       </v-tooltip>
       <div
+        :id="title"
         class="content pa-3 mr-2"
         :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
         v-text="title"
@@ -36,6 +37,7 @@
     >
       <Feed v-if="$route.name === 'blog'"></Feed>
       <div
+        :id="title"
         class="content pa-3 mr-2"
         :class="$vuetify.breakpoint.mdAndUp ? 'text-h4' : 'text-h6'"
         v-text="title"
