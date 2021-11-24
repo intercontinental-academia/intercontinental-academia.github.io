@@ -182,7 +182,7 @@ export default {
     const editions = await $content('Programs').sortBy('_', 'asc').fetch()
     const chairs = await $content('Chairs').sortBy('order', 'asc').fetch()
     const partners = await $content('Partners_and_Sponsors')
-      .sortBy('slug', 'asc')
+      .sortBy('name', 'asc')
       .fetch()
     const institutions = await $content('Institutions')
       .sortBy('slug', 'asc')
