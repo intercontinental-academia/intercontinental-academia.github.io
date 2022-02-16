@@ -1,10 +1,10 @@
 ---
 related-session: content/Sessions/session-2.md
-start_date_and_time: 2022-11-08T14:56:02Z
+start_date_and_time: 2022-11-08T14:56:02.000+00:00
 title: Satellite Session
 date: November 8-11
 time: ''
-apply_link: www.ufmg.br/ieat/iai/
+apply_link: https://www.ufmg.br/ieat/iai/
 attachements: []
 youtube_video_id: ''
 public: true
