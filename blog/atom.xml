@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>Intercontinental Academia</title>
-    <updated>2022-07-26T17:55:55.288Z</updated>
+    <updated>2022-07-26T17:56:58.365Z</updated>
     <generator>https://github.com/nuxt-community/feed-module</generator>
     <link rel="alternate" href="https://www.intercontinental-academia.org/blog"/>
     <subtitle>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</subtitle>
@@ -106,12 +106,6 @@ The intellectually intense series of events was finally concluded with some cock
         <updated>2021-10-15T22:00:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age of Artificial Intelligence"]]></title>
-        <id>https://www.intercontinental-academia.org/blog/Jakub Growiec</id>
-        <link href="https://www.intercontinental-academia.org/blog/Jakub Growiec"/>
-        <updated>2021-10-15T22:00:00.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[All About Emotions with Laura Candiotto]]></title>
         <id>https://www.intercontinental-academia.org/blog/Laura Candiotto</id>
         <link href="https://www.intercontinental-academia.org/blog/Laura Candiotto"/>
@@ -121,6 +115,12 @@ The intellectually intense series of events was finally concluded with some cock
         <title type="html"><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
         <id>https://www.intercontinental-academia.org/blog/Mike Livermore</id>
         <link href="https://www.intercontinental-academia.org/blog/Mike Livermore"/>
+        <updated>2021-10-15T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age of Artificial Intelligence"]]></title>
+        <id>https://www.intercontinental-academia.org/blog/Jakub Growiec</id>
+        <link href="https://www.intercontinental-academia.org/blog/Jakub Growiec"/>
         <updated>2021-10-15T22:00:00.000Z</updated>
     </entry>
     <entry>

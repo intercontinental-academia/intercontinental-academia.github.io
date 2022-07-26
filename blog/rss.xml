@@ -4,7 +4,7 @@
         <title>Intercontinental Academia</title>
         <link>https://www.intercontinental-academia.org/blog</link>
         <description>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</description>
-        <lastBuildDate>Tue, 26 Jul 2022 17:55:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Jul 2022 17:56:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -107,12 +107,6 @@ The intellectually intense series of events was finally concluded with some cock
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age of Artificial Intelligence"]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Jakub Growiec</link>
-            <guid>https://www.intercontinental-academia.org/blog/Jakub Growiec</guid>
-            <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[All About Emotions with Laura Candiotto]]></title>
             <link>https://www.intercontinental-academia.org/blog/Laura Candiotto</link>
             <guid>https://www.intercontinental-academia.org/blog/Laura Candiotto</guid>
@@ -122,6 +116,12 @@ The intellectually intense series of events was finally concluded with some cock
             <title><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
             <link>https://www.intercontinental-academia.org/blog/Mike Livermore</link>
             <guid>https://www.intercontinental-academia.org/blog/Mike Livermore</guid>
+            <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jakub Growiec focuses on "New Mechanisms of Economic Growth in the Age of Artificial Intelligence"]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Jakub Growiec</link>
+            <guid>https://www.intercontinental-academia.org/blog/Jakub Growiec</guid>
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
