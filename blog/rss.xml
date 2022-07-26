@@ -4,7 +4,7 @@
         <title>Intercontinental Academia</title>
         <link>https://www.intercontinental-academia.org/blog</link>
         <description>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</description>
-        <lastBuildDate>Tue, 26 Jul 2022 18:01:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Jul 2022 18:02:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -66,6 +66,13 @@ Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and
             <description><![CDATA[While at SCAI, The ICA4 Fellows plunged into the philosophy of computation with two ICA4 mentors, who are philosophers of cognitive science (_Jack Copeland _and Oron Shagrir). The day continued with a presentation of SCAI from the Director followed by a tour from the robotics labs. Finally, Xiao-Jing Wang explained why Artificial Intelligence needs the prefrontal cortex.]]></description>
         </item>
         <item>
+            <title><![CDATA[Day 7: "We know everything, but we understand nothing!"]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Day 7</link>
+            <guid>https://www.intercontinental-academia.org/blog/Day 7</guid>
+            <pubDate>Mon, 25 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[The Fellows and Mentors of ICA4 embarked on their last scientific trip to The École Normale Supérieure of Paris. Two back to back scientific sessions were held in the morning, both of which described the current issues related to Artificial Intelligence and offers future perspectives. The first lecture was given by the Director of the École Normale Supérieure (ENS), Marc Mézard, who stressed that we need a better understanding of AI. This was followed by a talk from the famous economist, Philippe Aghion. He discussed the impact of automation on the labour force, and how AI can be used to boost innovation and growth through facilitating the process of creative destruction. Both mentors emphasised a need for a global set of ethical rules and regulations. The day continued with a presentation of ENS and concluded with a discussion session among the Fellows, as they began preparing their presentations for the plenary seminar on the Final Day of ICA4.]]></description>
+        </item>
+        <item>
             <title><![CDATA[The Final Day: where we go from here...]]></title>
             <link>https://www.intercontinental-academia.org/blog/Day 8</link>
             <guid>https://www.intercontinental-academia.org/blog/Day 8</guid>
@@ -74,13 +81,6 @@ Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and
 The Fellows then took a break to explore the 3D virtual campus of the Paris IAS, called Teemew Campus Alpha, in which lounges, public seminar rooms, private meeting rooms and workshops are accessible to ICA4 Fellows and Mentors. Each Academia member possesses an avatar, created from his/her own image, which is then used to navigate through the IAS cyber campus.
 The Fellows then discussed their follow-up tasks and next step(s). The first session of ICA4 in Paris was then wrapped up with a presentation from, this time, the Fellows! They highlighted some questions to explore further, ideas for research papers, an interdisciplinary manifesto for Artificial Intelligence and finally, they reflected on the key takeaways from the entire event.
 The intellectually intense series of events was finally concluded with some cocktails at the Paris IAS, marking the very beginning of a series of scientific adventures which are yet to come, as the ICA4 Fellows continue to collectively explore some seemingly never-ending questions through combining various perspectives on Intelligence and Artificial Intelligence, ultimately discovering and shaping how such complex matters should, and will be, embedded within societies...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Day 7: "We know everything, but we understand nothing!"]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Day 7</link>
-            <guid>https://www.intercontinental-academia.org/blog/Day 7</guid>
-            <pubDate>Mon, 25 Oct 2021 23:00:00 GMT</pubDate>
-            <description><![CDATA[The Fellows and Mentors of ICA4 embarked on their last scientific trip to The École Normale Supérieure of Paris. Two back to back scientific sessions were held in the morning, both of which described the current issues related to Artificial Intelligence and offers future perspectives. The first lecture was given by the Director of the École Normale Supérieure (ENS), Marc Mézard, who stressed that we need a better understanding of AI. This was followed by a talk from the famous economist, Philippe Aghion. He discussed the impact of automation on the labour force, and how AI can be used to boost innovation and growth through facilitating the process of creative destruction. Both mentors emphasised a need for a global set of ethical rules and regulations. The day continued with a presentation of ENS and concluded with a discussion session among the Fellows, as they began preparing their presentations for the plenary seminar on the Final Day of ICA4.]]></description>
         </item>
         <item>
             <title><![CDATA[Deshen Moodley on "Adaptive and Cognitive Systems"]]></title>
