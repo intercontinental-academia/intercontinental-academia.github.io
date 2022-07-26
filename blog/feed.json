@@ -28,14 +28,6 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Day 3",
-            "url": "https://www.intercontinental-academia.org/blog/Day 3",
-            "title": "Day 3: \"What you do FOR  people, you do TO people, so do it WITH people!\"",
-            "summary": "Day 3 of the first session of ICA4 continued in Paris IAS, where the Fellows sat through three more scientific seminars, followed by discussions and brainstorming sessions.\nThe day kicked off by a framework proposed by Saadi Lahlou, called \"Installation Theory\", which enables scientists to analyse and regulate human behaviour. This was complemented by a new technique to capture the subjective perception of action, ultimately bringing psychological and behavioural sciences one step closer to what was once considered a technically impossible task: introspection!\nWilliam Hopkins then joined the discussions with some stimulating videos from research done on apes, while exploring self-recognition and social cognition in animals.\nFinally, Toshio Fukuda revealed the Moonshot project: a society where humans and robots live together in 2050!",
-            "date_modified": "2021-10-19T23:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Day 4",
             "url": "https://www.intercontinental-academia.org/blog/Day 4",
             "title": "Day 4: A visit to The University of Paris-Saclay",
@@ -49,6 +41,14 @@
             "title": "Day 5: \"an Argus with billions of eyes and ears, capacity for action, and infinite memory!\"",
             "summary": "While impossible to precisely predict, the convoluted future of AI may be presented in terms of some major challenges it will inevitably face within the upcoming decades. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS!",
             "date_modified": "2021-10-21T23:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Day 3",
+            "url": "https://www.intercontinental-academia.org/blog/Day 3",
+            "title": "Day 3: \"What you do FOR  people, you do TO people, so do it WITH people!\"",
+            "summary": "Day 3 of the first session of ICA4 continued in Paris IAS, where the Fellows sat through three more scientific seminars, followed by discussions and brainstorming sessions.\nThe day kicked off by a framework proposed by Saadi Lahlou, called \"Installation Theory\", which enables scientists to analyse and regulate human behaviour. This was complemented by a new technique to capture the subjective perception of action, ultimately bringing psychological and behavioural sciences one step closer to what was once considered a technically impossible task: introspection!\nWilliam Hopkins then joined the discussions with some stimulating videos from research done on apes, while exploring self-recognition and social cognition in animals.\nFinally, Toshio Fukuda revealed the Moonshot project: a society where humans and robots live together in 2050!",
+            "date_modified": "2021-10-19T23:00:00.000Z",
             "author": {}
         },
         {
@@ -111,13 +111,6 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Laura Candiotto",
-            "url": "https://www.intercontinental-academia.org/blog/Laura Candiotto",
-            "title": "All About Emotions with Laura Candiotto",
-            "date_modified": "2021-10-15T22:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Mike Livermore",
             "url": "https://www.intercontinental-academia.org/blog/Mike Livermore",
             "title": "Mike Livermore explains the intersection of law and artificial intelligence",
@@ -133,10 +126,10 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Thai Rabinowitch",
-            "url": "https://www.intercontinental-academia.org/blog/Thai Rabinowitch",
-            "title": "Ithai Rabinowitch explores neurobiology from both a scientific and engineering perspectives",
-            "date_modified": "2021-10-09T22:00:00.000Z",
+            "id": "https://www.intercontinental-academia.org/blog/Laura Candiotto",
+            "url": "https://www.intercontinental-academia.org/blog/Laura Candiotto",
+            "title": "All About Emotions with Laura Candiotto",
+            "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
         {
@@ -144,6 +137,13 @@
             "url": "https://www.intercontinental-academia.org/blog/Tahina Ralitera",
             "title": "Exploring modelling and simulation based research with Tahina Ralitera",
             "date_modified": "2021-10-15T22:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Thai Rabinowitch",
+            "url": "https://www.intercontinental-academia.org/blog/Thai Rabinowitch",
+            "title": "Ithai Rabinowitch explores neurobiology from both a scientific and engineering perspectives",
+            "date_modified": "2021-10-09T22:00:00.000Z",
             "author": {}
         },
         {

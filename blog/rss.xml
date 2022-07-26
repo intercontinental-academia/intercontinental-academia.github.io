@@ -4,7 +4,7 @@
         <title>Intercontinental Academia</title>
         <link>https://www.intercontinental-academia.org/blog</link>
         <description>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</description>
-        <lastBuildDate>Wed, 16 Feb 2022 12:46:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Jul 2022 17:44:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -35,16 +35,6 @@ This was followed by a lecture from Karen Yeung, who offered a rather critical p
 Finally, _Raouf Boucekkine _took the fellows for an exploration into the world of economics and finance, using the concept of equilibrium as an example to illustrate the difference between disciplines: mainstream economics VS. statistical physics!]]></description>
         </item>
         <item>
-            <title><![CDATA[Day 3: "What you do FOR  people, you do TO people, so do it WITH people!"]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Day 3</link>
-            <guid>https://www.intercontinental-academia.org/blog/Day 3</guid>
-            <pubDate>Tue, 19 Oct 2021 23:00:00 GMT</pubDate>
-            <description><![CDATA[Day 3 of the first session of ICA4 continued in Paris IAS, where the Fellows sat through three more scientific seminars, followed by discussions and brainstorming sessions.
-The day kicked off by a framework proposed by Saadi Lahlou, called "Installation Theory", which enables scientists to analyse and regulate human behaviour. This was complemented by a new technique to capture the subjective perception of action, ultimately bringing psychological and behavioural sciences one step closer to what was once considered a technically impossible task: introspection!
-William Hopkins then joined the discussions with some stimulating videos from research done on apes, while exploring self-recognition and social cognition in animals.
-Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and robots live together in 2050!]]></description>
-        </item>
-        <item>
             <title><![CDATA[Day 4: A visit to The University of Paris-Saclay]]></title>
             <link>https://www.intercontinental-academia.org/blog/Day 4</link>
             <guid>https://www.intercontinental-academia.org/blog/Day 4</guid>
@@ -57,6 +47,16 @@ Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and
             <guid>https://www.intercontinental-academia.org/blog/Day 5</guid>
             <pubDate>Thu, 21 Oct 2021 23:00:00 GMT</pubDate>
             <description><![CDATA[While impossible to precisely predict, the convoluted future of AI may be presented in terms of some major challenges it will inevitably face within the upcoming decades. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Day 3: "What you do FOR  people, you do TO people, so do it WITH people!"]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Day 3</link>
+            <guid>https://www.intercontinental-academia.org/blog/Day 3</guid>
+            <pubDate>Tue, 19 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[Day 3 of the first session of ICA4 continued in Paris IAS, where the Fellows sat through three more scientific seminars, followed by discussions and brainstorming sessions.
+The day kicked off by a framework proposed by Saadi Lahlou, called "Installation Theory", which enables scientists to analyse and regulate human behaviour. This was complemented by a new technique to capture the subjective perception of action, ultimately bringing psychological and behavioural sciences one step closer to what was once considered a technically impossible task: introspection!
+William Hopkins then joined the discussions with some stimulating videos from research done on apes, while exploring self-recognition and social cognition in animals.
+Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and robots live together in 2050!]]></description>
         </item>
         <item>
             <title><![CDATA[Day 6: A trip to Sorbonne Center for Artificial Intelligence - SCAI]]></title>
@@ -113,12 +113,6 @@ The intellectually intense series of events was finally concluded with some cock
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[All About Emotions with Laura Candiotto]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Laura Candiotto</link>
-            <guid>https://www.intercontinental-academia.org/blog/Laura Candiotto</guid>
-            <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Mike Livermore explains the intersection of law and artificial intelligence]]></title>
             <link>https://www.intercontinental-academia.org/blog/Mike Livermore</link>
             <guid>https://www.intercontinental-academia.org/blog/Mike Livermore</guid>
@@ -132,16 +126,22 @@ The intellectually intense series of events was finally concluded with some cock
             <description><![CDATA[The Intercontinental Academia (ICA) seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.]]></description>
         </item>
         <item>
-            <title><![CDATA[Ithai Rabinowitch explores neurobiology from both a scientific and engineering perspectives]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Thai Rabinowitch</link>
-            <guid>https://www.intercontinental-academia.org/blog/Thai Rabinowitch</guid>
-            <pubDate>Sat, 09 Oct 2021 22:00:00 GMT</pubDate>
+            <title><![CDATA[All About Emotions with Laura Candiotto]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Laura Candiotto</link>
+            <guid>https://www.intercontinental-academia.org/blog/Laura Candiotto</guid>
+            <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Exploring modelling and simulation based research with Tahina Ralitera]]></title>
             <link>https://www.intercontinental-academia.org/blog/Tahina Ralitera</link>
             <guid>https://www.intercontinental-academia.org/blog/Tahina Ralitera</guid>
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ithai Rabinowitch explores neurobiology from both a scientific and engineering perspectives]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Thai Rabinowitch</link>
+            <guid>https://www.intercontinental-academia.org/blog/Thai Rabinowitch</guid>
+            <pubDate>Sat, 09 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Yasutomo Kawanishi's investigation of how human beings recognise, describe and memorise the environment]]></title>
