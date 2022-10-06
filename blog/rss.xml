@@ -4,7 +4,7 @@
         <title>Intercontinental Academia</title>
         <link>https://www.intercontinental-academia.org/blog</link>
         <description>The Intercontinental Academia (ICA) creates a global network of future research leaders in which some of the very best young academics work together on paradigm-shifting, cross-disciplinary research, mentored by eminent researchers from across the globe.</description>
-        <lastBuildDate>Tue, 26 Jul 2022 18:04:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Oct 2022 13:05:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -59,13 +59,6 @@ Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and
             <description><![CDATA[While impossible to precisely predict, the convoluted future of AI may be presented in terms of some major challenges it will inevitably face within the upcoming decades. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS!]]></description>
         </item>
         <item>
-            <title><![CDATA[Day 6: A trip to Sorbonne Center for Artificial Intelligence - SCAI]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Day 6</link>
-            <guid>https://www.intercontinental-academia.org/blog/Day 6</guid>
-            <pubDate>Sun, 24 Oct 2021 23:00:00 GMT</pubDate>
-            <description><![CDATA[While at SCAI, The ICA4 Fellows plunged into the philosophy of computation with two ICA4 mentors, who are philosophers of cognitive science (_Jack Copeland _and Oron Shagrir). The day continued with a presentation of SCAI from the Director followed by a tour from the robotics labs. Finally, Xiao-Jing Wang explained why Artificial Intelligence needs the prefrontal cortex.]]></description>
-        </item>
-        <item>
             <title><![CDATA[Day 7: "We know everything, but we understand nothing!"]]></title>
             <link>https://www.intercontinental-academia.org/blog/Day 7</link>
             <guid>https://www.intercontinental-academia.org/blog/Day 7</guid>
@@ -81,12 +74,6 @@ Finally, Toshio Fukuda revealed the Moonshot project: a society where humans and
 The Fellows then took a break to explore the 3D virtual campus of the Paris IAS, called Teemew Campus Alpha, in which lounges, public seminar rooms, private meeting rooms and workshops are accessible to ICA4 Fellows and Mentors. Each Academia member possesses an avatar, created from his/her own image, which is then used to navigate through the IAS cyber campus.
 The Fellows then discussed their follow-up tasks and next step(s). The first session of ICA4 in Paris was then wrapped up with a presentation from, this time, the Fellows! They highlighted some questions to explore further, ideas for research papers, an interdisciplinary manifesto for Artificial Intelligence and finally, they reflected on the key takeaways from the entire event.
 The intellectually intense series of events was finally concluded with some cocktails at the Paris IAS, marking the very beginning of a series of scientific adventures which are yet to come, as the ICA4 Fellows continue to collectively explore some seemingly never-ending questions through combining various perspectives on Intelligence and Artificial Intelligence, ultimately discovering and shaping how such complex matters should, and will be, embedded within societies...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Deshen Moodley on "Adaptive and Cognitive Systems"]]></title>
-            <link>https://www.intercontinental-academia.org/blog/Deshen Moodley</link>
-            <guid>https://www.intercontinental-academia.org/blog/Deshen Moodley</guid>
-            <pubDate>Thu, 14 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Could our culture and society impact natural language models? Let's ask Diego Frassinelli!]]></title>
@@ -138,6 +125,12 @@ The intellectually intense series of events was finally concluded with some cock
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Deshen Moodley on "Adaptive and Cognitive Systems"]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Deshen Moodley</link>
+            <guid>https://www.intercontinental-academia.org/blog/Deshen Moodley</guid>
+            <pubDate>Thu, 14 Oct 2021 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Ithai Rabinowitch explores neurobiology from both a scientific and engineering perspectives]]></title>
             <link>https://www.intercontinental-academia.org/blog/Thai Rabinowitch</link>
             <guid>https://www.intercontinental-academia.org/blog/Thai Rabinowitch</guid>
@@ -148,6 +141,13 @@ The intellectually intense series of events was finally concluded with some cock
             <link>https://www.intercontinental-academia.org/blog/Yasutomo Kawanishi</link>
             <guid>https://www.intercontinental-academia.org/blog/Yasutomo Kawanishi</guid>
             <pubDate>Fri, 15 Oct 2021 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Day 6: A trip to Sorbonne Center for Artificial Intelligence - SCAI]]></title>
+            <link>https://www.intercontinental-academia.org/blog/Day 6</link>
+            <guid>https://www.intercontinental-academia.org/blog/Day 6</guid>
+            <pubDate>Sun, 24 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[While at SCAI, The ICA4 Fellows plunged into the philosophy of computation with two ICA4 mentors, who are philosophers of cognitive science (_Jack Copeland _and Oron Shagrir). The day continued with a presentation of SCAI from the Director followed by a tour from the robotics labs. Finally, Xiao-Jing Wang explained why Artificial Intelligence needs the prefrontal cortex.]]></description>
         </item>
     </channel>
 </rss>
