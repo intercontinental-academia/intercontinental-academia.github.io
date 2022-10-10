@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1665061508",layout:"default",error:a,serverRendered:true,routePath:"\u002Fblog\u002FLaura%20Candiotto",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"aa529e3c"}}}}(null));

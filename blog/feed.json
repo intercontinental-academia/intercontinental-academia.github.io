@@ -36,14 +36,6 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Day 4",
-            "url": "https://www.intercontinental-academia.org/blog/Day 4",
-            "title": "Day 4: A visit to The University of Paris-Saclay",
-            "summary": "The Fellows embarked on their first scientific trip for ICA4 and were hosted by Ecole Normale Superieure de Paris-Saclay **throughout Day 4. The sessions at Saclay included two thought-provoking talks by Xiao-Jing Wang** and Jay McClelland, both of which touched upon the principles underlying cognitive behaviours, as well as the difference between human and machine intelligence. These were followed by a symposium on AI at University Paris-Saclay. The symposium was followed by a half-day event with multiple workshops in which ICA4 mentors discussed major advances and issues surrounding AI with other world-class researchers such as Stanislas Dehaene. Finally, the intellectually intense day came to an end with a talk in which Zaven Paré raised important questions regarding how we will interact with AI algorithms and intelligent robotics in the decades to come...",
-            "date_modified": "2021-10-20T23:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Day 5",
             "url": "https://www.intercontinental-academia.org/blog/Day 5",
             "title": "Day 5: \"an Argus with billions of eyes and ears, capacity for action, and infinite memory!\"",
@@ -52,11 +44,34 @@
             "author": {}
         },
         {
+            "id": "https://www.intercontinental-academia.org/blog/Day 4",
+            "url": "https://www.intercontinental-academia.org/blog/Day 4",
+            "title": "Day 4: A visit to The University of Paris-Saclay",
+            "summary": "The Fellows embarked on their first scientific trip for ICA4 and were hosted by Ecole Normale Superieure de Paris-Saclay **throughout Day 4. The sessions at Saclay included two thought-provoking talks by Xiao-Jing Wang** and Jay McClelland, both of which touched upon the principles underlying cognitive behaviours, as well as the difference between human and machine intelligence. These were followed by a symposium on AI at University Paris-Saclay. The symposium was followed by a half-day event with multiple workshops in which ICA4 mentors discussed major advances and issues surrounding AI with other world-class researchers such as Stanislas Dehaene. Finally, the intellectually intense day came to an end with a talk in which Zaven Paré raised important questions regarding how we will interact with AI algorithms and intelligent robotics in the decades to come...",
+            "date_modified": "2021-10-20T23:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Day 6",
+            "url": "https://www.intercontinental-academia.org/blog/Day 6",
+            "title": "Day 6: A trip to Sorbonne Center for Artificial Intelligence - SCAI",
+            "summary": "While at SCAI, The ICA4 Fellows plunged into the philosophy of computation with two ICA4 mentors, who are philosophers of cognitive science (_Jack Copeland _and Oron Shagrir). The day continued with a presentation of SCAI from the Director followed by a tour from the robotics labs. Finally, Xiao-Jing Wang explained why Artificial Intelligence needs the prefrontal cortex.",
+            "date_modified": "2021-10-24T23:00:00.000Z",
+            "author": {}
+        },
+        {
             "id": "https://www.intercontinental-academia.org/blog/Day 7",
             "url": "https://www.intercontinental-academia.org/blog/Day 7",
             "title": "Day 7: \"We know everything, but we understand nothing!\"",
             "summary": "The Fellows and Mentors of ICA4 embarked on their last scientific trip to The École Normale Supérieure of Paris. Two back to back scientific sessions were held in the morning, both of which described the current issues related to Artificial Intelligence and offers future perspectives. The first lecture was given by the Director of the École Normale Supérieure (ENS), Marc Mézard, who stressed that we need a better understanding of AI. This was followed by a talk from the famous economist, Philippe Aghion. He discussed the impact of automation on the labour force, and how AI can be used to boost innovation and growth through facilitating the process of creative destruction. Both mentors emphasised a need for a global set of ethical rules and regulations. The day continued with a presentation of ENS and concluded with a discussion session among the Fellows, as they began preparing their presentations for the plenary seminar on the Final Day of ICA4.",
             "date_modified": "2021-10-25T23:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
+            "url": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
+            "title": "Deshen Moodley on \"Adaptive and Cognitive Systems\"",
+            "date_modified": "2021-10-14T22:00:00.000Z",
             "author": {}
         },
         {
@@ -75,16 +90,16 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Evandro Cunha",
-            "url": "https://www.intercontinental-academia.org/blog/Evandro Cunha",
-            "title": "An exploration of computational linguistics with Evandro Cunha",
+            "id": "https://www.intercontinental-academia.org/blog/Henry Taylor",
+            "url": "https://www.intercontinental-academia.org/blog/Henry Taylor",
+            "title": "Henry Taylor speaks about the interface between cognitive science and philosophy",
             "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Henry Taylor",
-            "url": "https://www.intercontinental-academia.org/blog/Henry Taylor",
-            "title": "Henry Taylor speaks about the interface between cognitive science and philosophy",
+            "id": "https://www.intercontinental-academia.org/blog/Evandro Cunha",
+            "url": "https://www.intercontinental-academia.org/blog/Evandro Cunha",
+            "title": "An exploration of computational linguistics with Evandro Cunha",
             "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
@@ -125,13 +140,6 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
-            "url": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
-            "title": "Deshen Moodley on \"Adaptive and Cognitive Systems\"",
-            "date_modified": "2021-10-14T22:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Thai Rabinowitch",
             "url": "https://www.intercontinental-academia.org/blog/Thai Rabinowitch",
             "title": "Ithai Rabinowitch explores neurobiology from both a scientific and engineering perspectives",
@@ -143,14 +151,6 @@
             "url": "https://www.intercontinental-academia.org/blog/Yasutomo Kawanishi",
             "title": "Yasutomo Kawanishi's investigation of how human beings recognise, describe and memorise the environment",
             "date_modified": "2021-10-15T22:00:00.000Z",
-            "author": {}
-        },
-        {
-            "id": "https://www.intercontinental-academia.org/blog/Day 6",
-            "url": "https://www.intercontinental-academia.org/blog/Day 6",
-            "title": "Day 6: A trip to Sorbonne Center for Artificial Intelligence - SCAI",
-            "summary": "While at SCAI, The ICA4 Fellows plunged into the philosophy of computation with two ICA4 mentors, who are philosophers of cognitive science (_Jack Copeland _and Oron Shagrir). The day continued with a presentation of SCAI from the Director followed by a tour from the robotics labs. Finally, Xiao-Jing Wang explained why Artificial Intelligence needs the prefrontal cortex.",
-            "date_modified": "2021-10-24T23:00:00.000Z",
             "author": {}
         }
     ]
