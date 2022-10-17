@@ -36,19 +36,19 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Day 5",
-            "url": "https://www.intercontinental-academia.org/blog/Day 5",
-            "title": "Day 5: \"an Argus with billions of eyes and ears, capacity for action, and infinite memory!\"",
-            "summary": "While impossible to precisely predict, the convoluted future of AI may be presented in terms of some major challenges it will inevitably face within the upcoming decades. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS!",
-            "date_modified": "2021-10-21T23:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Day 4",
             "url": "https://www.intercontinental-academia.org/blog/Day 4",
             "title": "Day 4: A visit to The University of Paris-Saclay",
             "summary": "The Fellows embarked on their first scientific trip for ICA4 and were hosted by Ecole Normale Superieure de Paris-Saclay **throughout Day 4. The sessions at Saclay included two thought-provoking talks by Xiao-Jing Wang** and Jay McClelland, both of which touched upon the principles underlying cognitive behaviours, as well as the difference between human and machine intelligence. These were followed by a symposium on AI at University Paris-Saclay. The symposium was followed by a half-day event with multiple workshops in which ICA4 mentors discussed major advances and issues surrounding AI with other world-class researchers such as Stanislas Dehaene. Finally, the intellectually intense day came to an end with a talk in which Zaven Paré raised important questions regarding how we will interact with AI algorithms and intelligent robotics in the decades to come...",
             "date_modified": "2021-10-20T23:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Day 5",
+            "url": "https://www.intercontinental-academia.org/blog/Day 5",
+            "title": "Day 5: \"an Argus with billions of eyes and ears, capacity for action, and infinite memory!\"",
+            "summary": "While impossible to precisely predict, the convoluted future of AI may be presented in terms of some major challenges it will inevitably face within the upcoming decades. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS!",
+            "date_modified": "2021-10-21T23:00:00.000Z",
             "author": {}
         },
         {
@@ -68,13 +68,6 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
-            "url": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
-            "title": "Deshen Moodley on \"Adaptive and Cognitive Systems\"",
-            "date_modified": "2021-10-14T22:00:00.000Z",
-            "author": {}
-        },
-        {
             "id": "https://www.intercontinental-academia.org/blog/Day 8",
             "url": "https://www.intercontinental-academia.org/blog/Day 8",
             "title": "The Final Day: where we go from here...",
@@ -83,16 +76,16 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Diego Frassinelli",
-            "url": "https://www.intercontinental-academia.org/blog/Diego Frassinelli",
-            "title": "Could our culture and society impact natural language models? Let's ask Diego Frassinelli!",
-            "date_modified": "2021-10-15T22:00:00.000Z",
+            "id": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
+            "url": "https://www.intercontinental-academia.org/blog/Deshen Moodley",
+            "title": "Deshen Moodley on \"Adaptive and Cognitive Systems\"",
+            "date_modified": "2021-10-14T22:00:00.000Z",
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Henry Taylor",
-            "url": "https://www.intercontinental-academia.org/blog/Henry Taylor",
-            "title": "Henry Taylor speaks about the interface between cognitive science and philosophy",
+            "id": "https://www.intercontinental-academia.org/blog/Diego Frassinelli",
+            "url": "https://www.intercontinental-academia.org/blog/Diego Frassinelli",
+            "title": "Could our culture and society impact natural language models? Let's ask Diego Frassinelli!",
             "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
@@ -104,9 +97,9 @@
             "author": {}
         },
         {
-            "id": "https://www.intercontinental-academia.org/blog/Jakub Growiec",
-            "url": "https://www.intercontinental-academia.org/blog/Jakub Growiec",
-            "title": "Jakub Growiec focuses on \"New Mechanisms of Economic Growth in the Age of Artificial Intelligence\"",
+            "id": "https://www.intercontinental-academia.org/blog/Henry Taylor",
+            "url": "https://www.intercontinental-academia.org/blog/Henry Taylor",
+            "title": "Henry Taylor speaks about the interface between cognitive science and philosophy",
             "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
@@ -130,6 +123,13 @@
             "title": "An Overview of ICA4 - Session 1 (Paris IAS)",
             "summary": "The Intercontinental Academia (ICA) seeks to create a global network of future research leaders in which some of the very best early/mid‐career scholars will work together on paradigm‐shifting cross‐disciplinary research, mentored by some of the most eminent researchers from across the globe.",
             "date_modified": "2021-10-17T22:00:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://www.intercontinental-academia.org/blog/Jakub Growiec",
+            "url": "https://www.intercontinental-academia.org/blog/Jakub Growiec",
+            "title": "Jakub Growiec focuses on \"New Mechanisms of Economic Growth in the Age of Artificial Intelligence\"",
+            "date_modified": "2021-10-15T22:00:00.000Z",
             "author": {}
         },
         {
