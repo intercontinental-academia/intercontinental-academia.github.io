@@ -1,64 +1,64 @@
 ---
 tags:
-- Paris IAS
-- ICA4
-- Artificial Intelligence
-- IEA de Paris
-- Intelligence
-- Behaviour
-- Economics
-- Cognitive Science
-- Robots
-- Ethics
+  - Paris IAS
+  - ICA4
+  - Artificial Intelligence
+  - IEA de Paris
+  - Intelligence
+  - Behaviour
+  - Economics
+  - Cognitive Science
+  - Robots
+  - Ethics
 published: false
 pinned: false
-post_title: 'Keeping Up with the ICA4: What''s happening each day at Paris IAS?'
+post_title: "Keeping Up with the ICA4: What's happening each day at Paris IAS?"
 date: 2021-10-19T22:00:00Z
 authors:
-- name: Atrina Oraee
+  - name: Atrina Oraee
 images:
-- "/snapseed-11.jpg"
-- "/snapseed-57.jpg"
-- "/snapseed-6.jpg"
-- "/screenshot-2021-10-27-at-06-49-27.png"
-- "/snapseed-38.jpg"
-- "/snapseed-40.jpg"
-- "/snapseed-9.jpg"
-- "/img_4949.jpg"
-- "/snapseed-49.jpg"
-- "/snapseed-58.jpg"
-- "/img_4552.jpg"
-- "/img_5346.jpg"
-- "/snapseed-51.jpg"
-- "/snapseed-39.jpg"
-- "/img_4211.jpg"
-- "/snapseed-29.jpg"
-- "/snapseed-54.jpg"
-- "/screenshot-2021-10-27-at-06-48-00.png"
-- "/snapseed-10.jpg"
-- "/snapseed-47.jpg"
-- "/image.png"
-- "/snapseed-32.jpg"
-- "/fullsizerender-2.jpg"
-- "/snapseed-28.jpg"
-- "/snapseed-7.jpg"
+  - '/snapseed-11.jpg'
+  - '/snapseed-57.jpg'
+  - '/snapseed-6.jpg'
+  - '/screenshot-2021-10-27-at-06-49-27.png'
+  - '/snapseed-38.jpg'
+  - '/snapseed-40.jpg'
+  - '/snapseed-9.jpg'
+  - '/img_4949.jpg'
+  - '/snapseed-49.jpg'
+  - '/snapseed-58.jpg'
+  - '/img_4552.jpg'
+  - '/img_5346.jpg'
+  - '/snapseed-51.jpg'
+  - '/snapseed-39.jpg'
+  - '/img_4211.jpg'
+  - '/snapseed-29.jpg'
+  - '/snapseed-54.jpg'
+  - '/screenshot-2021-10-27-at-06-48-00.png'
+  - '/snapseed-10.jpg'
+  - '/snapseed-47.jpg'
+  - '/image.png'
+  - '/snapseed-32.jpg'
+  - '/fullsizerender-2.jpg'
+  - '/snapseed-28.jpg'
+  - '/snapseed-7.jpg'
 youtube_video_id: ''
 audio: []
-
 ---
+
 Each day, the Fellows and their Mentors meet for **a closed 3-hour seminar**, during which two mentors launch the discussion with a presentation. Upon completion of the seminar, the Fellows then meet for 45 minutes to list the **key takeaways and ideas** that have emerged from the discussion, followed by a **collective brainstorming session**. This ensures that the output of collective intelligence is collected, formatted and capitalised.
 
 The other half of the day is left free for participants to **reflect on the scientific discussions** in small groups. Such discussions are occasionally complemented by **lectures from the Chairs**. Finally, the Academia **travels to meet researchers** from some of the most prestigious universities in Paris. This includes a day at **Paris-Saclay**, a day at **Sorbonne University**, and finally, a day at the **ENS**. Upon completion of every morning's closed seminar at IAS, meetings and conferences are organised to encourage collective discussions and networking. The summary of each day is capitalised on the **ICA4 blog**. The following blogpost capitalises the key takeaways of each day’s sessions, as well as summarising the highlights.<!--more-->
 
 # Day 1: **"The future needs wisdom”**
 
-Chair: [_Laura Candiotto_](/fellows#candiotto "Laura Candiotto")
+Chair: [_Laura Candiotto_](/fellows#candiotto 'Laura Candiotto')
 
-Scribe: [_Massimiliano Di Luca_](/fellows#di-luca "Massimiliano Di Luca")
+Scribe: [_Massimiliano Di Luca_](/fellows#di-luca 'Massimiliano Di Luca')
 
 **Perception, prediction, and pleasure: What can music teach us about neurocognition/intelligence?**
 
-Presented by [**_Robert Zatorre_**](/mentors#zatorre "Robert Zatorre")
+Presented by [**_Robert Zatorre_**](/mentors#zatorre 'Robert Zatorre')
 
 It was stated during the seminar that the brain represents the properties of the environment and guides behaviour through evaluation and reward. Aesthetic pleasure can be defined as the phylogenetically older system that is centred on the striatum.
 
@@ -68,13 +68,13 @@ Through the post-seminar collective discussions, the relevance of **affective ex
 
 **High Energy Physics: Successes, Challenges and Magic**
 
-Presented by [**_Eliezer Rabinovici_**](/about/ica4/#rabinovici "Eliezer Rabinovici")
+Presented by [**_Eliezer Rabinovici_**](/about/ica4/#rabinovici 'Eliezer Rabinovici')
 
 It was discussed that observing natural phenomena can motivate scientific enquiry and drive us to understand the unknown. Moreover, equations are a way to increase predictability. However, a single, compact and reductionist explanation for all phenomena in the universe may not necessarily exist. The scientific method requires that results are reproducible. The correspondence principle requires that new theories can explain all phenomena for which a preceding theory was valid. To understand a phenomenon, one has to identify the relevant players and determine the correct explanation scale.
 
 **In AI We Trust: Power, illusion and control of predictive algorithms**
 
-Presented by [**_Helga Nowotny_**](http://helga-nowotny.eu "Helga Nowotny")
+Presented by [**_Helga Nowotny_**](http://helga-nowotny.eu 'Helga Nowotny')
 
 The session began with introducing the concept of singularity and defining it as a tipping point: a change of state that can lead to the collapse of a system. In an attempt to define Ethical AI, examples such as Transhumanism (ideas of transcending the limitations of a mortal body through information sharing) were discussed. Furthermore, the illusion that AI knows humans better than humans know themselves was elaborated, ultimately concluding by mentioning the existence of a possibility for human beings to both profit or suffer from an AI system depending on how it is applied.
 
@@ -82,26 +82,26 @@ The session began with introducing the concept of singularity and defining it as
 
 # Day 2: **"In AI we trust"...or not!**
 
-Scribe: [_Tahina Ralitera_](/fellows#ralitera "Tahina Ralitera")
+Scribe: [_Tahina Ralitera_](/fellows#ralitera 'Tahina Ralitera')
 
-Chair: [_Benjamin Guedj_](/fellows#guedj "Ben Guedj")
+Chair: [_Benjamin Guedj_](/fellows#guedj 'Ben Guedj')
 
 **Why Consciousness?**
 
-Presented by [**_Robert Aumann_**](/mentors#aumann "Robert Aumann")
+Presented by [**_Robert Aumann_**](/mentors#aumann 'Robert Aumann')
 
 Essentially, the seminar was focused on the purpose which consciousness serves. Consciousness was defined as the ability to do the following:
 
-* Perceive
-* Feel (emotions)
-* Think/intend
-* Carry out intentions (volition)
+- Perceive
+- Feel (emotions)
+- Think/intend
+- Carry out intentions (volition)
 
 Of all the above, perceiving, thinking/intending, and carrying out intentions may be done by machines. However, feeling and emotions belong exclusively to human beings. In such a context, it may be argued that the evolutionary function of consciousness is to enable the operation of emotions. This being said, we currently have no idea about how does consciousness work. Although considerable progress has been made in AI, Artificial Emotions (AE) has remained rather untouched.
 
 **Myths and misunderstandings about responsibility for the unintended impact of AI**
 
-Presented by [**_Karen Yeung_**](/mentors#yeung "Karen Yeung")
+Presented by [**_Karen Yeung_**](/mentors#yeung 'Karen Yeung')
 
 The talk mostly focused on responsibility for the unintended impact of Artificial Intelligence, based on the presenter's Council of Europe study. It was argued that Machine Learning's (ML) capacity to enable task automation and machine "autonomy" raise important questions about **responsibility**. Thus, responsibility-relevant attributes of ML were identified, for which an illustration is the data-driven profiling of individuals, and other ML applications, which may hold adverse impacts on human rights, on both individual and collective levels.  
 While responsibility is important for human beings, who are considered as moral agents, to maintain peaceful social co-operation within the community, only a few studies have focused on tackling the fundamental role of responsibility for individuals, as well as the society.
@@ -110,32 +110,32 @@ The impacts produced by complex socio-technical systems using ML technologies ha
 
 In a nutshell, two dimensions of responsibility are required:
 
-* **Historic or retrospective responsibility:** responsibility for conduct and events that occurred in the past
-* **Prospective responsibility:** roles and tasks that look to the future
+- **Historic or retrospective responsibility:** responsibility for conduct and events that occurred in the past
+- **Prospective responsibility:** roles and tasks that look to the future
 
 Finally, five common myths and misunderstandings concerning responsibility for the unintended adverse impacts of AI were identified:
 
-* Need for effective and legitimate mechanisms to protect human rights from AI applications.
-* Identifications of the appropriate responsibility model for allocating, distributing and preventing the various threats and risks.
-* Responsibility of states to ensure that these policy choices are made in a transparent and democratic manner, in order to effectively protect human rights.
-* Need for more interdisciplinary research
-* Application of the fundamental principle of reciprocity so as not to allow those who develop and run our advanced digital technologies and systems to increase and exercise their power without responsibility.
+- Need for effective and legitimate mechanisms to protect human rights from AI applications.
+- Identifications of the appropriate responsibility model for allocating, distributing and preventing the various threats and risks.
+- Responsibility of states to ensure that these policy choices are made in a transparent and democratic manner, in order to effectively protect human rights.
+- Need for more interdisciplinary research
+- Application of the fundamental principle of reciprocity so as not to allow those who develop and run our advanced digital technologies and systems to increase and exercise their power without responsibility.
 
 **Data science and deep learning vs theory: two examples from economics and finance**
 
-Presented by [**_Raouf Boucekkine_**](/about/ica4#boucekkine "Raouf Boucekkine")
+Presented by [**_Raouf Boucekkine_**](/about/ica4#boucekkine 'Raouf Boucekkine')
 
 The session included discussions on Data Science, Machine Learning (ML), and some relevant theories in the field of economics and finance that share common disciplines. Certain examples from macroeconomics, in which characteristics of the underlying mechanisms for complex systems are of great interest, were then discussed in more detail. In such context, a misunderstanding between different disciplines was highlighted: **the concept of equilibrium** is of great significance in mainstream macroeconomics, whereas this is not the case for statistical physics (e.g., the "equilibrium" bias outside the econ area, discussed by Bonneuil & Boucekkine (2020)). Finally, the use of various **methods** and approaches, such as DSGE (Dynamic Stochastic General Equilibrium), ABM (Agent-Based Modeling), and Neural Network-Based methods, in the field of macroeconomics were discussed.
 
-# Day 3: **"What you do FOR  people, you do TO people, so do it WITH people"**
+# Day 3: **"What you do FOR people, you do TO people, so do it WITH people"**
 
-Scribe: [_André Fujita_](/fellows#fujita "Andre Fujita")
+Scribe: [_André Fujita_](/fellows#fujita 'Andre Fujita')
 
-Chair: [_Philipp Kellmeyer_](/fellows#kellmeyer "Philipp Kellmeyer")
+Chair: [_Philipp Kellmeyer_](/fellows#kellmeyer 'Philipp Kellmeyer')
 
 **Distributed Intelligence & Distributed Agency**
 
-Presented by [**_Saadi Lahlou_**](/about/ica4#lahlou "Saadi Lahlou")
+Presented by [**_Saadi Lahlou_**](/about/ica4#lahlou 'Saadi Lahlou')
 
 We want intelligence to perform relevantly adapted actions that change the situation in which we are for the better. To design intelligence, we must first understand **the nature of the actual activity**. In this sense, behaviour was defined as what people do, seen from the outside. In other words, behaviour remains an external description of objective phenomena. This is while activity is how people subjectively perceive their action and how they see it from their own perspective.
 
@@ -149,7 +149,7 @@ To conclude, ICA4 Fellows were left with some questions as food for thought. For
 
 **Perspective on Artificial Intelligence research from studies on Agency, self-recognition and social cognition in animals**
 
-Presented by [**_William Hopkins_**](/mentors#hopkins "William Hopkins")
+Presented by [**_William Hopkins_**](/mentors#hopkins 'William Hopkins')
 
 The session began by discussing humans constructed concepts to reflect intellectual abilities in various domains of cognitive functions. In this sense, we use tests like the WAIS or Stanford Binet to quantify and scale performance to standards for specific age classes. These tests rely heavily on language. There are many approaches to developing fair tests of cognition between species with different sensory and motor capabilities. It began with Darwin and Furness. Then, George Romanes (1884) focused on animal intelligence and later on, Kohler (1925) on insight learning. Within the same field, Robert Yerkes (1916) worked on “The mental life of monkeys and apes: a study of ideational behavior”. Yerkes later developed the IQ test used by the army in WW1 (army alpha test).
 
@@ -161,7 +161,7 @@ However, is it language? There is very little evidence for declarative productio
 
 **AI and Robots for Future: The Moon Shot Project**
 
-Presented by [_Toshio Fukuda_](/mentors#fukuda "Toshio Fukuda")
+Presented by [_Toshio Fukuda_](/mentors#fukuda 'Toshio Fukuda')
 
 Robots are avatars that pop up to help when humans need them. There is an information and physical interaction between robots and humans. Toshio showed several multi-scale robots, e.g., monkey-type robots, multi-locomotion, intelligent cane, etc. One of these robots is the Brachiator I-III. Brachiation is a form of long-armed ape locomotion. It uses dynamics of the pendulum, under-actuated mechanical system, variable constraint system, machine learning, AI, reinforce learning, soft computing (fuzzy, genetic algorithm). Regarding multi-locomotion types, in many cases, one creature has multiple types of locomotion in order to improve its mobility. The motivation of their study is to develop a robot mechanism and a control architecture that can achieve multiple locomotions. Hybrid computational intelligence, i.e., AI and brain interface were also commented upon by the speaker while showing a series of related videos. An example of such videos illustrated the Boston dynamics atlas and others: three robots dancing and jumping which was quite impressive!
 
@@ -171,11 +171,11 @@ Finally, the Moonshot project was revealed: **a society where humans and robots 
 
 # Day 4: **A visit to The University of Paris-Saclay**
 
-Scribe: [_Alex Cayco Gajic_](/fellows#cayco-gajic "Alex Cayco-Gajic")
+Scribe: [_Alex Cayco Gajic_](/fellows#cayco-gajic 'Alex Cayco-Gajic')
 
-Chair: [_Diego Frassinelli_](/fellows#frassinelli "Diego Frassinelli")
+Chair: [_Diego Frassinelli_](/fellows#frassinelli 'Diego Frassinelli')
 
-The scientific sessions at Saclay included two thought-provoking talks by [**_Xiao-Jing Wang_**](/mentors/#wang "Xiao-Jing Wang") and [**_Jay McClelland_**](/mentors/#mcclelland "Jay McClelland"), both of which touched upon **the principles underlying cognitive behaviours**, as well as **the difference between human and machine intelligence**. These were followed by a half-day symposium on AI organized in conjunction with the [**Ecole Normale Superieure de Paris-Saclay**](http://ens-paris-saclay.fr/en "Paris Saclay") which hosted us through the day.
+The scientific sessions at Saclay included two thought-provoking talks by [**_Xiao-Jing Wang_**](/mentors/#wang 'Xiao-Jing Wang') and [**_Jay McClelland_**](/mentors/#mcclelland 'Jay McClelland'), both of which touched upon **the principles underlying cognitive behaviours**, as well as **the difference between human and machine intelligence**. These were followed by a half-day symposium on AI organized in conjunction with the [**Ecole Normale Superieure de Paris-Saclay**](http://ens-paris-saclay.fr/en 'Paris Saclay') which hosted us through the day.
 
 First, **Wang** discussed his efforts to understand the **computational principles underlying cognition**. Deep neural networks, despite their recent success, differ from human cognition because they have no internal mental life - instead, they act as complex, nonlinear input-output functions. In humans, the prefrontal cortex (PFC) is known to be crucial for cognitive functions such as working memory, decision making, and executive function. An early avenue of this research involved understanding how persistent neural activity may underlie working memory by sustaining stimulus information in the brain after the sensory cue has disappeared. Such persistence is linked to recurrent connectivity, which is lacking in most deep networks. Wang described his previous research using spiking networks and tools from dynamical systems to understand the attractor dynamics behind this form of memory. In the second half of the talk, he showcased his more recent work which uses recurrent neural networks (RNNs) as a form of a model organism to probe how the PFC may perform multiple cognitive tasks simultaneously. These RNNs can then be used to address questions such as whether the PFC encodes cognitive building blocks in a compositional manner, similar to the psychological concepts of schema.
 
@@ -183,25 +183,25 @@ Following this talk, **McClelland** highlighted **a different distinction betwee
 
 Upon completion of the talks by ICA4 Mentors, Paris-Saclay hosted **a half-day event with multiple workshops** in which **ICA4 mentors and Paris-Saclay researchers discussed major advances and issues surrounding AI**. Dehaene also presented a series of fMRI, MEG, and behavioural evidence that **humans use symbolic and recursive strategies on prediction tasks with complex sequences**, as compared with monkeys which seem to use a picture-based strategy. In a session focusing on AI and ethics, Paola Tubaro revealed the hidden human workers who provide the hand-labelled training data for products like Siri. Because companies need cheaper work in the same language this tends to reproduce historic colonial patterns.
 
-Finally, the intellectually intense day came to an end with a talk in which [**_Zaven Paré_**](/mentors/#pare "Zaven Pare") discussed his **artistic works based on electronic marionettes** and his collaborations with robotics specialists in Japan. Paré’s conception of automaton-centred theatre enchants audiences while challenging our tendency towards **anthropomorphisation**. This raises important questions regarding **how we will interact with AI algorithms and intelligent robotics in the decades to come...**
+Finally, the intellectually intense day came to an end with a talk in which [**_Zaven Paré_**](/mentors/#pare 'Zaven Pare') discussed his **artistic works based on electronic marionettes** and his collaborations with robotics specialists in Japan. Paré’s conception of automaton-centred theatre enchants audiences while challenging our tendency towards **anthropomorphisation**. This raises important questions regarding **how we will interact with AI algorithms and intelligent robotics in the decades to come...**
 
 # Day 5: "**an Argus with billions of eyes and ears, capacity for action, and infinite memory!"**
 
-Scribe: [_Oksana Stalnov_](/fellows/#stalnov "Oksana Stalnov")
+Scribe: [_Oksana Stalnov_](/fellows/#stalnov 'Oksana Stalnov')
 
-Chair: [_Evandro Cunha_](/fellows/#cunha "Evandro Cunha")
+Chair: [_Evandro Cunha_](/fellows/#cunha 'Evandro Cunha')
 
-While impossible to precisely predict, the convoluted future of AI may be presented in terms of **some major challenges it will inevitably face within the upcoming decades**. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS! _Find out more about their thoughts and perceived challenges for AI_ [**_here_**](https://www.intercontinental-academia.org/blog/Some%20Challenges%20of%20AI/ "Challenges of AI")_._
+While impossible to precisely predict, the convoluted future of AI may be presented in terms of **some major challenges it will inevitably face within the upcoming decades**. The ICA4 Mentors shared their views and thoughts on this fascinating, and intellectually challenging, subject over a roundtable discussion in the halls of Paris IAS! _Find out more about their thoughts and perceived challenges for AI_ [**_here_**](https://www.intercontinental-academia.com/blog/Some%20Challenges%20of%20AI/ 'Challenges of AI')_._
 
 # Day 6: **A trip to Sorbonne Center for Artificial Intelligence - SCAI**
 
-Scribe: [_Henry Taylor_](/fellows#taylor "Henry Taylor")
+Scribe: [_Henry Taylor_](/fellows#taylor 'Henry Taylor')
 
-Chair: [_Ithai Rabinowitch_](/fellows#rabinowitch "Thai Rabinowitch")
+Chair: [_Ithai Rabinowitch_](/fellows#rabinowitch 'Thai Rabinowitch')
 
 **Computational indeterminacy: what is your computer doing?**
 
-While at [**SCAI**](https://scai.sorbonne-universite.fr "SCAI"), The [ICA4 Fellows](/fellows "Fellows") plunged into **the** **philosophy of computation** with two [ICA4 mentors](/mentors "Mentors"), who are philosophers of cognitive science ([**_Jack Copeland _**](/mentors#copeland)and [**_Oron Shagrir_**](/mentors#shagrir "Oron Shagrir")). We focussed on the notion of **indeterminacy in computation**. Perhaps it's necessary to describe what computational indeterminacy is, and then look at its applications and philosophical questions.
+While at [**SCAI**](https://scai.sorbonne-universite.fr 'SCAI'), The [ICA4 Fellows](/fellows 'Fellows') plunged into **the** **philosophy of computation** with two [ICA4 mentors](/mentors 'Mentors'), who are philosophers of cognitive science ([**_Jack Copeland _**](/mentors#copeland)and [**_Oron Shagrir_**](/mentors#shagrir 'Oron Shagrir')). We focussed on the notion of **indeterminacy in computation**. Perhaps it's necessary to describe what computational indeterminacy is, and then look at its applications and philosophical questions.
 
 **_So, what is computational indeterminacy anyway?_**
 
@@ -261,35 +261,35 @@ Oron’s own proposal is that we use **semantics** to solve this problem. The re
 
 # Day 7: **"We know everything, but we understand nothing!"**
 
-Scribe: [_Melvin Wevers_](/fellows#wevers "Melvin Wevers")
+Scribe: [_Melvin Wevers_](/fellows#wevers 'Melvin Wevers')
 
-Chair: [_Jakub Growiec_](/fellows#growiec "Jakub Growiec")
+Chair: [_Jakub Growiec_](/fellows#growiec 'Jakub Growiec')
 
-The [Fellows](/fellows "Fellows") and [Mentors](/mentors "Mentors") of [ICA4](/about/concept "Concept") embarked on their last **scientific trip to** [**The École Normale Supérieure of Paris**](https://www.ens.psl.eu/en "ENS"). Two back to back scientific sessions were held in the morning, both of which described **the current issues related to Artificial Intelligence and offers future perspectives**. In the first talk, [**_Marc Mézard_**](/mentors#mezard "Marc Mezard"), the Director of the École Normale Supérieure (ENS) in Paris, gave his perspective on **recent progress and future challenges in AI**. Mézard is a theoretical physicist with a personal interest in the development of a theoretical framework to explain how AI works, and more specifically how Deep Neural Networks operate. Huge innovations have been made in the predictive power of neural networks. Still, many of the conceptual foundations have been around since the 1980s. By describing the lineage of the technology, Mézard was able to convincingly argue that the lack of a theoretical grounding for these networks. How do they work? We know everything about these networks, but we understand nothing, the speaker provocatively posed.
+The [Fellows](/fellows 'Fellows') and [Mentors](/mentors 'Mentors') of [ICA4](/about/concept 'Concept') embarked on their last **scientific trip to** [**The École Normale Supérieure of Paris**](https://www.ens.psl.eu/en 'ENS'). Two back to back scientific sessions were held in the morning, both of which described **the current issues related to Artificial Intelligence and offers future perspectives**. In the first talk, [**_Marc Mézard_**](/mentors#mezard 'Marc Mezard'), the Director of the École Normale Supérieure (ENS) in Paris, gave his perspective on **recent progress and future challenges in AI**. Mézard is a theoretical physicist with a personal interest in the development of a theoretical framework to explain how AI works, and more specifically how Deep Neural Networks operate. Huge innovations have been made in the predictive power of neural networks. Still, many of the conceptual foundations have been around since the 1980s. By describing the lineage of the technology, Mézard was able to convincingly argue that the lack of a theoretical grounding for these networks. How do they work? We know everything about these networks, but we understand nothing, the speaker provocatively posed.
 
 Notwithstanding the impressive technological innovations in Deep Neural Networks, **Mézard raises three main issues**:
 
-* The **training of the networks** still requires vast amounts of data, which is unpractical and a sign that the networks do not mimic the human brain. Humans can already learn and generalize after being exposed to a small set of training material.
-* There is still **a clear lack of understanding of what is going on in neural networks**. The learning mechanism in networks is poorly understood. In other words, there is no way to explain how the machine makes decisions.
-* **Neural networks are not able to generate representations of the world**. Neural networks are extremely adept at making predictions, but they are not able to generate representations of the world. All in, we are still very far from reaching General AI.
+- The **training of the networks** still requires vast amounts of data, which is unpractical and a sign that the networks do not mimic the human brain. Humans can already learn and generalize after being exposed to a small set of training material.
+- There is still **a clear lack of understanding of what is going on in neural networks**. The learning mechanism in networks is poorly understood. In other words, there is no way to explain how the machine makes decisions.
+- **Neural networks are not able to generate representations of the world**. Neural networks are extremely adept at making predictions, but they are not able to generate representations of the world. All in, we are still very far from reaching General AI.
 
 Mézard stressed that we need **a better understanding of architecture, algorithms, and data structure,** which can improve the explainability of AI. In addition, there is a need for **a global set of ethical rules and regulations**. We need control mechanisms and **a global vision of the possible impacts of AI on our societies**.
 
-The economist [**_Philippe Aghion_**](/mentors#aghion "Philippe Aghion"), professor at College de France and London School of Economics, expanded on **ways to stimulate research into AI and the development of AI in industry, while also emphasizing the need for regulation**. Aghion drew from his expertise on economic growth and drew parallels to the role of AI in society and global economies.
+The economist [**_Philippe Aghion_**](/mentors#aghion 'Philippe Aghion'), professor at College de France and London School of Economics, expanded on **ways to stimulate research into AI and the development of AI in industry, while also emphasizing the need for regulation**. Aghion drew from his expertise on economic growth and drew parallels to the role of AI in society and global economies.
 
 AI has already had a considerable impact on society, for example, through **the impact of automation on the labour force**. While AI has been instrumental in increasing productivity, **economic growth has declined since the mid-2000s**. Aghion's major concern is focused on the **formation of large companies which boosted growth but also inhibited innovation**. Much of the innovation related to AI is currently concentrated in such companies. To give AI more potential, we need to rethink ways to stimulate innovation while also making it sustainable. One crucial step is to re-calibrate the relationship between companies, institutions, and civic society. Rethinking funding strategies while also thinking of governmental regulatory measures and increasing the civic engagement with these companies is vital to achieving **sustainable growth** for companies developed AI.
 
-Both talks showed **the complicated interplay between research objectives related to AI and the societal and economic embedding of the technology**. Current research is devoting more attention to the **challenges** that Mézard raised, for example, work on Explainable AI. However, **public awareness of the limitations of neural networks and the research challenges is still lagging**. Increasing this **awareness** might help to balance polarized views on AI that often oscillate between dystopian and utopian perspectives. **An interdisciplinary project**, offered through [**the 4th Intercontinental Academia**](/about/concept "Concept"), is of utmost importance in **shaping how scholars should communicate the current state of AI and its challenges to a broader audience**.
+Both talks showed **the complicated interplay between research objectives related to AI and the societal and economic embedding of the technology**. Current research is devoting more attention to the **challenges** that Mézard raised, for example, work on Explainable AI. However, **public awareness of the limitations of neural networks and the research challenges is still lagging**. Increasing this **awareness** might help to balance polarized views on AI that often oscillate between dystopian and utopian perspectives. **An interdisciplinary project**, offered through [**the 4th Intercontinental Academia**](/about/concept 'Concept'), is of utmost importance in **shaping how scholars should communicate the current state of AI and its challenges to a broader audience**.
 
 # The Final Day: **where we go from here...**
 
-Scribe: [_Mike Livermore_](/fellows#livermore "Mike Livermore")
+Scribe: [_Mike Livermore_](/fellows#livermore 'Mike Livermore')
 
-Chair: [_Alex Cayco Gajic_](/fellows#cayco-gajic "Alex Cayco Gajic")
+Chair: [_Alex Cayco Gajic_](/fellows#cayco-gajic 'Alex Cayco Gajic')
 
 **The top-down and bottom-up in visual processing**
 
-Presented by [**_Shimon Ullman_**](/mentors#ullman "Shimon Ullman")
+Presented by [**_Shimon Ullman_**](/mentors#ullman 'Shimon Ullman')
 
 A major question in visual processing is **how humans extract information from complex scenes**. Images often tell us a story! Extracting such a narrative from a complex scene is a sophisticated task. There is a great deal of **cultural and situational knowledge** that serves as the background for directing attentional and visual processing resources.
 
@@ -301,16 +301,16 @@ A major challenge is a combinatorial generalisation. The same structure can be i
 
 There is a broader set of questions on modelling and understanding. Humans have a very high-level understanding of a concept like “drinking” that is very hard to imagine arising from a purely bottom-up model. More data, even massive amounts of data, might not be sufficient without some higher-order structure.
 
-Upon completion of the presentation, [ICA4 Fellows](/fellows "Fellows") then asked questions related to how images are embedded in actions and within cultural contexts, the relationship between ontologies and bottom-up networks, and visual processing in non-humans and how that informs our thinking on the role of abstract reasoning in visual processing.
+Upon completion of the presentation, [ICA4 Fellows](/fellows 'Fellows') then asked questions related to how images are embedded in actions and within cultural contexts, the relationship between ontologies and bottom-up networks, and visual processing in non-humans and how that informs our thinking on the role of abstract reasoning in visual processing.
 
 **The role of the robot in society**
 
-Presented by [**_Zaven Paré_**](/mentors#pare "Zaven Pare")
+Presented by [**_Zaven Paré_**](/mentors#pare 'Zaven Pare')
 
-**Art** can tell us something about society and technology. **Once robots are embedded in contexts, they take on new characteristics** – even if they are manufactured to be the “same,” they are changed by their environments. Different robots serve different functions in different societies. **An important potential role for robots is to respond to isolation**. Robots in deep sea and space are examples of how these systems can generate human-artificial interaction in conditions of isolation. [**The Gatebox product**](https://www.gatebox.ai/en/ "Gatebox") is a provocative example of **an existing robot that is addressed to isolation in a contemporary urban environment**.
+**Art** can tell us something about society and technology. **Once robots are embedded in contexts, they take on new characteristics** – even if they are manufactured to be the “same,” they are changed by their environments. Different robots serve different functions in different societies. **An important potential role for robots is to respond to isolation**. Robots in deep sea and space are examples of how these systems can generate human-artificial interaction in conditions of isolation. [**The Gatebox product**](https://www.gatebox.ai/en/ 'Gatebox') is a provocative example of **an existing robot that is addressed to isolation in a contemporary urban environment**.
 
 The fellows then discussed questions related to the importance of isolation, what it means for a robot to offer companionship and the social meaning of different anthropic forms being projected onto robots.
 
 Upon completion of the day's scientific sessions, the Fellows then discussed their follow-up tasks and recurrent meetings. The first session of ICA4 in Paris was then wrapped up, and the key takeaways, as well as questions to explore further, were noted and presented by the Fellows, while also reflecting on the previous days.
 
-The intellectually intense series of events was then concluded with some cocktails at the [IEA de Paris](https://www.paris-iea.fr/en/ "Paris IEA"), marking the very beginning of a series of scientific adventures which are yet to come, as our Fellows continue to collectively explore some seemingly never-ending questions through combining various perspectives on [**Intelligence and Artificial Intelligence**](/about/ica4 "Concept"), ultimately discovering and shaping how such complex matters should, and will be, embedded within societies...
+The intellectually intense series of events was then concluded with some cocktails at the [IEA de Paris](https://www.paris-iea.fr/en/ 'Paris IEA'), marking the very beginning of a series of scientific adventures which are yet to come, as our Fellows continue to collectively explore some seemingly never-ending questions through combining various perspectives on [**Intelligence and Artificial Intelligence**](/about/ica4 'Concept'), ultimately discovering and shaping how such complex matters should, and will be, embedded within societies...
