@@ -32,13 +32,7 @@ export default {
   head: {
     titleTemplate: '%s - Intercontinental Academia',
     title: 'ICA',
-    // polyfill for intersection observer
-    script: [
-      {
-        src:
-          'https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver',
-      },
-    ],
+    script: [],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -143,7 +137,7 @@ export default {
    ** https://github.com/nuxt-community/sitemap-module#setup-a-sitemap
    */
   sitemap: {
-    hostname: 'https://www.intercontinental-academia.org',
+    hostname: 'https://www.intercontinental-academia.com',
     gzip: true,
     exclude: [],
     icons: [],
@@ -205,7 +199,7 @@ export default {
   },
 
   feed() {
-    const baseUrlArticles = 'https://www.intercontinental-academia.org/blog'
+    const baseUrlArticles = 'https://www.intercontinental-academia.com/blog'
     const baseLinkFeedArticles = '/blog'
     const feedFormats = {
       rss: { type: 'rss2', file: 'rss.xml' },
